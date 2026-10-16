@@ -1,0 +1,21 @@
+# Build output
+build/
+.gradle/
+.kotlin/
+*.class
+
+# IDE
+.idea/
+*.iml
+local.properties
+
+# Third-party label/ECU data (Ross-Tech / VW group material) must never be committed here.
+# It lives only on the private `labels-upload` branch and on your own device.
+/data/
+*.ldat
+*.cdat
+*.uds
+*.enc0
+!vagdata/src/test/**/*.ldat
+!vagdata/src/test/**/*.cdat
+!vagdata/src/test/**/*.uds
