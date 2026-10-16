@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe></SgGruppe>
+		<LogicalLink>LL_FrontSensoDriveAssisSysteUDS</LogicalLink>
+		<SgVariante>EV_MFKHellaVW47X_001</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Datenlogger Triggerung</SystemName>
+		<Name>
+			<Text TI="IDE02486">Datenlogger Triggerung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_RespoOnEvent']/Resparam[@ShortName='Param_ParRespoOnEvent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Response_On_Event</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>Diagnosemodus</SystemName>
+		<Name>
+			<Text TI="IDE00325">Diagnosemodus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ActivDiagnSessi']/Resparam[@ShortName='Param_ActivDiagnSessi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Active Diagnostic Session</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Dynamische Kalibrierung, Offset fuer Gierwinkel</SystemName>
+		<Name>
+			<Text TI="IDE01968">Dynamische Kalibrierung, Offset für Gierwinkel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DynamCalibYawAngleOffse']/Resparam[@ShortName='Param_DynamCalibYawAngleOffse' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dynamic_calibration_yaw_angle_offset</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<NA></NA>
+		<SystemName>Dynamische Kalibrierung, Offset fuer Nickwinkel</SystemName>
+		<Name>
+			<Text TI="IDE01969">Dynamische Kalibrierung, Offset für Nickwinkel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DynamCalibPitchAngleOffse']/Resparam[@ShortName='Param_DynamCalibPitchAngleOffse' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dynamic_calibration_pitch_angle_offset</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<NA></NA>
+		<SystemName>Fernlicht, Abschaltursache</SystemName>
+		<Name>
+			<Text TI="IDE04123">Fernlicht, Abschaltursache</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MainBeamSwitcOffCause']/Resparam[@ShortName='Param_ParamToDOP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Main_beam_switch_off_cause</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<NA></NA>
+		<SystemName>Fernlichtassistent, Status</SystemName>
+		<Name>
+			<Text TI="IDE04036">Fernlichtassistent, Status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MainBeamAssisStatu']/Resparam[@ShortName='Param_ParamToDOP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Main_beam_assist_status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<NA></NA>
+		<SystemName>Fernlichtempfehlung</SystemName>
+		<Name>
+			<Text TI="IDE04037">Fernlichtempfehlung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MainBeamRecom']/Resparam[@ShortName='Param_ParamToDOP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Main_beam_recommendation</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<NA></NA>
+		<SystemName>Sicht</SystemName>
+		<Name>
+			<Text TI="IDE04125">Sicht</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MainBeamReducView']/Resparam[@ShortName='Param_ParamToDOP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Main_beam_Reduced_view</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<NA></NA>
+		<SystemName>Spannung Klemme 15</SystemName>
+		<Name>
+			<Text TI="IDE00018">Spannung Klemme 15</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaTermi15']/Resparam[@ShortName='Param_ParamToDOP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage terminal 15</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<NA></NA>
+		<SystemName>Spurhalteassistent Geschwindigkeitsschwelle bei Anhaengerbetrieb</SystemName>
+		<Name>
+			<Text TI="IDE04160">Spurhalteassistent Geschwindigkeitsschwelle bei Anhängerbetrieb</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_LaneDeparWarniSpeedLimitForTrailOpera']/Resparam[@ShortName='Param_ParamToDOP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Lane_departure_warning_speed_limit_for_trailer_operation</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<NA></NA>
+		<SystemName>Statische Kalibrierung, Kamerahoehe</SystemName>
+		<Name>
+			<Text TI="IDE03358">Statische Kalibrierung, Kamerahöhe</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatiCalibCamerHeigh']/Resparam[@ShortName='Param_Data' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Static_calibration_camera_height</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<NA></NA>
+		<SystemName>Steuergeraetetemperatur</SystemName>
+		<Name>
+			<Text TI="IDE00102">Steuergerätetemperatur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ContrModulTempe']/Resparam[@ShortName='Param_Data' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Control modul temperature</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<NA></NA>
+		<SystemName>Calibration State_Status_Kalibrierung</SystemName>
+		<Name>
+			<Text TI="">Calibration State - Status Kalibrierung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CalibState']/Resparam[@ShortName='Param_CalibState' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Calibration State</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<NA></NA>
+		<SystemName>Calibration_Results_Kalibrierzustand</SystemName>
+		<Name>
+			<Text TI="">Calibration_Results - Kalibrierzustand</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CalibResul']/Resparam[@ShortName='Param_CalibState' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Calibration_Results</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>67</AG>
+		<NA></NA>
+		<SystemName>Calibration_Results_Statische Kalibrierung, Gierwinkel</SystemName>
+		<Name>
+			<Text TI="">Calibration_Results - Gierwinkel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CalibResul']/Resparam[@ShortName='Param_StatiCalibYawAngle' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Calibration_Results</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<NA></NA>
+		<SystemName>Calibration_Results_Statische Kalibrierung, Nickwinkel</SystemName>
+		<Name>
+			<Text TI="">Calibration_Results - Nickwinkel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CalibResul']/Resparam[@ShortName='Param_StatiCalibPitchAngle' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Calibration_Results</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>69</AG>
+		<NA></NA>
+		<SystemName>Calibration_Results_Statische Kalibrierung, Wankwinkel</SystemName>
+		<Name>
+			<Text TI="">Calibration_Results  - Wankwinkel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CalibResul']/Resparam[@ShortName='Param_StatiCalibRollAngle' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Calibration_Results</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>70</AG>
+		<NA></NA>
+		<SystemName>Calibration_Results_X-Koordinate</SystemName>
+		<Name>
+			<Text TI="">Calibration_Results - X-Koordinate</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CalibResul']/Resparam[@ShortName='Param_CamX' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Calibration_Results</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>71</AG>
+		<NA></NA>
+		<SystemName>Calibration_Results_Y-Koordinate</SystemName>
+		<Name>
+			<Text TI="">Calibration_Results - Y-Koordinate</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CalibResul']/Resparam[@ShortName='Param_CamY' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Calibration_Results</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>72</AG>
+		<NA></NA>
+		<SystemName>Calibration_Results_Z-Koordinate</SystemName>
+		<Name>
+			<Text TI="">Calibration_Results -  Z-Koordinate</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CalibResul']/Resparam[@ShortName='Param_CamZ' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Calibration_Results</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

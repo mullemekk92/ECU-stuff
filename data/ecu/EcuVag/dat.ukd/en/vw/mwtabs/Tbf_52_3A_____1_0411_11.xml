@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe></SgGruppe>
+		<LogicalLink>LL_DoorElectPasseSideUDS</LogicalLink>
+		<SgVariante></SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Ansteuerung fuer Spiegelanklappung</SystemName>
+		<Name>
+			<Text TI="IDE04586">Mirror fold-in activation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroFoldiCondi']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Folding_Condition</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>Ansteuerung Komfortfunktion fuer Fensterheber vorn</SystemName>
+		<Name>
+			<Text TI="IDE04206">Activation of comfort function for front window regulator</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveOperaFront']/Resparam[@ShortName='Param_StatuConvOpFront' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Convenience_Operation_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Bedienungseinheit fuer Fensterheber Fahrerseite_</SystemName>
+		<Name>
+			<Text TI="IDE04219">Power window operating unit, driver side / </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcPanel']/Resparam[@ShortName='Param_FrontPasseSide' and @Type='Structure']/Resparam[@ShortName='Param_StatuWlButtoLocRear' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Panel</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<NA></NA>
+		<SystemName>Bedienungseinheit fuer Fensterheber Fahrerseite_Fahrerseite vorn</SystemName>
+		<Name>
+			<Text TI="IDE04219">Power window op unit, driver side / driver side, front</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcPanel']/Resparam[@ShortName='Param_FrontDriveSide' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Panel</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<NA></NA>
+		<SystemName>Bedienungseinheit fuer Fensterheber Fahrerseite_Hinten links</SystemName>
+		<Name>
+			<Text TI="IDE04219">Power window op unit, driver side</Text>
+			<Text TI="MAS01855">rear left</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcPanel']/Resparam[@ShortName='Param_LeftRear' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Panel</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<NA></NA>
+		<SystemName>Bedienungseinheit fuer Fensterheber Fahrerseite_Hinten rechts</SystemName>
+		<Name>
+			<Text TI="IDE04219">Power window op unit, driver side / rear right</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcPanel']/Resparam[@ShortName='Param_RightRear' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Panel</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<NA></NA>
+		<SystemName>Blinkleuchte im Aussenspiegel</SystemName>
+		<Name>
+			<Text TI="IDE04218">Turn signal in exterior rear-view mirror</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TurnSignaRepea']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Turn_Signal_Repeater</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<NA></NA>
+		<SystemName>Datenbus Komfort</SystemName>
+		<Name>
+			<Text TI="MAS03174">Comfort data bus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CANBusState']/Resparam[@ShortName='Param_CommParam' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">CAN bus state</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<NA></NA>
+		<SystemName>Diagnosemodus</SystemName>
+		<Name>
+			<Text TI="IDE00325">Diagnostic mode</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ActivDiagnSessi']/Resparam[@ShortName='Param_ActivDiagnSessi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Active Diagnostic Session</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<NA></NA>
+		<SystemName>Dimmung der Beleuchtung fuer Tuerinnengriff___1</SystemName>
+		<Name>
+			<Text TI="IDE04580">Dimming of inside door handle lighting</Text>
+			<Text TI="MAS00194"></Text>
+			<Text TI="MAS00194"></Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiDoorHandlIllum']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming_Door_Handle_Illumination</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<NA></NA>
+		<SystemName>Dimmung der Beleuchtung fuer Tuerinnengriff___2</SystemName>
+		<Name>
+			<Text TI="IDE04580">Dimming of inside door handle lighting</Text>
+			<Text TI="MAS00194"></Text>
+			<Text TI="MAS00194"></Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiDoorHandlIllum']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_Perce0100' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming_Door_Handle_Illumination</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<NA></NA>
+		<SystemName>Dimmung fuer Umfeldbeleuchtung___1</SystemName>
+		<Name>
+			<Text TI="IDE04581">Dimming for interior ambient lighting</Text>
+			<Text TI="MAS00194"></Text>
+			<Text TI="MAS00194"></Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiEnvirIllum']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming_Environment_Illumination</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<NA></NA>
+		<SystemName>Dimmung fuer Umfeldbeleuchtung___2</SystemName>
+		<Name>
+			<Text TI="IDE04581">Dimming for interior ambient lighting</Text>
+			<Text TI="MAS00194"></Text>
+			<Text TI="MAS00194"></Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiEnvirIllum']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_Perce0100' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming_Environment_Illumination</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<NA></NA>
+		<SystemName>Dimmung Klemme 58d___1</SystemName>
+		<Name>
+			<Text TI="IDE01215">Terminal 58d dimmer</Text>
+			<Text TI="MAS00194"></Text>
+			<Text TI="MAS00194"></Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiValue58d']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming Value 58d</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<NA></NA>
+		<SystemName>Dimmung Klemme 58d___2</SystemName>
+		<Name>
+			<Text TI="IDE01215">Terminal 58d dimmer</Text>
+			<Text TI="MAS00194"></Text>
+			<Text TI="MAS00194"></Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiValue58d']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_Perce0100' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming Value 58d</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<NA></NA>
+		<SystemName>Fahrzeuggeschwindigkeit</SystemName>
+		<Name>
+			<Text TI="MAS00370">Vehicle speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SignaVeloc']/Resparam[@ShortName='Param_SignaParam' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Signal Velocity</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<NA></NA>
+		<SystemName>Freigabe fuer Fensterheber</SystemName>
+		<Name>
+			<Text TI="IDE04205">Release for window regulator</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulRelea']/Resparam[@ShortName='Param_StatuWlEnabl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Release</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<NA></NA>
+		<SystemName>Freigabe fuer Funktionsbeleuchtung</SystemName>
+		<Name>
+			<Text TI="IDE04208">Release for function illumination</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FunctIllumRelea']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Functional_Illumination_Release</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<NA></NA>
+		<SystemName>Position Fensterheber vorn</SystemName>
+		<Name>
+			<Text TI="IDE04209">Position of front window regulator</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulPositFront']/Resparam[@ShortName='Param_Data' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Position_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<NA></NA>
+		<SystemName>Schalter fuer Tueraussengriff</SystemName>
+		<Name>
+			<Text TI="MAS02100">Switch for outside door handle</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SwitcForOutsiDoorHandl']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Switch for outside door handle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<NA></NA>
+		<SystemName>Schalter fuer Tuerinnenengriff</SystemName>
+		<Name>
+			<Text TI="MAS02099">Switch for inside door handle</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SwitcForInsidDoorHandl']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Switch for inside door handle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<NA></NA>
+		<SystemName>Schluesselschalter im Tuerschloss</SystemName>
+		<Name>
+			<Text TI="IDE04214">Key switch in door lock</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DoorLockSwitcFront']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Door_Lock_Switch_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<NA></NA>
+		<SystemName>Spannung Klemme 30_Param_ParamToDOP__1</SystemName>
+		<Name>
+			<Text TI="IDE00019">Terminal 30 voltager</Text>
+			<Text TI="">Param_ParamToDOP</Text>
+			<Text TI="MAS00194"></Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaClamp30']/Resparam[@ShortName='Param_ParamToDOP' and @Type='Mux']/Resparam[@ShortName='Case_VoltaTermi00FE' and @Type='Structure']/Resparam[@ShortName='Param_VoltaParam' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage Clamp 30</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<NA></NA>
+		<SystemName>Spannung Klemme 30_Param_ParamToDOP__2</SystemName>
+		<Name>
+			<Text TI="IDE00019">Terminal 30 voltager</Text>
+			<Text TI="">Param_ParamToDOP</Text>
+			<Text TI="MAS00194"></Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaClamp30']/Resparam[@ShortName='Param_ParamToDOP' and @Type='Mux']/Resparam[@ShortName='Case_VoltaTermi30FF' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage Clamp 30</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<NA></NA>
+		<SystemName>Spiegelheizung</SystemName>
+		<Name>
+			<Text TI="IDE04216">Mirror heater</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroHeatiCondi']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Heating_Condition</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<NA></NA>
+		<SystemName>Spiegelmemory_Verbau</SystemName>
+		<Name>
+			<Text TI="IDE04539">Mirror memory</Text>
+			<Text TI="MAS02476">installation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusMemor']/Resparam[@ShortName='Param_MemorInstaCondi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Memory</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<NA></NA>
+		<SystemName>Spiegelmemory_Versorgungsspannung</SystemName>
+		<Name>
+			<Text TI="IDE04539">Mirror memory</Text>
+			<Text TI="MAS01634">supply voltage</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusMemor']/Resparam[@ShortName='Param_SupppVoltaPoten' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Memory</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<NA></NA>
+		<SystemName>Spiegelmemory_X-Koordinate</SystemName>
+		<Name>
+			<Text TI="IDE04539">Mirror memory</Text>
+			<Text TI="MAS02228">X-coordinate</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusMemor']/Resparam[@ShortName='Param_PositXDirec' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Memory</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<NA></NA>
+		<SystemName>Spiegelmemory_Y-Koordinate</SystemName>
+		<Name>
+			<Text TI="IDE04539">Mirror memory</Text>
+			<Text TI="MAS02229">Y-coordinate</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusMemor']/Resparam[@ShortName='Param_PositYDirec' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Memory</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<NA></NA>
+		<SystemName>Status der Drehfalle</SystemName>
+		<Name>
+			<Text TI="IDE02589">Status of rotary latch</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_RotarDoorLatchFront']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Rotary_Door_Latch_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>31</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Fensterheber normiert</SystemName>
+		<Name>
+			<Text TI="IDE02299">Window regulator status / window regulator normed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_PowerWindoContrStand' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>32</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Kraftbegrenzung</SystemName>
+		<Name>
+			<Text TI="IDE02299">Window regulator status / force limitation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_ForceLimit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>33</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Oeffnen</SystemName>
+		<Name>
+			<Text TI="IDE02299">Window regulator status / open</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_Open' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>34</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Position oben</SystemName>
+		<Name>
+			<Text TI="IDE02299">Window regulator status / up position</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_PositTop' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>35</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Position unten</SystemName>
+		<Name>
+			<Text TI="IDE02299">Window regulator status / down position</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_PositBotto' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>36</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Ruhezustand</SystemName>
+		<Name>
+			<Text TI="IDE02299">Window regulator status / idle</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_IdleCondi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>37</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Schliessen</SystemName>
+		<Name>
+			<Text TI="IDE02299">Window regulator status / close</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_Close' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>38</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Uebertemperaturabschaltung</SystemName>
+		<Name>
+			<Text TI="IDE02299">Window regulator status / overheat shutoff</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_ExcesTempeContr' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>39</AG>
+		<NA></NA>
+		<SystemName>Status Klemme 15 ueber CAN</SystemName>
+		<Name>
+			<Text TI="IDE00773">Terminal 15 status via CAN</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaClamp15']/Resparam[@ShortName='Param_Kl15Para' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage Clamp 15</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>40</AG>
+		<NA></NA>
+		<SystemName>Status Klemme S</SystemName>
+		<Name>
+			<Text TI="IDE01715">Status terminal S</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuTermiS']/Resparam[@ShortName='Param_Data' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status terminal S</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>41</AG>
+		<NA></NA>
+		<SystemName>Status Tuerschloss vorn</SystemName>
+		<Name>
+			<Text TI="IDE04211">Status of front door lock</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DoorLockCondiFront']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Door_Lock_Condition_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>42</AG>
+		<NA></NA>
+		<SystemName>Taster fuer Fensterheber</SystemName>
+		<Name>
+			<Text TI="IDE04579">Window regulator button</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcFront']/Resparam[@ShortName='Param_StatuWlButtoLocal' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>43</AG>
+		<NA></NA>
+		<SystemName>Taster fuer Zentralverriegelung</SystemName>
+		<Name>
+			<Text TI="IDE04213">Central locking button</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CentrLockiButtoFront']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Central_Locking_Button_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

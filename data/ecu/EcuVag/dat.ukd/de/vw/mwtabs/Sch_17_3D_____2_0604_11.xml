@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Sch_17</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Sch6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>7</NA>
+		<Formel>CAN-Signal vom ABS-Steuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Geschwindigkeit</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel>CAN-Signal vom Getriebesteuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Drehzahl</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>Eingangssignal NA37/31 = Öld.2 i.O.</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Öldruck</Text>
+		</Name>
+		<diskreterSW>31</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>36</NA>
+		<Formel>CAN-Signal vom ABS-Steuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kilometerstand</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>km</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>19</NA>
+		<Formel>Eingang über G - Geber für Kraftstoffvorratsanzeige</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Tankinhalt gesamt</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>l</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel>Eingangssignal</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">G17 - Geber für Aussentemperatur</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-45</analogerSWunten>
+		<analogerSWoben>65</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Der Arbeitsbereich des Gebers liegt zwischen -45°C und 65°C.\Y\S\K\N
+J\L\S\K\I 70°C signalisiert einen Kurzschluss, -50°C eine Unterbrechung.</Meldungstext>
+		<DO>G17_90_Geber_fuer_Aussentemperatur</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>5</NA>
+		<Formel>CAN-Signal vom Motorsteuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kühlmitteltemperatur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\N \L\S\K\IDie Kühlmitteltemperatur kommt als CAN-Signal vom Motorsteuergerät.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>Eingangssignal NA37/194 = i.O. vom -G266-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">G266 - Geber für Ölstand</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<DO>G266_90_Geber_fuer_Oelstand_Temperatur</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>5</NA>
+		<Formel>Eingangssignal vom -G266-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">G266 - Geber für Öltemperatur</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-60</analogerSWunten>
+		<analogerSWoben>194</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<DO>G266_90_Geber_fuer_Oelstand_Temperatur</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>CAN-Signal vom Steuergerät für Bordnetz</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Batteriespannung Schalttafeleinsatz</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>64</NA>
+		<Formel>Eingangssignal vom -G-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">G - Geber für Kraftstoffvorratsanzeige</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>67</analogerSWunten>
+		<analogerSWoben>157</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Der Widerstandsbereich des Gebers liegt innerhalb seines Arbeitsbereiches zwischen 70\Z\S\K\IW \L\S\K\I(+/- 3\Z\S\K\IW \L\S\K\IToleranz) bis 153\Z\S\K\IW \L\S\K\I(+/- 4\Z\S\K\IW \L\S\K\IToleranz).\L\S\K\N
+</Meldungstext>
+		<DO>G_90_Geber_fuer_Kraftstoffvorratsanzeige</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>64</NA>
+		<Formel>Eingangssignal vom -G169-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">G169 - Geber2 für Kraftstoffvorrat</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>67</analogerSWunten>
+		<analogerSWoben>157</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Der Widerstandsbereich des Gebers liegt innerhalb seines Arbeitsbereiches zwischen 70\Z\S\K\IW \L\S\K\I(+/- 3\Z\S\K\IW \L\S\K\IToleranz) bis 153\Z\S\K\IW \L\S\K\I(+/- 4\Z\S\K\IW \L\S\K\IToleranz).\L\S\K\N
+</Meldungstext>
+		<DO>G169_90_Geber2_fuer_Kraftstoffvorrat</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>64</NA>
+		<Formel>Eingangssignal vom -G237-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">G237 - Geber3 für Kraftstoffvorrat</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>67</analogerSWunten>
+		<analogerSWoben>274</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Der Widerstandsbereich des Gebers liegt innerhalb seines Arbeitsbereiches zwischen 70\Z\S\K\IW \L\S\K\I(+/- 3\Z\S\K\IW \L\S\K\IToleranz) bis 270\Z\S\K\IW \L\S\K\I(+/- 4\Z\S\K\IW \L\S\K\IToleranz).\L\S\K\N
+</Meldungstext>
+		<DO>G237_90_Geber3_fuer_Kraftstoffvorrat</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>64</NA>
+		<Formel>Eingangssignal vom -G393-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">G393 - Geber4 für Kraftstoffvorrat</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>67</analogerSWunten>
+		<analogerSWoben>274</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Der Widerstandsbereich des Gebers liegt innerhalb seines Arbeitsbereiches zwischen 70\Z\S\K\IW \L\S\K\I(+/- 3\Z\S\K\IW \L\S\K\IToleranz) bis 270\Z\S\K\IW \L\S\K\I(+/- 4\Z\S\K\IW \L\S\K\IToleranz).\L\S\K\N
+</Meldungstext>
+		<DO>G393_90_Geber4_fuer_Kraftstoffvorrat</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>104</NA>
+		<Formel>Eingangssignal vom -G-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Tankinhalt Hauptkammer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>104</NA>
+		<Formel>Eingangssignal vom -G169-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Tankinhalt Nebenkammer links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>104</NA>
+		<Formel>Eingangssignal vom -G237-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Tankinhalt Nebenkammer rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>104</NA>
+		<Formel>Eingangssignal vom -G393-</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Tankinhalt Reserve</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>60</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Verbauinformationen Geber und Sensoren</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I 1.1 - Feststellbremse\Y\S\K\N
+J\L\S\K\I 1.2 - Bremsflüssigkeitsmangel\Y\S\K\N
+J\L\S\K\I 1.3 - Waschwassermangel\Y\S\K\N
+J\L\S\K\I 1.4 - Kühlmittelmangel\Y\S\K\N
+J\L\S\K\I 1.5 - Bremsbelagverschleiss\Y\S\K\N
+J\L\S\K\I 1.6 - leer\Y\S\K\N
+J\L\S\K\I 1.7 - leer\Y\S\K\N
+J\L\S\K\I 1.8 - leer</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>61</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Verbauinformationen Kontrollen</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I 1.1 - Not\Y\S\K\N
+J\L\S\K\I 1.2 - Ladekontrolle</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Motorsteuergerät NA37/371 = Motor1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Kombi -&gt; Motor</Text>
+		</Name>
+		<diskreterSW>371</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Motor 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Motor 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Getriebeteuergerät NA37/375 = Getriebe1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Kombi -&gt;Getriebe</Text>
+		</Name>
+		<diskreterSW>375</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I nur bei Automatikgetriebe\Y\S\K\N
+J\L\S\K\I Getriebe 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Getriebe 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom ABS-Steuergerät NA37/373 = ABS1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Kombi -&gt; Bremse</Text>
+		</Name>
+		<diskreterSW>373</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I ABS 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I ABS 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Airbag-Steuergerät NA37/414 = Airbag1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Kombi -&gt; Airbag</Text>
+		</Name>
+		<diskreterSW>414</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Airbag 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Airbag 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>127</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Abstandsregelung NA37/383 = Abstand1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Abstandsregelung</Text>
+		</Name>
+		<diskreterSW>383</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Abstand 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Abstand 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>128</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Batteriemanagement NA37/592 = Batt.manage1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Batteriemanagement</Text>
+		</Name>
+		<diskreterSW>592</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Batt.manage 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Batt.manage 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>128</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom El.Zündschloss NA37/588 = El.Zündschl1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Elektrische Zündschloss</Text>
+		</Name>
+		<diskreterSW>588</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I El.Zündschl 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I El.Zündschl 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>128</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Niveauregelung NA37/519 = Niveau1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Niveauregelung</Text>
+		</Name>
+		<diskreterSW>519</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Niveau 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Niveau 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>129</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Bremsverstärkung NA37/626 = Bremsverst.1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Bremsverstärkung</Text>
+		</Name>
+		<diskreterSW>626</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Bremsverst. 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Bremsverst. 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>Zustand CAN Komfort NA37/ 521 = Zweidraht</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand CAN Komfort</Text>
+		</Name>
+		<diskreterSW>521</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Zweidraht = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Eindraht = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Komfort-SG NA37/503 = Zentral1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Komfort</Text>
+		</Name>
+		<diskreterSW>503</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Zentral 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Zentral 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Zentral 1Draht = eine Leitung unterbrochen\L\S\K\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Fahrertür NA37/495 = F-Tür1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Fahrertür</Text>
+		</Name>
+		<diskreterSW>495</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I F-Tür 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I F-Tür 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I F-Tür 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Beifahrertür NA37/497 = BF-Tür1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Beifahrertür</Text>
+		</Name>
+		<diskreterSW>497</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I BF-Tür 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I BF-Tür 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I BF-Tür 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>131</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Tür hinten links NA37/499 = Tür hl 1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Tür hinten links</Text>
+		</Name>
+		<diskreterSW>499</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Tür hl 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Tür hl 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Tür hl 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>131</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Tür hinten rechts NA37/501 = Tür hr1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Tür hinten rechts</Text>
+		</Name>
+		<diskreterSW>501</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Tür hr 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Tür hr 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Tür hr 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>131</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Memorysitz Fahrer NA37/505 = MemoryLenks1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Memorysitz Fahrer</Text>
+		</Name>
+		<diskreterSW>505</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I MemoryLenks 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I MemoryLenks 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I MemoryLenks 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>131</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Bordnetz NA37/507 = elektr. ZE1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Bordnetz</Text>
+		</Name>
+		<diskreterSW>507</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I elektr. ZE 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I elektr. ZE 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I elektr. ZE 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>132</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Lenkrad NA37/513 = Lenkrad1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Lenkrad</Text>
+		</Name>
+		<diskreterSW>511</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Lenkrad 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Lenkrad 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Lenkrad 1Draht = eine Leitung unterbrochen\Y\S\K\N
+J\L\S\K\I Lenkrad S = Sleep Mode gesetzt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>132</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Klima NA37/418 = Klima1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Klima</Text>
+		</Name>
+		<diskreterSW>418</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Klima 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Klima 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Klima 1Draht = eine Leitung unterbrochen\Y\S\K\N
+J\L\S\K\I Klima S = Sleep Mode gesetzt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>132</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Reifendruckkontrolle NA37/511 = Reifen1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Reifendruckkontrolle</Text>
+		</Name>
+		<diskreterSW>511</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Reifen 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Reifen 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Reifen 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>133</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Dachelektronik NA37/509 = Dachelektr.1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Dachelektronik</Text>
+		</Name>
+		<diskreterSW>509</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Dachelektr. 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Dachelektr. 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Dachelektr. 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>133</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Memorysitz Beifahrer NA37/594 = MemoryBF1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Memorysitz Beifahrer</Text>
+		</Name>
+		<diskreterSW>594</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I MemoryBF 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I MemoryBF 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I MemoryBF 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>133</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Memorysitz hinten NA37/596 = MemoryHi1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Memorysitz hinten</Text>
+		</Name>
+		<diskreterSW>596</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I MemoryHi 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I MemoryHi 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I MemoryHi 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>133</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Einparkhilfe NA37/517 = Parken1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Einparkhilfe</Text>
+		</Name>
+		<diskreterSW>517</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Parken 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Parken 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>134</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom El.Zündschloss NA37/588 = El.Zündschl1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Elektrische Zündschloss</Text>
+		</Name>
+		<diskreterSW>588</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I El.Zündschl 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I El.Zündschl 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I El.Zündschl 1Draht  = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>134</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Wischerelektronik NA37/590 = Wischermodu1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Wischerelektronik</Text>
+		</Name>
+		<diskreterSW>590</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Wischermodu 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Wischermodu 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Wischer 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>135</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Anzeigeeinheit NA37/608 = AnzBedmo.vo1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Anzeigeeinheit Zusatzheizung vorne</Text>
+		</Name>
+		<diskreterSW>608</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I AnzBedmo.vo 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I AnzBedmo.vo 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I AnzBedmo.vo 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>135</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Anzeigeeinheit NA37/610 = AnzBedmo.hi1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Anzeigeeinheit Zusatzheizung hinten</Text>
+		</Name>
+		<diskreterSW>610</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I AnzBedmo.hi 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I AnzBedmo.hi 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I AnzBedmo.hi 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>140</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>Zustand CAN Infotainment NA37/ 521 = Zweidraht</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand CAN Infotainment</Text>
+		</Name>
+		<diskreterSW>521</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Zweidraht = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Eindraht = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>140</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von RadioNavigation NA37/600 = Radionavigat1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; RadioNavigation</Text>
+		</Name>
+		<diskreterSW>600</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Radionavigat 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Radionavigat 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Radionavigat 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>140</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Telefon NA37/562 = Telefon1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Telefon</Text>
+		</Name>
+		<diskreterSW>562</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Telefon 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Telefon 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Telefon 1Draht = eine Leitung unterbrochen\Y\S\K\N
+J\L\S\K\I Telefon S = Sleep Mode gesetzt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>142</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal von Anzeigeeinheit NA37/608 = AnzBedmo.vo1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Anzeigeeinheit Zusatzheizung vorne</Text>
+		</Name>
+		<diskreterSW>608</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I AnzBedmo.vo 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I AnzBedmo.vo 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I AnzBedmo.vo 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>143</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Digitales Soundpaket NA37/638 = Dig.Soundp.1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Digitales Soundpaket</Text>
+		</Name>
+		<diskreterSW>638</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Dig.Soundp. 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Dig.Soundp. 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Dig.Soundp. 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>143</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Standheizung NA37/584 = Standheizung1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Standheizung</Text>
+		</Name>
+		<diskreterSW>584</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Standheizung 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Standheizung 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Standheizung 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>143</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>CAN-Signal vom Dachelektronik NA37/509 = Dachelektr.1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN - Gateway -&gt; Dachelektronik</Text>
+		</Name>
+		<diskreterSW>509</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Dachelektr. 1 = Verbindung i.O.\Y\S\K\N
+J\L\S\K\I Dachelektr. 0 = Verbindung n.i.O.\Y\S\K\N
+J\L\S\K\I Dachelektr. 1Draht = eine Leitung unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>201</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">k-Zahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>201</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Radumfang</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>201</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Startimpuls erkannt</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">ja / nein</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>202</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motorhaubenschalter</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">auf / zu</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

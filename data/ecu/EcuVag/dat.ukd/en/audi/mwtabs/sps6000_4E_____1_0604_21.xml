@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>sps_67</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>sps6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status, voltage supply</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">       0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T0 = OK voltage &gt; 9V
+ 1 = NOK voltage &lt; 9V</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW-NW 0-255</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Operating temperature</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TIf the board temperature is above 92°C a fault memory entry is set.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW*256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">MOST address</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>107</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Message identification number</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Hardware instance</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0x00FF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T0x00FF = No HW instance available</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status, loop break diagnosis wire</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">       1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T0 = active
+ 1 = not active</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Microphone level 1 on last command</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Microphone level 2 on last command</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Microphone level 3 on last command</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>95</NA>
+		<Formel>Text vom Steuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Last spoken command</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<AF>1</AF>
+		<NA>95</NA>
+		<Formel>Text vom Steuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Expanded control unit identification</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TManufacturer works number and identifier
+ Date of manufacture
+ Manufacturer modification status
+ Manufacturer test status number
+ Manufacturer serial no.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<AF>1</AF>
+		<NA>95</NA>
+		<Formel>Text vom Steuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Serial number</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

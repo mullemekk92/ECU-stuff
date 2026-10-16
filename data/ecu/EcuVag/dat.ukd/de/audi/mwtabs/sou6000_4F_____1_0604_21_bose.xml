@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>sou_47</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>sou6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannungsversorgung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>255</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Betriebsspannungen</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T0000XXX1 = Klemme S ein
+0000XX1X = Klemme 15 ein
+0000X1XX = Klemme X ein
+00001XXX = Klemme 50 ein
+F000XXXX = Status ungültig
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW*256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">MOST - Adresse</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>107</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Identifikationsnummer der Botschaft</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel>(MW-128) * NW * 0.01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">optische Absenkung Sendediode</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben>0.01</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T0.00 dB = keine Absenkung, Normal-Betrieb
+-3 dB = optische Sendeleistung um 3 dB abgesenkt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur der MOST-Sendediode</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-20</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Hardware Instanz </Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0x00FF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ringbruch-Diagnoseleitung</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">       1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T0 = aktiv
+1 = nicht aktiv</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur Analogschaltkreis</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>110</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur Digitalschaltkreis</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>110</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>100</NA>
+		<Formel>(MW/NW)/100</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Lüfterdrehzahl in %</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>20</NA>
+		<Formel>MW*NW*0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung Mikrofoneingang 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T5.1V = Mikrofon nicht angeschlossen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>20</NA>
+		<Formel>MW*NW*0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung Mikrofoneingang 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T5.1V = Mikrofon nicht angeschlossen
+Line In bei Teilenummer-Index B</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

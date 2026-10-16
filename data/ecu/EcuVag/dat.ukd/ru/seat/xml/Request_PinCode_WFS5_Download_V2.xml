@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MESSAGE DTD="XMLMSG" VERSION="1.1">
+	<HEADER>
+		<AUTHENTICATION_TOKEN/>
+	</HEADER>
+	<COMMAND>
+		<REQUEST NAME="GetPIN" DTD="PINService" VERSION="1.0" ID="0">
+		  <PARAM NAME="AGENT_ID" VALUE="(AGENT-ID)"/>
+		  <PARAM NAME="AGENT_BASE_VERSION" VALUE="(AGENT-BASE-VERSION)"/>
+		  <PARAM NAME="AGENT_BRAND_VERSION" VALUE="(AGENT-BRAND-VERSION)"/>
+		  <PARAM NAME="AGENT_LANG" VALUE="(AGENT-LANG)"/>
+            	  <PARAM NAME="APP_BRAND"  VALUE="(APP-BRAND)"/>
+			<DATA>
+				<SATZART SA="(SATZART)"/>
+				<Anfrage Typ="(ANFRAGE-TYP)">
+					<Kunde>
+						<Name>(KUNDE)</Name>
+						<ID>(KUNDE-ID)</ID>
+						<Land>(KUNDE-LAND)</Land>
+					</Kunde>
+					<Fahrzeug>
+						<VIN>(FZ-VIN)</VIN>
+						<TransponderID>(FZ-T-ID)</TransponderID>
+						<TransponderTyp>(FZ-T-TYP)</TransponderTyp>
+					</Fahrzeug>
+					<Master>
+						<Identifikation>(M-ID)</Identifikation>
+						<Seriennummer>(M-SERIE)</Seriennummer>
+						<VIN>(M-VIN)</VIN>
+						<Status>(M-STATUS)</Status>
+						<StatusWFS>(M-STATUS-WFS)</StatusWFS>
+						<StatusSHE>(M-STATUS-SHE)</StatusSHE>
+						<BGRPChecksum>(M-BGRP-CHECKSUM)</BGRPChecksum>
+						<Challenge>(M-CHALLA)</Challenge>
+					</Master>
+					<SchluesselSollAnzahl>(SCHLUESSEL-SOLL-ANZAHL)</SchluesselSollAnzahl>
+					<Bemerkung>(BEMERKUNG)</Bemerkung>
+					*(
+					<Slave>
+						<Identifikation>(S-ID)</Identifikation>
+						<Seriennummer>(S-SERIE)</Seriennummer>
+						<VIN>(S-VIN)</VIN>
+						<Status>(S-STATUS)</Status>
+						<StatusWFS>(S-STATUS-WFS)</StatusWFS>
+						<StatusSHE>(S-STATUS-SHE)</StatusSHE>
+						<BGRPChecksum>(S-BGRP-CHECKSUM)</BGRPChecksum>
+						<Challenge>(S-CHALLA)</Challenge>
+					</Slave>
+					)*
+				</Anfrage>
+			</DATA>
+		</REQUEST>
+	</COMMAND>
+</MESSAGE>

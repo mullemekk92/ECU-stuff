@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>ZST_18</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>ZST1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA></NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Versorgungsspannung SG</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>10.8</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\AAnzeige:\Y\S\G\N
+ J\L\S\K\I Fehler: Signal zu klein, wenn im Steuergerät für Heizung -J162- eine Bordnetzspannung von U &lt; 10,8 V über mehr als 30 Sek. vorhanden ist.\Y\S\K\N
+
+ J\L\S\K\I Fehler: Signal zu hoch, wenn im Steuergerät für Heizung -J162- eine Bordnetzspannung von U &lt; 15,0 V vorhanden ist.\Y\S\K\N
+
+ J\L\S\K\N \L\S\K\IFehlerkanal: Pin 1 der Steckverbindung\L\S\K\N.</Meldungstext>
+		<DO>SIG_82_Versorgungsspannung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA></NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Messwert des Flammenwächters -G64- </Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>550</analogerSWoben>
+		<SWE>ºC</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\N \L\S\G\AAnzeigen:\Y\S\K\N
+ J\L\S\K\I Fehler: Kurzschluss nach Masse bei einem Wert &lt; -50 °C.\Y\S\K\N
+ J\L\S\K\I Fehler: Unterbrechung bei einem Wert &gt; 550 °C.\Y\S\K\N
+ J\L\S\K\I Fehler: Signal nicht im Toleranzbereich.\Y\S\K\N
+ J\L\S\K\I Fehlerkanal: Pin 13 und 14 der Steckverbindung.\Y\S\K\N
+ J\L\S\K\I Fehlerursache: keine Kraftstoffversorgung, Flammenwächter -G64- verschmutzt oder defekt, Unterbrechung bzw. Kurzschluss in der Leitungsverbindung.</Meldungstext>
+		<DO>G64_Flammenwaechter</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA></NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kühlmitteltemperaturgeber für Heizung -G241-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>200</analogerSWoben>
+		<SWE>ºC</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AAnzeigen:\Y\S\K\N
+ J\L\S\K\I Fehler: Unterbrechung bei einem Wert &lt; -40 °C.\Y\S\K\N
+ J\L\S\K\I Fehler: Kurzschluss nach Masse bei einem Wert &gt; 200 °C.\Y\S\K\N
+ J\L\S\K\I Fehlerkanal: Pin 11 und 12 der Steckverbindung.</Meldungstext>
+		<DO>G241_82_Geber_fuer_Kuehlmitteltemperatur_Heizung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA></NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Wert des Überhitzungsfühlers -G189-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>200</analogerSWoben>
+		<SWE>ºC</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AAnzeigen:\Y\S\K\N
+ J\L\S\K\I Fehler: Unterbrechung bei einem Wert &lt; -40 °C.\Y\S\K\N
+ J\L\S\K\I Fehler: Kurzschluss nach Masse bei einem Wert &gt; 200 °C.\Y\S\K\N
+ J\L\S\K\I Fehlerkanal: Pin 9 und 10 der Steckverbindung.</Meldungstext>
+		<DO>G189_82_Ueberhitzungsfuehler</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>25</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand der Vorwahluhr -E111-</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">ON/OFF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Anzeige:\Y\S\K\N
+I\L\S\K\I Bei diesem Bauteil ist keine Diagnose über den Fehlerspeicher möglich.
+Mit diesem Messwert kann ein Funktionstest der Vorwahluhr -E111- durchgeführt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>25</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Verbindungszustand des Außentemperaturschalters -F38- </Text>
+		</Name>
+		<diskreterSW xml:space="preserve">ON/OFF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Anzeige:\Y\S\K\N
+I\L\S\K\N \L\S\K\I Bei diesem Bauteil ist keine Diagnose über den Fehlerspeicher möglich.
+Mit diesem Messwert kann ein Funktionstest des Außentemperaturschalters -F38- durchgeführt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>25</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand des Verbrennungsluftgebläses -V6-</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">ON/OFF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AAnzeige:\Y\S\K\N
+ J\L\S\K\I Fehlerursachen: Unterbrechung, Kurzschluss nach Masse, Signal nicht im Toleranzbereich, Verbrennungsluftgebläse -V6- defekt.\Y\S\K\N
+ J\L\S\K\I Fehlerkanal: Pin 3 und 4 der Steckverbindung.</Meldungstext>
+		<DO>V6_82_Verbrennungsluftgeblaese</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>25</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand der Glühkerze -Q9-</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">ON/OFF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AAnzeige:\Y\S\K\N
+ J\L\S\K\I Fehlerursachen: Unterbrechung, Kurzschluss nach Masse, Glühkerze -Q9- defekt.\Y\S\K\N
+ J\L\S\K\I Fehlerkanal: Pin 5 und 6 der Steckverbindung.</Meldungstext>
+		<DO>Q9_82_Gluehkerze_fuer_Heizung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>25</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Schaltzustand der Dosierpumpe -V54-</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">ON/OFF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AAnzeige:\Y\S\K\N
+ J\L\S\K\I Fehlerursachen: Unterbrechung, Kurzschluss nach Masse, Dosierpumpe -V54- defekt.\Y\S\K\N
+ J\L\S\K\I Fehlerkanal: Pin 4 der Steckverbindung.</Meldungstext>
+		<DO>V54_82_Dosierpumpe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>25</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Verbindungszustand des Frischluftgebläses -V2-</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Turbina ON/OFF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AAnzeige:\Y\S\K\N
+ J\L\S\K\I Ansteuerung des Frischluftgebläses -V2- bei Standheizung in Verbindung mit Heizung, manuelle Klimaanlage oder Climatronic.\Y\S\K\N
+ J\L\S\K\I Fehlerursachen: Unterbrechung, Kurzschluss nach Masse, Relais defekt.\Y\S\K\N
+ J\L\S\K\I Fehlerkanal: Pin 3 der Steckverbindung.</Meldungstext>
+		<DO>V2_87_Frischluftgeblaese</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>25</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Schaltzustand der Umwälzpumpe -V55-</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Bomba ON/OFF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AAnzeigen:\Y\S\K\N
+ J\L\S\K\I Fehlerursachen: Unterbrechung, Kurzschluss nach Masse, Relais defekt.\Y\S\K\N
+ J\L\S\K\I Fehlerkanal: Pin 1 (zweipolig) der Steckverbindung.</Meldungstext>
+		<DO>V55_82_Umwaelzpumpe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

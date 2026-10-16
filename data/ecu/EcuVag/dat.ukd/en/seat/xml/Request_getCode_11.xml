@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MESSAGE DTD="XMLWFS" VERSION="1.2.0.0">
+	<HEADER>
+		<AUTHENTICATION_TOKEN>4962884784</AUTHENTICATION_TOKEN>
+		<SOURCE_APP NAME="RTA" HOST="DE47111O00010"/>
+	</HEADER>
+	<COMMAND>
+		<REQUEST NAME="GetCode" DTD="RTAService" VERSION="1.0.0.0" ID="0">
+			<DATA>
+				<DEVICE TYPE="DEVICE" ID="(Geraetenummer)" REGION="(Importeur)" DEALER="(Betriebsnummer)"/>
+				<ACTION COMMENT="" REASON="(Abfragegrund)" ENCRYPT="(ENCRYPT)">UC06.06</ACTION>
+				<VEHICLE VIN="(VIN)">
+					<COMPONENT ID="(Baugruppe)" NO="(IMMO-Nr)"/>
+				</VEHICLE>
+			</DATA>
+		</REQUEST>
+	</COMMAND>
+</MESSAGE>

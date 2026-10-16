@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>bfs_53</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>bfs6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Systemkonfiguration </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBit0:  Readiness Bit Assembley Check; wird gesetzt bei Grundeinstellung 10
+         0: i.O. (Standard) / 1: n.i.O. 
+Bit1:  Readiness Bit  System Calibration; wird gesetzt bei Grundeinstellung 20
+         0: i.O. (Standard) / 1: n.i.O. 
+Bit4:  Getriebeauswahl
+         0: Schaltgetriebe 
+         1: Automatikgetriebe
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>66</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne Batteriespannung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Schalterstellung Bedienelement</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NMögliche Anzeigen am Tester:\L\S\K\N
+unbetätigt, öffnen, schließen, Error</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Neigungswinkel aktuell</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TFahrzeug im Stillstand und auf ebener Fläche Sollwert annähernd \L\B\K\A+/- 1,25 m/s²</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Berechnete Bremsentemperatur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBerechnete Bremsentemperatur in Grad Celsius
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Erreichter Abschaltstrom links </Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\L\B\K\ABeschreibung Abschaltstrom:\L\S\K\N
+der erreichte Abschaltstrom in (A) ist das gemessene Äquivalent zur Spannkraft in (kN),
+die Spannkraft ist nicht direkt messbar.
+Typischer Wert für i.O. im Bereich 15...19 (A) 
+Bei unbekanntem Bremsenstatus wird ERROR für den erreichten Abschaltstrom (Spannkraft) ausgegeben.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Erreichter Abschaltstrom rechts</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\L\B\K\ABeschreibung Abschaltstrom:\L\S\K\N
+der erreichte Abschaltstrom in (A) ist das gemessene Äquivalent zur Spannkraft in (kN),
+die Spannkraft ist nicht direkt messbar.
+Typischer Wert für i.O. im Bereich 15...19 (A) 
+Bei unbekanntem Bremsenstatus wird ERROR für den erreichten Abschaltstrom (Spannkraft) ausgegeben.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Bremsenstatus links </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AStatus elektromechanische Feststellbremse\L\S\K\N
+0 = angezogen, keine volle Spannkraft erreicht
+1 = schließt gerade
+2 = angezogen, volle Spannkraft erreicht
+3 = geöffnet
+4 = öffnet gerade
+5 = Zustand unbekannt oder defekt
+7 = Belagwechselmodus erreicht
+8 = Auf dem Weg zum Belagwechselmodus
+
+
+
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Bremsenstatus rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AStatus elektromechanische Feststellbremse\L\S\K\N
+0 = angezogen, keine volle Spannkraft erreicht
+1 = schließt gerade
+2 = angezogen, volle Spannkraft erreicht
+3 = geöffnet
+4 = öffnet gerade
+5 = Zustand unbekannt oder defekt
+7 = Belagwechselmodus erreicht
+8 = Auf dem Weg zum Belagwechselmodus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Lampenstatus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBit0: Bremskontrollleuchte
+				0000000\L\B\K\N0 \L\S\K\N= 0=aus; 1=an
+Bit1: EPB Fehlerlampe
+				000000\L\B\K\N0\L\S\K\N0\L\B\K\N \L\S\K\N= 0=aus; 1=an
+Bit2 und Bit3: Activity Lamp
+				0000\L\B\K\N00\L\S\K\N00\L\B\K\N \L\S\K\N= 00=aus; 01=an, 10=blinken
+Bit4: Auto Vehicle Hold Aktiv
+				00\L\B\K\N0\L\S\K\N00000\L\B\K\N \L\S\K\N= 0=aus; 1=an
+Bit5 und Bit6: EPB Tasterlampe
+0\L\B\K\N00\L\S\K\N00000\L\B\K\N \L\S\K\N= 00=aus; 01=an, 10=blinken
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Anzeigen Texte</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T0 = kein Text
+1 = Neigungswinkel zu gross
+2 = Parkbremse von Hand öffnen
+3 = EPB in Diagnose
+4 = Bremspedal betätigen
+7 = Störung Anfahrassistent
+5, 6,8, 9 bis 15 nicht belegt
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Akustische Signale</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T67 = Ton ein
+68 = Ton aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>34</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Rückfahrlichtschalter</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NMögliche Anzeigen am Tester:\L\S\K\N
+Rückw. ja; Rückw. nein oder Error</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>34</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interlockschalter nur bei Fahrzeugen mit Schaltgetriebe</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\L\B\K\NMögliche Anzeigen am Tester:\L\S\K\N
+1 = Interlockschalter betätigt
+0 = Interlockschalter nicht betätigt
+Error = ungültig
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>34</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">GRA Schalter nur bei Fahrzeugen mit Schaltgetriebe</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NMögliche Anzeigen am Tester:\L\S\K\N
+0 = Kupplungspedal betätigt
+1 = Kupplungspedal nicht betätigt
+Error = ungültig</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>34</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Vorwärtsgangschalter nur bei Fahrzeugen mit Schaltgetriebe</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NMögliche Anzeigen am Tester:\L\S\K\N
+1 = erster oder zweiter Gang eingelegt
+0 = Rueckwaertsgang bzw. restliche
+Error = ungültig</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Bremsdruck</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TAnzeige in bar</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Bremslichtschalter</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NMögliche Anzeigen:\L\S\K\N
+Bls ein oder Bls aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrpedalwert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NWertebereich:\L\S\K\N
+0 ... 100 %
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Schalterstellung Bedienelement</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\L\B\K\NMögliche Anzeigen am Tester:\L\S\K\N
+unbetätigt, öffnen, schließen, Error
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Betätigungszähler links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TDer Anzeigenwert muss mit 2 multipliziert werden, da beim zweimaligen Öffnen und Schließen der Parkbremse der Zähler um 1 erhöht wird
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Betätigungszähler rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TDer Anzeigenwert muss mit 2 multipliziert werden, da beim zweimaligen Öffnen und Schließen der Parkbremse der Zähler um 1 erhöht wird</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">höchste erreichte Bremsentemperatur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TAnzeige in Grad Celsius
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">höchste erreichte Bremsentemperatur (Datum)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">höchste erreichte Bremsentemperatur (Uhrzeit)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">höchste erreichte Bremsentemperatur (Kilometerstand)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TKilometerstand = Angezeigter Wert x 1000 km
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kl. 15 Status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NMögliche Anzeigen am Tester:\L\S\K\N
+Kl.15 ein, Kl.15 aus.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrzeuggeschwindigkeit</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Wert für Kupplungspedal-Weg</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\ANur bei Fahrzeugen mit Schaltgetriebe\L\S\K\N
+
+Wertebereich:
+15...85 % Pedalweg 
+
+Bei unbetätigter Kupplung wird ein Wert von circa 15 ( +/- 5) angezeigt.
+Bei betätigter Kupplung wird ein Wert von circa 85 ( +/- 5)
+
+Bei \L\B\K\NERROR\L\S\K\N wird vom -J540 Steuergerät für elektrische Parkbremse kein gültiger Kupplungspedalwert empfangen.
+
+
+ 
+
+
+
+
+
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrpedalwert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NWertebreich:\L\S\K\N
+0 ... 100 %</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrerwunschmoment</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Anfahrassistent (Drive Away Assist) - Singnalblock</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>Bit 0: Gurtschloss
+Bit 1..5: nicht belegt
+Bit 6: Anfahrassistent rückwärts notwendiger Gang eingelegt und als gültig erkannt
+Bit 7: Anfahrassistent vorwärts notwendiger Gang eingelegt und als gültig erkannt\L\B\K\N
+
+0 = Gurtschloss nicht gesteckt bzw. Gang nicht erkannt 
+1 = Gurtschloss gesteckt bzw. Gang erkannt\L\S\K\N
+
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">aktuelles Motormoment</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Schalterstellung Bedienelement</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NMögliche Anzeigen am Tester:\L\S\K\N
+unbetätigt, öffnen, schließen, Error</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft vom Airbagsteuergerät</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AMögliche Anzeigen am Tester:\L\S\K\N
+Wird eine \L\B\K\A1\L\B\K\N \L\S\K\Nangezeigt, so wird eine CAN-Botschaft vom jeweiligen Steuergerät gesendet.
+Zeigt der Tester eine \L\B\K\A0\L\B\K\N \L\S\K\Nan so ist die CAN-Botschaft unterbrochen.
+Lesen Sie dann den Fehlerspeicher des jeweiligen Steuergerätes aus.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft vom Gatewaysteuergerät</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AMögliche Anzeigen am Tester:\L\S\K\N
+Wird eine \L\B\K\A1\L\B\K\N \L\S\K\Nangezeigt, so wird eine CAN-Botschaft vom jeweiligen Steuergerät gesendet.
+Zeigt der Tester eine \L\B\K\A0\L\B\K\N \L\S\K\Nan so ist die CAN-Botschaft unterbrochen.
+Lesen Sie dann den Fehlerspeicher des jeweiligen Steuergerätes aus.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft vom Getriebesteuergerät</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AMögliche Anzeigen am Tester:\L\S\K\N
+Wird eine \L\B\K\A1\L\B\K\N \L\S\K\Nangezeigt, so wird eine CAN-Botschaft vom jeweiligen Steuergerät gesendet.
+Zeigt der Tester eine \L\B\K\A0\L\B\K\N \L\S\K\Nan so ist die CAN-Botschaft unterbrochen.
+Lesen Sie dann den Fehlerspeicher des jeweiligen Steuergerätes aus.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft vom Bremsensteuergerät</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AMögliche Anzeigen am Tester:\L\S\K\N
+Wird eine \L\B\K\A1\L\B\K\N \L\S\K\Nangezeigt, so wird eine CAN-Botschaft vom jeweiligen Steuergerät gesendet.
+Zeigt der Tester eine \L\B\K\A0\L\B\K\N \L\S\K\Nan so ist die CAN-Botschaft unterbrochen.
+Lesen Sie dann den Fehlerspeicher des jeweiligen Steuergerätes aus.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft vom Kombi</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AMögliche Anzeigen am Tester:\L\S\K\N
+Wird eine \L\B\K\A1\L\B\K\N \L\S\K\Nangezeigt, so wird eine CAN-Botschaft vom jeweiligen Steuergerät gesendet.
+Zeigt der Tester eine \L\B\K\A0\L\B\K\N \L\S\K\Nan so ist die CAN-Botschaft unterbrochen.
+Lesen Sie dann den Fehlerspeicher des jeweiligen Steuergerätes aus.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft vom elektr. Zündschloss</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AMögliche Anzeigen am Tester:\L\S\K\N
+Wird eine \L\B\K\A1\L\B\K\N \L\S\K\Nangezeigt, so wird eine CAN-Botschaft vom jeweiligen Steuergerät gesendet.
+Zeigt der Tester eine \L\B\K\A0\L\B\K\N \L\S\K\Nan so ist die CAN-Botschaft unterbrochen.
+Lesen Sie dann den Fehlerspeicher des jeweiligen Steuergerätes aus.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft vom Motorsteuergerät</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AMögliche Anzeigen am Tester:\L\S\K\N
+Wird eine \L\B\K\A1\L\B\K\N \L\S\K\Nangezeigt, so wird eine CAN-Botschaft vom jeweiligen Steuergerät gesendet.
+Zeigt der Tester eine \L\B\K\A0\L\B\K\N \L\S\K\Nan so ist die CAN-Botschaft unterbrochen.
+Lesen Sie dann den Fehlerspeicher des jeweiligen Steuergerätes aus.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

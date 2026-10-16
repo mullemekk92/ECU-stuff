@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>sps_67</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>sps6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние, электропитание</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">       0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T0 = в норме  напряжение &gt; 9В
+ 1 = не в норме напряжение &lt; 9В</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW-NW 0-255</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Рабочая температура</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TЕсли температура платины составляет более 92°C, то в памяти неисправностей регистрируется сбой.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW*256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адрес шины MOST</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>107</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Идентификационный номер сообщения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Аппаратная инстанция</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0x00FF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T0x00FF = аппаратная инстанция недоступна</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус, диагностический кабель разрыва оптической шины</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">       1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T0 = акт.
+ 1 = не акт.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Уровень сигнала микрофона 1 во время последней команды </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Уровень сигнала микрофона 2 во время последней команды </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel>(NW*256)+MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Уровень сигнала микрофона 3 во время последней команды </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>95</NA>
+		<Formel>Text vom Steuergerдt</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Последняя команда</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<AF>1</AF>
+		<NA>95</NA>
+		<Formel>Text vom Steuergerдt</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Дополнительные идентификационные данные блоков управления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TКод и обозначение производителя
+ Дата изготовления
+ Состояние изменений производителя
+ Испытательный стенд производителя №
+ Текущий номер производителя</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<AF>1</AF>
+		<NA>95</NA>
+		<Formel>Text vom Steuergerдt</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серийный номер</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

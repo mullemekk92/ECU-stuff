@@ -1,0 +1,3842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe></SgGruppe>
+		<LogicalLink>LL_Brake1UDS</LogicalLink>
+		<SgVariante>EV_Brake1UDSESP_015</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Berganfahrassistent_Fahrertuer</SystemName>
+		<Name>
+			<Text TI="MAS02138">Berganfahrassistent</Text>
+			<Text TI="MAS00218">Fahrertür</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HillHoldAssis']/Resparam[@ShortName='Param_DriveDoor' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hill_Hold_Assist</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>Berganfahrassistent_Gurtschalter Fahrerseite</SystemName>
+		<Name>
+			<Text TI="MAS02138">Berganfahrassistent</Text>
+			<Text TI="MAS00025">Gurtschalter Fahrerseite</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HillHoldAssis']/Resparam[@ShortName='Param_DriveSideSafetBeltSwitc' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hill_Hold_Assist</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Berganfahrassistent_Rueckwaertsgang</SystemName>
+		<Name>
+			<Text TI="MAS02138">Berganfahrassistent</Text>
+			<Text TI="MAS00988">Rückwärtsgang</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HillHoldAssis']/Resparam[@ShortName='Param_ReverGear' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hill_Hold_Assist</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<NA></NA>
+		<SystemName>Bremsscheibentrocknung_Kilometer_Kilometer_1</SystemName>
+		<Name>
+			<Text TI="IDE04456">Bremsscheibentrocknung</Text>
+			<Text TI="MAS03057">Kilometer</Text>
+			<Text TI="MAS03057">Kilometer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PadWipeFunct']/Resparam[@ShortName='Param_MileaOfPadWipeActiv' and @Type='Mux']/Resparam[@ShortName='Case_MileaBcdActiv' and @Type='Structure']/Resparam[@ShortName='Param_MileaOfBrakePadActiv' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Pad_Wipe_Function</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<NA></NA>
+		<SystemName>Bremsscheibentrocknung_Kilometer_Kilometer_2</SystemName>
+		<Name>
+			<Text TI="IDE04456">Bremsscheibentrocknung</Text>
+			<Text TI="MAS03057">Kilometer</Text>
+			<Text TI="MAS03057">Kilometer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PadWipeFunct']/Resparam[@ShortName='Param_MileaOfPadWipeActiv' and @Type='Mux']/Resparam[@ShortName='Case_BrakePadActivInit' and @Type='Structure']/Resparam[@ShortName='Param_MileaOfBrakePadActiv' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Pad_Wipe_Function</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<NA></NA>
+		<SystemName>Bremsscheibentrocknung_Wischer</SystemName>
+		<Name>
+			<Text TI="IDE04456">Bremsscheibentrocknung</Text>
+			<Text TI="MAS01282">Wischer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PadWipeFunct']/Resparam[@ShortName='Param_Wiper' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Pad_Wipe_Function</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<NA></NA>
+		<SystemName>CAN Signale_Fahrertuer</SystemName>
+		<Name>
+			<Text TI="IDE03527">CAN Signale</Text>
+			<Text TI="MAS00218">Fahrertür</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuInputSignaCAN']/Resparam[@ShortName='Param_DriveDoor' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status_Input_Signal_CAN</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<NA></NA>
+		<SystemName>CAN Signale_Fahrzeugidentifikation</SystemName>
+		<Name>
+			<Text TI="IDE03527">CAN Signale</Text>
+			<Text TI="MAS02357">Fahrzeugidentifikation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuInputSignaCAN']/Resparam[@ShortName='Param_VehicIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status_Input_Signal_CAN</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<NA></NA>
+		<SystemName>CAN Signale_Gurtschalter Fahrerseite</SystemName>
+		<Name>
+			<Text TI="IDE03527">CAN Signale</Text>
+			<Text TI="MAS00025">Gurtschalter Fahrerseite</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuInputSignaCAN']/Resparam[@ShortName='Param_DriveSideSafetBeltSwitc' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status_Input_Signal_CAN</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<NA></NA>
+		<SystemName>CAN Signale_Kupplungspedalschalter</SystemName>
+		<Name>
+			<Text TI="IDE03527">CAN Signale</Text>
+			<Text TI="MAS00314">Kupplungspedalschalter</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuInputSignaCAN']/Resparam[@ShortName='Param_ClutcPedalSwitc' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status_Input_Signal_CAN</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<NA></NA>
+		<SystemName>CAN Signale_Kupplungspedalschalter, Interlockstellung</SystemName>
+		<Name>
+			<Text TI="IDE03527">CAN Signale</Text>
+			<Text TI="MAS03992">Kupplungspedalschalter, Interlockstellung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuInputSignaCAN']/Resparam[@ShortName='Param_StateInterSwitc' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status_Input_Signal_CAN</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<NA></NA>
+		<SystemName>CAN Signale_Rueckfahrlicht</SystemName>
+		<Name>
+			<Text TI="IDE03527">CAN Signale</Text>
+			<Text TI="MAS01281">Rückfahrlicht</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuInputSignaCAN']/Resparam[@ShortName='Param_BackUpLight' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status_Input_Signal_CAN</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Radgeschwindigkeit hinten links</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE00922">Radgeschwindigkeit hinten links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_WheelSpeed' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Teilungswert maximal_Teilungswert maximal_1</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Teilungswert maximal_Teilungswert maximal_2</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Teilungswert maximal_Teilungswert maximal_3</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Teilungswert minimal_Teilungswert minimal_1</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Teilungswert minimal_Teilungswert minimal_2</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Teilungswert minimal_Teilungswert mittel</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Teilungswert mittel_Teilungswert mittel_1</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Teilungswert mittel_Teilungswert mittel_2</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten links_Teilungswert mittel_Teilungswert mittel_3</SystemName>
+		<Name>
+			<Text TI="IDE04427">Drehzahlfühler hinten links</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearLeft']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Radgeschwindigkeit hinten rechts</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE00923">Radgeschwindigkeit hinten rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_WheelSpeed' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Teilungswert maximal_Teilungswert maximal_1</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Teilungswert maximal_Teilungswert maximal_2</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Teilungswert maximal_Teilungswert maximal_3</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Teilungswert minimal_Teilungswert minimal_1</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Teilungswert minimal_Teilungswert minimal_2</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Teilungswert minimal_Teilungswert mittel</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Teilungswert mittel_Teilungswert mittel_1</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>31</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Teilungswert mittel_Teilungswert mittel_2</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>32</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler hinten rechts_Teilungswert mittel_Teilungswert mittel_3</SystemName>
+		<Name>
+			<Text TI="IDE04428">Drehzahlfühler hinten rechts</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoRearRight']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Rear_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>33</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Radgeschwindigkeit vorn links</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE00920">Radgeschwindigkeit vorn links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_WheelSpeed' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>34</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Teilungswert maximal_Teilungswert maximal_1</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>35</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Teilungswert maximal_Teilungswert maximal_2</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>36</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Teilungswert maximal_Teilungswert maximal_3</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>37</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Teilungswert minimal_Teilungswert minimal_1</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>38</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Teilungswert minimal_Teilungswert minimal_2</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>39</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Teilungswert minimal_Teilungswert mittel</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>40</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Teilungswert mittel_Teilungswert mittel_1</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>41</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Teilungswert mittel_Teilungswert mittel_2</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>42</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn links_Teilungswert mittel_Teilungswert mittel_3</SystemName>
+		<Name>
+			<Text TI="IDE04425">Drehzahlfühler vorn links</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontLeft']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Left</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>43</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Radgeschwindigkeit vorn rechts</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE00921">Radgeschwindigkeit vorn rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_WheelSpeed' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>44</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Teilungswert maximal_Teilungswert maximal_1</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>45</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Teilungswert maximal_Teilungswert maximal_2</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>46</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Teilungswert maximal_Teilungswert maximal_3</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+			<Text TI="IDE04437">Teilungswert maximal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_ScaleInterMaxim' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>47</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Teilungswert minimal_Teilungswert minimal_1</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>48</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Teilungswert minimal_Teilungswert minimal_2</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>49</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Teilungswert minimal_Teilungswert mittel</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE04436">Teilungswert minimal</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Teilungswert mittel_Teilungswert mittel_1</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ScaleInterMinim' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>51</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Teilungswert mittel_Teilungswert mittel_2</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_CondNotCorre' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>52</AG>
+		<NA></NA>
+		<SystemName>Drehzahlfuehler vorn rechts_Teilungswert mittel_Teilungswert mittel_3</SystemName>
+		<Name>
+			<Text TI="IDE04426">Drehzahlfühler vorn rechts</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+			<Text TI="IDE04438">Teilungswert mittel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SpeedSensoFrontRight']/Resparam[@ShortName='Param_ScaleInterAvera' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_CondNotCorre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Speed_Sensor_Front_Right</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>53</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur hinten links__1</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04506">Berechnete Bremsentemperatur hinten links</Text>
+			<Text TI="IDE04506">Berechnete Bremsentemperatur hinten links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscRearLeft' and @Type='Mux']/Resparam[@ShortName='Case_Value' and @Type='Structure']/Resparam[@ShortName='Param_LinTempRl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>54</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur hinten links__2</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04506">Berechnete Bremsentemperatur hinten links</Text>
+			<Text TI="IDE04506">Berechnete Bremsentemperatur hinten links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscRearLeft' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_LineaBrakeDiscTempNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>55</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur hinten links__3</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04506">Berechnete Bremsentemperatur hinten links</Text>
+			<Text TI="IDE04506">Berechnete Bremsentemperatur hinten links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscRearLeft' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_LineaBrakeDiscTempNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>56</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur hinten rechts_1</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04507">Berechnete Bremsentemperatur hinten rechts</Text>
+			<Text TI="IDE04507">Berechnete Bremsentemperatur hinten rech</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscRearRight' and @Type='Mux']/Resparam[@ShortName='Case_Value' and @Type='Structure']/Resparam[@ShortName='Param_LinTempRr' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>57</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur hinten rechts_2</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04507">Berechnete Bremsentemperatur hinten rechts</Text>
+			<Text TI="IDE04507">Berechnete Bremsentemperatur hinten rech</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscRearRight' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_LineaBrakeDiscTempNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>58</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur hinten rechts_3</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04507">Berechnete Bremsentemperatur hinten rechts</Text>
+			<Text TI="IDE04507">Berechnete Bremsentemperatur hinten rech</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscRearRight' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_LineaBrakeDiscTempNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>59</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur vorn links_Be_1</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04504">Berechnete Bremsentemperatur vorn links</Text>
+			<Text TI="IDE04504">Berechnete Bremsentemperatur vorn links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscFrontLeft' and @Type='Mux']/Resparam[@ShortName='Case_Value' and @Type='Structure']/Resparam[@ShortName='Param_LinTempFl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>60</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur vorn links_Be_2</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04504">Berechnete Bremsentemperatur vorn links</Text>
+			<Text TI="IDE04504">Berechnete Bremsentemperatur vorn links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscFrontLeft' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_LineaBrakeDiscTempNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>61</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur vorn links_Be_3</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04504">Berechnete Bremsentemperatur vorn links</Text>
+			<Text TI="IDE04504">Berechnete Bremsentemperatur vorn links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscFrontLeft' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_LineaBrakeDiscTempNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>62</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur vorn rechts_B_1</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04505">Berechnete Bremsentemperatur vorn rechts</Text>
+			<Text TI="IDE04505">Berechnete Bremsentemperatur vorn rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscFrontRight' and @Type='Mux']/Resparam[@ShortName='Case_Value' and @Type='Structure']/Resparam[@ShortName='Param_LinTempFr' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>63</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur vorn rechts_B_2</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04505">Berechnete Bremsentemperatur vorn rechts</Text>
+			<Text TI="IDE04505">Berechnete Bremsentemperatur vorn rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscFrontRight' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_LineaBrakeDiscTempNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>64</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Berechnete Bremsentemperatur vorn rechts_B_3</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="IDE04505">Berechnete Bremsentemperatur vorn rechts</Text>
+			<Text TI="IDE04505">Berechnete Bremsentemperatur vorn rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_TempeBrakeDiscFrontRight' and @Type='Mux']/Resparam[@ShortName='Case_Defau' and @Type='Structure']/Resparam[@ShortName='Param_LineaBrakeDiscTempNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Bremslichtschalter</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="MAS00179">Bremslichtschalter</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_BrakeLightSwitc' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Hinten links</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="MAS01855">Hinten links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_LeftRear' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>67</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Hinten rechts</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="MAS01856">Hinten rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_RightRear' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Vorn links</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="MAS01853">Vorn links</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_LeftFront' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>69</AG>
+		<NA></NA>
+		<SystemName>Elektronische Differenzialsperre_Vorn rechts</SystemName>
+		<Name>
+			<Text TI="MAS00121">Elektronische Differenzialsperre</Text>
+			<Text TI="MAS01854">Vorn rechts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDiffeLock']/Resparam[@ShortName='Param_RightFront' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electronic_Differential_Lock</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>70</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Bremsdruckgeber 1, Rohspannung 1_Bremsdruckgeber 1, _1</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04494">Bremsdruckgeber 1, Rohspannung 1</Text>
+			<Text TI="IDE04494">Bremsdruckgeber 1, Rohspannung 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_BrakePressSenso1Volta' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_LinarVolta' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>71</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Bremsdruckgeber 1, Rohspannung 1_Bremsdruckgeber 1, _2</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04494">Bremsdruckgeber 1, Rohspannung 1</Text>
+			<Text TI="IDE04494">Bremsdruckgeber 1, Rohspannung 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_BrakePressSenso1Volta' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_BrakeNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>72</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Bremsdruckgeber 1, Rohspannung 2_Bremsdruckgeber 1, _1</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04495">Bremsdruckgeber 1, Rohspannung 2</Text>
+			<Text TI="IDE04495">Bremsdruckgeber 1, Rohspannung 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_BrakePressSenso2Volta' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_LinarVolta' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>73</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Bremsdruckgeber 1, Rohspannung 2_Bremsdruckgeber 1, _2</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04495">Bremsdruckgeber 1, Rohspannung 2</Text>
+			<Text TI="IDE04495">Bremsdruckgeber 1, Rohspannung 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_BrakePressSenso2Volta' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_BrakeNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>74</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Bremsdruckgeber 1_Bremsdruckgeber 1_1</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04450">Bremsdruckgeber 1</Text>
+			<Text TI="IDE04450">Bremsdruckgeber 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_BrakePress' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_BrakePress' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>75</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Bremsdruckgeber 1_Bremsdruckgeber 1_2</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04450">Bremsdruckgeber 1</Text>
+			<Text TI="IDE04450">Bremsdruckgeber 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_BrakePress' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_BrakePress' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>76</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Bremsdruckgeber 1_Bremsdruckgeber 1_3</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04450">Bremsdruckgeber 1</Text>
+			<Text TI="IDE04450">Bremsdruckgeber 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_BrakePress' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_BrakeNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>77</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Bremslichtschalter</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="MAS00179">Bremslichtschalter</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_BrakeLightSwitc' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>78</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Unterdruckgeber_Unterdruckgeber_1</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_VacuuChamb' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_VacuuChamb' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>79</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Unterdruckgeber_Unterdruckgeber_2</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_VacuuChamb' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_VacuuChamb' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Bremssystem_Unterdruckgeber_Unterdruckgeber_3</SystemName>
+		<Name>
+			<Text TI="IDE04422">Geber für Bremssystem</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SensoBrakeSyste']/Resparam[@ShortName='Param_VacuuChamb' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_Unter' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Sensor_brake_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Drehratensensor 1, Z-Achse_Drehratensensor 1,_1</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04449">Drehratensensor 1, Z-Achse</Text>
+			<Text TI="IDE04449">Drehratensensor 1, Z-Achse</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_ZAxle' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_ZAxle' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>82</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Drehratensensor 1, Z-Achse_Drehratensensor 1,_2</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04449">Drehratensensor 1, Z-Achse</Text>
+			<Text TI="IDE04449">Drehratensensor 1, Z-Achse</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_ZAxle' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_ZAxle' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>83</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Geber fuer Lenkwinkel_Geber fuer Lenkwinkel_1</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="MAS00815">Geber für Lenkwinkel</Text>
+			<Text TI="MAS00815">Geber für Lenkwinkel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_SteerAngleSende' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_SteerAngleSende' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>84</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Geber fuer Lenkwinkel_Geber fuer Lenkwinkel_2</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="MAS00815">Geber für Lenkwinkel</Text>
+			<Text TI="MAS00815">Geber für Lenkwinkel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_SteerAngleSende' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_SteerAngleSende' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>85</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Geber fuer Lenkwinkel_Geber fuer Lenkwinkel_3</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="MAS00815">Geber für Lenkwinkel</Text>
+			<Text TI="MAS00815">Geber für Lenkwinkel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_SteerAngleSende' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_SteerAngleNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>86</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Laengsbeschleunigungssensor, Offset_Laengsbes_1</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04430">Längsbeschleunigungssensor, Offset</Text>
+			<Text TI="IDE04430">Längsbeschleunigungssensor, Offset</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LongiAccelOffse' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_LongiAccelOffse' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>87</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Laengsbeschleunigungssensor, Offset_Laengsbes_2</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04430">Längsbeschleunigungssensor, Offset</Text>
+			<Text TI="IDE04430">Längsbeschleunigungssensor, Offset</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LongiAccelOffse' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_LongiAccelOffse' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>88</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Laengsbeschleunigungssensor, Offset_Laengsbes_3</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04430">Längsbeschleunigungssensor, Offset</Text>
+			<Text TI="IDE04430">Längsbeschleunigungssensor, Offset</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LongiAccelOffse' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_LongSensoOffseNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>89</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Laengsbeschleunigungssensor_Laengsbeschleunig_1</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE02538">Längsbeschleunigungssensor</Text>
+			<Text TI="IDE02538">Längsbeschleunigungssensor</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LongiAccel' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_LongiAccel' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>90</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Laengsbeschleunigungssensor_Laengsbeschleunig_2</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE02538">Längsbeschleunigungssensor</Text>
+			<Text TI="IDE02538">Längsbeschleunigungssensor</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LongiAccel' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_LongiAccel' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>91</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Laengsbeschleunigungssensor_Laengsbeschleunig_3</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE02538">Längsbeschleunigungssensor</Text>
+			<Text TI="IDE02538">Längsbeschleunigungssensor</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LongiAccel' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_LongSensoNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>92</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Lenkwinkel, Offset_Lenkwinkel, Offset_1</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04230">Lenkwinkel, Offset</Text>
+			<Text TI="IDE04230">Lenkwinkel, Offset</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_SteerAngleSendeOffse' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_SteerAngleSendeOffse' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>93</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Lenkwinkel, Offset_Lenkwinkel, Offset_2</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04230">Lenkwinkel, Offset</Text>
+			<Text TI="IDE04230">Lenkwinkel, Offset</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_SteerAngleSendeOffse' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_SteerAngleSendeOffse' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>94</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Lenkwinkel, Offset_Lenkwinkel, Offset_3</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04230">Lenkwinkel, Offset</Text>
+			<Text TI="IDE04230">Lenkwinkel, Offset</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_SteerAngleSendeOffse' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_SteerAngleOffseNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>95</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Querbeschleunigungssensor 1, Offset_Querbesch_1</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04429">Querbeschleunigungssensor 1, Offset</Text>
+			<Text TI="IDE04429">Querbeschleunigungssensor 1, Offset</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LaterAccelSendeOffse' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_LaterAccelSendeOffse' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>96</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Querbeschleunigungssensor 1, Offset_Querbesch_2</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE04429">Querbeschleunigungssensor 1, Offset</Text>
+			<Text TI="IDE04429">Querbeschleunigungssensor 1, Offset</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LaterAccelSendeOffse' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_LaterAccelSendeOffse' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>97</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Querbeschleunigungssensor 1_Querbeschleunigun_1</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE02241">Querbeschleunigungssensor 1</Text>
+			<Text TI="IDE02241">Querbeschleunigungssensor 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LaterAccelSende' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_LaterAccelSende' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>98</AG>
+		<NA></NA>
+		<SystemName>Geber fuer Schlupfregelsystem_Querbeschleunigungssensor 1_Querbeschleunigun_2</SystemName>
+		<Name>
+			<Text TI="IDE04443">Geber für Schlupfregelsystem</Text>
+			<Text TI="IDE02241">Querbeschleunigungssensor 1</Text>
+			<Text TI="IDE02241">Querbeschleunigungssensor 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TractContrSyste']/Resparam[@ShortName='Param_LaterAccelSende' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_LaterAccelSende' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Traction_Control_System</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>99</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Bremsdruck_Bremsdruckgeber 1_1</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="IDE02211">Bremsdruck</Text>
+			<Text TI="IDE04450">Bremsdruckgeber 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_BrakePress' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_BrakePress' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>100</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Bremsdruck_Bremsdruckgeber 1_2</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="IDE02211">Bremsdruck</Text>
+			<Text TI="IDE04450">Bremsdruckgeber 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_BrakePress' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_BrakePress' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>101</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Bremsdruck_Bremsdruckgeber 1_3</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="IDE02211">Bremsdruck</Text>
+			<Text TI="IDE04450">Bremsdruckgeber 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_BrakePress' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_BrakeNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>102</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Saugrohrdruckabgleich_Saugrohrdruckabgl_1</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="IDE03569">Saugrohrdruckabgleich</Text>
+			<Text TI="IDE03569">Saugrohrdruckabgleich</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_IntakManifPressCalib' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_IntakManifPressCalib' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>103</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Saugrohrdruckabgleich_Saugrohrdruckabgl_2</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="IDE03569">Saugrohrdruckabgleich</Text>
+			<Text TI="IDE03569">Saugrohrdruckabgleich</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_IntakManifPressCalib' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_IntakManifPressCalib' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>104</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Saugrohrdruckabgleich_Saugrohrdruckabgl_3</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="IDE03569">Saugrohrdruckabgleich</Text>
+			<Text TI="IDE03569">Saugrohrdruckabgleich</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_IntakManifPressCalib' and @Type='Mux']/Resparam[@ShortName='Case_SysteNichtVerfu' and @Type='Structure']/Resparam[@ShortName='Param_STRUCSaugrNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>105</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Status</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="MAS01632">Status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_Syste' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>106</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Unterdruckgeber_Unterdruckgeber_1</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_LowPress' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_LowPress' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>107</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Unterdruckgeber_Unterdruckgeber_2</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_LowPress' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_LowPress' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>108</AG>
+		<NA></NA>
+		<SystemName>Hydraulischer Bremskraftverstaerker_Unterdruckgeber_Unterdruckgeber_3</SystemName>
+		<Name>
+			<Text TI="IDE04508">Hydraulischer Bremskraftverstärker</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+			<Text TI="IDE04442">Unterdruckgeber</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HydraBrakeServo']/Resparam[@ShortName='Param_LowPress' and @Type='Mux']/Resparam[@ShortName='Case_SysteNichtVerfu' and @Type='Structure']/Resparam[@ShortName='Param_STRUCUnterNotAvail' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Hydraulic_Brake_Servo</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<NA></NA>
+		<SystemName>Interne Messwerte_Bremsanlage befuellen/entlueften</SystemName>
+		<Name>
+			<Text TI="IDE04461">Interne Messwerte</Text>
+			<Text TI="IDE03649">Bremsanlage befüllen/entlüften</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_InterMeasuValueBlock']/Resparam[@ShortName='Param_FillBleedBrakeSyste' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Internal_Measured_Value_Block</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>110</AG>
+		<NA></NA>
+		<SystemName>Interne Messwerte_Temperatur im Steuergeraet</SystemName>
+		<Name>
+			<Text TI="IDE04461">Interne Messwerte</Text>
+			<Text TI="MAS01481">Temperatur im Steuergerät</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_InterMeasuValueBlock']/Resparam[@ShortName='Param_TempeInContrModul' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Internal_Measured_Value_Block</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>111</AG>
+		<NA></NA>
+		<SystemName>Kommunikationsstatus Datenbus 1_ACC SG / CV Sensor</SystemName>
+		<Name>
+			<Text TI="IDE00609">Kommunikationsstatus Datenbus 1</Text>
+			<Text TI="">ACC SG / CV Sensor</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CANCommuStatu']/Resparam[@ShortName='Param_ACCSGCVSenso' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">CAN Communication Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>112</AG>
+		<NA></NA>
+		<SystemName>Kommunikationsstatus Datenbus 1_Airbag</SystemName>
+		<Name>
+			<Text TI="IDE00609">Kommunikationsstatus Datenbus 1</Text>
+			<Text TI="">Airbag</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CANCommuStatu']/Resparam[@ShortName='Param_Airba' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">CAN Communication Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>113</AG>
+		<NA></NA>
+		<SystemName>Kommunikationsstatus Datenbus 1_Diagnoseinterface fuer Datenbus</SystemName>
+		<Name>
+			<Text TI="IDE00609">Kommunikationsstatus Datenbus 1</Text>
+			<Text TI="">Diagnoseinterface fuer Datenbus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CANCommuStatu']/Resparam[@ShortName='Param_DiagnFuerDaten' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">CAN Communication Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>114</AG>
+		<NA></NA>
+		<SystemName>Kommunikationsstatus Datenbus 1_Getriebeelektronik</SystemName>
+		<Name>
+			<Text TI="IDE00609">Kommunikationsstatus Datenbus 1</Text>
+			<Text TI="">Getriebeelektronik</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CANCommuStatu']/Resparam[@ShortName='Param_Getri' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">CAN Communication Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>115</AG>
+		<NA></NA>
+		<SystemName>Kommunikationsstatus Datenbus 1_Lenkwinkelgeber</SystemName>
+		<Name>
+			<Text TI="IDE00609">Kommunikationsstatus Datenbus 1</Text>
+			<Text TI="">Lenkwinkelgeber</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CANCommuStatu']/Resparam[@ShortName='Param_Lenkw' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">CAN Communication Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>116</AG>
+		<NA></NA>
+		<SystemName>Kommunikationsstatus Datenbus 1_Motorsteuergeraet</SystemName>
+		<Name>
+			<Text TI="IDE00609">Kommunikationsstatus Datenbus 1</Text>
+			<Text TI="">Motorsteuergerät</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CANCommuStatu']/Resparam[@ShortName='Param_Motor' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">CAN Communication Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>117</AG>
+		<NA></NA>
+		<SystemName>Kommunikationsstatus Datenbus 1_Schalttafeleinsatz</SystemName>
+		<Name>
+			<Text TI="IDE00609">Kommunikationsstatus Datenbus 1</Text>
+			<Text TI="">Schalttafeleinsatz</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CANCommuStatu']/Resparam[@ShortName='Param_Schal' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">CAN Communication Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>118</AG>
+		<NA></NA>
+		<SystemName>Kommunikationsstatus Datenbus 1_Wegfahrsicherung</SystemName>
+		<Name>
+			<Text TI="IDE00609">Kommunikationsstatus Datenbus 1</Text>
+			<Text TI="">Wegfahrsicherung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CANCommuStatu']/Resparam[@ShortName='Param_Wegfa' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">CAN Communication Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>119</AG>
+		<NA></NA>
+		<SystemName>Kontrollleuchten_Kontrollleuchte fuer ABS</SystemName>
+		<Name>
+			<Text TI="IDE02986">Kontrollleuchten</Text>
+			<Text TI="MAS00253">Kontrollleuchte für ABS</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WarniLamps']/Resparam[@ShortName='Param_AbsWarniLamp' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Warning_Lamps</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>120</AG>
+		<NA></NA>
+		<SystemName>Kontrollleuchten_Kontrollleuchte fuer ASR und ESP</SystemName>
+		<Name>
+			<Text TI="IDE02986">Kontrollleuchten</Text>
+			<Text TI="IDE04431">Kontrollleuchte für ASR und ESP</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WarniLamps']/Resparam[@ShortName='Param_EspAndTcsWarniLamp' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Warning_Lamps</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>121</AG>
+		<NA></NA>
+		<SystemName>Kontrollleuchten_Kontrollleuchte fuer Bremsanlage</SystemName>
+		<Name>
+			<Text TI="IDE02986">Kontrollleuchten</Text>
+			<Text TI="MAS02925">Kontrollleuchte für Bremsanlage</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WarniLamps']/Resparam[@ShortName='Param_BrakeSysteWarniLamp' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Warning_Lamps</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>122</AG>
+		<NA></NA>
+		<SystemName>Kontrollleuchten_Kontrollleuchte fuer ESP_Off</SystemName>
+		<Name>
+			<Text TI="IDE02986">Kontrollleuchten</Text>
+			<Text TI="MAS03234">Kontrollleuchte für ESP_Off</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WarniLamps']/Resparam[@ShortName='Param_EspOffWarniLamp' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Warning_Lamps</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>123</AG>
+		<NA></NA>
+		<SystemName>Kontrollleuchten_Kontrollleuchte fuer Reifenkontrollanzeige</SystemName>
+		<Name>
+			<Text TI="IDE02986">Kontrollleuchten</Text>
+			<Text TI="IDE04451">Kontrollleuchte für Reifenkontrollanzeige</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WarniLamps']/Resparam[@ShortName='Param_TyreMonitWarniLamp' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Warning_Lamps</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>124</AG>
+		<NA></NA>
+		<SystemName>Overboost im Bremssystem</SystemName>
+		<Name>
+			<Text TI="IDE04643">Overboost im Bremssystem</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_BrakeSysteOverb']/Resparam[@ShortName='Param_OverbImBrems' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Brake_System_Overboost</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<NA></NA>
+		<SystemName>Security Access: Anzahl ungueltiger Schluessel</SystemName>
+		<Name>
+			<Text TI="IDE00323">Security Access: Anzahl ungültiger Schlüssel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_InvalKeyCount']/Resparam[@ShortName='Param_CountValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Invalid Key Counter</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<NA></NA>
+		<SystemName>Start Stopp_Gurtschalter Fahrerseite</SystemName>
+		<Name>
+			<Text TI="MAS02672">Start Stopp</Text>
+			<Text TI="MAS00025">Gurtschalter Fahrerseite</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StartStop']/Resparam[@ShortName='Param_DriveSideSafetBettSwitc' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Start_Stop</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>127</AG>
+		<NA></NA>
+		<SystemName>Start Stopp_Motorstart durch Start-Stopp-Funktion</SystemName>
+		<Name>
+			<Text TI="MAS02672">Start Stopp</Text>
+			<Text TI="IDE03215">Motorstart durch Start-Stopp-Funktion</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StartStop']/Resparam[@ShortName='Param_EnginStartByStartStop' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Start_Stop</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>128</AG>
+		<NA></NA>
+		<SystemName>Start Stopp_Motorstopp durch Start-Stopp-Funktion</SystemName>
+		<Name>
+			<Text TI="MAS02672">Start Stopp</Text>
+			<Text TI="IDE03214">Motorstopp durch Start-Stopp-Funktion</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StartStop']/Resparam[@ShortName='Param_EnginStopByStartStop' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Start_Stop</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>129</AG>
+		<NA></NA>
+		<SystemName>Taster fuer Bremssystem_Taster fuer ASR und ESP</SystemName>
+		<Name>
+			<Text TI="IDE04452">Taster für Bremssystem</Text>
+			<Text TI="IDE03662">Taster für ASR und ESP</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_NonloSwitc']/Resparam[@ShortName='Param_EspAndTcsOffButto' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Nonlocking_switch</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<NA></NA>
+		<SystemName>Taster fuer Bremssystem_Taster fuer Reifenkontrollanzeige</SystemName>
+		<Name>
+			<Text TI="IDE04452">Taster für Bremssystem</Text>
+			<Text TI="IDE04432">Taster für Reifenkontrollanzeige</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_NonloSwitc']/Resparam[@ShortName='Param_TyreMonitWarniButto' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Nonlocking_switch</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>131</AG>
+		<NA></NA>
+		<SystemName>Textanzeige im Schalttafeleinsatz</SystemName>
+		<Name>
+			<Text TI="MAS02426">Textanzeige im Schalttafeleinsatz</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DisplDashb']/Resparam[@ShortName='Param_Text' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Display_dashboard</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>132</AG>
+		<NA></NA>
+		<SystemName>Ueberrollpraevention_Funktionsstatus</SystemName>
+		<Name>
+			<Text TI="IDE04644">Überrollprävention</Text>
+			<Text TI="MAS03095">Funktionsstatus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_RollOverPreve']/Resparam[@ShortName='Param_Funkt' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Roll_Over_Prevention</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>133</AG>
+		<NA></NA>
+		<SystemName>Ueberrollpraevention_Status</SystemName>
+		<Name>
+			<Text TI="IDE04644">Überrollprävention</Text>
+			<Text TI="MAS01632">Status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_RollOverPreve']/Resparam[@ShortName='Param_Syste' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Roll_Over_Prevention</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>134</AG>
+		<NA></NA>
+		<SystemName>Ueberrollpraevention_Systemstatus</SystemName>
+		<Name>
+			<Text TI="IDE04644">Überrollprävention</Text>
+			<Text TI="IDE02955">Systemstatus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_RollOverPreve']/Resparam[@ShortName='Param_Einst' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Roll_Over_Prevention</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>135</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Spannung Klemme 15_Spannung Klemme 15_1</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE00018">Spannung Klemme 15</Text>
+			<Text TI="IDE00018">Spannung Klemme 15</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi15' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_VoltaTermi15' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>136</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Spannung Klemme 15_Spannung Klemme 15_2</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE00018">Spannung Klemme 15</Text>
+			<Text TI="IDE00018">Spannung Klemme 15</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi15' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_ErrorMessaVoltaTermi15' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>137</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Spannung Klemme 30 fuer Logik_Spannung Klemme 30 fuer_1</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE04500">Spannung Klemme 30 für Logik</Text>
+			<Text TI="IDE04500">Spannung Klemme 30 für Logik</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi30' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_VoltaTermi30' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>138</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Spannung Klemme 30 fuer Logik_Spannung Klemme 30 fuer_2</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE04500">Spannung Klemme 30 für Logik</Text>
+			<Text TI="IDE04500">Spannung Klemme 30 für Logik</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi30' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_ErrorMessaVoltaTermi30' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>139</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Spannung Klemme 30 fuer Pumpe_Spannung Klemme 30 fuer_1</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE04444">Spannung Klemme 30 für Pumpe</Text>
+			<Text TI="IDE04444">Spannung Klemme 30 für Pumpe</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi30Pump' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_VoltaTermi30Pump' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>140</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Spannung Klemme 30 fuer Pumpe_Spannung Klemme 30 fuer_2</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE04444">Spannung Klemme 30 für Pumpe</Text>
+			<Text TI="IDE04444">Spannung Klemme 30 für Pumpe</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi30Pump' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_ErrorMessaVoltaTermi30Pump' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>141</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Spannung Klemme 30 fuer Ventile_Spannung Klemme 30 fu_1</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE04445">Spannung Klemme 30 für Ventile</Text>
+			<Text TI="IDE04445">Spannung Klemme 30 für Ventile</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi30Elect' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_VoltaTermi30Elect' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>142</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Spannung Klemme 30 fuer Ventile_Spannung Klemme 30 fu_2</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE04445">Spannung Klemme 30 für Ventile</Text>
+			<Text TI="IDE04445">Spannung Klemme 30 für Ventile</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi30Elect' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_ErrorMessaVoltaTermi30Elect' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>143</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Versorgungsspannung fuer externe Komponenten_Versorgu_1</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE01232">Versorgungsspannung für externe Komponenten</Text>
+			<Text TI="IDE01232">Versorgungsspannung für externe Komponenten</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi30ExterCompo' and @Type='Mux']/Resparam[@ShortName='Case_Data' and @Type='Structure']/Resparam[@ShortName='Param_VoltaTermi30ExterCompo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>144</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Versorgungsspannung fuer externe Komponenten_Versorgu_2</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE01232">Versorgungsspannung für externe Komponenten</Text>
+			<Text TI="IDE01232">Versorgungsspannung für externe Komponenten</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi30ExterCompo' and @Type='Mux']/Resparam[@ShortName='Case_Error' and @Type='Structure']/Resparam[@ShortName='Param_ErrorMessaVoltaTermi30ExterCompo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>145</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannungen_Versorgungsspannung fuer externe Komponenten_Versorgu_3</SystemName>
+		<Name>
+			<Text TI="IDE03680">Versorgungsspannungen</Text>
+			<Text TI="IDE01232">Versorgungsspannung für externe Komponenten</Text>
+			<Text TI="IDE01232">Versorgungsspannung für externe Komponenten</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_VoltaTermi30ExterCompo' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_VoltaExter' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply_Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>146</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 102_F1</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 102</Text>
+			<Text TI="">F1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi102']/Resparam[@ShortName='Param_F1' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 102</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>147</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 102_F2</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 102</Text>
+			<Text TI="">F2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi102']/Resparam[@ShortName='Param_F2' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 102</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>148</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 102_F3</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 102</Text>
+			<Text TI="">F3</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi102']/Resparam[@ShortName='Param_F3' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 102</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>149</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 102_F4</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 102</Text>
+			<Text TI="">F4</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi102']/Resparam[@ShortName='Param_F4' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 102</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>150</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 103_Z</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 103</Text>
+			<Text TI="">Z</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi103']/Resparam[@ShortName='Param_Z' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 103</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>151</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 103_Z-1</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 103</Text>
+			<Text TI="">Z-1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi103']/Resparam[@ShortName='Param_Z1' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 103</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>152</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 103_Z-2</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 103</Text>
+			<Text TI="">Z-2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi103']/Resparam[@ShortName='Param_Z2' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 103</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>153</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 103_Z-3</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 103</Text>
+			<Text TI="">Z-3</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi103']/Resparam[@ShortName='Param_Z3' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 103</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>154</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 103_Z-4</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 103</Text>
+			<Text TI="">Z-4</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi103']/Resparam[@ShortName='Param_Z4' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 103</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>155</AG>
+		<NA></NA>
+		<SystemName>Entwicklermesswert 103_Zaehler</SystemName>
+		<Name>
+			<Text TI="">Entwicklermesswert 103</Text>
+			<Text TI="">Zähler</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_Entwi103']/Resparam[@ShortName='Param_Zaehl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Entwicklermesswert 103</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>156</AG>
+		<NA></NA>
+		<SystemName>Matching Record Data Identifier</SystemName>
+		<Name>
+			<Text TI="">Matching Record Data Identifier</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[@ShortName='Param_MatchRecorDataIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

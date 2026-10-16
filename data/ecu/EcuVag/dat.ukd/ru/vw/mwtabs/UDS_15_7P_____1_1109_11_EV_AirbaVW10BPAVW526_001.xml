@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe></SgGruppe>
+		<LogicalLink>LL_AirbaUDS</LogicalLink>
+		<SgVariante></SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Anzahl Frontcrash</SystemName>
+		<Name>
+			<Text TI="">Число фронтальных ударов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_NumbeOfFrontDeplo']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Number Of Front Deployments</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>Anzahl Heckcrash</SystemName>
+		<Name>
+			<Text TI="">Число ударов в заднюю часть а/м</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_NumbeOfRearDeplo']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Number Of Rear Deployments</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Anzahl Seitencrash Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Число боковых ударов, сторона переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_NumbeOfSidePasseDeplo']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Number Of Side Passenger Deployments</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<NA></NA>
+		<SystemName>Anzahl Seitencrash Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Число боковых ударов, сторона водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_NumbeOfSideDriveDeplo']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Number Of Side Driver Deployments</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<NA></NA>
+		<SystemName>Anzahl Ueberschlagcrash</SystemName>
+		<Name>
+			<Text TI="">Число опрокидываний</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_NumbeOfRolloDeplo']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Number Of Rollover Deployments</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<NA></NA>
+		<SystemName>Belegungsstatus Beifahrersitz</SystemName>
+		<Name>
+			<Text TI="">Статус занятости сиденья переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuBladdMatri']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status Bladder Matrix</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<NA></NA>
+		<SystemName>Beschleunigungssensor fuer Sitzbelegungserkennung</SystemName>
+		<Name>
+			<Text TI="">Датчик ускорения для распознавания занятости сиденья</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PODSBAccelSenso']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">PODS-B Acceleration Sensor</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<NA></NA>
+		<SystemName>Datenlogger Triggerung</SystemName>
+		<Name>
+			<Text TI="">Устр-во оперативной регистрации данных, пусковой сигнал</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_RespoOnEvent']/Resparam[@ShortName='Param_RespoOnEventState' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Response_On_Event</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<NA></NA>
+		<SystemName>Drucksensor fuer Sitzbelegungserkennung</SystemName>
+		<Name>
+			<Text TI="">Датчик давления для распознавания занятости сиденья</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PODSBPressSenso']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">PODS-B Pressure Sensor</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<NA></NA>
+		<SystemName>Gurtkraftsensor fuer Sitzbelegungserkennung</SystemName>
+		<Name>
+			<Text TI="">Датчик усилия на ремне безоп. для опред. занятости сиденья</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PODSBBeltForceSenso']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">PODS-B Belt-Force Sensor</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter 2.Reihe Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Выключатель замка РБ, 2 ряд сидений, сторона ПП</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MicroBeltSwitcPasseSide2ndRow']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Micro-Belt-Switch Passenger Side 2nd Row</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter 2.Reihe Beifahrerseite Ohm-Wert_Measured Value Resistance And </SystemName>
+		<Name>
+			<Text TI="">Выключ.в замке РБ, 2-й ряд сид., стор.ПП, сопр.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcPasseSide2ndRow']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Passenger Side 2nd Row</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter 2.Reihe Beifahrerseite Ohm-Wert_Measured Value Resistance Scal</SystemName>
+		<Name>
+			<Text TI="">Выключатель в замке РБ, 2-й ряд сид., стор. ПП, сопр. (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcPasseSide2ndRow']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResis2Scale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Passenger Side 2nd Row</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter 2.Reihe Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Выключатель замка РБ, 2 ряд сидений, сторона ВОД</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MicroBeltSwitcDriveSide2ndRow']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Micro-Belt-Switch Driver Side 2nd Row</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter 2.Reihe Fahrerseite Ohm-Wert_Measured Value Resistance And Vol</SystemName>
+		<Name>
+			<Text TI="">Выключ.в замке РБ, 2-й ряд сид., стор.ВОД, сопр.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcDriveSide2ndRow']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Driver Side 2nd Row</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter 2.Reihe Fahrerseite Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Выключатель в замке РБ, 2 ряд сид., стор. ВОД, сопр. (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcDriveSide2ndRow']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResis2Scale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Driver Side 2nd Row</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter 2.Reihe Mitte</SystemName>
+		<Name>
+			<Text TI="">Выключатель замка РБ, 2 ряд сидений, середина</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MicroBeltSwitcCente2ndRow']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Micro-Belt-Switch Center 2nd Row</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter 2.Reihe Mitte Ohm-Wert_Measured Value Resistance And Voltage T</SystemName>
+		<Name>
+			<Text TI="">Выключ.в замке РБ, 2-й ряд сид., середина, сопр.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcCente2ndRow']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Center 2nd Row</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter 2.Reihe Mitte Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Выключатель в замке РБ, 2 ряд сид., центр., сопр. (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcCente2ndRow']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResis2Scale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Center 2nd Row</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Выключатель замка РБ ПП</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MicroBeltSwitcPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Micro-Belt-Switch Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter Beifahrerseite Ohm-Wert_Measured Value Resistance And Voltage </SystemName>
+		<Name>
+			<Text TI="">Выключатель в замке РБ ПП, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcPasseSide']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter Beifahrerseite Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Выключатель РБ ПП, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcPasseSide']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResis2Scale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Выключатель замка РБ ВОД</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MicroBeltSwitcDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Micro-Belt-Switch Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter Fahrerseite Ohm-Wert_Measured Value Resistance And Voltage Tex</SystemName>
+		<Name>
+			<Text TI="">Выключатель в замке РБ ВОД, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcDriveSide']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<NA></NA>
+		<SystemName>Gurtschalter Fahrerseite Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Выключатель РБ ВОД, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltSwitcDriveSide']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResis2Scale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Switch Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<NA></NA>
+		<SystemName>Kalibrierstatus</SystemName>
+		<Name>
+			<Text TI="">Статус калибровки</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PODSBCalibStatu']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">PODS-B Calibration Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<NA></NA>
+		<SystemName>Komponentenschutz</SystemName>
+		<Name>
+			<Text TI="">Защита компонентов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CompoProteErrorCount']/Resparam[@ShortName='Param_CountValueBlock1' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Component Protection: Error Counter</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<NA></NA>
+		<SystemName>Schluesselschalter Kontakt 1</SystemName>
+		<Name>
+			<Text TI="">Выключатель с замком, контакт 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_KeyOperaSwitcLogicConne1']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Key-Operated Switch Logic Connection 1</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<NA></NA>
+		<SystemName>Schluesselschalter Kontakt 1 Ohm-Wert_Measured Value Resistance And Voltage</SystemName>
+		<Name>
+			<Text TI="">Выключатель с замком, контакт 1, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueKeyOperaSwitcLogicConne1']/Resparam[@ShortName='Param_MeasuValueResis3' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Key-Operated Switch Logic Connection 1</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<NA></NA>
+		<SystemName>Schluesselschalter Kontakt 1 Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Выключатель с замком, контакт 1, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueKeyOperaSwitcLogicConne1']/Resparam[@ShortName='Param_MeasuValueResis3' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResis3Scale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Key-Operated Switch Logic Connection 1</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>31</AG>
+		<NA></NA>
+		<SystemName>Schluesselschalter Kontakt 2</SystemName>
+		<Name>
+			<Text TI="">Выключатель с замком, контакт 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_KeyOperaSwitcLogicConne2']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Key-Operated Switch Logic Connection 2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>32</AG>
+		<NA></NA>
+		<SystemName>Schluesselschalter Kontakt 2 Ohm-Wert_Measured Value Resistance And Voltage</SystemName>
+		<Name>
+			<Text TI="">Выключатель с замком, контакт 2, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueKeyOperaSwitcLogicConne2']/Resparam[@ShortName='Param_MeasuValueResis3' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Key-Operated Switch Logic Connection 2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>33</AG>
+		<NA></NA>
+		<SystemName>Schluesselschalter Kontakt 2 Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Выключатель с замком, контакт 2, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueKeyOperaSwitcLogicConne2']/Resparam[@ShortName='Param_MeasuValueResis3' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResis3Scale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Key-Operated Switch Logic Connection 2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>34</AG>
+		<NA></NA>
+		<SystemName>Security Access: Anzahl ungueltiger Schluessel</SystemName>
+		<Name>
+			<Text TI="">Security Access: количество недействующих ключей</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_InvalKeyCount']/Resparam[@ShortName='Param_CountValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Invalid Key Counter</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>35</AG>
+		<NA></NA>
+		<SystemName>Sitzbelegungserkennung</SystemName>
+		<Name>
+			<Text TI="">Распознавание занятости сиденья</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PassePreseDetecPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Passenger-Presence-Detection Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>36</AG>
+		<NA></NA>
+		<SystemName>Sitzbelegungserkennung Ohm-Wert_Measured Value Resistance And Voltage Text</SystemName>
+		<Name>
+			<Text TI="">Система опред.занятости сиденья, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValuePassePreseDetecPasseSide']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Passenger-Presence-Detection Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>37</AG>
+		<NA></NA>
+		<SystemName>Sitzbelegungserkennung Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Система определения занятости сиденья, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValuePassePreseDetecPasseSide']/Resparam[@ShortName='Param_MeasuValueResis2' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResis2Scale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Passenger-Presence-Detection Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>38</AG>
+		<NA></NA>
+		<SystemName>Sitzpositionssensor Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Датчик положения сиденья переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SeatPositSensoPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Seat-Position Sensor (Passenger Side)</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>39</AG>
+		<NA></NA>
+		<SystemName>Sitzpositionssensor Beifahrerseite Strom-Wert_Current value</SystemName>
+		<Name>
+			<Text TI="">Датчик положения сиденья ПП, величина тока</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CurreValuePassePositDetecPasseSide']/Resparam[@ShortName='Param_CurreMeasuValue' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueCurreScale' and @Type='Structure']/Resparam[@ShortName='Param_CurreValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Current-value Passenger-Position-Detection Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>40</AG>
+		<NA></NA>
+		<SystemName>Sitzpositionssensor Beifahrerseite Strom-Wert_Measured Value Resistance And</SystemName>
+		<Name>
+			<Text TI="">Датчик положения сиденья ПП, величина тока / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CurreValuePassePositDetecPasseSide']/Resparam[@ShortName='Param_CurreMeasuValue' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueCurreText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Current-value Passenger-Position-Detection Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>41</AG>
+		<NA></NA>
+		<SystemName>Sitzpositionssensor Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Датчик положения сиденья водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SeatPositSensoDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Seat-Position Sensor (Driver Side)</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>42</AG>
+		<NA></NA>
+		<SystemName>Sitzpositionssensor Fahrerseite Strom-Wert_Current value</SystemName>
+		<Name>
+			<Text TI="">Датчик положения сиденья ВОД, величина тока</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CurreValuePassePositDetecDriveSide']/Resparam[@ShortName='Param_CurreMeasuValue' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueCurreScale' and @Type='Structure']/Resparam[@ShortName='Param_CurreValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Current-value Passenger-Position-Detection Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>43</AG>
+		<NA></NA>
+		<SystemName>Sitzpositionssensor Fahrerseite Strom-Wert_Measured Value Resistance And Vo</SystemName>
+		<Name>
+			<Text TI="">Датчик положения сиденья ВОД, величина тока / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CurreValuePassePositDetecDriveSide']/Resparam[@ShortName='Param_CurreMeasuValue' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueCurreText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Current-value Passenger-Position-Detection Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>44</AG>
+		<NA></NA>
+		<SystemName>Status Airbagdeaktivierung</SystemName>
+		<Name>
+			<Text TI="">Статус отключения подушки безопасности</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StateKeyOperaSwitcOrPODS']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">State Key-Operated Switch Or PODS</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>45</AG>
+		<NA></NA>
+		<SystemName>Temperatursensor fuer Sitzbelegungserkennung</SystemName>
+		<Name>
+			<Text TI="">Датчик температуры для распознавания занятости сиденья</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PODSBTempeSenso']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">PODS-B Temperature Sensor</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>46</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannung</SystemName>
+		<Name>
+			<Text TI="">Электропитание</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>47</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannung Klemme 15_Measured Value Resistance And Voltage Text</SystemName>
+		<Name>
+			<Text TI="">Напряжение питания клеммы 15 / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaClamp15']/Resparam[@ShortName='Param_MeasuValueVolta' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueVoltaText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage Clamp 15</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>48</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannung Klemme 15_Measured Value Voltage Scale</SystemName>
+		<Name>
+			<Text TI="">Напряжение электропитания кл. 15</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaClamp15']/Resparam[@ShortName='Param_MeasuValueVolta' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueVoltaScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueVoltaScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage Clamp 15</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>49</AG>
+		<NA></NA>
+		<SystemName>Zuender 2 fuer Airbag Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон 2 ПБ переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitAirbaPasseSideStep2']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Airbag Passenger Side, Step 2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<NA></NA>
+		<SystemName>Zuender 2 fuer Airbag Beifahrerseite Ohm-Wert_Measured Value Resistance And</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон 2 ПБ ПП, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaPasseSideStep2']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Passenger Side, Step 2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>51</AG>
+		<NA></NA>
+		<SystemName>Zuender 2 fuer Airbag Beifahrerseite Ohm-Wert_Measured Value Resistance Sca</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон 2 ПБ ПП, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaPasseSideStep2']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Passenger Side, Step 2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>52</AG>
+		<NA></NA>
+		<SystemName>Zuender 2 fuer Airbag Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон 2 подушки безопасности на стороне водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitAirbaDriveSideStep2']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Airbag Driver Side, Step 2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>53</AG>
+		<NA></NA>
+		<SystemName>Zuender 2 fuer Airbag Fahrerseite Ohm-Wert_Measured Value Resistance And Vo</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон 2 ПБ ВОД, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaDriveSideStep2']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Driver Side, Step 2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>54</AG>
+		<NA></NA>
+		<SystemName>Zuender 2 fuer Airbag Fahrerseite Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон 2 ПБ ВОД, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaDriveSideStep2']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Driver Side, Step 2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>55</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон подушки безопасности переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>56</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Beifahrerseite Ohm-Wert_Measured Value Resistance And V</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ПБ ПП, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>57</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Beifahrerseite Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ПБ ПП, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>58</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон подушки безопасности водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>59</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Fahrerseite Ohm-Wert_Measured Value Resistance And Volt</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ПБ ВОД, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>60</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Fahrerseite Ohm-Wert_Measured Value Resistance Scale</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ПБ ВОД, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>61</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtkraftbegrenzer Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ограничителя натяжения РБ переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitBeltForceLimitPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Belt-Force Limiter Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>62</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtkraftbegrenzer Beifahrerseite Ohm-Wert_Measured Value Resi_1</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ограничителя натяжения РБ ПП, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltForceLimitPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt-Force Limiter Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>63</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtkraftbegrenzer Beifahrerseite Ohm-Wert_Measured Value Resi_2</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ограничителя натяж.РБ ПП, сопротивл.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltForceLimitPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt-Force Limiter Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>64</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtkraftbegrenzer Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ограничителя натяжения РБ водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitBeltForceLimitDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Belt-Force Limiter Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtkraftbegrenzer Fahrerseite Ohm-Wert_Measured Value Resista_1</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ограничителя натяжения РБ ВОД, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltForceLimitDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt-Force Limiter Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtkraftbegrenzer Fahrerseite Ohm-Wert_Measured Value Resista_2</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ограничителя натяж.РБ ВОД, сопротивл.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltForceLimitDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt-Force Limiter Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>67</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя РБ переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitBeltPretePasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Belt Pretensioner Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer Beifahrerseite Ohm-Wert_Measured Value Resistance_1</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя РБ ПП, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltPretePasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Pretensioner Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>69</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer Beifahrerseite Ohm-Wert_Measured Value Resistance_2</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя РБ ПП, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltPretePasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Pretensioner Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>70</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя РБ водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitBeltPreteDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Belt Pretensioner Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>71</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer Fahrerseite Ohm-Wert_Measured Value Resistance An</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя РБ ВОД, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltPreteDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Pretensioner Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>72</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer Fahrerseite Ohm-Wert_Measured Value Resistance Sc</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя РБ ВОД, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltPreteDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Pretensioner Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>73</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer hinten Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяж. ремня заднего сиденья со стороны ПП</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitBeltPreteRearPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Belt Pretensioner Rear Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>74</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer hinten Beifahrerseite Ohm-Wert_Measured Value Res_1</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя Зд РБ со ст. ПП, сопротивл. (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltPreteRearPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Pretensioner Rear Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>75</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer hinten Beifahrerseite Ohm-Wert_Measured Value Res_2</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя Зд РБ со ст.ПП, сопр.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltPreteRearPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Pretensioner Rear Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>76</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer hinten Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяж. ремня заднего сиденья со стороны ВОД</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitBeltPreteRearDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Belt Pretensioner Rear Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>77</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer hinten Fahrerseite Ohm-Wert_Measured Value Resist_1</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя Зд РБ со ст. ВОД, сопротивл. (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltPreteRearDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Pretensioner Rear Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>78</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Gurtstraffer hinten Fahrerseite Ohm-Wert_Measured Value Resist_2</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон преднатяжителя Зд РБ со ст.ВОД, сопр.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueBeltPreteRearDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Belt Pretensioner Rear Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>79</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Knieairbag Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон подушки безопасности для ног водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitKneeBagDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Knee Bag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Knieairbag Fahrerseite Ohm-Wert_Measured Value Resistance And </SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ПБ для ног ВОД, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueKneeBagDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Knee Bag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Knieairbag Fahrerseite Ohm-Wert_Measured Value Resistance Scal</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон ПБ для ног ВОД, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueKneeBagDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Knee Bag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>82</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Kopfairbag Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон верхней подушки безопасности переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitHeadAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Head Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>83</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Kopfairbag Beifahrerseite Ohm-Wert_Measured Value Resistance A</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон верхней ПБ ПП, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueHeadAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Head Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>84</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Kopfairbag Beifahrerseite Ohm-Wert_Measured Value Resistance S</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон верхней ПБ ПП, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueHeadAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Head Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>85</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Kopfairbag Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон верхней подушки безопасности водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitHeadAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Head Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>86</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Kopfairbag Fahrerseite Ohm-Wert_Measured Value Resistance And </SystemName>
+		<Name>
+			<Text TI="">Пиропатрон верхней ПБ ВОД, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueHeadAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Head Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>87</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Kopfairbag Fahrerseite Ohm-Wert_Measured Value Resistance Scal</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон верхней ПБ ВОД, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueHeadAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Head Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>88</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон боковой подушки безопасности переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitSideAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Side Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>89</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag Beifahrerseite Ohm-Wert_Measured Value Resistance_1</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон боковой ПБ ПП, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueSideAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Side Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>90</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag Beifahrerseite Ohm-Wert_Measured Value Resistance_2</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон боковой ПБ ПП, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueSideAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Side Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>91</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон боковой подушки безопасности водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitSideAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Side Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>92</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag Fahrerseite Ohm-Wert_Measured Value Resistance An</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон боковой ПБ ВОД, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueSideAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Side Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>93</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag Fahrerseite Ohm-Wert_Measured Value Resistance Sc</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон боковой ПБ ВОД, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueSideAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Side Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>94</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag hinten Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон задней боковой подушки безопасности со стороны ПП</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitSideAirbaRearPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Side Airbag Rear Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>95</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag hinten Beifahrerseite Ohm-Wert_Measured Value Res_1</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон Зд боковой ПБ со стороны ПП, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueSideAirbaRearPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Side Airbag Rear Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>96</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag hinten Beifahrerseite Ohm-Wert_Measured Value Res_2</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон Зд боковой ПБ со стор.ПП, сопротивл.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueSideAirbaRearPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Side Airbag Rear Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>97</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag hinten Fahrerseite</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон задней боковой подушки безопасности со стор. ВОД</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitSideAirbaRearDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Side Airbag Rear Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>98</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag hinten Fahrerseite Ohm-Wert_Measured Value Resist_1</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон Зд боковой ПБ со стороны ВОД, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueSideAirbaRearDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Side Airbag Rear Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>99</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Seitenairbag hinten Fahrerseite Ohm-Wert_Measured Value Resist_2</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон Зд боковой ПБ со стор.ВОД, сопротивл.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueSideAirbaRearDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Side Airbag Rear Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>100</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Unterbrechung Batterie</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон отключения АКБ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitInterBatte']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Interruption Battery</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>101</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Unterbrechung Batterie Ohm-Wert_Measured Value Resistance And </SystemName>
+		<Name>
+			<Text TI="">Пиропатрон отключения АКБ, сопротивление (Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueIgnitBatteCutof']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Igniter Battery-Cutoff</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>102</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Unterbrechung Batterie Ohm-Wert_Measured Value Resistance Scal</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон отключения АКБ, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueIgnitBatteCutof']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Igniter Battery-Cutoff</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>103</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Unterbrechung Hochvolt-Batterie</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон отключения высоковольтной АКБ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitInterHighvBatte']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Interruption Highvoltage Battery</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>104</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Unterbrechung Hochvolt-Batterie Ohm-Wert_Measured Value Resist_1</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон отключения высоковольтной АКБ, сопротивление (Ом)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueIgnitHighvBatteCutof']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm Value Igniter Highvoltage Battery-Cutoff</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>105</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Unterbrechung Hochvolt-Batterie Ohm-Wert_Measured Value Resist_2</SystemName>
+		<Name>
+			<Text TI="">Пиропатрон отключения высоковольт.АКБ, сопротив.(Ом) / текст</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueIgnitHighvBatteCutof']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm Value Igniter Highvoltage Battery-Cutoff</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

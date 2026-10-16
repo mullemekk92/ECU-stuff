@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe></SgGruppe>
+		<LogicalLink>LL_AirbaUDS</LogicalLink>
+		<SgVariante>EV_AirbaVW10BPAVW250_001</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Anzahl Frontcrash</SystemName>
+		<Name>
+			<Text TI="IDE01555">Число фронтальных ударов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_NumbeOfFrontDeplo']/Resparam[@ShortName='Param_MeasuValueIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Number Of Front Deployments</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<NA></NA>
+		<SystemName>Status Airbagdeaktivierung</SystemName>
+		<Name>
+			<Text TI="MAS00031">Статус отключения подушки безопасности</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StateKeyOperaSwitcOrPODS']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">State Key-Operated Switch Or PODS</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannung</SystemName>
+		<Name>
+			<Text TI="MAS01634">Электропитание</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SupplVolta']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Supply Voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannung Klemme 15_Param_MeasuValueVolta_Measured Value Resistan</SystemName>
+		<Name>
+			<Text TI="MAS00044">Питающее напряжение, клемма 15</Text>
+			<Text TI="">Param_MeasuValueVolta</Text>
+			<Text TI="">Measured Value Resistance And Voltage Text</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaClamp15']/Resparam[@ShortName='Param_MeasuValueVolta' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueVoltaText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage Clamp 15</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<NA></NA>
+		<SystemName>Versorgungsspannung Klemme 15_Param_MeasuValueVolta_Measured Value Voltage </SystemName>
+		<Name>
+			<Text TI="MAS00044">Напряжение питания, клемма 15</Text>
+			<Text TI="">Param_MeasuValueVolta</Text>
+			<Text TI="">Meas</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaClamp15']/Resparam[@ShortName='Param_MeasuValueVolta' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueVoltaScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueVoltaScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage Clamp 15</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Beifahrerseite</SystemName>
+		<Name>
+			<Text TI="MAS00003">Пиропатрон подушки безопасности переднего пассажира</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Beifahrerseite Ohm-Wert_Param_MeasuValueResis_Measured _1</SystemName>
+		<Name>
+			<Text TI="IDE01100">Пиропатрон подушки безоп., ст.п.пасс., значение сопрот.</Text>
+			<Text TI="">Pa</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Beifahrerseite Ohm-Wert_Param_MeasuValueResis_Measured _2</SystemName>
+		<Name>
+			<Text TI="IDE01100">Пиропатрон подушки безоп., ст.пер.пасс., знач. в Омах</Text>
+			<Text TI="">Para</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaPasseSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Passenger Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Fahrerseite</SystemName>
+		<Name>
+			<Text TI="MAS00001">Пиропатрон подушки безопасности водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IgnitAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Igniter Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Fahrerseite Ohm-Wert_Param_MeasuValueResis_Measured Val_1</SystemName>
+		<Name>
+			<Text TI="IDE00919">Пиропатрон подушки безоп., сторона водит., значение сопрот. </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisScale' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisScale' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<NA></NA>
+		<SystemName>Zuender fuer Airbag Fahrerseite Ohm-Wert_Param_MeasuValueResis_Measured Val_2</SystemName>
+		<Name>
+			<Text TI="IDE00919">Пиропатрон подушки безоп., ст.водит., знач. в Омах</Text>
+			<Text TI="">Param_M</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OhmValueAirbaDriveSide']/Resparam[@ShortName='Param_MeasuValueResis' and @Type='Mux']/Resparam[@ShortName='Case_MeasuValueResisText' and @Type='Structure']/Resparam[@ShortName='Param_MeasuValueResisAndVoltaText' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Ohm-Value Airbag Driver Side</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

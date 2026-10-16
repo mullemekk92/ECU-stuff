@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Eld_26</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Eld6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Клемма 30</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Питание датчика Холла</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Включенные 5 вольт</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>95</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояния датчика Холла</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 - 1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\A\I Указание:\L\S\K\N
+ HS1: x  x  x  x  x  x  x  x  x  x  x  x :HS12
+ 				1  2  3 4   5  6  7  8  9 10 11 12
+ или
+ HS1: x  x  x  x  x  x  x  x  x  x  x  x x :HS13
+ 				1  2  3 4   5  6  7  8  9 10 11 12 13
+ 1 	- G556 - датчик спереди положения левого бруса крыши
+ 2 	- G557 - датчик спереди положения правого бруса крыши
+ 3 	- G560 - датчик слева фиксирования рамы заднего стекла
+ 4 	- G561 - датчик справа фиксирования рамы заднего стекла
+ 5 	- G562 - датчик открывания рамы заднего стекла
+ 6 	- G563 - датчик слева фиксирования задней полки
+ 7 	- G564 - датчик справа фиксирования задней полки
+ 8		- G565 - датчик открытия складной крыши
+ 9		- G566 - датчик открывания крышки левого бруса крыши
+ 10	- G558 - датчик фиксирования левого бруса крыши
+ 11	- G559 - датчик фиксирования правого бруса крыши
+ 12	- G567 - датчик открывания крышки правого бруса крыши
+ 13 - G672 - датчик 2 открывания складной крыши
+
+Состояние:
+ 0 = датчик не задействован
+ 1 = датчик задействован
+ G = датчик отсоединён/КЗ на массу
+ V = датчик КЗ на плюс
+ X = датчик передаёт недостоверные значения</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>95</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояния кнопки управления</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 - 1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\A\IУказание:\L\S\K\N
+ КнопкаУправления1: x  x  x  x  x  x  x  x  x :КнопкаУправления9
+ 				1  2  3 4   5  6  7  8  9
+ 1 	- E137 - Кнопка привода складн.верха (откр.)
+ 2 	- E137 - Кнопка привода складн.верха (закр.)
+ 3 	- E325 - Кнопка управления люком (откр.)
+ 4 	- E325 - Кнопка управления люком (закр.)
+ 5 	- E189 - Центр. выкл. стеклоподъемников в двери водителя (откр.)
+ 6 	- E189 - Центр. выкл. стеклоподъемников в двери водителя (закр.)
+ 7 	- не задействовано
+ 8		- не задействовано
+ 9		- не задействовано
+
+Состояние:	0 = не нажато
+ 						1 = нажато
+ 						X = ошибка</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">F364 - Контактный датчик крышки багажника</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TСостояния:
+
+- откр.
+ - закр.
+ - ОШИБКА</Meldungstext>
+		<DO>F364_61_Kontaktschalter_fuer_Gepaeckabdeckung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Доводчик</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TСостояния:
+
+- откр.
+ - закр.
+ - не определ.
+ - ОШИБКА</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура насоса</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TСостояния:
+
+в порядке
+ - ОШИБКА
+ - высок.
+ - критич.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура клапана</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TСостояния:
+
+в порядке
+ - ОШИБКА
+ - высок.
+ - критич.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура блока управления</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TСостояния:
+
+в порядке
+ - ОШИБКА
+ - высок.
+ - критич.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

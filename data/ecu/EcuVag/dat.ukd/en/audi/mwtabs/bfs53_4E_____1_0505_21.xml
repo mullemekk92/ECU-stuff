@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>bfs_53</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>bfs6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">System configuration</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBit0:   Readiness Bit Assembly Check; set at basic setting 10
+ 0: OK (default) / 1: n.OK 
+ Bit1:  Readiness Bit  System Calibration; set at basic setting 20
+ 0: OK (default) / 1: n.OK 
+ Bit2:  Airbag seat belt buckle DAA
+ 1: on (default) 
+ 0: off
+ Bit 3:  Starting-off aid
+ 0: With / 1: Without (depending on coding)
+ Bit4:  Pad change mode
+ 1: MAN_MAINTENANCE_MODE 
+ present  (constant at 1)
+ Bit5:  RWU-ECD functionality
+ 0: ECD active (default)
+ 1: RWU active
+ Bit6:  Open with brake pedal
+ 0: Opening possible without brake pedal
+ 1: Opening only with brake pedal (default)
+ Bit7:  VM-EOL-Bit
+ 0: Vehicle successfully coded
+ 1: EOL not complete</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Description of pad change mode</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBit0:  0 = Left brake open
+ Bit1:  0 = Right brake open
+ Bit2:  0 = Left lock removed
+ Bit3:  0 = Right lock removed 
+ Bit7:  0 = Maintenance mode active 
+ Bit4-Bit6:  Not used, always 1</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Maximum ECD delay</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T(2-8 m/s²) </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>65</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Pad thickness</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TCurrent pad thickness in mm²</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>66</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal battery voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Pressure switch setting</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible readout: Unpressed, Open, Close, Error</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Current tilt angle</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TVehicle at standstill and on level surface specification approximately 0°</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Calculated brake temperature (from software release 0200)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TTo software release 0190 tilt angle correction value.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Attained shut-off current, left</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\L\R\K\A\IDescription of shut-off current:\L\S\K\N
+The attained shut-off current in (A) is the measured equivalent of the clamping force in (kN);
+ the tensioning force is not directly measurable.
+ Typical value for OK in range 15...19 (A) 
+ If the brake status is unknown ERROR is displayed for the attained shut-off current (tensioning force).</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Attained shut-off current, right</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\L\R\K\A\IDescription of shut-off current:\L\S\K\N
+The attained shut-off current in (A) is the measured equivalent of the clamping force in (kN);
+ the tensioning force is not directly measurable.
+ Typical value for OK in range 15...19 (A) 
+ If the brake status is unknown ERROR is displayed for the attained shut-off current (tensioning force).</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Brakes status left </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TWhen operated with pressure switch,  0=open; 8=closed; 11=defective
+ When opened via basic setting 7, 14 is displayed
+ When opened via basic setting 6, 2 is displayed</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Brakes status right</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TWhen operated with pressure switch,  0=open; 8=closed; 11=defective
+ When opened via basic setting 7, 14 is displayed
+ When opened via basic setting 6, 2 is displayed.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Operation counter</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe readout must be multiplied by 2, as the second time the parking brake is opened and closed the counter is increased by 1.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>99</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Control units software version</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMeasured value block 99 zone 1 always shows SW, 
+ zone 2 the software version</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>99</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Control units software version</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMeasured value block 99 zone 1 always shows SW, 
+ zone 2 the software version</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>99</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Control units hardware status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMeasured value block 99 zone 1 always shows HW, 
+ zone 2 the hardware version</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>99</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Control units hardware status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMeasured value block 99 zone 1 always shows HW, 
+ zone 2 the hardware version</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN message from brake control unit</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible readouts: 1 or 0; if ''1'' OK; \L\R\K\Nif ''0'' n.OK\L\S\K\N
+ If a 1 is displayed, a CAN message is sent from the relevant control unit. If the tester shows a 0, the CAN message is interrupted. In such cases read the fault memory of the relevant control unit.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN message from airbag control unit</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible readouts: 1 or 0; if ''1'' OK; \L\R\K\Nif ''0'' n.OK\L\S\K\N
+ If a 1 is displayed, a CAN message is sent from the relevant control unit. If the tester shows a 0, the CAN message is interrupted. In such cases read the fault memory of the relevant control unit.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN message from gearbox control unit</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible readouts: 1 or 0; if ''1'' OK; \L\R\K\Nif ''0'' n.OK\L\S\K\N
+ If a 1 is displayed, a CAN message is sent from the relevant control unit. If the tester shows a 0, the CAN message is interrupted. In such cases read the fault memory of the relevant control unit.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN message from engine control unit</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible readouts: 1 or 0; if ''1'' OK; \L\R\K\Nif ''0'' n.OK\L\S\K\N
+ If a 1 is displayed, a CAN message is sent from the relevant control unit. If the tester shows a 0, the CAN message is interrupted. In such cases read the fault memory of the relevant control unit.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN message from Gateway</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible readouts: 1 or 0; if ''1'' OK; \L\R\K\Nif ''0'' n.OK\L\S\K\N
+ If a 1 is displayed, a CAN message is sent from the relevant control unit. If the tester shows a 0, the CAN message is interrupted. In such cases read the fault memory of the relevant control unit.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN message from dash panel insert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible readouts: 1 or 0; if ''1'' OK; \L\R\K\Nif ''0'' n.OK\L\S\K\N
+ If a 1 is displayed, a CAN message is sent from the relevant control unit. If the tester shows a 0, the CAN message is interrupted. In such cases read the fault memory of the relevant control unit.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN message elec. ignition lock</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible readouts: 1 or 0; if ''1'' OK; \L\R\K\Nif ''0'' n.OK\L\S\K\N
+ If a 1 is displayed, a CAN message is sent from the relevant control unit. If the tester shows a 0, the CAN message is interrupted. In such cases read the fault memory of the relevant control unit.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

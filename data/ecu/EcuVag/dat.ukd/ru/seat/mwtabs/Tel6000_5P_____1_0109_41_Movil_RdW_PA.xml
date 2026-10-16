@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Tel_77</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Tel6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение АКБ</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Входные сигналы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>12</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\A \L\S\K\A\IИндикация:\L\S\K\A
+
+Биты X X X 4 3 2 1 0 (каждая позиция = 0 или 1)\Y\S\K\N
+
+I\L\S\K\A 0\L\S\K\N = \L\B\K\NPTT (нажать для разговора) - кнопка (не нажата / нажата)\Y\S\K\N
+I\L\S\K\A 1\L\S\K\N = \L\B\K\NМобильный телефон (не установлен / установлен в стойку)\Y\S\K\N
+I\L\S\K\A 2\L\S\K\N = \L\B\K\NМобильный телефон (выкл / вкл)\Y\S\K\N
+I\L\S\K\A 3\L\S\K\N = \L\B\K\NКоммуникация с мобильным телефоном (неактивна / активна)\Y\S\K\N
+I\L\S\K\N \L\S\K\A4 \L\S\K\N= \L\B\K\NНажата кнопка SOS\Y\S\K\N
+I\L\S\K\A 5...7\L\S\K\N = не используется
+
+Ejemplo:
+ X X X 0 0 0 1 0  = PTT не нажата, мобильный телефон установлен в стойку, мобильный телефон выключен, коммуникация с мобильным телефоном неактивна, кнопка SOS не нажата</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Мощность приёма</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-113</analogerSWunten>
+		<analogerSWoben>33</analogerSWoben>
+		<SWE>dBm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AУказание:\Y\S\K\N
+I\L\S\K\N-128дБм = нет связи с мобильным телефоном</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние Главная антенна</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AИндикация:\Y\S\K\N
+I\L\S\K\N \L\B\K\NOK\Y\S\K\N
+ I\L\B\K\N Короткое замыкание \Y\S\K\N
+ I\L\B\K\N Обрыв\L\S\K\N \Y\S\K\N
+I\L\S\K\N не \L\B\K\Nвозможно\L\S\K\N
+
+Возможно только в том случае, когда мобильный телефон не установлен в стойку!</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Соединенные устройства Bluetooth</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на входе Микрофон</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10.2</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AИндикация:\L\S\K\N
+
+Микрофон выкл.: \L\B\K\Nпримерно от 7,9 до 8,0В\L\S\K\N
+Микрофон вкл.: \L\B\K\Nок. 3,6 В</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на входе Микрофон</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AИндикация:\L\S\K\N
+
+Микрофон выключен: \L\B\K\N0,000A\L\S\K\N
+Микрофон включён: \L\B\K\Nок. 0,007A</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Подключены устройства Bluetooth</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AУказание:\L\S\K\N
+ Подключённые устройства Bluetooth, интенсивность диапазона приёма активного Bluetooth-соединения</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Идентификация блока управления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AУказание:\L\S\K\N
+ Код и обозначение предприятий производителя
+ Дата выпуска
+ Состояние изменений производителя
+ № испытательного стенда производителя
+ Текущий номер производителя</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серийный номер блока управления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>82</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Идентификация блока управления (2)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AУказание:\L\S\K\N
+ Код инструмента обновления ПО (FTC)
+ Дата обновления ПО
+ Узел - аппаратное обеспечение
+ Код типа- аппаратное обеспечение
+ Узел- программное обеспечение
+ Код типа- программное обеспечение</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>133</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние антенны Bluetooth </Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AУказание:\Y\S\K\N
+I\L\S\K\A \L\B\K\NOK \Y\S\K\N
+I\L\S\K\N \L\B\K\NКороткое замыкание \Y\S\K\N
+I\L\S\K\N \L\B\K\NОбрыв \Y\S\K\N
+I\L\S\K\N \L\B\K\NНе возможно</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

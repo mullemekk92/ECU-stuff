@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Get_02</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Get6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>99</NA>
+		<Formel> -32768 bis 32767 </Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Number of selector lever communication faults</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\TThe communication faults between the selector lever and the gearbox control unit -J217 since the last time the ignition was switched on.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Selector lever initialisation bit</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T1 = Selector lever is initialised (duration ~100msec)
+ 0 = Selector lever initialisation complete.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Selector lever status</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T0 = Selector lever status transmitted
+ 1 = Selector lever status information missing</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Selector lever reply bit</Text>
+		</Name>
+		<diskreterSW>1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T0 = Selector lever not sending data to gearbox control unit
+ 1 = Selector lever sending data regularly.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Sport button via drive train data bus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T1 = Sport button pressed
+ 0 = Sport button not pressed</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Driving mode</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TA= Automatic
+ AS= Automatic Sport
+ M= Manual
+ MS= Manual Sport
+ N= Neutral
+ R= Reverse</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of handbrake via convenience system data bus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TParking brake 1 = Handbrake applied
+ Parking brake 0 = Handbrake released\Y\F\J\N
+ Y\Y\S\J\NZ\L\S\K\INote:
+ The position of the handbrake is evaluated by the convenience system central control unit -J393  and made available to other systems on the convenience system data bus.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Plausibility-checked selector lever position</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe selector lever has two latching positions, \L\B\K\AU\L\S\K\N and \L\B\K\AX\L\S\K\N. From those positions, the following functions can be activated:
+ - From position\L\B\K\N \L\B\K\AU\L\S\K\N:\L\S\K\A
+ + = \L\S\K\NTiptronic upshift\L\S\K\A
+ -  = \L\S\K\NTiptronic downshift\L\S\K\A
+ A\L\S\K\N = Activate automatic
+ - From position\L\S\K\A \L\B\K\AX\L\S\K\A:
+ V\L\S\K\N = Intermediate position\L\S\K\A
+ R\L\S\K\N = Engage reverse.\L\R\K\A
+
+/ \L\R\K\N= Fault in position detection </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engaged gear</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T1 -6 = Engaged gear
+ N = Neutral
+ R = Reverse
+ / = Invalid position</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of brake light switch plausibility-checked</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe brake light switch signal at pin 69 of the gearbox control unit is compared with the brake light switch signal over the drive train data bus and plausibility-checked.\L\S\K\A
+
+1 = Brake pressed
+ 0 = Brake unpressed</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of shift lock</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TWhen the shift lock is active no gearshifts are possible.
+
+1 = Shift lock active
+ 0 = Shift lock inactive
+ \Y\F\J\N
+ Y\Y\S\J\NZ\L\S\K\INote:
+ The selector lever has no mechanical lock.\L\S\K\N </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>7</NA>
+		<Formel>km</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Road speed from ABS control unit </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel>U/min</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Plausibility-checked engine speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\INote:
+ The engine speed at pin 48 of the gearbox control unit is compared with the engine speed signal over the drive train data bus and plausibility-checked.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of starter enable</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TIf the gearbox meets the conditions for engine start, the starter is enabled via pin 42 (P-N signal) for 10 seconds.
+
+1 = Starter enabled</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel>xx ASCII</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Activation of hydraulic pump relay -J510</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T1 = Relay activated, hydraulic pump on
+ 0 = Hydraulic pump off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature of hydraulic pump (calculated)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>150</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\INote:
+ The temperature is based on an arithmetic model.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Hydraulic pressure via G270</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>38</analogerSWunten>
+		<analogerSWoben>52</analogerSWoben>
+		<SWE>bar</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>20</NA>
+		<Formel>xx ASCII Zeichen</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of gear selection valve 1 -N284</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TN284 - Gear selection valve 1 is a solenoid valve, and enables the shift gate to be selected.
+
+1 = Solenoid valve activated
+ 0 = Solenoid valve not activated
+ </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Current consumption of gear selection valve 3 -N286</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1.25</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\INote:
+ The valve works as a pressure regulating valve, engaging the odd gears and reverse.\L\S\K\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Current consumption of gear selection valve 2 -N285</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1.25</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\INote:
+ The valve works as a pressure regulating valve, engaging the gears gears and neutral.\L\S\K\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Current consumption of clutch adjuster valve -N255</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1.25</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Amplitude of current injection at valve 3 -N286</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\INote:
+ To avoid abrasion in the pressure regulating valve, an alternating current is overlaid over the activation current.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Amplitude of current injection at valve 2 -N285</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\INote:
+ To avoid abrasion in the pressure regulating valve, an alternating current is overlaid over the activation current.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Amplitude of current injection at clutch valve -N255</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\INote:
+ To avoid abrasion in the pressure regulating valve, an alternating current is overlaid over the activation current.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Clutch wear index </Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-2000</analogerSWunten>
+		<analogerSWoben>12000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TThe wear index of the clutch since the last time the clutch adaption was reset. Typical values are between -2000 and 12000. Over time this value increases. Higher values indicate more advanced wear.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position of clutch slip point, 0 Nm transmission</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>380</analogerSWunten>
+		<analogerSWoben>600</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TThe clutch slip point is the so-called \L\B\K\N&lt;kiss point&gt;\L\S\K\N at which the clutch is closed but no power is yet being transmitted (0 Nm).
+ Typical values are between 380 and 600.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position: clutch fully closed (learned)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1050</analogerSWunten>
+		<analogerSWoben>2000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TPoint at which the clutch is fully closed for the current driving cycle. 
+ This value is stored following adaption of the clutch.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position: clutch fully closed (current driving cycle)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1050</analogerSWunten>
+		<analogerSWoben>2000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TPoint at which the clutch is fully closed. The value originates from the current driving cycle and should vary only to a small extent from the adapted value.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">clutch position - G476 (actual)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-350</analogerSWunten>
+		<analogerSWoben>1000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TWhen the engine is off the clutch is fully closed and values between 1000 - 1700 occur. With a new clutch this value with the clutch closed is around 1000. Over the lifetime this value increases due to abrasion. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Clutch position (specified)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-350</analogerSWunten>
+		<analogerSWoben>1000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Clutch temperature (calculated)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\INote:
+ The temperature is based on an arithmetic model.
+
+At temperatures above 200°C, in gear 1 the clutch is closed quickly. Above 300°C the clutch opens, accompanied by a warning on the dash.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted longitudinal position for reverse gear </Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>645</analogerSWunten>
+		<analogerSWoben>755</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted rotational position for reverse gear </Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>320</analogerSWunten>
+		<analogerSWoben>415</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in the direction of rotation is measured via the gear recognition sensor -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Longitudinal position shift shaft (actual - shift gate)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>275</analogerSWunten>
+		<analogerSWoben>750</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\INote:
+ In the shift actuator the position of the shift shaft in the longitudinal direction is measured via the gear recognition potentiometer 1 -G239. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Rotational position shift shaft (actual - selector gate)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>320</analogerSWunten>
+		<analogerSWoben>735</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the rotational position of the shift shaft (selector gate) is measured via the gear recognition sensor 2 -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted longitudinal position for neutral</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>355</analogerSWunten>
+		<analogerSWoben>465</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted rotational position for neutral</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>320</analogerSWunten>
+		<analogerSWoben>415</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the rotational position of the shift shaft (selector gate) is measured via the gear recognition sensor 2 -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted longitudinal position for gear 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>270</analogerSWunten>
+		<analogerSWoben>380</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted rotational position for gear 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>425</analogerSWunten>
+		<analogerSWoben>525</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the rotational position of the shift shaft (selector gate) is measured via the gear recognition sensor 2 -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted longitudinal position for gear 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>640</analogerSWunten>
+		<analogerSWoben>750</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted rotational position for gear 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>425</analogerSWunten>
+		<analogerSWoben>525</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the rotational position of the shift shaft (selector gate) is measured via the gear recognition sensor 2 -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted longitudinal position for gear 3</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>275</analogerSWunten>
+		<analogerSWoben>385</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted rotational position for gear 3</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>530</analogerSWunten>
+		<analogerSWoben>630</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the rotational position of the shift shaft (selector gate) is measured via the gear recognition sensor 2 -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted longitudinal position for gear 4</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>750</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted rotational position for gear 4</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>530</analogerSWunten>
+		<analogerSWoben>630</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the rotational position of the shift shaft (selector gate) is measured via the gear recognition sensor 2 -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted longitudinal position for gear 5</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>275</analogerSWunten>
+		<analogerSWoben>385</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted rotational position for gear 5</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>735</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the rotational position of the shift shaft (selector gate) is measured via the gear recognition sensor 2 -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted longitudinal position for gear 6</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>745</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adapted rotational position for gear 6</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>735</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the rotational position of the shift shaft (selector gate) is measured via the gear recognition sensor 2 -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status term.15  (pin 28)</Text>
+		</Name>
+		<diskreterSW>49</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TStatus of terminal 15 (12V) at pin 28 of gearbox control unit -J217.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Term.30 (main supply voltage)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status term.50  (pin 76)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TStatus of terminal 50 (12V on engine start) at pin 76 of gearbox control unit -J217. The terminal 50 signal is generated by the steering column electronics control unit -J527 at the engine start ignition key position.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Supply voltage for gear recognition sensors</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4.7</analogerSWunten>
+		<analogerSWoben>5.3</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TThe voltage measured here corresponds to the supply voltage at pin 73. Gear recognition sensors 1 and 2 G604/G616 receive their supply voltage via this connection.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of gearshift </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TWhen a gearshift is initiated, the status changes for one second from \L\B\K\N0\L\S\K\N to \L\B\K\N1\L\S\K\N.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Clutch status</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>2</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TThe current status of the clutch is indicated:
+ 0 = open
+ 1 = controlled slip
+ 2 = fully closed\L\R\K\A
+ 3 = fault.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>1</AF>
+		<NA>11</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of engine management</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TOn moving off, the gearbox control unit intervenes in the engine management.
+
+1 =  Intervention active
+ 0 = No intervention in engine management.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>2</AF>
+		<NA>52</NA>
+		<Formel>(MW - 50) * NW * 0,02</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Requested engine torque</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Requested engine speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>4</AF>
+		<NA>52</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Clutch torque</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>4</AF>
+		<NA>52</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of engine emergency off</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TIf there is a fault in the gearbox control unit or in the hydraulic system requiring the engine to be switched off, in the event of a serious fault in the hydraulic system or the gearbox control unit the engine is switched off at speeds below 20 km/h (emergency off).
+
+1 = Engine emergency off active (no engine start possible)
+ 0 = No intervention</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gearbox input speed -G182</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9000</analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Discrete engine speed (pin 48)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9000</analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<AF>4</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine speed via drive train data bus</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9000</analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<AF>2</AF>
+		<NA>14</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of driver's door wake-up signal (pin 78)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\NNote:
+ When the driver's door is opened the onboard power supply control unit -J519 generates a pulse signal to start pre-supply by way of a relay. The pulse signal is generated a maximum of every 30 minutes. \L\B\K\N
+ The status changes for 5 seconds from 0 to1 when the signal is detected.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status brake light switch (pin 69)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TSignal from brake light switch at pin 69 of gearbox control unit.
+
+1 = high (12 V)
+ 0 = low  (0 V)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kickdown status (CAN message)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>1</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Percentage driving in manual</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>2</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Percentage driving in sport manual mode</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>3</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Percentage driving in automatic mode</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>4</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Percentage driving in sport automatic mode</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<AF>1</AF>
+		<NA>75</NA>
+		<Formel>MW=Lowbyte NW=Highbyte</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Launch control counter</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe launch control programme enables maximum acceleration. The number of launch control starts over the lifecycle of the control unit are counted.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<AF>3</AF>
+		<NA>75</NA>
+		<Formel>MW=Lowbyte NW=Highbyte</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Counter (x 100) switch operations</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>The number of switching operations over the lifecycle of the control unit are counted. The value must be multiplied by 100.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Reverse, adapted end stop shift gate</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>655</analogerSWunten>
+		<analogerSWoben>765</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Neutral, adapted end stop shift gate</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>345</analogerSWunten>
+		<analogerSWoben>455</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">1st gear, adapted end stop shift gate</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>260</analogerSWunten>
+		<analogerSWoben>370</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">2nd gear, adapted end stop shift gate</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>650</analogerSWunten>
+		<analogerSWoben>760</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">3rd gear, adapted end stop shift gate</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>265</analogerSWunten>
+		<analogerSWoben>375</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">4th gear, adapted end stop shift gate</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>645</analogerSWunten>
+		<analogerSWoben>755</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">5th gear, adapted end stop shift gate</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>265</analogerSWunten>
+		<analogerSWoben>375</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">6th gear, adapted end stop shift gate</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>645</analogerSWunten>
+		<analogerSWoben>755</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\INote:\L\S\K\I
+ In the shift actuator the position of the shift shaft in longitudinal direction (shift gate) is measured via the gear recognition sensor -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>1</AF>
+		<NA>28</NA>
+		<Formel>-XXX bis XXX	MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Offset odd gears to adapted value</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>2</AF>
+		<NA>28</NA>
+		<Formel>-XXX bis XXX	MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Offset even gears to adapted value</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel>-XXX bis XXX	MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Offset selector gate to adapted value</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>4</AF>
+		<NA>36</NA>
+		<Formel>0 bis XXXXXX km  (NW * 256 + MW) * 10 </Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kilometre reading of last gear actuator basic setting</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>1</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Measured value 109/1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>2</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Measured value 109/2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>3</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Measured value 109/3</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>4</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Measured value 109/4</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Communication engine control unit</Text>
+		</Name>
+		<diskreterSW>371</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Communication vehicle electrical system</Text>
+		</Name>
+		<diskreterSW>588</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Communication gateway</Text>
+		</Name>
+		<diskreterSW>634</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Communication selector lever</Text>
+		</Name>
+		<diskreterSW>757</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Communication brake</Text>
+		</Name>
+		<diskreterSW>373</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Communication dash panel insert</Text>
+		</Name>
+		<diskreterSW>377</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Communication steering column electronics</Text>
+		</Name>
+		<diskreterSW>513</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Communication steering angle sender</Text>
+		</Name>
+		<diskreterSW>381</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

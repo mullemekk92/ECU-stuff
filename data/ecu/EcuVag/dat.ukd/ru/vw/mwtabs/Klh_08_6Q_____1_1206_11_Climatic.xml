@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Klh_08</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Klh1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Клемма 15</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<DO>SIG_87_Versorgungsspannung_Kl15</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Вентилятор приточного воздуха, ФАКТ. напряжение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>12</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ступень вентилятора радиатора 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AУказание:\L\S\K\I
+ Реле вкл или выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ступень вентилятора радиатора 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AУказание:\L\S\K\I
+ Реле вкл или выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Нагрузка компрессора, заданное значение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>14</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Давление хладагента</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>37</analogerSWoben>
+		<SWE>bar</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Код для Компрессор ВЫКЛ</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 ... 16</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\N \L\S\G\AУказание:\L\S\K\I
+
+0 = компрессор ВКЛ
+ 1-16 = компрессор ВЫКЛ\Y\S\K\N
+
+J\L\S\K\I Компрессор ВЫКЛ:
+ (\L\S\K\AКод\L\S\K\I - \L\B\K\IСобытие\L\S\K\I - Условие)\L\S\K\A
+ 1\L\S\K\I - \L\B\K\IИзбыточное давление\L\S\K\I - Давление хладагента слишком высокое: p &gt; 32 бар,\L\S\K\A
+ 3\L\S\K\I - \L\B\K\IРазрежение\L\S\K\I - Недостаточное давление хладагента: p &lt; 2 бар,\L\S\K\A
+ 5\L\S\K\I - \L\B\K\IЗапуск двигателя\L\S\K\I - Недостаточное время работы двигателя (запуск двигателя не распознан; через CAN не распознан сигнал частоты вращения двигателя;\L\S\K\A
+ 6\L\S\K\I - \L\B\K\IECON\L\S\K\I - режим ECON;\L\S\K\A
+ 7\L\S\K\I - \L\B\K\IКлиматическая установка ВЫКЛ\L\S\K\I - Переключатель вентилятора в поз. 0;\L\S\K\A
+ 8\L\S\K\I - \L\B\K\IНаружная температура\L\S\K\I - Недостаточная наружная температура,
+ наружная температура &lt; -3 °C,\L\S\K\A
+ 10\L\S\K\I - \L\B\K\IПониженное напряжение\L\S\K\I - Недостаточное бортовое напряжение,\L\S\K\A
+ 11\L\S\K\I - \L\B\K\IТемпература двигателя\L\S\K\I - Чрезмерная температура двигателя, температура двигателя &gt; 118 °C,\L\S\K\A
+ 12\L\S\K\I - \L\B\K\IОграничение мощности компрессора блоком управления двигателя через CAN\L\S\K\I - Причина, например, температура двигателя, БУ вентилятора радиатора, Kick Down,\L\S\K\A
+ 14\L\S\K\I - \L\B\K\IТемпература испарителя Опасность обледенения\L\S\K\I - Недостаточная температура испарителя,\L\S\K\A
+ 16\L\S\K\I - \L\B\K\IУправление компрессора\L\S\K\I - Ошибка пути управления, например, обрыв/ КЗ на плюс,</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик температуры потока на выходе испарителя -G263</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-48</analogerSWunten>
+		<analogerSWoben>127</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<DO>G263_87_Geber_fuer_Ausstroemtemperatur_Verdampfer</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик температуры потока в зоне ног -G192</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<DO>G192_87_Geber_fuer_Ausstroemtemperatur_Fussraum</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датч.темпер.потока на выходе в центре -G191</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>90</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<DO>G191_87_Ausstroemtemperaturgeber_Mitte</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутренняя температура</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Режим дополнительного отопителя (PTC)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серводв. засл. приточн. и оборотн.возд. -V154, ФАКТ. знач.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Указание:\Y\S\K\N
+ J\L\S\K\N \L\S\K\IИмпульс соответствует 19,6 мВ (измерение относительно массы сигнала).\Y\S\K\N
+ J\L\S\K\I При 5 В (5000 мВ) напряжение питания потенциометра 5000 мВ = 255 импульсов * 19,6 мВ.
+ Напр. если факт. значение положение заслонки в блоке измеряемых величин 43 импульса, это соответствует 43 * 19,6 = 843 мВ. Таким образом, напряжение на блоке управления, измеренное в проводе сигнала от потенциометра по отношению к массе сигнала, составляет 843 мВ.\Y\S\K\N
+ J\L\S\K\I Короткое замыкание на массу постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &lt; 100 мВ или &lt; 5 импульсов, регистрируется соответствующая ошибка.\Y\S\K\N
+ J\L\S\K\I Обрыв/ короткое замыкание на плюс постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &gt; 4900 мВ или &gt; 250 импульсов, регистрируется соответствующая ошибка.</Meldungstext>
+		<DO>V154_87_Stellmotor_der_Frischluftklappe_und_Umluftklappe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серводв. засл. приточн. и оборотн.возд. -V154, ЗАДАНН.знач.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Указание:\Y\S\K\N
+ J\L\S\K\N \L\S\K\IИмпульс соответствует 19,6 мВ (измерение относительно массы сигнала).\Y\S\K\N
+ J\L\S\K\I При 5 В (5000 мВ) напряжение питания потенциометра 5000 мВ = 255 импульсов * 19,6 мВ.
+ Напр. если факт. значение положение заслонки в блоке измеряемых величин 43 импульса, это соответствует 43 * 19,6 = 843 мВ. Таким образом, напряжение на блоке управления, измеренное в проводе сигнала от потенциометра по отношению к массе сигнала, составляет 843 мВ.\Y\S\K\N
+ J\L\S\K\I Короткое замыкание на массу постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &lt; 100 мВ или &lt; 5 импульсов, регистрируется соответствующая ошибка.\Y\S\K\N
+ J\L\S\K\I Обрыв/ короткое замыкание на плюс постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &gt; 4900 мВ или &gt; 250 импульсов, регистрируется соответствующая ошибка.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серводв. засл. приточн. и оборотн.возд. -V154, упор макс.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Указание:\Y\S\K\N
+ J\L\S\K\N \L\S\K\IИмпульс соответствует 19,6 мВ (измерение относительно массы сигнала).\Y\S\K\N
+ J\L\S\K\I При 5 В (5000 мВ) напряжение питания потенциометра 5000 мВ = 255 импульсов * 19,6 мВ.
+ Напр. если факт. значение положение заслонки в блоке измеряемых величин 43 импульса, это соответствует 43 * 19,6 = 843 мВ. Таким образом, напряжение на блоке управления, измеренное в проводе сигнала от потенциометра по отношению к массе сигнала, составляет 843 мВ.\Y\S\K\N
+ J\L\S\K\I Короткое замыкание на массу постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &lt; 100 мВ или &lt; 5 импульсов, регистрируется соответствующая ошибка.\Y\S\K\N
+ J\L\S\K\I Обрыв/ короткое замыкание на плюс постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &gt; 4900 мВ или &gt; 250 импульсов, регистрируется соответствующая ошибка.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серводв. засл. приточн. и оборотн.возд. -V154, упор мин.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Указание:\Y\S\K\N
+ J\L\S\K\N \L\S\K\IИмпульс соответствует 19,6 мВ (измерение относительно массы сигнала).\Y\S\K\N
+ J\L\S\K\I При 5 В (5000 мВ) напряжение питания потенциометра 5000 мВ = 255 импульсов * 19,6 мВ.
+ Напр. если факт. значение положение заслонки в блоке измеряемых величин 43 импульса, это соответствует 43 * 19,6 = 843 мВ. Таким образом, напряжение на блоке управления, измеренное в проводе сигнала от потенциометра по отношению к массе сигнала, составляет 843 мВ.\Y\S\K\N
+ J\L\S\K\I Короткое замыкание на массу постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &lt; 100 мВ или &lt; 5 импульсов, регистрируется соответствующая ошибка.\Y\S\K\N
+ J\L\S\K\I Обрыв/ короткое замыкание на плюс постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &gt; 4900 мВ или &gt; 250 импульсов, регистрируется соответствующая ошибка.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серводвигатель температурной заслонки -V68, ФАКТ. знач.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Указание:\Y\S\K\N
+ J\L\S\K\N \L\S\K\IИмпульс соответствует 19,6 мВ (измерение относительно массы сигнала).\Y\S\K\N
+ J\L\S\K\I При 5 В (5000 мВ) напряжение питания потенциометра 5000 мВ = 255 импульсов * 19,6 мВ.
+ Напр. если факт. значение положение заслонки в блоке измеряемых величин 43 импульса, это соответствует 43 * 19,6 = 843 мВ. Таким образом, напряжение на блоке управления, измеренное в проводе сигнала от потенциометра по отношению к массе сигнала, составляет 843 мВ.\Y\S\K\N
+ J\L\S\K\I Короткое замыкание на массу постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &lt; 100 мВ или &lt; 5 импульсов, регистрируется соответствующая ошибка.\Y\S\K\N
+ J\L\S\K\I Обрыв/ короткое замыкание на плюс постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &gt; 4900 мВ или &gt; 250 импульсов, регистрируется соответствующая ошибка.</Meldungstext>
+		<DO>V68__87_Stellmotor_der_Temperaturklappe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серводвигатель температурной заслонки -V68, ЗАДАНН. знач.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Указание:\Y\S\K\N
+ J\L\S\K\N \L\S\K\IИмпульс соответствует 19,6 мВ (измерение относительно массы сигнала).\Y\S\K\N
+ J\L\S\K\I При 5 В (5000 мВ) напряжение питания потенциометра 5000 мВ = 255 импульсов * 19,6 мВ.
+ Напр. если факт. значение положение заслонки в блоке измеряемых величин 43 импульса, это соответствует 43 * 19,6 = 843 мВ. Таким образом, напряжение на блоке управления, измеренное в проводе сигнала от потенциометра по отношению к массе сигнала, составляет 843 мВ.\Y\S\K\N
+ J\L\S\K\I Короткое замыкание на массу постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &lt; 100 мВ или &lt; 5 импульсов, регистрируется соответствующая ошибка.\Y\S\K\N
+ J\L\S\K\I Обрыв/ короткое замыкание на плюс постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &gt; 4900 мВ или &gt; 250 импульсов, регистрируется соответствующая ошибка.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серводвигатель температурной заслонки -V68, упор макс.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Указание:\Y\S\K\N
+ J\L\S\K\N \L\S\K\IИмпульс соответствует 19,6 мВ (измерение относительно массы сигнала).\Y\S\K\N
+ J\L\S\K\I При 5 В (5000 мВ) напряжение питания потенциометра 5000 мВ = 255 импульсов * 19,6 мВ.
+ Напр. если факт. значение положение заслонки в блоке измеряемых величин 43 импульса, это соответствует 43 * 19,6 = 843 мВ. Таким образом, напряжение на блоке управления, измеренное в проводе сигнала от потенциометра по отношению к массе сигнала, составляет 843 мВ.\Y\S\K\N
+ J\L\S\K\I Короткое замыкание на массу постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &lt; 100 мВ или &lt; 5 импульсов, регистрируется соответствующая ошибка.\Y\S\K\N
+ J\L\S\K\I Обрыв/ короткое замыкание на плюс постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &gt; 4900 мВ или &gt; 250 импульсов, регистрируется соответствующая ошибка.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серводвигатель температурной заслонки -V68, упор мин.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Указание:\Y\S\K\N
+ J\L\S\K\N \L\S\K\IИмпульс соответствует 19,6 мВ (измерение относительно массы сигнала).\Y\S\K\N
+ J\L\S\K\I При 5 В (5000 мВ) напряжение питания потенциометра 5000 мВ = 255 импульсов * 19,6 мВ.
+ Напр. если факт. значение положение заслонки в блоке измеряемых величин 43 импульса, это соответствует 43 * 19,6 = 843 мВ. Таким образом, напряжение на блоке управления, измеренное в проводе сигнала от потенциометра по отношению к массе сигнала, составляет 843 мВ.\Y\S\K\N
+ J\L\S\K\I Короткое замыкание на массу постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &lt; 100 мВ или &lt; 5 импульсов, регистрируется соответствующая ошибка.\Y\S\K\N
+ J\L\S\K\I Обрыв/ короткое замыкание на плюс постоянно контролируется блоком управления. Если значение напряжения в цепи сигнала на блоке управления &gt; 4900 мВ или &gt; 250 импульсов, регистрируется соответствующая ошибка.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения двигателя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10200</analogerSWoben>
+		<SWE>1/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Увеличение частоты вращения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>3</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Скорость движения а/м</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Передача заднего хода</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>44</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">а/м на стоянке</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>4</analogerSWoben>
+		<SWE>h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Клемма X</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Клемма 58d (значение затемнения)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индикация наружной температуры</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>77</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура охлаждающей жидкости</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>77</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Предварительное предупреждение Перегрев (темпер. ОЖ)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ограничение производительности компрессора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Klh_08</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Klh6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Code for compressor OFF</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 ... 19, 25</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\INote:\L\S\K\N
+
+0 = Compressor ON
+ 1-19, 25 = Compressor OFF\Y\S\K\N
+
+J\L\S\K\I \L\B\K\ACompressor ON:\L\S\K\I
+ (\L\S\K\ACode\L\S\K\I - \L\B\K\IEvent\L\S\K\I - Requirement)\L\S\K\A
+ 0\L\S\K\I - \L\B\K\IOK\L\S\K\I - A/C system switched on, all requirements met;\Y\S\K\N
+
+J\L\S\K\I \L\B\K\ACompressor OFF:\L\S\K\I
+ (\L\S\K\ACode\L\S\K\I - \L\B\K\IEvent\L\S\K\I - Requirement)\L\S\K\A
+ 1\L\S\K\I - \L\B\K\IOverpressure\L\S\K\I - coolant pressure too high: p \L\S\K\N&gt;\L\S\K\I 32 bar;\L\S\K\A
+ 2\L\S\K\I - \L\B\K\IBlower\L\S\K\I - Blower faulty and actual voltage &lt; 3 V;\L\S\K\A
+ 3\L\S\K\I - \L\B\K\IVacuum pressure\L\S\K\I - Coolant pressure too low, threshold dependent on the outside temperature,
+ outside temperature p \L\S\K\N&lt;\L\S\K\I 2 bar;\L\S\K\A
+ 6\L\S\K\I - \L\B\K\IECON\L\S\K\I - ECON mode;\L\S\K\A
+ 7\L\S\K\I - \L\B\K\IA/C OFF\L\S\K\I;\L\S\K\A
+ 8\L\S\K\I - \L\B\K\IOutside temperature\L\S\K\I - Outside temperature too low, outside temperature \L\S\K\N&lt;\L\S\K\I 3.0°C;\L\S\K\A
+ 9\L\S\K\I - \L\B\K\IBlower off\L\S\K\I;\L\S\K\A
+ 10\L\S\K\I - \L\B\K\IUndervoltage\L\S\K\I - Vehicle voltage too low, V (term. 15) &lt; 10.1 V;\L\S\K\A
+ 11\L\S\K\I - \L\B\K\IEngine temperature indicator lamp off\L\S\K\I - Engine temperature &gt; 118°C;\L\S\K\A
+ 12\L\S\K\I - \L\B\K\ISwitch off engine control module\L\S\K\I - Reason, e.g., engine temperature, coolant fan control module, kick-down (info. via CAN);\L\S\K\A
+ 13\L\S\K\I - \L\B\K\IExcessive voltage\L\S\K\I - Vehicle system voltage too high, V (term. 15) &gt; 17 V;\L\S\K\A
+ 14\L\S\K\I - \L\B\K\IEvaporator temperature icing danger\L\S\K\I - Evaporator temperature too low;\L\S\K\A
+ 16\L\S\K\I - \L\B\K\ICompressor activation\L\S\K\I - Malfunction in activation path, e.g. open circuit/ short circuit to B+;\L\S\K\A
+ 17\L\S\K\I - \L\B\K\IPressure sensor\L\S\K\I - no or implausible signal from pressure sensor (PWM signal);\L\S\K\A
+ 18 - \L\B\K\ISpeed shut-off;\L\S\K\A
+ 19\L\S\K\I - \L\B\K\ICut-off via vehicle electrical system control module\L\S\K\I;\L\S\K\A
+ 25\L\S\K\N - \L\B\K\ICompressor Off due to start/stop;</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine speed</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9950</analogerSWoben>
+		<SWE>1/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Driving speed</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Standing time</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>240</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature flap, CURRENT value</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature flap, SPECIFIED value</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature flap, stop cold</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>200</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature flap, stop warm</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>50</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Central flap, CURRENT value</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Central flap, SPECIFIED value</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Central flap, impact vent</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>200</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Central flap, stop footwell</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>50</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Defroster flap, CURRENT value</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Defroster flap, SPECIFIED value</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Defroster flap, stop open</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>200</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Defroster flap, stop closed</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>50</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Air flow flap, actual value</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Air flow flap, specified value</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Air flow flap, stop max. air flow</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>200</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Air flow flap, stop recirculation</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>50</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Outside temperature, filtered</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>77</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\INote:\L\S\K\I
+
+Value via CAN.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>3</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Outside temperature, unfiltered</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>77</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\ANote:\L\S\K\I
+
+Value via CAN.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Sunlight Photo Sensor</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\INote:\L\S\K\I
+
+Measured value sunlight photo sensor, 0-1000 W/m³</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Center Outlet Temperature Sensor -G191</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Footwell Outlet Temperature Sensor -G192</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interior temperature</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\INote:\L\S\K\I
+ Internal temperature sensor is installed in Climatronic Control Module -J255-.
+ If it is faulty, the control module sets DTC 00003 faulty and Climatronic Control Module -J255- must then be replaced if necessary.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Evaporator vent temperature sensor</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fresh air blower, SPECIFIED voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>12</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fresh air blower, CURRENT voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>12</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Terminal 15</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>30.6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Blower load</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\INote:\L\B\K\I
+
+0-100 %\L\S\K\I corresponds to \L\B\K\I0-12 V\L\S\K\I blower SPECIFIED voltage</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fan stage 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fan stage 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Driver intention, auxiliary heater</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Output Relay</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Wiper, via CAN</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Coolant temperature</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-48</analogerSWunten>
+		<analogerSWoben>127</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Dimming value, via CAN</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine speed increase</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>4</AF>
+		<NA>14</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Refrigerant pressure</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>37</analogerSWoben>
+		<SWE>bar</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Terminal X</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Reverse gear</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Compressor speed</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10200</analogerSWoben>
+		<SWE>1/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>4</AF>
+		<NA>52</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Compressor load</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>21.5</analogerSWoben>
+		<SWE>Nm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interior temperature difference</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\ANote:
+
+0 = difference in the permissible range (stop release is granted)
+
+1 = Difference within the permissible range (in stop mode, there still would be no activation of a restart; if the engine is running a stop ban is transmitted)
+
+2 = Difference outside of permissible range (stop ban/restart request)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Airflow temperature difference</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\ANote:
+
+0 = difference in the permissible range (stop release is granted)
+
+1 = Difference within the permissible range (in stop mode, there still would be no activation of a restart; if the engine is running a stop ban is transmitted)
+
+2 = Difference outside of permissible range (stop ban/restart request)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Defroster flap angle</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\ANote:
+
+0 = difference in the permissible range (stop release is granted)
+
+1 = Difference within the permissible range (in stop mode, there still would be no activation of a restart; if the engine is running a stop ban is transmitted)
+
+2 = Difference outside of permissible range (stop ban/restart request)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Warm/cold stop specified value, manual defrost</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\ANote:
+
+0 = no warm stop or cold stop or no manual defrost
+
+1 = warm stop or cold stop and A/C button (LED illuminates) on or no manual defrost</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Weg_25</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Weg6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Startvorgang erlaubt</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Ja, sowohl Fahrzeugschlüssel als auch Motorsteuergerät sind berechtigt
+ \Y\S\K\NI\L\S\K\N Nein, d.h. der Fahrzeugschlüssel ist nicht/falsch angepaßt oder das Motorsteuergerät ist nicht/falsch  angepasst bzw. fehlerhaft
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motorsteuergerät antwortet</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Ja, egal ob Motorsteuergerät berechtigt oder nicht\Y\S\K\N
+I\L\S\K\N Nein, d.h. das Motorsteuergerät antwortet nicht oder befindet sich im Nachlauf\L\S\G\N*)
+
+*\L\S\K\N) Je nach Motorsteuergerät ist der Messwerteblock für 10...30 s nach Motor und Zündung aus in der Stellung nein = Motorsteuergerät antwortet nicht, d.h. das Motorsteuergerät ist freigeschaltet und es liegt kein Defekt vor. Zur Sicherheit die Eigendiagnose erneut einleiten.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Schlüsselzustand i.O.
+</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N ja, d.h.es konnte ein formal korrekter Transponderfestcode, egal, ob berechtigt oder nicht, gelesen  werden\Y\S\K\N
+I\L\S\K\N nein, d.h. es konnte kein formal korrekter Transponderfestcode gelesen werden.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Anzahl gelernter Schlüssel
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>8</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Authentifikation</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N ja, Wechselcode ist berechtigt\Y\S\K\N
+I\L\S\K\N nein, d.h. der Wechselcode ist nicht berechtigt (Die Rechenregel für den Wechselcode im Schlüssel ist nicht die gleiche wie die im Kombiinstrument).
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Schlüssel (Transpoder)
+</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Ja, der Transpoder im Schlüssel ist verriegelt, d.h. die Rechenregel im Schlüssel kann nicht mehr   überschrieben werden. Der Schlüssel kann an kein anderes Wegfahrsperrensystem mehr angepaßt  werden.\Y\S\K\N
+I\L\S\K\N Nein, der Transponder im Schlüssel ist nicht verriegelt, d.h. der Transponder ist noch nicht auf das  Kombiinstrument angelernt (Kann bei WFS IV nicht mehr auftreten).
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Festcode berechtigt
+
+</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Ja, der Transponderfestcode des Schlüssels ist berechtigt.
+ \Y\S\K\NI\L\S\K\N Nein, d.h. der Transponderfestcode des Schlüssels ist nicht berechtigt. Der Schlüssel ist nicht angelernt.
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Wegfahrsperre
+</Text>
+		</Name>
+		<diskreterSW>6</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N 4: Kundendienst neu; Anlieferungszustand Kundendienst (Ersatzteilkombiinstrument).\Y\S\K\N
+I\L\S\K\N 5: Kundendienst verriegelt; Anpassdaten im Kundendienst programmiert. \Y\S\K\N
+I\L\S\K\N 6: Wegfahrsperre angepasst; Normaler Funktionszustand.
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Login-Sperre Tester
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TWenn beim Anlernen der WFS über die Login-Funktion die Geheimnummer des Kombis 3x falsch eingegeben wurde, wird jeweils eine Sperrzeit aktiviert. Die Zeit, die vergehen muß um weitere Versuche durchzuführen zu können, wird in Minuten angezeigt. Die Zeit verringert sich bei eingeschalteter Zündung jeweils im Minutentakt. 
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Login-Sperre CAN-Bus
+
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>Die Stelle gibt die verbleibende Zeit in Minuten an, bis wieder eine Anpassfunktion des Motorsteuergerät erfolgen kann. Die Sperre wird aktiv, durch Falscheingabe der PIN-Nummer wenn die Motordaten abgerufen werden.
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Sperre Scan Schutz
+
+
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>Die Zeit bis wieder eine Transponder-Erkennung möglich ist. Die Sperre ist maximal 10 Minuten lang und wird aktiv, wenn 20mal hintereinander ein nicht-berechtigter oder defekter Schlüssel verwendet wird.
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Sperre Diebstahlschutz</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>Diese Stelle gibt die Zeit an, die erst vergehen muss, um bei einem Komponententausch (MSG oder Kombi), die neue Komponente an das bestehende System angelernt werden muss.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

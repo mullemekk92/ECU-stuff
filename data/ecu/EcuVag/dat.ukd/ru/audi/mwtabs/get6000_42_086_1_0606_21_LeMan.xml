@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Get_02</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Get6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>99</NA>
+		<Formel> -32768 bis 32767 </Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Число ошибок связи с селектором</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\TОшибка связи между селектором и блоком управления коробки передач -J217 с последнего включения зажигания.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Бит инициализации селектора</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T1 = Селектор инициализируется (длительность ~100мсек)
+ 0 = Инициализация селектора выключена</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус селектора</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T0 = передаётся состояние селектора
+ 1 = информация о состоянии селектора отсутствует</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Бит ответа селектора</Text>
+		</Name>
+		<diskreterSW>1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T0 = Селектор не передает данные на блок управления коробки передач
+ 1 = Селектор передаёт регулярно измеряемые данные.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Кнопка Sport через шину данных Привод</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T1 = Кнопка Sport нажата
+ 0 =Кнопка Sport не нажата</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Режим движения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TA= Автоматический режим
+ AS= Автоматический спортивный режим
+ M= Ручной режим движения
+ MS= Спортивный ручной режим
+ N= Холостой ход
+ R= Движение задним ходом</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус ручного тормоза через шину Komfort</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TСтояночный тормоз 1 = ручной тормоз затянут
+ Стояночный тормоз 0 = ручной тормоз отпущен\Y\F\J\N
+ Y\Y\S\J\NZ\L\S\K\IУказание:
+ Положение ручного тормоза анализируется центральным блоком управления систем комфорта и выдаетсяна шину данных Komfort для использования другими системами.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Идентифицированное положение селектора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TСелектор имеет два фиксированных положения, \L\B\K\AU\L\S\K\N и \L\B\K\AX\L\S\K\N. Из этих положений могут быть запущены следующие функции:
+ - из положения\L\B\K\N \L\B\K\AU\L\S\K\N:\L\S\K\A
+ + = \L\S\K\Ntiptronic повышена\L\S\K\A
+ -  = \L\S\K\Ntiptronic понижена\L\S\K\A
+ A\L\S\K\N = активировать автоматический режим
+ - из положения\L\S\K\A \L\B\K\AX\L\S\K\A:
+ V\L\S\K\N = промежуточное положение\L\S\K\A
+ R\L\S\K\N = включить задний ход.\L\R\K\A
+
+/ \L\R\K\N= ошибка в определении позиции \L\S\K\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Включенная передача</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T1 -6 = включённая скорость
+ N = нейтраль
+ R = задний ход
+ / = не действующее положение
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Идентифицированный статус включателя сигнала торможения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TСигнал выключателя стоп-сигнала на PIN 69 блока управления коробки передач сравнивается с сигналом выключателя стоп-сигнала полученным по шине данных привода и 'plaubilisiert.'\L\S\K\A
+
+1 = Тормоз нажат
+ 0 = Тормоз не нажат</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус иммобилайзера (shift lock)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TПри активированной блокировке селектора (shift lock) включение невозможно.
+
+1 = Блокировка селектора активна
+ 0 = Блокировка селектора не активна
+ \Y\F\J\N
+ Y\Y\S\J\NZ\L\S\K\IУказание:
+ Селектор не имеет механической блокировки.\L\S\K\N </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>7</NA>
+		<Formel>km</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Скорость движения от блока управления ABS</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel>U/min</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Идентифицированная частота вращения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\IУказание:
+ Число оборотов двигателя на PIN 48 блока управления коробки передач сравнивается с числом оборотов двигателя полученным по шине данных привода и 'plaubilisiert.'\L\S\K\A
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус разблокировки стартера</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЕсли выполнены условия со стороны коробки передач необходимые для запуска двигателя, за 10 сек снимается запрет для стартера через PIN 42 (P-N сигнал).
+
+1 = Стартер освобождён</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel>xx ASCII</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Управление реле гидронасоса -J510</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T1 = реле управляется, гидравлический насос вкл
+ 0 = гидравлический насос выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура гидронасоса (расчётная)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>150</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\IУказание:
+ Температура базируется на расчётной модели.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Давление в гидравлической системе через G270</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>38</analogerSWunten>
+		<analogerSWoben>52</analogerSWoben>
+		<SWE>bar</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>20</NA>
+		<Formel>xx ASCII Zeichen</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус клапана 1 выбора передачи -N284</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TN284 - клапан 1 для выбора передачи это магнитный клапан и возможный выбор дорожки переключения.
+
+1 = Магнитный клапан управляется
+ 0 = Магнитный клапан не управляется
+ </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потребление тока, клапан 3 выбора передачи -N286</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1.25</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I Указание:
+ Клапан работает как редукционный клапан и отвечает за включение нечётных передач и передачи заднего хода.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потребление тока, клапан 2 выбора передачи -N285</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1.25</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I Указание:
+ Клапан работает как редукционный клапан и отвечает за включение чётных передач и нейтрали.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потребление тока, клапан сервопривода сцепления -N255</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1.25</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Амплитуда наложения тока на клапане 3 -N286</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\IУказание:
+ Для предупреждения выработки в редукционном клапане на управляющий ток накладывается переменный ток.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Амплитуда наложения тока на клапане 2 -N285</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\IУказание:
+ Для предупреждения выработки в редукционном клапане на управляющий ток накладывается переменный ток.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Амплитуда наложения тока на клапане муфты -N255</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\IУказание:
+ Для предупреждения выработки в редукционном клапане на управляющий ток накладывается переменный ток.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индекс износа сцепления</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-2000</analogerSWunten>
+		<analogerSWoben>12000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TСтепень износа сцепления с момента последнего возврата в исходное состояние при адаптации сцепления. Типичные значения располагаются в диапазоне от 2000 до 12000. С увеличением времени работы это значение растёт. Повышенные значения говорят о повышенном износе.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение начал.точ.проскальзыв. сцепления, 0 Нм, передача</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>380</analogerSWunten>
+		<analogerSWoben>600</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TТочка начала проскальзывания сцепления это так называемая \L\B\K\N&lt;kiss point&gt;\L\S\K\N, в которой сцепление замкнуто, но усилие ещё не передаётся (0 Нм).
+ Типичные значения находятся в диапазоне от 380 до 600.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение полностью включённого сцепления (адаптировано)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1050</analogerSWunten>
+		<analogerSWoben>2000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TТочка, в которой сцепление полностью замкнуто для текущего цикла движения. 
+ Эта величина вводится в память после адаптации сцепления.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение полностью вкл. сцепления (акт. цикл движения)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1050</analogerSWunten>
+		<analogerSWoben>2000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TТочка, в которой сцепление полностью замкнуто. Значение берётся из актуального цикла движения и может только незначительно отклоняться от адаптированной величины.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение сцепления -G476 (факт. значение)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-350</analogerSWunten>
+		<analogerSWoben>1000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TПри остановленном двигателе сцепление полностью замкнуто, и устанавливаются значения в диапазоне 1000 - 1700. Для нового сцепления это значение при замкнутом сцеплении составляет ок. 1000. По мере наработки это значение повышается вследствие износа. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение сцепления (заданное значение)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-350</analogerSWunten>
+		<analogerSWoben>1000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура сцепления (расчётная)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\IУказание:
+ Температура базируется на расчётной модели.
+
+При температуре свыше 200°C сцепление быстро закрывается в передачу 1. С 300°C сцепление открывается с передачей предупреждения в комбинацию приборов.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное продольное положение передачи назад</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>645</analogerSWunten>
+		<analogerSWoben>755</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное угловое положение передачи назад</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>320</analogerSWunten>
+		<analogerSWoben>415</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\IУказание:\L\S\K\I
+ В переключающем исполнительном органе положение переключающего вала в направлении вращения определяется датчиком распознавания передачи -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Продольное полож. вала перекл. (фак. значение дорожки вкл.)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>275</analogerSWunten>
+		<analogerSWoben>750</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\IУказание:
+ В переключающем исполнительном органе положение переключающего вала в продольном направлении определяется потенциометром 1 распознавания передачи -G239. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Угловое пол. вала перек. (фак. знач. дорожки выбора)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>320</analogerSWunten>
+		<analogerSWoben>735</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе угловое положение вала управления переключением передач (дорожка выбора) измеряется датчиком 2 распознавания передач -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное продольное положение нейтрали</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>355</analogerSWunten>
+		<analogerSWoben>465</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное угловое положение нейтрали</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>320</analogerSWunten>
+		<analogerSWoben>415</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе угловое положение вала управления переключением передач (дорожка выбора) измеряется датчиком 2 распознавания передач -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное продольное положение передачи 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>270</analogerSWunten>
+		<analogerSWoben>380</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное угловое положение передачи 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>425</analogerSWunten>
+		<analogerSWoben>525</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе угловое положение вала управления переключением передач (дорожка выбора) измеряется датчиком 2 распознавания передач -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное продольное положение передачи 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>640</analogerSWunten>
+		<analogerSWoben>750</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное угловое положение передачи 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>425</analogerSWunten>
+		<analogerSWoben>525</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе угловое положение вала управления переключением передач (дорожка выбора) измеряется датчиком 2 распознавания передач -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное продольное положение передачи 3</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>275</analogerSWunten>
+		<analogerSWoben>385</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное угловое положение передачи 3</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>530</analogerSWunten>
+		<analogerSWoben>630</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе угловое положение вала управления переключением передач (дорожка выбора) измеряется датчиком 2 распознавания передач -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное продольное положение передачи 4</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>750</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное угловое положение передачи 4</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>530</analogerSWunten>
+		<analogerSWoben>630</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе угловое положение вала управления переключением передач (дорожка выбора) измеряется датчиком 2 распознавания передач -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное продольное положение передачи 5</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>275</analogerSWunten>
+		<analogerSWoben>385</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное угловое положение передачи 5</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>735</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе угловое положение вала управления переключением передач (дорожка выбора) измеряется датчиком 2 распознавания передач -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное продольное положение передачи 6</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>745</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адаптированное угловое положение передачи 6</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>735</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе угловое положение вала управления переключением передач (дорожка выбора) измеряется датчиком 2 распознавания передач -G616. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус кл. 15 (контакт 28)</Text>
+		</Name>
+		<diskreterSW>49</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TСостояние кл. 15 (12 В) на PIN 28 блока управления коробки передач -J217.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Кл. 30 (основное напряжение питания)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус клеммы 50 (контакт 76)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TСостояние кл. 15 (12 В при пуске двигателя) на PIN 76 блока управления коробки передач -J217. Сигнал кл. 50 вырабатывает блок управления электроники рулевой колонки -J527 при положении замка зажигания `Пуск двигателя`.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение питания датчиков определения передачи</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4.7</analogerSWunten>
+		<analogerSWoben>5.3</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TИзмеренное здесь напряжение соответствует питающему напряжению на PIN 73. Датчики 1 и 2 распознавания передачи G604/616 получают по этому соединению свои питающие напряжения.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус переключения передач</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TПосле начала процесса переключения изменяется состояние на одну секунду с \L\B\K\N0\L\S\K\N на \L\B\K\N1\L\S\K\N.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус сцепления</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>2</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TСостояние характеризует текущий режим сцепления:
+ 0 = открыто
+ 1 = контролируемое проскальзывание
+ 2 = полностью закрыто\L\R\K\A
+ 3 = ошибка.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>1</AF>
+		<NA>11</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус управления двигателем</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TПри разгоне блок управления коробки передач вмешивается в управление двигателем.
+
+1 = Воздействие на двигатель активно
+ 0 = отсутствует вмешательство в управление двигателем.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>2</AF>
+		<NA>52</NA>
+		<Formel>(MW - 50) * NW * 0,02</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Затребованный момент двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Затребованная частота вращения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>4</AF>
+		<NA>52</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Крутящий момент сцепления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>4</AF>
+		<NA>52</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус аварийного выключения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЕсли в блоке управления коробки передач или в гидравлической системе есть неисправность, требующая выключения двигателя, то при серьёзной неисправности в гидравлической системе или блоке управления коробки передач двигатель выключается на скорости ниже 20 км/ч.
+
+1 = активно аварийное отключение двигателя (пуск двигателя невозможен)
+ 0 = нет зацепления</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения входного вала коробки передач -G182</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9000</analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Дискретное значение частоты вращения двигателя (контакт 48)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9000</analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<AF>4</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения двигателя через шину данных Привод</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9000</analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<AF>2</AF>
+		<NA>14</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус сигнала пробуждения, дверь водителя (контакт 78)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\NУказание:
+ После открывания двери водителя блок управления бортсети -J519 через реле вырабатывает импульсный сигнал для пуска предварительной топливоподачи. Импульсный сигнал вырабатывается максимально каждые 30 минут. \L\B\K\N
+ Состояние изменяется за 5 секунд с 0 на 1 при обнаруженном сигнале.\L\S\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус включателя сигнала торможения (контакт 69)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TСигнал выключателя стоп-сигнала на PIN 69 блока управления коробки пердач.
+
+1 = high (12 В)
+ 0 = low  (0 В)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус Kickdown (сообщение шины CAN)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>1</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Доля ездового режима в ручном режиме</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>2</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Доля ездового режима в спортивном ручном режиме</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>3</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Доля ездового режима в автоматическом режиме</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>4</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Доля ездового режима в спортивном автоматическом режиме</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<AF>1</AF>
+		<NA>75</NA>
+		<Formel>MW=Lowbyte NW=Highbyte</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Счётчик Launch-Control</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TПрограмма Launch-Control обеспечивает максимальное ускорение. Производится подсчёт в течение всего срока службы блока управления количества удачных запусков Launch-Control.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<AF>3</AF>
+		<NA>75</NA>
+		<Formel>MW=Lowbyte NW=Highbyte</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Счётчик (x 100) проведённых переключений</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>Производится подсчёт в течение всего срока службы блока управления количества удачных переключений. Величину следует умножать на 100.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Задний ход, адаптированный концевой упор дорожки включения</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>655</analogerSWunten>
+		<analogerSWoben>765</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Нейтраль, адаптированный концевой упор дорожки включения</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>345</analogerSWunten>
+		<analogerSWoben>455</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Передача 1, адаптированный концевой упор дорожки включения</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>260</analogerSWunten>
+		<analogerSWoben>370</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Передача 2, адаптированный концевой упор дорожки включения</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>650</analogerSWunten>
+		<analogerSWoben>760</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Передача 3, адаптированный концевой упор дорожки включения</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>265</analogerSWunten>
+		<analogerSWoben>375</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Передача 4, адаптированный концевой упор дорожки включения</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>645</analogerSWunten>
+		<analogerSWoben>755</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Передача 5, адаптированный концевой упор дорожки включения</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>265</analogerSWunten>
+		<analogerSWoben>375</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Передача 6, адаптированный концевой упор дорожки включения</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>645</analogerSWunten>
+		<analogerSWoben>755</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\I Указание:\L\S\K\I
+ В сервопереключателе положение вала управления переключением передач в продольном направлении (дорожка включения) измеряется датчиком распознавания передач -G604. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>1</AF>
+		<NA>28</NA>
+		<Formel>-XXX bis XXX	MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Смещение нечётных передач к адаптированной величине</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>2</AF>
+		<NA>28</NA>
+		<Formel>-XXX bis XXX	MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Смещение чётных передач к адаптированной величине</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel>-XXX bis XXX	MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Смещение дорожки выбора к адаптированной величине</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>4</AF>
+		<NA>36</NA>
+		<Formel>0 bis XXXXXX km  (NW * 256 + MW) * 10 </Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Пробег в км с момента последней баз. рег. сервопер. передач</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>1</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Измеренная величина 109/1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>2</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Измеренная величина 109/2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>3</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Измеренная величина 109/3</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>4</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Измеренная величина 109/4</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Связь блока управления двигателя</Text>
+		</Name>
+		<diskreterSW>371</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Связь бортовой сети</Text>
+		</Name>
+		<diskreterSW>588</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Связь Gateway</Text>
+		</Name>
+		<diskreterSW>634</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Связь селектора</Text>
+		</Name>
+		<diskreterSW>757</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Связь тормоза</Text>
+		</Name>
+		<diskreterSW>373</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Связь комбинации приборов</Text>
+		</Name>
+		<diskreterSW>377</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Связь электроники рулевой колонки</Text>
+		</Name>
+		<diskreterSW>513</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Связь датчика угла поворота рулевого колеса</Text>
+		</Name>
+		<diskreterSW>381</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

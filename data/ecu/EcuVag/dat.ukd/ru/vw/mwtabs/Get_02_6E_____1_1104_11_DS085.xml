@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Get_02</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Get1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Проведение пробной поездки
+
+Разница в частотах вращения двигателя и коробки передач может составлять +/- 30 об/мин.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения коробки передач</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Проведение пробной поездки
+
+Разница в частотах вращения двигателя и коробки передач может составлять +/- 30 об/мин.</Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение педали газа</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T- Нажать на педаль газа для проверки.\Y\S\K\N
+
+J\L\S\K\N &lt; 4 процента Нет газа\Y\S\K\N
+ J\L\S\K\N &gt; 96 процента Полный газ</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Информация о передаче</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображаются следующие передачи:\Y\S\K\N
+
+J\L\S\K\N с 1-й по 5-ю передачу\Y\S\K\N
+ J\L\S\K\N R (ЗХ)\Y\S\K\N
+ J\L\S\K\N LG 1-2 (дорожка холостого хода слева)\Y\S\K\N
+ J\L\S\K\N LG 3-4 (дорожка холостого хода справа)\Y\S\K\N
+ J\L\S\K\N SYNC (во время фазы синхронизации)\Y\S\K\N
+ J\L\S\K\N ошибка (неправильное положение)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сигнал нагрузки (сигнал шины данных от двигателя)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.0</analogerSWunten>
+		<analogerSWoben>5.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик хода сцепления -G162</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>4.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\NJ\L\S\K\N замкнутая муфта
+ (норма: от 1,8 до 2,0 вольт)
+ \Y\S\K\N
+ J\L\S\K\N разомкнутая муфта
+ (норма: от 3,9 до 4,0 вольт)
+
+Если значение напряжения для замкнутой муфты не в допуске, наобходимо отрегулировать датчик хода муфты -G162.</Meldungstext>
+		<DO>G162_30_Geber_fuer_Kupplungsweg</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение АКБ</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TНапряжение аккумуляторной батареи должно составлять не менее 11,8 В.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура охлаждающей жидкости двигатель</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Проведение пробной поездки
+
+Разница в частотах вращения двигателя и коробки передач может составлять +/- 30 об/мин.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения коробки передач</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Проведение пробной поездки
+
+Разница в частотах вращения двигателя и коробки передач может составлять +/- 30 об/мин.</Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение сцепления ФАКТ.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TПри всех переключениях разница между ФАКТИЧЕСКИМ и ТРЕБУЕМЫМ положениями сцепления должна составлять не более +/- 5 процентов.
+
+- Для этого нужно запустить двигатель и 
+ ехать со скоростью не более 6 км/ч.
+ - При движении необходимо переключать   
+ передачи.
+
+Для обслуживания тестера необходим второй оператор.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение сцепления ЗАДАННОЕ</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TПри всех переключениях разница между ФАКТИЧЕСКИМ и ТРЕБУЕМЫМ положениями сцепления должна составлять не более +/- 5 процентов.
+
+- Для этого нужно запустить двигатель и 
+ ехать со скоростью не более 6 км/ч.
+ - При движении необходимо переключать   
+ передачи.
+
+Для обслуживания тестера необходим второй оператор.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индикация состояний -1-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Считать 8-битовое отображение слева
+ направо.
+
+бит 0: всегда -0-
+ бит 1: зарезервирован
+ бит 2: дверь открыта -0-; закрыта -1-
+ бит 3: в наст. вр. не используется
+
+бит 4: -1- команда запуска Клемма 50
+ бит 5: -1- дорожка ручного переключения (активация режима)
+ бит 6: -0- нижний порог включения достигнут
+ бит 7: -0- нажата кнопка ECO</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индикация состояний -2-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Считать 8-битовое отображение слева
+ направо.
+
+бит 0: зарезервирован
+ бит 1: всегда -0-
+ бит 2: зарезервирован
+ бит 3: всегда -1-
+
+бит 4: не используется
+ бит 5: -1- включена передача R
+ бит 6: кл. 30, есть сигнал
+ бит 7: педаль тормоза нажата</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индикация состояний -3-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Считать 8-битовое отображение слева
+ направо.
+
+бит 0: не используется
+ бит 1: не используется
+ бит 2: -0- нажата кнопка ECO
+ бит 3: -0- вывод индикации отключен
+
+бит 4: включен зуммер/гонг
+ бит 5: -0- -J510 включен
+ бит 6: -0- -J53 включен
+ бит 7: не используется</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индикация состояний -4-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Считать 8-битовое отображение слева
+ направо.
+
+бит 0: -0- -N286 включен
+ бит 1: 0- -N110 включен (напряжение подано)
+ бит 2: 0- -N110 включен (напряжение подано)
+ бит 3: -0- двигатель выключается
+
+бит 4: -0- -N286 включен
+ бит 5: -0- -N287 включен
+ бит 6: -0- муфта разомкнута
+ бит 7: -0- -N287 включен</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Проведение пробной поездки
+
+Разница в частотах вращения двигателя и коробки передач может составлять +/- 30 об/мин.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение АКБ</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TНапряжение аккумуляторной батареи должно составлять не менее 11,8 В.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Информация о передаче</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображаются следующие передачи:
+
+T-0				дорожка ручного переключения Центр
+ T-MI			дорожка ручного переключения Минус
+ T-PL			дорожка ручного переключения Плюс
+ A-E			положение E
+ A-N			положение N
+ A-R			положение R
+ A-STOP	положение Stop
+ ???			неопределенное положение</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">клапан сервопривода сцепления -N255</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\NJ\L\S\K\N замкнутая муфта
+ (норма: ок.0,73 А)
+ \Y\S\K\N
+ J\L\S\K\N разомкнутая муфта
+ (норма: от 0,80 до 0,90 А)
+
+Постоянный ток &gt; 1,2 А через 2 секунды приводит к записи ошибки.</Meldungstext>
+		<DO>N255_34_Ventil_fuer_Kupplungssteller</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Проведение пробной поездки
+
+Разница в частотах вращения двигателя и коробки передач может составлять +/- 30 об/мин.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения коробки передач</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Проведение пробной поездки
+
+Разница в частотах вращения двигателя и коробки передач может составлять +/- 30 об/мин.</Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения КП вычислена</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЭто частота вращения коробки передач, рассчитанная по скорости автомобиля и включенной передаче.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Скорость автомобиля</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>3</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается сигнал электронного тахометра комбинации приборов.
+ По опыту тахометр автомобиля при 100 км/ч дает показания примерно на 5 км/ч выше, чем сигнал цифрового электронного тахометра в блоке измеряемых величин.
+ Минимальное отображаемое значение составляет 3 км/ч.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение сцепления ФАКТ.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TПри всех переключениях разница между ФАКТИЧЕСКИМ и ТРЕБУЕМЫМ положениями сцепления должна составлять не более +/- 5 процентов.
+
+- Для этого нужно запустить двигатель и 
+ ехать со скоростью не более 6 км/ч.
+ - При движении необходимо переключать   
+ передачи.
+
+Для обслуживания тестера необходим второй оператор.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Информация о передаче</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображаются следующие передачи:\Y\S\K\N
+
+J\L\S\K\N с 1-й по 5-ю передачу\Y\S\K\N
+ J\L\S\K\N R (ЗХ)\Y\S\K\N
+ J\L\S\K\N LG 1-2 (дорожка холостого хода слева)\Y\S\K\N
+ J\L\S\K\N LG 3-4 (дорожка холостого хода справа)\Y\S\K\N
+ J\L\S\K\N SYNC (во время фазы синхронизации)\Y\S\K\N
+ J\L\S\K\N ошибка (неправильное положение)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Проведение пробной поездки
+
+Разница в частотах вращения двигателя и коробки передач может составлять +/- 30 об/мин.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения коробки передач</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Проведение пробной поездки
+
+Разница в частотах вращения двигателя и коробки передач может составлять +/- 30 об/мин.</Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>48</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индикация сброса</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВыводится число перезагрузок в процессе работы блока управления (например, из-за проблем с электромагнитной совместимостью).</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Указатель наружной температуры</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Вывод текста</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗдесь всегда выводится текст -стартер-</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индикация пробега всего</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TВыводится пробег с этим блоком управления шагами в 1000 километров.
+ Таким образом, выведенное значение 100 означает 100000 км.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Игра стартером всего</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TВыводится число выполненных с этим блоком управления включений стартера шагами в 1000 включений.
+ Таким образом, выведенное значение 100 означает 100000 включений стартера.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Игра стартером после включения зажигания</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TВыводится число выполненных включений стартера с момента последнего включения зажигания.
+ Таким образом, число 10 означает 10 попыток включения стартера после включения зажигания.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение АКБ</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TНапряжение аккумуляторной батареи должно составлять не менее 11,8 В.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">клапан сервопривода сцепления -N255</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N замкнутая муфта
+ (норма: ок.0,73 А)\Y\S\K\N
+
+J\L\S\K\N разомкнутая муфта
+ (норма: от 0,80 до 0,90 А)
+
+Постоянный ток &gt; 1,2 А через 2 секунды приводит к записи ошибки.</Meldungstext>
+		<DO>N255_34_Ventil_fuer_Kupplungssteller</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение сцепления ФАКТ.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TПри всех переключениях разница между ФАКТИЧЕСКИМ и ТРЕБУЕМЫМ положениями сцепления должна составлять не более +/- 5 процентов.
+
+- Для этого нужно запустить двигатель и 
+ ехать со скоростью не более 6 км/ч.
+ - При движении необходимо переключать   
+ передачи.
+
+Для обслуживания тестера необходим второй оператор.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение сцепления ЗАДАННОЕ</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TПри всех переключениях разница между ФАКТИЧЕСКИМ и ТРЕБУЕМЫМ положениями сцепления должна составлять не более +/- 5 процентов.
+
+- Для этого нужно запустить двигатель и 
+ ехать со скоростью не более 6 км/ч.
+ - При движении необходимо переключать   
+ передачи.
+
+Для обслуживания тестера необходим второй оператор.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр селектора вперед/назад -G272</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.2</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается напряжение потенциометра ЗАДАННОЙ селектором передачи.\Y\S\K\N
+
+J\L\S\K\N ок. 3,14 вольт в передаче R\Y\S\K\N
+ J\L\S\K\N ок. 2,75 вольт в -N-\Y\S\K\N
+ J\L\S\K\N ок. 2,20 вольт в -E- (-D-)\Y\S\K\N
+ J\L\S\K\N ок. 2,50 вольт в Tipp (+) (Ступень выше)\Y\S\K\N
+ J\L\S\K\N ок. 1,70 вольт в Tipp (-) (Ступень ниже)</Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр 1 для распознавания передачи -G239</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.9</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается напряжение потенциометра ФАКТИЧЕСКОЙ передачи.\Y\S\K\N
+
+J\L\S\K\N ок. 3,8 вольт на передаче R\Y\S\K\N
+ J\L\S\K\N ок. 3,8 вольт на 1-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 1,7 вольт на 2-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 3,8 вольт на 3-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 1,7 вольт на 4-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 3,8 вольт на 5-й передаче</Meldungstext>
+		<DO>G239_34_Potentiometer_1_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр 2 для распознавания передачи -G240</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.1</analogerSWunten>
+		<analogerSWoben>3.7</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается напряжение потенциометров ФАКТИЧЕСКИХ дорожек.\Y\S\K\N
+
+J\L\S\K\N ок. 3,6 вольт на передаче R\Y\S\K\N
+ J\L\S\K\N ок. 2,8 вольт на 1-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 2,8 вольт на 2-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 2,0 вольт на 3-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 2,0 вольт на 4-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 1,2 вольт на 5-й передаче</Meldungstext>
+		<DO>G240_34_Potentiometer_2_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр селектора вперед/назад -G272</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается напряжение потенциометра ЗАДАННОЙ селектором передачи.\Y\S\K\N
+
+J\L\S\K\N ок. 100 процентов в -STOP-\Y\S\K\N
+ J\L\S\K\N ок. 77 процентов на передаче R\Y\S\K\N
+ J\L\S\K\N ок. 70 процентов в -N-\Y\S\K\N
+ J\L\S\K\N ок. 25 процентов в -E- (-D-)\Y\S\K\N
+ J\L\S\K\N ок. 22 процентов в Tipp (центр)\Y\S\K\N
+ J\L\S\K\N ок. 50 процентов в Tipp (+)\Y\S\K\N
+ J\L\S\K\N ок. 0 процентов в Tipp (-)</Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр 1 для распознавания передачи -G239</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается ФАКТИЧЕСКИ включенная передача.\Y\S\K\N
+
+J\L\S\K\N примерно от 0 до 10 процентов на передаче R\Y\S\K\N
+ J\L\S\K\N примерно от 50 до 55 процентов в -N-\Y\S\K\N
+ J\L\S\K\N примерно от 0 до 10 процентов на 1-й передаче\Y\S\K\N
+ J\L\S\K\N примерно от 90 до 100 процентов на 2-й передаче\Y\S\K\N
+ J\L\S\K\N примерно от 0 до 10 процентов на 3-й передаче\Y\S\K\N
+ J\L\S\K\N примерно от 90 до 100 процентов на 4-й передаче\Y\S\K\N
+ J\L\S\K\N примерно от 0 до 10 процентов на 5-й передаче</Meldungstext>
+		<DO>G239_34_Potentiometer_1_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр 2 для распознавания передачи -G240</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается ФАКТИЧЕСКАЯ дорожка.\Y\S\K\N
+
+J\L\S\K\N примерно от 95 до 100 процентов на передаче R\Y\S\K\N
+ J\L\S\K\N примерно от 60 до 63 процентов в -N-\Y\S\K\N
+ J\L\S\K\N примерно от 60 до 65 процентов на 1-й передаче\Y\S\K\N
+ J\L\S\K\N примерно от 60 до 65 процентов на 2-й передаче\Y\S\K\N
+ J\L\S\K\N примерно от 30 до 35 процентов на 3-й передаче\Y\S\K\N
+ J\L\S\K\N примерно от 30 до 35 процентов на 4-й передаче\Y\S\K\N
+ J\L\S\K\N примерно от 0 до 10 процентов на 5-й передаче</Meldungstext>
+		<DO>G240_34_Potentiometer_2_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение АКБ</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TНапряжение аккумуляторной батареи должно составлять не менее 11,8 В.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">клапан сервопривода сцепления -N255</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N замкнутая муфта
+ (норма: ок.0,73 А)\Y\S\K\N
+
+J\L\S\K\N разомкнутая муфта
+ (норма: от 0,80 до 0,90 А)
+
+Постоянный ток &gt; 1,2 А через 2 секунды приводит к записи ошибки.</Meldungstext>
+		<DO>N255_34_Ventil_fuer_Kupplungssteller</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>3</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Клапан 1 выбора передачи -N284</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображается значение тока через клапан 1 выбора передачи -N284 (перемещает рычаг переключения назад).
+ Фактическое значение должно составлять 0,39 A . Если значение превышает эту величину, предпринимается попытка включить передачу.</Meldungstext>
+		<DO>N284_34_Ventil_1_fuer_Gangwahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Клапан 2 выбора передачи -N285</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображается значение тока через клапан 2 выбора передачи -N285 (перемещает рычаг переключения вперёд).
+ Фактическое значение должно составлять 0,39 A . Если значение превышает эту величину, предпринимается попытка включить передачу.</Meldungstext>
+		<DO>N285_34_Ventil_2_fuer_Gangwahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">ФАКТ. передача, текстовый вывод</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр 1 для распознавания передачи -G239</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.9</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается напряжение потенциометра ФАКТИЧЕСКОЙ передачи.\Y\S\K\N
+
+J\L\S\K\N ок. 3,8 вольт на передаче R\Y\S\K\N
+ J\L\S\K\N ок. 3,8 вольт на 1-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 1,7 вольт на 2-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 3,8 вольт на 3-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 1,7 вольт на 4-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 3,8 вольт на 5-й передаче</Meldungstext>
+		<DO>G239_34_Potentiometer_1_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр 2 для распознавания передачи -G240</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.1</analogerSWunten>
+		<analogerSWoben>3.7</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается напряжение потенциометров ФАКТИЧЕСКИХ дорожек.\Y\S\K\N
+
+J\L\S\K\N ок. 3,6 вольт на передаче R\Y\S\K\N
+ J\L\S\K\N ок. 2,8 вольт на 1-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 2,8 вольт на 2-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 2,0 вольт на 3-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 2,0 вольт на 4-й передаче\Y\S\K\N
+ J\L\S\K\N ок. 1,2 вольт на 5-й передаче</Meldungstext>
+		<DO>G240_34_Potentiometer_2_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">ЗАДАННАЯ передача</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображается ЗАДАННАЯ передача.
+
+0 = дорожка холостого хода
+ 1 = 1. передача (2 = 2-я передача ... 5 = 5-я передача)
+ 6 = Задний ход
+ 251 = дорожка холостого хода 1-2
+ 252 = дорожка холостого хода передачи R
+ 253 = дорожка холостого хода 5-й передачи
+ 254 = дорожка холостого хода 3-4
+ 255 = переход между положениями
+
+В -N- в порядке: Требуемая передача: 0 / фактическая передача: 251 ... 254</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">ФАКТ. передача</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображается ФАКТИЧЕСКИ включенная передача.
+
+0 = дорожка холостого хода
+ 1 = 1. передача (2 = 2-я передача ... 5 = 5-я передача)
+ 6 = Задний ход
+ 251 = дорожка холостого хода 1-2
+ 252 = дорожка холостого хода передачи R
+ 253 = дорожка холостого хода 5-й передачи
+ 254 = дорожка холостого хода 3-4
+ 255 = переход между положениями
+
+В -N- в порядке: Требуемая передача: 0 / фактическая передача: 251 ... 254</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение педали газа</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T- Нажать на педаль газа для проверки.\Y\S\K\N
+
+J\L\S\K\N &lt; 4 процента Нет газа\Y\S\K\N
+ J\L\S\K\N &gt; 96 процента Полный газ</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>4</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Скорость автомобиля</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>3</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается сигнал электронного тахометра комбинации приборов.
+ По опыту тахометр автомобиля при 100 км/ч дает показания примерно на 5 км/ч выше, чем сигнал цифрового электронного тахометра в блоке измеряемых величин.
+ Минимальное отображаемое значение составляет 3 км/ч.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение АКБ</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TНапряжение аккумуляторной батареи должно составлять не менее 11,8 В.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение АКБ клемма 30</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображается напряжение АКБ, клемма 30, на блоке управления.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">внутр. напряжение питания блока управления</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4.8</analogerSWunten>
+		<analogerSWoben>5.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TЗдесь отображается внутреннее напряжение питания в блоке управления.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик давления в гидросистеме КП -G270</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.3</analogerSWunten>
+		<analogerSWoben>5.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TЗдесь отображается напряжение датчика давления в гидросистеме коробки передач -G270.
+ ((ЗАДАННОЕ напряжение: от 3,0 до 4,2 вольт соответствует от 36 до 52 бар) в зависимости от температуры)</Meldungstext>
+		<DO>G270_34_Geber_fuer_Hydraulikdruck_Getriebe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>1</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Информация о передаче (заученное положение селектора)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображаются следующие передачи:
+
+T-0				дорожка ручного переключения Центр
+ T-MI			дорожка ручного переключения Минус
+ T-PL			дорожка ручного переключения Плюс
+ A-E			положение E
+ A-N			положение N
+ A-R			положение R
+ A-STOP	положение Stop
+ ???			неопределенное положение</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр селектора вперед/назад -G272</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.2</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается напряжение потенциометра ЗАДАННОЙ селектором передачи.\Y\S\K\N
+
+J\L\S\K\N ок. 3,14 вольт на передаче R\Y\S\K\N
+ J\L\S\K\N ок. 2,75 вольт в -N-\Y\S\K\N
+ J\L\S\K\N ок. 2,20 вольт в -E- (-D-)\Y\S\K\N
+ J\L\S\K\N ок. 1,58 вольт в Tipp (центр)\Y\S\K\N
+ J\L\S\K\N ок. 2,50 вольт в Tipp (+)\Y\S\K\N
+ J\L\S\K\N ок. 1,70 вольт в Tipp (-)</Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Потенциометр селектора вперед/назад -G272</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TОтображается напряжение потенциометра ЗАДАННОЙ селектором передачи.\Y\S\K\N
+
+J\L\S\K\N ок. 100 процентов в -STOP-\Y\S\K\N
+ J\L\S\K\N ок. 77 процентов на передаче R\Y\S\K\N
+ J\L\S\K\N ок. 55 процентов в -N-\Y\S\K\N
+ J\L\S\K\N ок. 25 процентов в -E- (-D-)\Y\S\K\N
+ J\L\S\K\N ок. 22 процентов в Tipp (центр)\Y\S\K\N
+ J\L\S\K\N ок. 44 процентов в Tipp (+)\Y\S\K\N
+ J\L\S\K\N ок. 0 процентов в Tipp (-)</Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индикация состояний -1- ошибка селектора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Считать 8-битовое отображение слева
+ направо.
+
+бит 0: -1- CAN-Timeout (недостаточное напряжение)
+ бит 1: -1- -E313 неисправен
+ бит 2: -1- -E313 неисправен (неопределенное положение)
+ бит 3: -1- проверка, правильный ли селектор установлен
+
+бит 4: -1- положение селектора изменилось
+ бит 5: -1- -E313 неисправен
+ бит 6: -1- Проблемы с питанием селектора
+ бит 7: -1- -E313 неисправен</Meldungstext>
+		<DO>E313_Waehlhebel</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Индикация состояний -2- ошибка селектора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Считать 8-битовое отображение слева
+ направо.
+
+бит 0: -1- -E313 неисправен (неправильный статус блокиратора - Shiftlock)
+ бит 1: -1- -N110 неисправен
+ бит 2: -1- запись ошибки -прочие-
+ бит 3: -1- селектор Аварийный режим
+
+бит 4: -1- -E313 неисправен
+ бит 5: -1- -E313 неисправен
+ бит 6: не используется
+ бит 7: не используется</Meldungstext>
+		<DO>E313_Waehlhebel</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">заученная точка трогания</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>55</analogerSWunten>
+		<analogerSWoben>65</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TЗначение определённой опытным путем точки трогания находится между 55 и 65 процентами.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>2</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">заученная точка проскальзывания</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>55</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TЗначение определенной опытным путем точки проскальзывания находится между 55 и 85 процентами.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Число оставшихся скоростных адаптаций</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>55</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TОтображается количество оставшихся скоростных адаптаций для поиска точек трогания после базовой регулировки.
+ Если здесь отображено значение &gt; -0-, то поиск точек трогания не завершён.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Sch_17</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Sch1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>7</NA>
+		<Formel>CAN-Signal vom ABS-Steuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Geschwindigkeit</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel>CAN-Signal vom Getriebesteuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Drehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>Eingangssignal NA37/31 = Öld.2 i.O.</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Öldruck</Text>
+		</Name>
+		<diskreterSW>31</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>36</NA>
+		<Formel>CAN-Signal vom ABS-Steuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kilometerstand</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>19</NA>
+		<Formel>Eingang über G - Geber für Kraftstoffvorratsanzeige</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Tankinhalt gesamt</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>64</NA>
+		<Formel>Eingangssignal</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">G - Geber für Kraftstoffvorratsanzeige</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>67</analogerSWunten>
+		<analogerSWoben>278</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Der Arbeitsbereich des Gebers beträgt einschließlich Bauteiltoleranz 67\Z\S\K\IW\L\S\K\I bis 278\Z\S\K\IW\L\S\K\I.\Y\S\K\N
+J\L\S\K\I 0\Z\S\K\IW\L\S\K\I signalisiert einen Kurzschluss, 510\Z\S\K\IW\L\S\K\I eine Unterbrechung.</Meldungstext>
+		<DO>G_90_Geber_fuer_Kraftstoffvorratsanzeige</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel>Eingangssignal</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">G17 - Geber für Aussentemperatur</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-45</analogerSWunten>
+		<analogerSWoben>65</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\I Der Arbeitsbereich des Gebers liegt zwischen -45°C und 65°C.\Y\S\K\N
+J\L\S\K\I 70°C signalisiert einen Kurzschluss, -50°C eine Unterbrechung.</Meldungstext>
+		<DO>G17_90_Temperaturfuehler_Aussentemperatur</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>5</NA>
+		<Formel>CAN-Signal vom Motorsteuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kühlmitteltemperatur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\N \L\S\K\IDie Kühlmitteltemperatur kommt als CAN-Signal vom Motorsteuergerät.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<AF>3</AF>
+		<NA>5</NA>
+		<Formel>CAN-Signal vom Motorsteuergerät</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motoröltemperatur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\Y\S\K\N
+
+J\L\S\K\N\L\S\K\IDie Temperatur des Motoröls kommt als CAN-Signal des Motorsteuergeräts an.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

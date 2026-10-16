@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MESSAGE DTD="XMLMSG" VERSION="1.4.0.0">
+	<RESULT>
+		<RESPONSE NAME="GetSoftwareEnabling" DTD="RepairHints" VERSION="1.4.2.1" ID="0">
+			<DATA>
+				<TIMESTAMP>(Datum-Zeitstempel-Service42)</TIMESTAMP>
+				<CHANGE_CODE>(SVM-Code)</CHANGE_CODE>
+				<FLASH_CNT>(Anzahl Update-Programmierungen)</FLASH_CNT>
+				<REPLACE_CNT>(Anzahl Hardwaretausch)</REPLACE_CNT>
+				<CODING_CNT>(Anzahl Codierungen)</CODING_CNT>
+				<PARAMETRIZE_CNT>(Anzahl Parametrierungen)</PARAMETRIZE_CNT>
+				<INSTALLATIONLISTCODING_CNT>(Anzahl Verbaulisten)</INSTALLATIONLISTCODING_CNT>
+				<ADJUST_CALIBRATE_CNT>(Anzahl Anpassungen an Adressen)</ADJUST_CALIBRATE_CNT>
+				<COMBINATION_IND>(Mandatory flashing)</COMBINATION_IND>
+				<NOTE KEY="(Hinweiscode)"/>
+				<NEXT>
+					<TASK_CODE>(Aufgabencode)</TASK_CODE>
+					<CHANGE_CODE>(SVM-Code)</CHANGE_CODE>
+					<COMPONENT_REF>(fuehrende Diagnoseadresse)</COMPONENT_REF>
+				</NEXT>
+				<VEHICLE STATUS="repair">
+					<IDENT>
+						<VIN>(Fahrgestellnummer)</VIN>
+					</IDENT>				
+					<EQUIPMENT>
+						<PR TABLE="1" FAMILY="(PR-Familie-1)" PR_ID="(PR-Nummer-1)" />
+						<PR TABLE="2" FAMILY="(PR-Familie-2)" PR_ID="(PR-Nummer-2)" />
+						<PR TABLE="3" FAMILY="(PR-Familie-3)" PR_ID="(PR-Nummer-3)" />
+						<PR TABLE="4" FAMILY="(PR-Familie-4)" PR_ID="(PR-Nummer-4)" />
+						<PR TABLE="5" FAMILY="(PR-Familie-5)" PR_ID="(PR-Nummer-5)" />
+					</EQUIPMENT>
+				 	*(
+					<COMPONENT TYPE="(Master-oder-Slave)" ID="(Diagnoseadresse)" HW_UPDATE="(Hardwaretausch)" SW_UPDATE="(Update-Programmierung)" CODE="(Codierung)" PARAMETRIZE="(Parametrierung)" ILCODE="(Verbaulistencodierung)" ADJUST_CALIBRATE="(Anpassungen)" STATE="(Klemme-15-Zyklus)" LOGICAL_LINK="(ASAM-Logical-Link)" SLAVE_ID="(Slavenummer-ID)" RDI="(Record-Data-Identifier)" SID="(Service-Identifier)" SWE_ENABLING="(Freischaltung)">
+						<ECU_PART_NO>(ZSB-oder-SW-Teilenummer)</ECU_PART_NO>
+						<HW_PART_NO>(Hardwareteilenummer)</HW_PART_NO>
+						<HW_VERSION>(Hardwareversion)</HW_VERSION>
+						<SW_VERSION>(Softwareversion)</SW_VERSION>
+						<CODING LOGIN="(Login-Codierung)" LOGIN_IND="(Security-Level-Login-Codierung)" CODING_ID="(nur VW-Coding ID)" VARIANT="(nur VW-Variante)" SEQUENCE_NO="(nur VW-Coding Sequence)">(Codierwert)</CODING>
+						<PARAMETRIZING ZDC_NAME="(ZDC-Name)" ZDC_VERSION="(ZDC-Version)" PR_IDX="(PR-Nummern-Index)" LOGIN="(Login-Parametrierung)" LOGIN_IND="(Securitiy-Level-Login-Parametrierung)"/>
+						<INSTALLATIONLISTCODING LOGIN="(Login-Verbaulistencodierung)" LOGIN_IND="(Security-Level-Login-Verbaulistencodierung)">(Verbauliste)</INSTALLATIONLISTCODING>
+						<FLASHING SEQUENCE_NO="(Flashreihenfolge)" MEDIA="(Flash-Medium)" FILENAME="(Flashdatencontainername)" LOGIN="(Login-Flashen)" LOGIN_IND="(Security-Level-Login-Flashen)"/>
+						<ADJUST_CALIBRATING ZDC_NAME="(ZDC-Name-Calibration)" ZDC_VERSION="(ZDC-Version-Calibration)" LOGIN="(Login-Calibration)" LOGIN_IND="(Security-Level-Login-Calibration)" />
+						<NOTE>(Informationstext)</NOTE>
+					</COMPONENT>
+					)*
+				</VEHICLE>
+				<INFORMATION>
+					<CODE>(Fehlercode)</CODE>
+				</INFORMATION>
+			</DATA>
+	</RESPONSE>
+	</RESULT>
+</MESSAGE>

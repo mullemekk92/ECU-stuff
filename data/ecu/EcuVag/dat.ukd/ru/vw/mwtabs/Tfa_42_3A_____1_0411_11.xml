@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe></SgGruppe>
+		<LogicalLink>LL_DoorElectDriveSideUDS</LogicalLink>
+		<SgVariante></SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Ansteuerung fuer Spiegelanklappung</SystemName>
+		<Name>
+			<Text TI="IDE04586">Управление складыванием зеркал</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+ \Y\S\K\N
+I\L\S\K\N актив.\Y\S\K\N
+I\L\S\K\N не актив.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroFoldiCondi']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Folding_Condition</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>Ansteuerung Komfortfunktion fuer Fensterheber vorn</SystemName>
+		<Name>
+			<Text TI="IDE04206">Управление функцией комфорта передних стеклоподъёмников</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+ \Y\S\K\N
+I\L\S\K\N откр.\Y\S\K\N
+I\L\S\K\N закр.\Y\S\K\N
+I\L\S\K\N не задейств.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveOperaFront']/Resparam[@ShortName='Param_StatuConvOpFront' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Convenience_Operation_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Bedienungseinheit fuer Fensterheber Fahrerseite_Beifahrerseite vorn</SystemName>
+		<Name>
+			<Text TI="IDE04219">Клавиши с/подъёмника на двери ВОД, стор. ППАС перед.</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N не задейств.\Y\S\K\N
+I\L\S\K\N авт. откр.\Y\S\K\N
+I\L\S\K\N авт. закр.\Y\S\K\N
+I\L\S\K\N руч. откр.\Y\S\K\N
+I\L\S\K\N руч. закр.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcPanel']/Resparam[@ShortName='Param_FrontPasseSide' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Panel</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<NA></NA>
+		<SystemName>Bedienungseinheit fuer Fensterheber Fahrerseite_Fahrerseite vorn</SystemName>
+		<Name>
+			<Text TI="IDE04219">Клавиши с/подъёмника на двери ВОД, стор. ВОД перед.</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N не задейств.\Y\S\K\N
+I\L\S\K\N авт. откр.\Y\S\K\N
+I\L\S\K\N авт. закр.\Y\S\K\N
+I\L\S\K\N руч. откр.\Y\S\K\N
+I\L\S\K\N руч. закр.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcPanel']/Resparam[@ShortName='Param_FrontDriveSide' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Panel</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<NA></NA>
+		<SystemName>Bedienungseinheit fuer Fensterheber Fahrerseite_Hinten links</SystemName>
+		<Name>
+			<Text TI="IDE04219">Клавиши с/подъёмника на двери ВОД, Зд Лв</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N не задейств.\Y\S\K\N
+I\L\S\K\N авт. откр.\Y\S\K\N
+I\L\S\K\N авт. закр.\Y\S\K\N
+I\L\S\K\N руч. откр.\Y\S\K\N
+I\L\S\K\N руч. закр.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcPanel']/Resparam[@ShortName='Param_LeftRear' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Panel</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<NA></NA>
+		<SystemName>Bedienungseinheit fuer Fensterheber Fahrerseite_Hinten rechts</SystemName>
+		<Name>
+			<Text TI="IDE04219">Клавиши с/подъёмника на двери ВОД, Зд Пр</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N не задейств.\Y\S\K\N
+I\L\S\K\N авт. откр.\Y\S\K\N
+I\L\S\K\N авт. закр.\Y\S\K\N
+I\L\S\K\N руч. откр.\Y\S\K\N
+I\L\S\K\N руч. закр.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcPanel']/Resparam[@ShortName='Param_RightRear' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Panel</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<NA></NA>
+		<SystemName>Blinkleuchte im Aussenspiegel</SystemName>
+		<Name>
+			<Text TI="IDE04218">Повторитель указателя поворотов в наружном зеркале</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+ \Y\S\K\N
+I\L\S\K\N актив.\Y\S\K\N
+I\L\S\K\N не актив.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TurnSignaRepea']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Turn_Signal_Repeater</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<NA></NA>
+		<SystemName>Datenbus Komfort</SystemName>
+		<Name>
+			<Text TI="MAS03174">Шина данных Комфорт</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+I\L\S\K\N однопроводная\Y\S\K\N
+I\L\S\K\N двухпроводная</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MediuSpeedCANCommuBus']/Resparam[@ShortName='Param_CommParam' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Medium Speed CAN Communication Bus</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<NA></NA>
+		<SystemName>Dimmung der Beleuchtung fuer Tuerinnengriff___1</SystemName>
+		<Name>
+			<Text TI="IDE04580">Регулировка яркости подсветки внутр.ручки двери</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+I\L\S\K\N яркость 0 - 100 %\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiDoorHandlIllum']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming_Door_Handle_Illumination</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<NA></NA>
+		<SystemName>Dimmung der Beleuchtung fuer Tuerinnengriff___2</SystemName>
+		<Name>
+			<Text TI="IDE04580">Регулировка яркости подсветки внутр.ручки двери</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+I\L\S\K\N яркость 0 - 100 %\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiDoorHandlIllum']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_Perce0100' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming_Door_Handle_Illumination</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<NA></NA>
+		<SystemName>Dimmung fuer Umfeldbeleuchtung___1</SystemName>
+		<Name>
+			<Text TI="IDE04581">Регулировка яркости освещения пространства вокруг а/м</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+I\L\S\K\N яркость 0 - 100 %\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiEnvirIllum']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming_Environment_Illumination</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<NA></NA>
+		<SystemName>Dimmung fuer Umfeldbeleuchtung___2</SystemName>
+		<Name>
+			<Text TI="IDE04581">Регулировка яркости освещения пространства вокруг а/м</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+I\L\S\K\N яркость 0 - 100 %\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiEnvirIllum']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_Perce0100' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming_Environment_Illumination</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<NA></NA>
+		<SystemName>Dimmung Klemme 58d___1</SystemName>
+		<Name>
+			<Text TI="IDE01215">Регулировка яркости подсветки, клемма 58d</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+I\L\S\K\N яркость 0 - 100 %\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiTermi58d']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_NotAvail' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming terminal 58d</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<NA></NA>
+		<SystemName>Dimmung Klemme 58d___2</SystemName>
+		<Name>
+			<Text TI="IDE01215">Регулировка яркости подсветки, клемма 58d</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+I\L\S\K\N яркость 0 - 100 %\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DimmiTermi58d']/Resparam[@ShortName='Param_Statu' and @Type='Mux']/Resparam[@ShortName='Case_Perce0100' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Dimming terminal 58d</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<NA></NA>
+		<SystemName>Fahrzeuggeschwindigkeit</SystemName>
+		<Name>
+			<Text TI="MAS00370">Скорость автомобиля</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+I\L\S\K\N значение скорости 0 - 326 км/ч\Y\S\K\N
+I\L\S\K\N инициализация\Y\S\K\N
+I\L\S\K\N низкое напряжение\Y\S\K\N
+I\L\S\K\N неисправность\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VehicSpeed']/Resparam[@ShortName='Param_SignaParam' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Vehicle speed</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<NA></NA>
+		<SystemName>Freigabe fuer Fensterheber</SystemName>
+		<Name>
+			<Text TI="IDE04205">Разблокировка стеклоподъёмников</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+I\L\S\K\N да\Y\S\K\N
+I\L\S\K\N нет\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulRelea']/Resparam[@ShortName='Param_StatuWlEnabl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Release</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<NA></NA>
+		<SystemName>Freigabe fuer Funktionsbeleuchtung</SystemName>
+		<Name>
+			<Text TI="IDE04208">Разблокировка контрольной подсветки</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N актив.\Y\S\K\N
+I\L\S\K\N неактив.\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FunctIllumRelea']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Functional_Illumination_Release</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<NA></NA>
+		<SystemName>Position Fensterheber vorn</SystemName>
+		<Name>
+			<Text TI="IDE04209">Положение стеклоподъёмника передней двери</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N Положение 0 - 100%\Y\S\K\N
+I\L\S\K\N Величина недостоверна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulPositFront']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Position_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<NA></NA>
+		<SystemName>Schalter fuer Spiegelverstellung_Schalterstellungen</SystemName>
+		<Name>
+			<Text TI="IDE04215">Регулятор положения наружных зеркал, положения регулятора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N лев.\Y\S\K\N
+I\L\S\K\N прав.\Y\S\K\N
+I\L\S\K\N сложить\Y\S\K\N
+I\L\S\K\N нулевое положение\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusSwitc']/Resparam[@ShortName='Param_SwitcPosit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Switch</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<NA></NA>
+		<SystemName>Schalter fuer Spiegelverstellung_Spiegelheizung</SystemName>
+		<Name>
+			<Text TI="IDE04215">Регулятор положения наружных зеркал, обогрев зеркал</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N вкл\Y\S\K\N
+I\L\S\K\N выкл\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusSwitc']/Resparam[@ShortName='Param_MirroHeati' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Switch</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<NA></NA>
+		<SystemName>Schalter fuer Tueraussengriff</SystemName>
+		<Name>
+			<Text TI="MAS02100">Выключатель наружной ручки двери</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N вкл\Y\S\K\N
+I\L\S\K\N выкл\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SwitcForOutsiDoorHandl']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Switch for outside door handle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<NA></NA>
+		<SystemName>Schalter fuer Tuerinnenengriff</SystemName>
+		<Name>
+			<Text TI="MAS02099">Выключатель внутренней ручки двери</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N вкл\Y\S\K\N
+I\L\S\K\N выкл\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SwitcForInsidDoorHandl']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Switch for inside door handle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<NA></NA>
+		<SystemName>Schluesselschalter fuer Fernentriegelungssperre der Heckklappe</SystemName>
+		<Name>
+			<Text TI="IDE04596">Выключатель с замком д/блок.дист.отпирания крышки баг.отсека</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N вкл\Y\S\K\N
+I\L\S\K\N выкл\Y\S\K\N
+I\L\S\K\N не установ.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TrunkLidReleaKeySwitc']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Trunk_Lid_Release_Key_Switch</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<NA></NA>
+		<SystemName>Schluesselschalter im Tuerschloss</SystemName>
+		<Name>
+			<Text TI="IDE04214">Замок-выключатель в замке двери</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N откр.\Y\S\K\N
+I\L\S\K\N закр.\Y\S\K\N
+I\L\S\K\N не задейств.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DoorLockSwitcFront']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Door_Lock_Switch_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<NA></NA>
+		<SystemName>Spannung Klemme 30_Param_ParamToDOP__1</SystemName>
+		<Name>
+			<Text TI="IDE00019">Напряжение на клемме 30</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N напряжение 0 - 25,4В\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaTermi30']/Resparam[@ShortName='Param_ParamToDOP' and @Type='Mux']/Resparam[@ShortName='Case_VoltaTermi00FE' and @Type='Structure']/Resparam[@ShortName='Param_VoltaParam' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage terminal 30</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<NA></NA>
+		<SystemName>Spannung Klemme 30_Param_ParamToDOP__2</SystemName>
+		<Name>
+			<Text TI="IDE00019">Напряжение на клемме 30</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N напряжение 0 - 25,4В\Y\S\K\N
+I\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VoltaTermi30']/Resparam[@ShortName='Param_ParamToDOP' and @Type='Mux']/Resparam[@ShortName='Case_VoltaTermiFF' and @Type='Structure']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Voltage terminal 30</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<NA></NA>
+		<SystemName>Spiegelanklappung</SystemName>
+		<Name>
+			<Text TI="IDE04587">Функция складывания наружных зеркал</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N разложить\Y\S\K\N
+I\L\S\K\N сложить\Y\S\K\N
+I\L\S\K\N не задейств.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroFoldiReque']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Folding_Request</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<NA></NA>
+		<SystemName>Spiegelheizung</SystemName>
+		<Name>
+			<Text TI="IDE04216">Обогрев зеркал</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N актив.\Y\S\K\N
+I\L\S\K\N не актив.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroHeatiCondi']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Heating_Condition</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<NA></NA>
+		<SystemName>Spiegelmemory_Verbau</SystemName>
+		<Name>
+			<Text TI="IDE04539">Память положения зеркал, комплектация</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N установ.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusMemor']/Resparam[@ShortName='Param_MemorInstaCondi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Memory</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>31</AG>
+		<NA></NA>
+		<SystemName>Spiegelmemory_Versorgungsspannung</SystemName>
+		<Name>
+			<Text TI="IDE04539">Память положения зеркал, напряжение питания</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N актив.\Y\S\K\N
+I\L\S\K\N не актив.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusMemor']/Resparam[@ShortName='Param_SupplVoltaPoten' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Memory</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>32</AG>
+		<NA></NA>
+		<SystemName>Spiegelmemory_X-Koordinate</SystemName>
+		<Name>
+			<Text TI="IDE04539">Память положения зеркал, координата Х</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N Положение по оси Х 0 - 100%\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusMemor']/Resparam[@ShortName='Param_PositXDirec' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Memory</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>33</AG>
+		<NA></NA>
+		<SystemName>Spiegelmemory_Y-Koordinate</SystemName>
+		<Name>
+			<Text TI="IDE04539">Память положения зеркал, координата Y</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N Положение по оси Y 0 - 100%\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusMemor']/Resparam[@ShortName='Param_PositYDirec' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Memory</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>34</AG>
+		<NA></NA>
+		<SystemName>Spiegelverstellung (X/Y-Richtung)</SystemName>
+		<Name>
+			<Text TI="IDE04540">Регулировка положения наружных зеркал (во осям X/Y)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+I\L\S\K\N положение X+\Y\S\K\N
+I\L\S\K\N положение X-\Y\S\K\N
+I\L\S\K\N положение Y+\Y\S\K\N
+I\L\S\K\N положение Y-\Y\S\K\N
+I\L\S\K\N не задейств.\Y\S\K\N
+I\L\S\K\N не установ.\Y\S\K\N
+I\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MirroAdjusSwitcJoyst']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Mirror_Adjustment_Switch_Joystick</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>35</AG>
+		<NA></NA>
+		<SystemName>Status der Drehfalle</SystemName>
+		<Name>
+			<Text TI="IDE02589">Статус поворотн.защёлки</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N дверь откр.\Y\S\K\N
+J\L\S\K\N дверь закр.\Y\S\K\N
+J\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_RotarDoorLatchFront']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Rotary_Door_Latch_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>36</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Fensterheber normiert</SystemName>
+		<Name>
+			<Text TI="IDE02299">Статус с/подъёмника, С/подъёмник нормирован</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N актив.\Y\S\K\N
+J\L\S\K\N не актив.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_PowerWindoContrStand' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>37</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Kraftbegrenzung</SystemName>
+		<Name>
+			<Text TI="IDE02299">Статус с/подъёмника, Ограничение усилия</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N актив.\Y\S\K\N
+J\L\S\K\N не актив.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_ForceLimit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>38</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Oeffnen</SystemName>
+		<Name>
+			<Text TI="IDE02299">Статус с/подъёмника</Text>
+			<Text TI="MAS01875">Открывание</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N актив.\Y\S\K\N
+J\L\S\K\N не актив.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_Open' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>39</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Position oben</SystemName>
+		<Name>
+			<Text TI="IDE02299">Статус с/подъёмника</Text>
+			<Text TI="MAS02986">Верхнее положение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N актив.\Y\S\K\N
+J\L\S\K\N не актив.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_PositTop' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>40</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Position unten</SystemName>
+		<Name>
+			<Text TI="IDE02299">Статус с/подъёмника</Text>
+			<Text TI="MAS02987">Нижнее положение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N актив.\Y\S\K\N
+J\L\S\K\N не актив.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_PositBotto' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>41</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Ruhezustand</SystemName>
+		<Name>
+			<Text TI="IDE02299">Статус с/подъёмника</Text>
+			<Text TI="MAS03624">Состояние покоя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N актив.\Y\S\K\N
+J\L\S\K\N не актив.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_IdleCondi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>42</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Schliessen</SystemName>
+		<Name>
+			<Text TI="IDE02299">Статус с/подъёмника</Text>
+			<Text TI="MAS01876">Закрывание</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N актив.\Y\S\K\N
+J\L\S\K\N не актив.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_Close' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>43</AG>
+		<NA></NA>
+		<SystemName>Status Fensterheber_Uebertemperaturabschaltung</SystemName>
+		<Name>
+			<Text TI="IDE02299">Статус с/подъёмника</Text>
+			<Text TI="IDE01701">Отключение из-за перегрева</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N актив.\Y\S\K\N
+J\L\S\K\N не актив.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulStatuFront']/Resparam[@ShortName='Param_ExcesTempeContr' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Status_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>44</AG>
+		<NA></NA>
+		<SystemName>Status Klemme 15 ueber CAN</SystemName>
+		<Name>
+			<Text TI="IDE00773">Статус кл. 15 по шине CAN</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N кл.15 вкл\Y\S\K\N
+J\L\S\K\N кл. 15 выкл\Y\S\K\N
+J\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuTermi15CAN']/Resparam[@ShortName='Param_Kl15Para' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status_Terminal_15_CAN</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>45</AG>
+		<NA></NA>
+		<SystemName>Status Klemme S</SystemName>
+		<Name>
+			<Text TI="IDE01715">Статус клеммы S</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N задейств.\Y\S\K\N
+J\L\S\K\N не задейств.\Y\S\K\N
+J\L\S\K\N измеряемая величина недоступна</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuTermiS']/Resparam[@ShortName='Param_SKontaPara' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status terminal S</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>46</AG>
+		<NA></NA>
+		<SystemName>Status Tuerschloss vorn</SystemName>
+		<Name>
+			<Text TI="IDE04211">Статус замка передней двери</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N заперто\Y\S\K\N
+J\L\S\K\N отперто\Y\S\K\N
+J\L\S\K\N safe\Y\S\K\N
+J\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DoorLockCondiFront']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Door_Lock_Condition_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>47</AG>
+		<NA></NA>
+		<SystemName>Taster fuer Fensterheber</SystemName>
+		<Name>
+			<Text TI="IDE04579">Клавиши стеклоподъёмников</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N не задейств.\Y\S\K\N
+J\L\S\K\N авт. откр.\Y\S\K\N
+J\L\S\K\N авт. закр.\Y\S\K\N
+J\L\S\K\N руч.откр.\Y\S\K\N
+J\L\S\K\N руч.закр.\Y\S\K\N
+J\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_WindoRegulSwitcFront']/Resparam[@ShortName='Param_StatuWlButtoLocal' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Window_Regulator_Switch_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>48</AG>
+		<NA></NA>
+		<SystemName>Taster fuer Fernentriegelung der Heckklappe</SystemName>
+		<Name>
+			<Text TI="MAS01872">Клавиша открывания крышки багажника с водительского места</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+J\L\S\K\N задейств.\Y\S\K\N
+J\L\S\K\N не задейств.\Y\S\K\N
+J\L\S\K\N не установ.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_RearLidRemotUnlocSwitc']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Rear lid remote unlocking switch</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>49</AG>
+		<NA></NA>
+		<SystemName>Taster fuer Kindersicherung</SystemName>
+		<Name>
+			<Text TI="IDE04411">Кнопка 'детской' блокировки двери</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+J\L\S\K\N вкл. лев.\Y\S\K\N
+J\L\S\K\N вкл. прав.\Y\S\K\N
+J\L\S\K\N вкл. лев. и прав.\Y\S\K\N
+J\L\S\K\N выкл.\Y\S\K\N
+J\L\S\K\N не установ.\Y\S\K\N
+J\L\S\K\N недостоверно</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ChildLockButto']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Childproof_Lock_Button</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<NA></NA>
+		<SystemName>Taster fuer Tankklappenentriegelung</SystemName>
+		<Name>
+			<Text TI="IDE04217">Клавиша отпирания лючка горловины топливного бака</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:
+ \Y\S\K\N
+J\L\S\K\N задейств.\Y\S\K\N
+J\L\S\K\N не задейств.\Y\S\K\N
+J\L\S\K\N не установ.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FuelTankFlapReleaButto']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Fuel Tank_Flap_Release_Button</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>51</AG>
+		<NA></NA>
+		<SystemName>Taster fuer Zentralverriegelung</SystemName>
+		<Name>
+			<Text TI="IDE04213">Клавиши центрального замка</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВарианты индикации:\Y\S\K\N
+
+J\L\S\K\N запереть\Y\S\K\N
+J\L\S\K\N отпереть\Y\S\K\N
+J\L\S\K\N не задейств.\Y\S\K\N
+J\L\S\K\N не установ.</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CentrLockiButtoFront']/Resparam[@ShortName='Param_Statu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Central_Locking_Button_Front</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

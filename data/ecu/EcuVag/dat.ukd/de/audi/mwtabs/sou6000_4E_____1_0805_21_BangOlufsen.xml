@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>sou_47</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>sou6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Betriebsspannung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>255</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Betriebsspannungen</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T0000xxx\L\B\K\N1\L\S\K\N = Klemme S ein
+0000xx\L\B\K\N1\L\S\K\Nx = Klemme 15 ein
+0000x\L\B\K\N1\L\S\K\Nxx = Klemme X ein
+0000\L\B\K\N1\L\S\K\Nxxx = Klemme 50 ein
+F000xxxx = Status ungültig
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>255</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Allgemeiner Status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\Nxxxxxxx\C\B\K\N1\L\S\K\N = Das Mikrofon 1 ist nicht codiert oder hat einen Fehler\C\S\K\N
+xxxxxx\C\B\K\N1\C\S\K\Nx\L\S\K\N = Das Mikrofon 2 ist nicht codiert oder hat einen Fehler\C\S\K\N
+xxxxx\C\B\K\N1\C\S\K\Nxx\L\S\K\N = Die Endstufen sind aktiv (nicht stumm geschalten)\C\S\K\N
+xxxx\C\B\K\N1\C\S\K\Nxxx\L\S\K\N = Der interne AC/DC-Wandler ist aktiv (nicht stumm geschalten)\C\S\K\N
+xxx\C\B\K\N1\C\S\K\Nxxxx\L\S\K\N = Die Endstufen werden übersteuert\C\S\K\N
+xx\C\B\K\N1\C\S\K\Nxxxxx\L\S\K\N = Die Ausgangsleistung des Subverstärkers ist reduziert\C\S\K\N
+x\C\B\K\N1\C\S\K\Nxxxxxx\L\S\K\N = Die Audio Test Matrix ist aktiv</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW * 256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">MOST - Adresse</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>107</NA>
+		<Formel>(NW * 256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Identifikationsnummer der Botschaft</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel>(MW - 128) * NW * 0.01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">optische Absenkung der Sendediode</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben>0.01</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\L\B\K\N0.00 dB\L\S\K\N = keine Absenkung, Normal-Betrieb\L\B\K\N
+-3 dB\L\S\K\N = optische Sendeleistung um 3 dB abgesenkt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW * 256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Hardware Instanz </Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0x00FF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ringbruch-Diagnoseleitung</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">       1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\L\B\K\N0\L\S\K\N = aktiv\L\B\K\N
+1\L\S\K\N = nicht aktiv</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -----xxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand der Schaltleitungen</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\N00000xx\C\B\K\N1\L\S\K\N = keine Stummschaltung des Soundsystems\C\S\K\N
+00000x\C\B\K\N1\C\S\K\Nx\L\S\K\N = die Selbsthaltung ist aktiv\C\S\K\N
+00000\C\B\K\N1\C\S\K\Nxx\L\S\K\N = der Subverstärker wird vom Hauptverstärker aktiv gehalten
+(die Aktivierung erfolgt über den Pin \L\B\K\NRemote Wakeup\L\S\K\N am Subverstärker)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>16</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Systemzustand</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TDer Systemzustand ist für den Kundendienst nicht relevant</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>7</NA>
+		<Formel>MW * NW * 0,01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Geschwindigkeit</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel>MW * NW * 0,2</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>86</NA>
+		<Formel>MW * NW * 0,1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Klimaanlage: Strom des Lüfters</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Einparkhilfe aktiviert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\Nxxxxxxx\C\B\K\N1\L\S\K\N - die Einparkhilfe ist aktiv</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am Mikrofoneingang 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T5.1V = Mikrofon nicht codiert</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am Mikrofoneingang 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T5.1V = Mikrofon nicht codiert</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Signalspannung am digitalen Eingang (linker Kanal)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDer digitale Eingang wird derzeit nicht verwendet.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Signalspannung am digitalen Eingang (rechter Kanal)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDer digitale Eingang wird derzeit nicht verwendet.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am analogen Eingang 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAm Hauptverstärker stehen 8 analoge Eingänge zur Verfügung, die derzeit nicht genutzt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am analogen Eingang 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAm Hauptverstärker stehen 8 analoge Eingänge zur Verfügung, die derzeit nicht genutzt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am analogen Eingang 3</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAm Hauptverstärker stehen 8 analoge Eingänge zur Verfügung, die derzeit nicht genutzt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am analogen Eingang 4</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAm Hauptverstärker stehen 8 analoge Eingänge zur Verfügung, die derzeit nicht genutzt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am analogen Eingang 5</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAm Hauptverstärker stehen 8 analoge Eingänge zur Verfügung, die derzeit nicht genutzt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am analogen Eingang 6</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAm Hauptverstärker stehen 8 analoge Eingänge zur Verfügung, die derzeit nicht genutzt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am analogen Eingang 7</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAm Hauptverstärker stehen 8 analoge Eingänge zur Verfügung, die derzeit nicht genutzt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung am analogen Eingang 8</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAm Hauptverstärker stehen 8 analoge Eingänge zur Verfügung, die derzeit nicht genutzt werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur der MOST-Sendediode</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur am Kühlkörper des Hauptverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>33</NA>
+		<Formel>(MW / NW) * 100</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Drehzahl des Lüfters im Hauptverstärker in %</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>110</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel>(MW-128) * NW * 0.01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperaturabhängige Lautstärkeregelung</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 dB</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\TWenn die Sendediode eine Temperatur von 79°C erreicht, wird die Ausgangsleistung um 1dB/°C reduziert.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannungsversorgung des Hauptverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne Spannung am Analogteil des Hauptverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>7</analogerSWunten>
+		<analogerSWoben>9</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne Schaltspannung des Hauptverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne Spannung am 5,0V Digitalteil des Hauptverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne Spannung am 3,3V Digitalteil des Hauptverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>3</analogerSWunten>
+		<analogerSWoben>4</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne Spannung am Prozessor des Hauptverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>2</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannungsversorgung des Subverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Hochsetzsteller (+40V) im Subverstärker</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>35</analogerSWunten>
+		<analogerSWoben>45</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TIm Subverstärker wird die 12V Batteriespannung von einem Schaltnetzteil auf +/- 40V gewandelt.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Hochsetzsteller (-40V) im Subverstärker</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>35</analogerSWunten>
+		<analogerSWoben>45</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDer Spannungswert ist negativ. Das Vorzeichen (-) wird im Messwerteblock jedoch nicht angezeigt.
+
+Im Subverstärker wird die 12V Batteriespannung von einem Schaltnetzteil auf +/- 40V gewandelt.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne Spannung 5V im Subverstärker</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne 12V des Subverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11</analogerSWunten>
+		<analogerSWoben>13</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne Spannung (5V) im Subverstärker</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Interne Spannung (-5V) im Subverstärker</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDer Spannungswert ist negativ. Das Vorzeichen (-) wird im Messwerteblock jedoch nicht angezeigt.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Steuerspannung der Stellmotoren</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>11</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TSteuerspannung für die Motoren der beiden versenkbaren Hochtonlautsprecher in der Schalttafel.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status des Subverstärkers</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>11</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TDer Status ist für den Kundendienst nicht relevant.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>2 ASCII Zeichen</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand des Hochtonlautsprecher vorne links -R20</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Zustände des in der Schalttafel befindlichen, versenkbaren Hochtonlautsprecher vorne links -R20:\L\B\K\N
+LO\L\S\K\N = der Lautsprecher ist vollständig eingefahren\L\B\K\N
+HI \L\S\K\N= der Lautsprecher ist vollständig ausgefahren\L\B\K\N
+GH\L\S\K\N = der Lautsprecher fährt gerade aus\L\B\K\N
+GD\L\S\K\N = der Lautsprecher fährt gerade ein\L\B\K\N
+BL\L\S\K\N = der Stellmotor ist blockiert\L\B\K\N
+IT\L\S\K\N = der Lautsprecher wird initialisiert\L\B\K\N
+DM\L\S\K\N = der Lautsprecher ist defekt\L\B\K\N
+UK\L\S\K\N = unbekannte Position des Lautsprechers\L\B\K\N
+XX\L\S\K\N = die Lautsprecherzuleitung ist unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>2 ASCII Zeichen</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand des Hochtonlautsprecher vorne rechts -R22</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Zustände des in der Schalttafel befindlichen, versenkbaren Hochtonlautsprecher vorne rechts -R22:\L\B\K\N
+LO\L\S\K\N = der Lautsprecher ist vollständig eingefahren\L\B\K\N
+HI \L\S\K\N= der Lautsprecher ist vollständig ausgefahren\L\B\K\N
+GH\L\S\K\N = der Lautsprecher fährt gerade aus\L\B\K\N
+GD\L\S\K\N = der Lautsprecher fährt gerade ein\L\B\K\N
+BL\L\S\K\N = der Stellmotor ist blockiert\L\B\K\N
+IT\L\S\K\N = der Lautsprecher wird initialisiert\L\B\K\N
+DM\L\S\K\N = der Lautsprecher ist defekt\L\B\K\N
+UK\L\S\K\N = unbekannte Position des Lautsprechers\L\B\K\N
+XX\L\S\K\N = die Lautsprecherzuleitung ist unterbrochen</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur der Endstufe 1 des Subverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur der Endstufe 2 des Subverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>3</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur der Endstufe 3 des Subverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>4</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur der Endstufe 4 des Subverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur der Endstufe 5 des Subverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur der Endstufe 6 des Subverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>3</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur des Schaltnetzteils des Subverstärkers</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>4</AF>
+		<NA>33</NA>
+		<Formel>(MW / NW) *100</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Drehzahl des Lüfters im Subverstärker in %</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>sou_47</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>sou6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Рабочее напряжение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>255</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус, напряжения АКБ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T0000xxx\L\B\K\N1\L\S\K\N = клемма S вкл
+ 0000xx\L\B\K\N1\L\S\K\Nx = клемма 15 вкл
+ 0000x\L\B\K\N1\L\S\K\Nxx = клемма X вкл
+ 0000\L\B\K\N1\L\S\K\Nxxx = клемма 50 вкл
+ F000xxxx = недействительный статус
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>255</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Общий статус</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\Nxxxxxxx\C\B\K\N1\L\S\K\N = Микрофон 1 не закодирован или неисправен\C\S\K\N
+ xxxxxx\C\B\K\N1\C\S\K\Nx\L\S\K\N = Микрофон 2 не закодирован или неисправен\C\S\K\N
+ xxxxx\C\B\K\N1\C\S\K\Nxx\L\S\K\N = Оба оконечных каскада активированы (звук не отключен)\C\S\K\N
+ xxxx\C\B\K\N1\C\S\K\Nxxx\L\S\K\N = Внутренний преобразователь напряжения AC/DC активирован (звук не отключен)\C\S\K\N
+ xxx\C\B\K\N1\C\S\K\Nxxxx\L\S\K\N = Сигналы оконечных каскадов перемодулируются\C\S\K\N
+ xx\C\B\K\N1\C\S\K\Nxxxxx\L\S\K\N = Мощность выхода субусилителя понижена\C\S\K\N
+ x\C\B\K\N1\C\S\K\Nxxxxxx\L\S\K\N = Аудиотест матрицы активирован</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW * 256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Адрес шины MOST</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>107</NA>
+		<Formel>(NW * 256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Идентификационный номер сообщения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel>(MW - 128) * NW * 0.01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Оптическое понижение мощности передающего диода</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben>0.01</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\L\B\K\N0.00 дБ\L\S\K\N = отсутствие понижения, нормальный режим\L\B\K\N
+ -3 дБ\L\S\K\N = оптическая мощность передачи понижена на 3 дБ</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW * 256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Аппаратная инстанция</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0x00FF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Диагностический кабель разрыва оптической шины</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">       1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\L\B\K\N0\L\S\K\N = акт.\L\B\K\N
+ 1\L\S\K\N = не акт.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -----xxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние проводки</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\N00000xx\C\B\K\N1\L\S\K\N = отключение звука аудиосистемы не активировано\C\S\K\N
+ 00000x\C\B\K\N1\C\S\K\Nx\L\S\K\N = самоблокировка активирована\C\S\K\N
+ 00000\C\B\K\N1\C\S\K\Nxx\L\S\K\N = субусилитель удерживается главным усилителем в активированном состоянии
+ (активация осуществляется через контакт \L\B\K\Nудаленной активации/Remote Wakeup\L\S\K\N на субусилителе)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>16</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние системы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TСостояние системы не актуально для сервисной службы.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>7</NA>
+		<Formel>MW * NW * 0,01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Скорость</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel>MW * NW * 0,2</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">частоты вращения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>86</NA>
+		<Formel>MW * NW * 0,1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Кондиционер: Ток вентилятора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Парковочный ассистент активирован</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\Nxxxxxxx\C\B\K\N1\L\S\K\N - парковочный ассистент активирован</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на входе для микрофона 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T5.1V = микрофон не закодирован</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на входе для микрофона 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T5.1V = микрофон не закодирован</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение сигнала на цифровом входе (левый канал)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TВ настоящее время цифровой вход не используется.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение сигнала на цифровом входе (правый канал)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TВ настоящее время цифровой вход не используется.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на аналоговом входе 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TГлавный усилитель располагает 8 аналоговыми входами, который в настоящий момент не используются.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на аналоговом входе 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TГлавный усилитель располагает 8 аналоговыми входами, который в настоящий момент не используются.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на аналоговом входе 3</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TГлавный усилитель располагает 8 аналоговыми входами, который в настоящий момент не используются.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на аналоговом входе 4</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TГлавный усилитель располагает 8 аналоговыми входами, который в настоящий момент не используются.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на аналоговом входе 5</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TГлавный усилитель располагает 8 аналоговыми входами, который в настоящий момент не используются.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на аналоговом входе 6</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TГлавный усилитель располагает 8 аналоговыми входами, который в настоящий момент не используются.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на аналоговом входе 7</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TГлавный усилитель располагает 8 аналоговыми входами, который в настоящий момент не используются.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на аналоговом входе 8</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TГлавный усилитель располагает 8 аналоговыми входами, который в настоящий момент не используются.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура передающего диода шины MOST</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура на кулере главного усилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>33</NA>
+		<Formel>(MW / NW) * 100</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения вентилятора в главном усилителе в %</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>110</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel>(MW-128) * NW * 0.01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Зависимое от температуры регулирование громкости</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 dB</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\TЕсли температура передающего диода достигает отметки 79°C, мощность на выходе понижается на 1дБ/°C.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Электропитание главного усилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутр.напряжение на аналоговом процессоре главного усилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>7</analogerSWunten>
+		<analogerSWoben>9</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутреннее управляющее напряжение главного усилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутр.напряжение 5,0В на цифровом процессоре главн.усилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутр.напряжение 3,3В на цифровом процессоре главн.усилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>3</analogerSWunten>
+		<analogerSWoben>4</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутреннее напряжение на процессоре главного усилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>2</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Электропитание субусилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Повышающий конвертер (+40В) в субусилителе</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>35</analogerSWunten>
+		<analogerSWoben>45</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TНапряжение АКБ 12 В преобразуется блоком питания субусилителя в +/- 40В.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Повышающий конвертер (-40В) в субусилителе</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>35</analogerSWunten>
+		<analogerSWoben>45</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TЗначение напряжение является отрицательным. Но знак (-) в блоке измеряемых величин не отображается.
+
+Напряжение АКБ 12 В преобразуется блоком питания субусилителя в +/- 40В.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутреннее напряжение 5 В в субусилителе</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутреннее питание субусилителя величиной 12 В</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11</analogerSWunten>
+		<analogerSWoben>13</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутреннее напряжение (5 В) в субусилителе</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутреннее напряжение (-5 В) в субусилителе</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TЗначение напряжение является отрицательным. Но знак (-) в блоке измеряемых величин не отображается.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Управляющее напряжение сервоприводов</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>11</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TУправляющее напряжение приводов обоих изменяющих свое положение высокочастотных динамиков в передней панели.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус субусилителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>11</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TСтатус не актуален для сервисной службы.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>2 ASCII Zeichen</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние переднего левого высокочастотного динамика -R20</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные состояние расположенного в передней панели, изменяющего свое положение переднего левого высокочастотного динамика -R20:\L\B\K\N
+ LO\L\S\K\N = динамик полностью задвинут\L\B\K\N
+ HI \L\S\K\N= динамик полностью выдвинут\L\B\K\N
+ GH\L\S\K\N = динамик выдвигается\L\B\K\N
+ GD\L\S\K\N = динамик задвигается\L\B\K\N
+ BL\L\S\K\N = привод заблокирован\L\B\K\N
+ IT\L\S\K\N = динамик инициализируется\L\B\K\N
+ DM\L\S\K\N = динамик неисправен\L\B\K\N
+ UK\L\S\K\N = неизвестное положение динамика\L\B\K\N
+ XX\L\S\K\N = подводящий провод динамика оборван</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>2 ASCII Zeichen</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние переднего правого высокочастотного динамика -R22</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные состояние расположенного в передней панели, изменяющего свое положение переднего правого высокочастотного динамика -R22:\L\B\K\N
+ LO\L\S\K\N = динамик полностью задвинут\L\B\K\N
+ HI \L\S\K\N= динамик полностью выдвинут\L\B\K\N
+ GH\L\S\K\N = динамик выдвигается\L\B\K\N
+ GD\L\S\K\N = динамик задвигается\L\B\K\N
+ BL\L\S\K\N = привод заблокирован\L\B\K\N
+ IT\L\S\K\N = динамик инициализируется\L\B\K\N
+ DM\L\S\K\N = динамик неисправен\L\B\K\N
+ UK\L\S\K\N = неизвестное положение динамика\L\B\K\N
+ XX\L\S\K\N = подводящий провод динамика оборван</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура выходного каскада 1 субусилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура выходного каскада 2 субусилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>3</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура выходного каскада 3 субусилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>4</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура выходного каскада 4 субусилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура выходного каскада 5 субусилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура выходного каскада 6 субусилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>3</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура блока питания субусилителя</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>4</AF>
+		<NA>33</NA>
+		<Formel>(MW / NW) *100</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения вентилятора в субусилителе в %</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

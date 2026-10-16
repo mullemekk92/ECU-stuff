@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MESSAGE DTD="XMLMSG" VERSION="1.1">
+	<RESULT>
+		<RESPONSE NAME="GetPIN" DTD="PINService" VERSION="1.0" ID="0">
+			<DATA>
+				<SATZART SA="(SATZART)"></SATZART>
+				<Antwort>
+					<FahrzeugVIN>(FAHRZEUG-VIN)</FahrzeugVIN>
+					<Steuergeraet>
+						<Art>(D-ART)</Art>
+						<Identifikation>(D-ID)</Identifikation>
+						<Seriennummer>(D-SERIE)</Seriennummer>
+						<Container>(D-CONTAINER)</Container>
+						<LoginPin>(D-LOGIN-PIN)</LoginPin>
+						<Meldung>
+							<MCode>(D-RC-KLASSE)</MCode>
+							<MText>(D-RC-TEXT)</MText>
+						</Meldung>
+					</Steuergeraet>
+					*(
+					<Transponder>
+						<ID>(T-ID-A)</ID>
+						<Typ>(T-TYP-A)</Typ>
+						<Meldung>
+							<MCode>(T-RC-KLASSE)</MCode>
+							<MText>(T-RC-TEXT)</MText>
+						</Meldung>
+					</Transponder>
+					)*
+					<Meldung>
+						<MCode>(TEXT-FEHLER-KLASSE)</MCode>
+						<MText>(TEXT-RC)</MText>
+					</Meldung>
+				</Antwort>
+			</DATA>
+		</RESPONSE>
+	</RESULT>
+	</MESSAGE>

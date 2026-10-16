@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Klh_08</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Klh1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Klemme 15</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<DO>SIG_87_Versorgungsspannung_Kl15</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Frischluftgebläse, IST-Spannung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>12</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kühlerlüfterstufe 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\I \L\S\G\AHinweis:\L\S\K\I
+Relais ein oder aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kühlerlüfterstufe 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\I \L\S\G\AHinweis:\L\S\K\I
+Relais ein oder aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kompressorlast, Soll-Wert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>14</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kältemitteldruck</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>37</analogerSWoben>
+		<SWE>bar</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Code für Kompressor AUS</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 ... 16</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\AHinweis:\L\S\K\I
+
+0 = Kompressor EIN
+1-16 = Kompressor AUS\Y\S\K\N
+
+J\L\S\K\I Kompressor AUS:
+(\L\S\K\ACode\L\S\K\I - \L\B\K\IEreignis\L\S\K\I - Bedingung)\L\S\K\A
+1\L\S\K\I - \L\B\K\IÜberdruck\L\S\K\I - Kältemitteldruck zu hoch: p &gt; 32 bar,\L\S\K\A
+3\L\S\K\I - \L\B\K\IUnterdruck\L\S\K\I - Kältemitteldruck zu klein: p &lt; 2 bar,\L\S\K\A
+5\L\S\K\I - \L\B\K\IMotorstart\L\S\K\I - Motorlaufzeit zu klein (kein Motorstart erkannt; über CAN kein Motordrehzahlsignal erkannt;\L\S\K\A
+6\L\S\K\I - \L\B\K\IECON\L\S\K\I - ECON-Betrieb;\L\S\K\A
+7\L\S\K\I - \L\B\K\IKlimaanlage OFF\L\S\K\I - Gebläseschalter in Stellung 0;\L\S\K\A
+8\L\S\K\I - \L\B\K\IAußentemperatur\L\S\K\I - Außentemperatur zu klein,
+Außentemperatur &lt; -3 °C,\L\S\K\A
+10\L\S\K\I - \L\B\K\IUnterspannung\L\S\K\I - Bordspannung zu klein,\L\S\K\A
+11\L\S\K\I - \L\B\K\IMotortemperatur\L\S\K\I - Motortemperatur zu groß, Motortemperatur &gt; 118 °C,\L\S\K\A
+12\L\S\K\I - \L\B\K\IKompressorleistungsbegrenzung vom Motorsteuergerät über CAN\L\S\K\I - Grund z.B. Motortemperatur, Kühlerlüftersteuergerät, Kick Down,\L\S\K\A
+14\L\S\K\I - \L\B\K\IVerdampfertemperatur Vereisungsgefahr\L\S\K\I - Verdampfertemperatur zu klein,\L\S\K\A
+16\L\S\K\I - \L\B\K\IKompressor Ansteuerung\L\S\K\I - Fehler im Ansteuerungspfad, z.B. Unterbrechung/ Kurzschluss nach Plus,</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ausströmtemperaturgeber für Verdampfer -G263</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-48</analogerSWunten>
+		<analogerSWoben>127</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<DO>G263_87_Geber_fuer_Ausstroemtemperatur_Verdampfer</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ausströmtemperaturgeber für Fußraum -G192</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<DO>G192_87_Geber_fuer_Ausstroemtemperatur_Fussraum</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ausströmtemperaturgeber Mitte -G191</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>90</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<DO>G191_87_Ausstroemtemperaturgeber_Mitte</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Innentemperatur</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zuheizbetrieb (PTC)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stellmotor der Frisch- und Umluftkappe -V154, IST-Wert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Hinweise:\Y\S\K\N
+J\L\S\K\N \L\S\K\IEin Count entspricht 19,6 mV (gemessen gegen Signalmasse).\Y\S\K\N
+J\L\S\K\I Bei 5 V (5000 mV) Spannungsversorgung des Potenziometers sind 5000 mV = 255 Counts * 19,6 mV.
+z.B. Klappenstellung, Ist-Wert im Messwerteblock ist 43 Counts, dann sind 43 * 19,6 = 843 mV. An der Signalleitung vom Potenziometer liegt somit am Steuergerät gegen Signalmasse gemessen eine Spannung von 843 mV an.\Y\S\K\N
+J\L\S\K\I Kurzschluss nach Masse wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &lt; 100 mV bzw. &lt; 5 Counts ist, kommt es zum entsprechenden Fehlereintrag.\Y\S\K\N
+J\L\S\K\I Unterbrechung/ Kurzschluss nach Plus wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &gt; 4900 mV bzw. &gt; 250 Counts ist, kommt es zum entsprechenden Fehlereintrag.</Meldungstext>
+		<DO>V154_87_Stellmotor_der_Frischluftklappe_und_Umluftklappe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stellmotor der Frisch- und Umluftkappe -V154, SOLL-Wert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Hinweise:\Y\S\K\N
+J\L\S\K\N \L\S\K\IEin Count entspricht 19,6 mV (gemessen gegen Signalmasse).\Y\S\K\N
+J\L\S\K\I Bei 5 V (5000 mV) Spannungsversorgung des Potenziometers sind 5000 mV = 255 Counts * 19,6 mV.
+z.B. Klappenstellung, Ist-Wert im Messwerteblock ist 43 Counts, dann sind 43 * 19,6 = 843 mV. An der Signalleitung vom Potenziometer liegt somit am Steuergerät gegen Signalmasse gemessen eine Spannung von 843 mV an.\Y\S\K\N
+J\L\S\K\I Kurzschluss nach Masse wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &lt; 100 mV bzw. &lt; 5 Counts ist, kommt es zum entsprechenden Fehlereintrag.\Y\S\K\N
+J\L\S\K\I Unterbrechung/ Kurzschluss nach Plus wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &gt; 4900 mV bzw. &gt; 250 Counts ist, kommt es zum entsprechenden Fehlereintrag.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stellmotor der Frisch- und Umluftkappe -V154, Anschlag max.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Hinweise:\Y\S\K\N
+J\L\S\K\N \L\S\K\IEin Count entspricht 19,6 mV (gemessen gegen Signalmasse).\Y\S\K\N
+J\L\S\K\I Bei 5 V (5000 mV) Spannungsversorgung des Potenziometers sind 5000 mV = 255 Counts * 19,6 mV.
+z.B. Klappenstellung, Ist-Wert im Messwerteblock ist 43 Counts, dann sind 43 * 19,6 = 843 mV. An der Signalleitung vom Potenziometer liegt somit am Steuergerät gegen Signalmasse gemessen eine Spannung von 843 mV an.\Y\S\K\N
+J\L\S\K\I Kurzschluss nach Masse wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &lt; 100 mV bzw. &lt; 5 Counts ist, kommt es zum entsprechenden Fehlereintrag.\Y\S\K\N
+J\L\S\K\I Unterbrechung/ Kurzschluss nach Plus wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &gt; 4900 mV bzw. &gt; 250 Counts ist, kommt es zum entsprechenden Fehlereintrag.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stellmotor der Frisch- und Umluftkappe -V154,  Anschlag min.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Hinweise:\Y\S\K\N
+J\L\S\K\N \L\S\K\IEin Count entspricht 19,6 mV (gemessen gegen Signalmasse).\Y\S\K\N
+J\L\S\K\I Bei 5 V (5000 mV) Spannungsversorgung des Potenziometers sind 5000 mV = 255 Counts * 19,6 mV.
+z.B. Klappenstellung, Ist-Wert im Messwerteblock ist 43 Counts, dann sind 43 * 19,6 = 843 mV. An der Signalleitung vom Potenziometer liegt somit am Steuergerät gegen Signalmasse gemessen eine Spannung von 843 mV an.\Y\S\K\N
+J\L\S\K\I Kurzschluss nach Masse wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &lt; 100 mV bzw. &lt; 5 Counts ist, kommt es zum entsprechenden Fehlereintrag.\Y\S\K\N
+J\L\S\K\I Unterbrechung/ Kurzschluss nach Plus wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &gt; 4900 mV bzw. &gt; 250 Counts ist, kommt es zum entsprechenden Fehlereintrag.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stellmotor der Temperaturklappe -V68, IST-Wert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Hinweise:\Y\S\K\N
+J\L\S\K\N \L\S\K\IEin Count entspricht 19,6 mV (gemessen gegen Signalmasse).\Y\S\K\N
+J\L\S\K\I Bei 5 V (5000 mV) Spannungsversorgung des Potenziometers sind 5000 mV = 255 Counts * 19,6 mV.
+z.B. Klappenstellung, Ist-Wert im Messwerteblock ist 43 Counts, dann sind 43 * 19,6 = 843 mV. An der Signalleitung vom Potenziometer liegt somit am Steuergerät gegen Signalmasse gemessen eine Spannung von 843 mV an.\Y\S\K\N
+J\L\S\K\I Kurzschluss nach Masse wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &lt; 100 mV bzw. &lt; 5 Counts ist, kommt es zum entsprechenden Fehlereintrag.\Y\S\K\N
+J\L\S\K\I Unterbrechung/ Kurzschluss nach Plus wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &gt; 4900 mV bzw. &gt; 250 Counts ist, kommt es zum entsprechenden Fehlereintrag.</Meldungstext>
+		<DO>V68__87_Stellmotor_der_Temperaturklappe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stellmotor der Temperaturklappe -V68, SOLL-Wert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Hinweise:\Y\S\K\N
+J\L\S\K\N \L\S\K\IEin Count entspricht 19,6 mV (gemessen gegen Signalmasse).\Y\S\K\N
+J\L\S\K\I Bei 5 V (5000 mV) Spannungsversorgung des Potenziometers sind 5000 mV = 255 Counts * 19,6 mV.
+z.B. Klappenstellung, Ist-Wert im Messwerteblock ist 43 Counts, dann sind 43 * 19,6 = 843 mV. An der Signalleitung vom Potenziometer liegt somit am Steuergerät gegen Signalmasse gemessen eine Spannung von 843 mV an.\Y\S\K\N
+J\L\S\K\I Kurzschluss nach Masse wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &lt; 100 mV bzw. &lt; 5 Counts ist, kommt es zum entsprechenden Fehlereintrag.\Y\S\K\N
+J\L\S\K\I Unterbrechung/ Kurzschluss nach Plus wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &gt; 4900 mV bzw. &gt; 250 Counts ist, kommt es zum entsprechenden Fehlereintrag.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stellmotor der Temperaturklappe -V68, Anschlag max.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Hinweise:\Y\S\K\N
+J\L\S\K\N \L\S\K\IEin Count entspricht 19,6 mV (gemessen gegen Signalmasse).\Y\S\K\N
+J\L\S\K\I Bei 5 V (5000 mV) Spannungsversorgung des Potenziometers sind 5000 mV = 255 Counts * 19,6 mV.
+z.B. Klappenstellung, Ist-Wert im Messwerteblock ist 43 Counts, dann sind 43 * 19,6 = 843 mV. An der Signalleitung vom Potenziometer liegt somit am Steuergerät gegen Signalmasse gemessen eine Spannung von 843 mV an.\Y\S\K\N
+J\L\S\K\I Kurzschluss nach Masse wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &lt; 100 mV bzw. &lt; 5 Counts ist, kommt es zum entsprechenden Fehlereintrag.\Y\S\K\N
+J\L\S\K\I Unterbrechung/ Kurzschluss nach Plus wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &gt; 4900 mV bzw. &gt; 250 Counts ist, kommt es zum entsprechenden Fehlereintrag.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stellmotor der Temperaturklappe -V68, Anschlag min.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>5</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>Counts</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Hinweise:\Y\S\K\N
+J\L\S\K\N \L\S\K\IEin Count entspricht 19,6 mV (gemessen gegen Signalmasse).\Y\S\K\N
+J\L\S\K\I Bei 5 V (5000 mV) Spannungsversorgung des Potenziometers sind 5000 mV = 255 Counts * 19,6 mV.
+z.B. Klappenstellung, Ist-Wert im Messwerteblock ist 43 Counts, dann sind 43 * 19,6 = 843 mV. An der Signalleitung vom Potenziometer liegt somit am Steuergerät gegen Signalmasse gemessen eine Spannung von 843 mV an.\Y\S\K\N
+J\L\S\K\I Kurzschluss nach Masse wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &lt; 100 mV bzw. &lt; 5 Counts ist, kommt es zum entsprechenden Fehlereintrag.\Y\S\K\N
+J\L\S\K\I Unterbrechung/ Kurzschluss nach Plus wird vom Steuergerät permanent Überwacht. Wenn der Spannungswert, der am Steuergerät auf der Signalleitung anliegt &gt; 4900 mV bzw. &gt; 250 Counts ist, kommt es zum entsprechenden Fehlereintrag.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10200</analogerSWoben>
+		<SWE>1/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Drehzahlanhebung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>3</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrgeschwindigkeit</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Rückwärtsgang</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>44</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Standzeit</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>4</analogerSWoben>
+		<SWE>h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Klemme X</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Klemme 58d (Dimmwert)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Außentemperatur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>77</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kühlmitteltemperatur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>77</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Vorwarnung Heißleuchte (Kühlmitteltemperatur)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kompressorleistungsbegrenzung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Klh_08</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Klh1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Код для Компрессор ВЫКЛ</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 ... 17</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\AУказание:\L\S\K\N
+
+0 = компрессор ВКЛ
+ 1-17 = компрессор ВЫКЛ\Y\S\K\N
+
+J\L\S\K\I \L\B\K\AКомпрессор ВКЛ:\L\S\K\I
+ (\L\S\K\AКод\L\S\K\I - \L\B\K\IСобытие\L\S\K\I - Условие)\L\S\K\A
+ 0\L\S\K\I - \L\B\K\IOK\L\S\K\I - Кондиционер включён, все условия выполнены;\Y\S\K\N
+
+J\L\S\K\I \L\B\K\AКомпрессор ВЫКЛ:\L\S\K\I
+ (\L\S\K\AКод\L\S\K\I - \L\B\K\IСобытие\L\S\K\I - Условие)\L\S\K\A
+ 1\L\S\K\I - \L\B\K\IИзбыточное давление\L\S\K\I - Давление хладагента слишком высокое: p \L\S\G\N&gt;\L\S\K\I 32 бар;\L\S\K\A
+ 2\L\S\K\I - \L\B\K\IВентилятор\L\S\K\I - Вентилятор неисправен и фактическое напряжение &lt; 3 В;\L\S\K\A
+ 3\L\S\K\I - \L\B\K\IНизкое давление\L\S\K\I - Давление хладагента слишком мало, наполнение в зависимости от наружной температуры,  p \L\S\G\N&lt;\L\S\K\I 2 бар;\L\S\K\A
+ 5\L\S\K\I - \L\B\K\IЗапуск двигателя\L\S\K\I - Время работы двигателя \L\S\G\N&lt;\L\S\K\I 4 сек (запуск двигателя не распознан);\L\S\K\A
+ 6\L\S\K\I - \L\B\K\IECON\L\S\K\I - режим ECON;\L\S\K\A
+ 7\L\S\K\I - \L\B\K\IКондиционер OFF\L\S\K\I - Включатель вентилятора в положении 0;\L\S\K\A
+ 8\L\S\K\I - \L\B\K\IНаружная температура\L\S\K\I - Наружная температура слишком низка\L\S\G\N&lt;\L\S\K\I 3,0 °C;\L\S\K\A
+ 10\L\S\K\I - \L\B\K\IНедостаточное напряжение\L\S\K\I - Слишком малое напряжение бортовой сети;\L\S\K\A
+ 11\L\S\K\I - \L\B\K\IОтключение по лампе перегрева\L\S\K\I - Температура двигателя &gt; 118 °C;\L\S\K\A
+ 12\L\S\K\I - \L\B\K\IОтключение по блоку управления двигателя\L\S\K\I - Причина, напр., температура двигателя, блок управления вентилятора радиатора, Kick Down;\L\S\K\A
+ 13\L\S\K\I - \L\B\K\IПревышение напряжения\L\S\K\I - Слишком большое напряжение бортовой сети, U (кл. 15) &gt; 17 В;\L\S\K\A
+ 14\L\S\K\I - \L\B\K\IТемпература испарителя Опасность обледенения\L\S\K\I - Слишком мала температура испарителя;\L\S\K\A
+ 15\L\S\K\I - \L\B\K\IКодировка автомобиля отсутствует или неправильная\L\S\K\I;\L\S\K\A
+ 16\L\S\K\I - \L\B\K\IВключение компрессора\L\S\K\I - Неисправность в цепи управления, например обрыв/ короткое замыкание на плюс;\L\S\K\A
+ 17\L\S\K\I - \L\B\K\IДатчик давления\L\S\K\I - Отсутствует или не распознаётся сигнал датчика давления (сигнал с широтно-импульсной модуляцией)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Запуск двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Скорость движения а/м</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">а/м на стоянке</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температурная заслонка, ФАКТ. значение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температурная заслонка, ЗАДАНН. значение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температурная заслонка, положение холодно</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температурная заслонка, положение тепло</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Центральная заслонка, ФАКТ. значение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Центральная заслонка, ЗАДАНН. значение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Центральная заслонка, упор дефлектора обдува тела</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Центральная заслонка, упор - зона ног/размораж.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Зона ног/Заслонка размораживания, ФАКТ. значение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Зона ног/Заслонка размораживания, ЗАДАНН. значение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ниша для ног/ заслонка размораж., упор - зона ног</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ниша для ног/ заслонка размораж., упор для размораж.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Заслонка скор.напора /рецирк.воздуха, факт.значение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Заслонка скор.напора /рецирк.воздуха, ЗАДАНН.значение</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Заслонка скорост.напора/ рецирк. - упор для приточн.возд.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Заслонка скорост.напора/ рецирк. - упор для рецирк.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>5</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Наружная температура, после фильтрации</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>77</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>5</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик температуры во впускном канале</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>80</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>3</AF>
+		<NA>5</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура окружающей среды, прямо</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>77</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик инсоляции</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\AУказание:\L\S\K\I
+
+Измеряемая величина фотодатчика инсоляции, 0 -  1000 Вт/куб.м</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>5</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик темп.потока на выходе, дефлектор обдува тела</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>5</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик температуры потока в зоне ног</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>5</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутренняя температура</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\AУказание:\L\S\K\I
+ Датчик внутренней температуры установлен в блоке управления Climatronic -J255.
+ Если он неисправен, блок управления записывает ошибку '00003 'неисправен', и тогда блок управления Climatronic -J255 подлежит замене.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel>in °C</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик температуры потока на выходе, испаритель</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>in V</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Вентилятор приточного воздуха, ЗАДАНН. напряжение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>12</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>in V</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Вентилятор приточного воздуха, ФАКТ. напряжение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>12</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>in V</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Клемма 15</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>30.6</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Реле/клапан, управл. работой сист. охл. по характеристике</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ступень 1 вентилятора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ступень 2 вентилятора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Повышенная тепловая мощность выкл.</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel>in %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Значение снижения яркости</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>4</AF>
+		<NA>14</NA>
+		<Formel>in bar</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Давление хладагента</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>37</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>24</NA>
+		<Formel>in A</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ток компрессора, заданное значение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>37</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel>in A</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ток компрессора, ФАКТ. значение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10200</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel>in U/min</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения компрессора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10200</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

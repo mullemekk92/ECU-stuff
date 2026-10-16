@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Svf_36</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Svf6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Общие состояния 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TБиты 0-7:  
+--&gt;		                  0 = клавиша запоминания персональных настроек 1
+--&gt;                   1 = клавиша запоминания персональных настроек 2
+--&gt;                2 = клавиша запоминания персональных настроек 3
+--&gt;             3 = 0
+--&gt;          4 = 0
+--&gt;       5 = запереть дверь водителя
+						 0 = отпереть, 1 = запереть
+--&gt;    6 = центральный замок с помощью ДУ
+					   0 = деакт., 1 = акт.
+--&gt; 7 = дверь водителя заперта
+					0 = отперта, 1 = заперта</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Общие состояния</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TБиты 0-7:  
+--&gt;		                  0 = вызов регулировок из памяти акт.
+--&gt;                   1 = 0
+--&gt;                2 = концевой выключатель двери водителя
+								0 = разомкнут более 10 минут
+								1 = разомкнут менее 10 минут
+--&gt;             3 = состояние памяти
+							  0 = разрешено, 1 = не разрешено
+--&gt;          4 = клавиша памяти
+						    0 = не нажата, 1 = нажата
+--&gt;       5 = концевой выключатель двери
+						 0 = не нажат, 1 = нажат
+--&gt;    6 = клемма 15
+					   0 = выкл, 1 = вкл 
+--&gt; 7 = сигнал скорости
+			      0 = более 5 км/ч, 1 = менее 5 км/ч</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сигнал радиоключа (номер ключа)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+
+0 = нет сигнала
+1 = номер ключа 1
+2 = номер ключа 2
+3 = номер ключа 3
+4 = номер ключа 4</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Активный ключ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+
+0 = нет активного ключа с ДУ
+1 = акт. ключ с ДУ 1
+2 = акт. ключ с ДУ 2
+3 = акт. ключ с ДУ 3
+4 = акт. ключ с ДУ 4</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Направление регулировки продольного положения сиденья</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+
+- вперед
+- назад
+- не задейств.
+- недостоверность</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение, регулировка продольного положения сиденья</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Направление регулировки наклона спинки</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+
+- вперед
+- назад
+- не задейств.
+- недостоверность</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение, регулировка наклона спинки сиденья</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Направление регулировки подушки сиденья по высоте</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+
+- увеличить
+- уменьшить
+- не задейств.
+- недостоверность</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение, регулировка высоты сиденья</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Направление регулировки наклона подушки сиденья</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+
+- увеличить
+- уменьшить
+- не задейств.
+- недостоверность</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение, регулировка наклона сиденья</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Направление регулировки поясничного подпора (выступание)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+
+- вперед
+- назад
+- не задейств.
+- недостоверность</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение поясничного подпора (выступание)</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..66535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Направление регулировки поясничного подпора (высота)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможная индикация:
+
+- увеличить
+- уменьшить
+- не задейств.
+- недостоверность</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение поясничного подпора (высота)</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>44</AG>
+		<AF>1</AF>
+		<NA>21</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Электропитание Клемма 30</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>14</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус инициализации электродвигателя 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TБиты 0-7:  
+--&gt;		                  0 = регулировка продольного положения сиденья
+--&gt;                   1 = регулировка наклона спинки
+--&gt;                2 = регулировка высоты подушки сиденья
+--&gt;             3 = регулировка наклона подушки сиденья
+--&gt;          4 = 0
+--&gt;       5 = 0
+--&gt;    6 = 0
+--&gt; 7 = 0
+
+- 0 = не инициализирована, 1 = инициализирована</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус инициализации электродвигателя 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TБиты 0-7:  
+--&gt;		                  0 = регулировка поясничного подпора (выступание)
+--&gt;                   1 = регулировка поясничного подпора (высота)
+--&gt;                2 = -
+--&gt;             3 = -
+--&gt;          4 = -
+--&gt;       5 = -
+--&gt;    6 = -
+--&gt; 7 = -
+
+- 0 = не инициализирована, 1 = инициализирована</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Режим работы CAN</Text>
+		</Name>
+		<diskreterSW>521</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможная индикация:
+
+- в однопроводном режиме
+- в двухпроводном режиме</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN, блок управления двери</Text>
+		</Name>
+		<diskreterSW>495</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможная индикация:
+
+-\L\S\K\I Дверь ВОД 1 = соединение в норме\L\S\K\N
+-\L\S\K\I Дверь ВОД 0 = соединение не в норме</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN, диагностический интерфейс шин данных</Text>
+		</Name>
+		<diskreterSW>634</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможная индикация:
+
+-\L\S\K\I Шлюз 1 = соединение в норме\L\S\K\N
+-\L\S\K\I Шлюз 0 = соединение не в норме</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>131</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN, дверь переднего пассажира</Text>
+		</Name>
+		<diskreterSW>497</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможная индикация:
+
+-\L\S\K\I Дверь ПП 1 = соединение в норме\L\S\K\N
+-\L\S\K\I Дверь ПП 0 = соединение не в норме</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>132</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN, блок управления бортовой сети</Text>
+		</Name>
+		<diskreterSW>416</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможная индикация:
+
+-\L\S\K\I БУбор.с. 1 = соединение в норме\L\S\K\N
+-\L\S\K\I БУбор.с. 0 = соединение не в норме</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

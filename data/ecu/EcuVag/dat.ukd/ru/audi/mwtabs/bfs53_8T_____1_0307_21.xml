@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>bfs_53</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>bfs6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Системная конфигурация </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TБит 0:  Readiness Bit Assembley Check; устанавливается при базовой регулировке 10
+ 0: в норме (стандарт) / 1: не в норме 
+ Бит 1:   Readiness Bit  System Calibration; устанавливается при базовой регулировке 20
+ 0: в норме (стандарт) / 1: не в норме 
+ Бит 4:   Выбор коробки передач
+ 0: Механическая коробка передач 
+ 1: Автоматическая коробка передач
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>66</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Внутреннее напряжение АКБ</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение выключателя, элемент управления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NВозможные индикаци на тестере:\L\S\K\N
+недействующий, открыть, закрыть, Ошибка</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Актуальный угол наклона</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TАвтомобиль в состоянии покоя и на ровной поверхности, заданное значение приблизительно\L\B\K\A+/- 1,25 м/с2</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Рассчитанная температура тормозов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TРассчитанная температура тормозов в градусах Цельсия
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Достигнутый ток отключения слева </Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\L\B\K\AОписание тока выключения:\L\S\K\N
+ достигнутый ток выключения в (А) это измеренный эквивалент силы натяжения в (кН),
+ сила натяжения не может быть измерена напрямую.
+ Типичное значение нормы 15...19 (A) 
+ При неизвестном состоянии тормозов выдается ОШИБКА для достигнутого тока выключения (силы натяжения) .
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Достигнутый ток отключения справа</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\L\B\K\AОписание тока выключения:\L\S\K\N
+ достигнутый ток выключения в (А) это измеренный эквивалент силы натяжения в (кН),
+ сила натяжения не может быть измерена напрямую.
+ Типичное значение нормы 15...19 (A) 
+ При неизвестном состоянии тормозов выдается ОШИБКА для достигнутого тока выключения (силы натяжения) .
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус тормозов слева </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AСостояние электромеханического стояночного тормоза\L\S\K\N
+ 0 = притянут, не достигнута полная сила натяжения
+ 1 = закрыт полностью
+ 2 = притянут, достигнута полная сила натяжения
+ 3 = открытый
+ 4 = открыт полностью
+ 5 = Состояние неизвестно или неисправен
+ 7 = достигнут момент для замены тормозных накладок
+ 8 = На пути к замене тормозных накладок
+
+
+
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние тормозов справа</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AСостояние электромеханического стояночного тормоза\L\S\K\N
+ 0 = притянут, не достигнута полная сила натяжения
+ 1 = закрыт полностью
+ 2 = притянут, достигнута полная сила натяжения
+ 3 = открытый
+ 4 = открыт полностью
+ 5 = Состояние неизвестно или неисправен
+ 7 = достигнут момент для замены тормозных накладок
+ 8 = На пути к замене тормозных накладок</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус ламп</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TБит 0: Контрольная лампа тормоза
+ 				0000000\L\B\K\N0 \L\S\K\N= 0=выкл; 1=вкл
+ Бит 1: Лампа индикации неисправности EPB 
+ 				000000\L\B\K\N0\L\S\K\N0\L\B\K\N \L\S\K\N= 0=выкл; 1=вкл
+ Бит2 и Бит3: Лампа Activity 
+ 				0000\L\B\K\N00\L\S\K\N00\L\B\K\N \L\S\K\N= 00=выкл; 01=вкл, 10=мигает
+ Бит4: Активна функция Auto Vehicle Hold
+ 				00\L\B\K\N0\L\S\K\N00000\L\B\K\N \L\S\K\N= 0=выкл; 1=вкл
+ Бит 5 и бит 6: Лампа в клавише EPB 
+ 0\L\B\K\N00\L\S\K\N00000\L\B\K\N \L\S\K\N= 00=выкл; 01=вкл, 10=мигает
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Тексты индикации</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T0 = Текст отсутствует
+ 1 = Угол наклона слишком велик
+ 2 = открыть стояночный тормоз рукой
+ 3 = EPB в режиме диагностики
+ 4 = нажать педаль тормоза
+ 7 = Нарушение функции облегчения трогания с места
+ 5, 6,8, 9 до 15 не занят
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Акустические сигналы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T67 = Звуковой сигнал вкл
+ 68 = Звуковой сигнал выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>34</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Выключатель фонарей заднего хода</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NВозможные индикаци на тестере:\L\S\K\N
+Задний ход да; Задний ход нет или ОШИБКА</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>34</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Выключатель блокировки только в автомобилях с механ. КП</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\L\B\K\NВозможные индикаци на тестере:\L\S\K\N
+ 1 = выключатель блокировки нажат
+ 0 = выключатель блокировки не нажат
+ Error = недействительный
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>34</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Включатель GRA только в автомобилях с механанической КП</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NВозможные индикаци на тестере:\L\S\K\N
+ 1 = педаль сцепления нажата
+ 0 = педаль сцепления не нажата
+ Error = недействительный</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>34</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Включатель передачи вперёд только в автомобилях с механ. КП</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NВозможные индикаци на тестере:\L\S\K\N
+ 1 = включена первая или вторая скорость
+ 0 = задний ход или оставшиеся
+ Error = недействительный</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Давление тормозной системы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TИндикация в барах</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Выключатель стоп-сигналов  </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NВозможная индикация:\L\S\K\N
+ Bls вкл или Bls выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Значение педали акселератора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NДиапазон значений:\L\S\K\N
+ 0 ... 100 %
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение выключателя, элемент управления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\L\B\K\NВозможные индикаци на тестере:\L\S\K\N
+ недействующий, открыть, закрыть, Ошибка
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Счетчик задействований слева</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение индикации должно умножаться на 2, так как при двукратном открывании и закрывании стояночного тормоза счётчик увеличивается на 1
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Счетчик задействований справа</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение индикации должно умножаться на 2, так как при двукратном открывании и закрывании парковочного тормоза состояние счетчика увеличивается на 1 единицу</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">максимальная достигаемая температура тормозов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TИндикация в градусах Цельсия
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">максимальная достигаемая температура тормозов (дата)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">максимальная достигаемая температура тормозов (время)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">максимальная достигаемая температура тормозов (пробег)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TПробег в километрах = индицируемое значение х 1000 км
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>97</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус клеммы 15</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NВозможные индикаци на тестере:\L\S\K\N
+ кл.15 вкл, кл.15 выкл.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<AF>1</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">частоты вращения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Скорость автомобиля</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Значение хода педали сцепления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AТолько на автомобилях с механической коробкой передач\L\S\K\N
+
+Диапазон значений:
+ 15...85 % Ход педали 
+
+При не нажатом сцеплении индицируется значение около 15 ( +/- 5) 
+ При нажатом сцеплении индицируется значение около 85 ( +/- 5) 
+
+При \L\B\K\NERROR\L\S\K\N блоком управления -J540 электрического стояночного тормоза не принимаются действительные значения положения педали сцепления.
+
+
+ 
+
+
+
+
+
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Значение педали акселератора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NДиапазон значений:\L\S\K\N
+ 0 ... 100 %</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Момент по желанию водителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ассистент трогания с места (Drive Away Assist)-сигнальн.блок</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>Бит 0: Замок ремня безопасности
+ Биты 1 .. 5: не используется
+ Бит 6: Ассистент трогания с места, задний ход, установлена требуемая передача и распознана в качестве действительной
+ Бит 7: Ассистент трогания с места, ход вперёд, установлена требуемая передача и распознана в качестве действительной\L\B\K\N
+
+0 = Замок ремня безопасности не вставлен или не распознана передача 
+ 1 = Вставлен замок ремня безопасности или распознана передача\L\S\K\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">актуальный крутящий момент двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Положение выключателя, элемент управления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>10</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\NВозможные индикаци на тестере:\L\S\K\N
+недействующий, открыть, закрыть, Ошибка</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN от блока управления подушки безопасности</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AВозможные индикаци на тестере:\L\S\K\N
+ Если индицируется \L\B\K\A1\L\B\K\N \L\S\K\N, то передается сообщение CAN от соответствующего блока управления.
+  Если тестер индицирует  \L\B\K\A0\L\B\K\N \L\S\K\N, то сообщение CAN прервано.
+  В таком случае считайте память неисправностей соответствующего блока управления.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN от блока управления Gateway</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AВозможные индикаци на тестере:\L\S\K\N
+ Если индицируется \L\B\K\A1\L\B\K\N \L\S\K\N, то передается сообщение CAN от соответствующего блока управления.
+  Если тестер индицирует  \L\B\K\A0\L\B\K\N \L\S\K\N, то сообщение CAN прервано.
+  В таком случае считайте память неисправностей соответствующего блока управления.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN от блока управления КП</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AВозможные индикаци на тестере:\L\S\K\N
+ Если индицируется \L\B\K\A1\L\B\K\N \L\S\K\N, то передается сообщение CAN от соответствующего блока управления.
+  Если тестер индицирует  \L\B\K\A0\L\B\K\N \L\S\K\N, то сообщение CAN прервано.
+  В таком случае считайте память неисправностей соответствующего блока управления.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN от блока управления тормозной системы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AВозможные индикаци на тестере:\L\S\K\N
+ Если индицируется \L\B\K\A1\L\B\K\N \L\S\K\N, то передается сообщение CAN от соответствующего блока управления.
+  Если тестер индицирует  \L\B\K\A0\L\B\K\N \L\S\K\N, то сообщение CAN прервано.
+  В таком случае считайте память неисправностей соответствующего блока управления.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN от комбинации приборов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AВозможные индикаци на тестере:\L\S\K\N
+ Если индицируется \L\B\K\A1\L\B\K\N \L\S\K\N, то передается сообщение CAN от соответствующего блока управления.
+  Если тестер индицирует  \L\B\K\A0\L\B\K\N \L\S\K\N, то сообщение CAN прервано.
+  В таком случае считайте память неисправностей соответствующего блока управления.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN от электрон.замка зажигания</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AВозможные индикаци на тестере:\L\S\K\N
+ Если индицируется \L\B\K\A1\L\B\K\N \L\S\K\N, то передается сообщение CAN от соответствующего блока управления.
+  Если тестер индицирует  \L\B\K\A0\L\B\K\N \L\S\K\N, то сообщение CAN прервано.
+  В таком случае считайте память неисправностей соответствующего блока управления.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Сообщение CAN от блока управления двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>15</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\B\K\AВозможные индикаци на тестере:\L\S\K\N
+ Если индицируется \L\B\K\A1\L\B\K\N \L\S\K\N, то передается сообщение CAN от соответствующего блока управления.
+  Если тестер индицирует  \L\B\K\A0\L\B\K\N \L\S\K\N, то сообщение CAN прервано.
+  В таком случае считайте память неисправностей соответствующего блока управления.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

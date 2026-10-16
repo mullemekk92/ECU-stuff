@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MESSAGE DTD="XMLMSG" VERSION="1.4.0.0">
+	<RESULT>
+		<RESPONSE NAME="GetSoftwareEnablingData" DTD="RepairHints" VERSION="1.4.2.1" ID="0">
+			<DATA>
+				<!-- Hinweis: dieses Element kommt mit ERP 4.1, folglich auch
+					 mit FES 4.1 im Rahmen von CR0404. Streng genommen ist das
+					 Element selbst noch nicht mit der VW-ID abgestimmt. Es
+					 enthaelt die Aufruf-ID des Eintrags des fachlichen Logs
+					 von service42, welcher zu dieser Antwort gehoert und soll
+					 die Nachvollziehbarkeit der Reparatur erleichtern. Fuer
+					 die Antwort selbst, ist die Information vorerst jedoch
+					 nicht relevant. -->
+				<REQUEST_ID>(REQUEST_ID)</REQUEST_ID>
+			    	*(
+				<PARAMETER_DATA DIAGNOSTIC_ADDRESS="(DIAGNOSTIC_ADDRESS)" START_ADDRESS="(START_ADDRESS)" PR_IDX="(PR_IDX)" ZDC_NAME="(ZDC_NAME)" ZDC_VERSION="(ZDC_VERSION)" LOGIN="(LOGIN)" LOGIN_IND="(LOGIN_IND)">(PARAMETER_DATA)</PARAMETER_DATA>
+				)*
+				<INFORMATION>
+					<CODE>(INFORMATION_CODE)</CODE>
+				</INFORMATION>
+			</DATA>
+		</RESPONSE>
+	</RESULT>
+</MESSAGE>

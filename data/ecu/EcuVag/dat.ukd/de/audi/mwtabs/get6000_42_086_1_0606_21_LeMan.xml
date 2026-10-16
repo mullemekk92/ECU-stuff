@@ -1,0 +1,1838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Get_02</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Get6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>99</NA>
+		<Formel> -32768 bis 32767 </Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Anzahl der Kommunikationsfehler zum Wählhebel</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\TDie Kommunikationsfehler zwischen Wählhebel und Getriebesteuergerät -J217 seit dem letzten Einschalten der Zündung.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Initialisierungsbit Wählhebel</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T1 = Wählhebel wird initialisiert (Dauer ~100msec)
+0 = Wählhebelinitialisierung abgeschlossen.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Wählhebelstatus</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T0 = Wählhebelstatus wird übertragen
+1 = Information über Wählhebelstatus fehlt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Wählhebelantwort-Bit</Text>
+		</Name>
+		<diskreterSW>1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T0 = Wählhebel sendet keine Daten an das Getriebesteuergerät
+1 = Wählhebel sendet regelmäßig Daten.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Sport-Taste über Datenbus Antrieb</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T1 = Sport-Taste gedrückt
+0 = Sport-Taste nicht gedrückt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrmodus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TA= Automatik Betrieb
+AS= Automatik Sportbetrieb
+M= Manueller Fahrmodus
+MS= Sportlicher Manuellbetrieb
+N= Leerlauf
+R= Rückwärtsfahrt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Handbremse über Datenbus Komfort</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TParkbremse 1 = Handbremse angezogen
+Parkbremse 0 = Handbremse gelöst\Y\F\J\N
+Y\Y\S\J\NZ\L\S\K\IHinweis:
+Die Stellung der Handbremse wird durch das Zentralsteuergerät für Komfortsystem -J393 ausgewertet und auf dem Datenbus Komfort für andere Systeme zur Verfügung gestellt.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Plaubilisierte Wählhebelstellung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TDer Wählhebel besitzt zwei rastende Stellungen, \L\B\K\AU\L\S\K\N und \L\B\K\AX\L\S\K\N. Aus diesen Stellungen heraus können folgende Funktionen betätigt werden:
+- über Stellung\L\B\K\N \L\B\K\AU\L\S\K\N:\L\S\K\A
++ = \L\S\K\Ntiptronic hochschalten\L\S\K\A
+-  = \L\S\K\Ntiptronic runterschalten\L\S\K\A
+A\L\S\K\N = Automatikbetrieb aktivieren
+- über Stellung\L\S\K\A \L\B\K\AX\L\S\K\A:
+V\L\S\K\N = Zwischenstellung\L\S\K\A
+R\L\S\K\N = Rückwärtsgang einlegen.\L\R\K\A
+
+/ \L\R\K\N= Fehler in der Positionserkennung \L\S\K\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW)</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Eingelegter Gang</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T1 -6 = Eingelegter Gang
+N = Neutral
+R = Rückwärtsgang
+/ = ungültige Stellung
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Bremslichtschalter plausibilisiert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TDas Bremslichtschaltersignal an PIN 69 des Getriebesteuergerätes wird mit dem Bremslichtschaltersignal über den Datenbus Antrieb verglichen und plaubilisiert.\L\S\K\A
+
+1 = Bremse betätigt
+0 = Bremse unbetätigt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Schaltsperre (shift lock)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBei aktivierter Schaltsperre (shift lock) ist keine Schaltung möglich.
+
+1 = Schaltsperre aktiv
+0 = Schaltsperre inaktiv
+\Y\F\J\N
+Y\Y\S\J\NZ\L\S\K\IHinweis:
+Der Wählhebel besitzt keine mechanische Wählhebelsperre.\L\S\K\N </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>7</NA>
+		<Formel>km</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrgeschwindigkeit vom ABS-Steuergerät </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel>U/min</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Plaubilisierte Motordrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\IHinweis:
+Die Motordrehzahl an PIN 48 des Getriebesteuergerätes wird mit dem Drehzahlsignal über den Datenbus Antrieb verglichen und plaubilisiert.\L\S\K\A
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Anlasserfreigabe</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TSind vom Getriebe die Bedingungung für einen Motorstart erfüllt, wird der Anlasser über PIN 42 (P-N Signal) für 10 sec freigegeben.
+
+1 = Anlasser freigegeben</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel>xx ASCII</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ansteuerung Relais für Hydraulikpumpe -J510</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T1 = Relais angesteuert, Hydraulikpumpe ein
+0 = Hydraulikpumpe aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur Hydraulikpumpe (berechnet)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>150</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\IHinweis:
+Die Temperatur basiert auf einem Rechenmodell.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Hydraulikdruck über G270</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>38</analogerSWunten>
+		<analogerSWoben>52</analogerSWoben>
+		<SWE>bar</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>20</NA>
+		<Formel>xx ASCII Zeichen</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Ventil 1 für Gangwahl -N284</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TN284 - Ventil 1 für Gangwahl ist ein Magnetventil und ermöglicht die Wahl der Schaltgasse.
+
+1 = Magnetventil angesteuert
+0 = Magnetventil nicht angesteuert
+ </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stromaufnahme Ventil 3 für Gangwahl -N286</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1.25</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\IHinweis:
+Das Ventil arbeitet als Druckregelventil und legt die ungeraden Gänge und den Rückwärtsgang ein.\L\S\K\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stromaufnahme Ventil 2 für Gangwahl -N285</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1.25</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\IHinweis:
+Das Ventil arbeitet als Druckregelventil und legt die geraden Gänge und Neutral ein.\L\S\K\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stromaufnahme Ventil für Kupplungssteller -N255</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1.25</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Amplitude Stromüberlagerung an Ventil 3 -N286</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\IHinweis:
+Zur Vermeidung von Einlaufspuren im Druckregelventil, wird dem Ansteuerstrom eine Wechselstrom überlagert.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Amplitude Stromüberlagerung an Ventil 2 -N285</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\IHinweis:
+Zur Vermeidung von Einlaufspuren im Druckregelventil, wird dem Ansteuerstrom eine Wechselstrom überlagert.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel>MW*NW*0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Amplitude Stromüberlagerung an Kupplungsventil -N255</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\IHinweis:
+Zur Vermeidung von Einlaufspuren im Druckregelventil, wird dem Ansteuerstrom eine Wechselstrom überlagert.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Verschleißindex Kupplung </Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-2000</analogerSWunten>
+		<analogerSWoben>12000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDer Verschleißindex der Kupplung seit dem letzten Rücksetzen der Kupplungsadaption. Typische Werte liegen zwischen -2000 bis 12000. Über Laufzeit nimmt dieser Wert zu. Größere Werte weisen auf einen fortgeschritten Verschleiß hin.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position Kupplungsschleifpunkt, 0 Nm Übetragung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>380</analogerSWunten>
+		<analogerSWoben>600</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDer Kupplungsschleifpunkt ist der sogenannte \L\B\K\N&lt;kiss point&gt;\L\S\K\N, bei dem die Kupplung geschlossen ist, aber noch keine Kraft (0 Nm) übertragen wird.
+Typische Werte liegen zwischen 380 und 600.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position Kupplung voll geschlossen (gelernt)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1050</analogerSWunten>
+		<analogerSWoben>2000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TPunkt an dem die Kupplung voll geschlossen ist für den aktuellen Fahrzyklus. 
+Dieser Wert wird nach der Adaption der Kupplung gespeichert.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position Kupplung voll geschlossen (aktueller Fahrzyklus)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1050</analogerSWunten>
+		<analogerSWoben>2000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TPunkt an dem die Kupplung voll geschlossen ist. Der Wert stammt aus dem aktuellen Fahrzyklus und sollte nur gering vom adaptierten Wert abweichen.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kupplungsposition  -G476 (Istwert)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-350</analogerSWunten>
+		<analogerSWoben>1000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBei abgestelltem Motor ist die Kupplung vollgeschlossen und es stellen sich Werte zwischen 1000 - 1700 ein. Mit einer neuen Kupplung beträgt dieser Wert bei geschlossener Kupplung ca. 1000. Über Laufzeit nimmt dieser Wert durch Abrieb zu. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kupplungsposition (Sollwert)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-350</analogerSWunten>
+		<analogerSWoben>1000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kupplungstemperatur (berechnet)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>250</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\IHinweis:
+Die Temperatur basiert auf einem Rechenmodell.
+
+Bei Temperaturen über 200°C wird in Gang 1 die Kupplung schnell geschlossen. Ab 300°C öffnet die Kupplung mit Warnmeldung im Schalttafeleinsatz.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Längsposition für Rückwärtsgang </Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>645</analogerSWunten>
+		<analogerSWoben>755</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Drehposition für Rückwärtsgang </Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>320</analogerSWunten>
+		<analogerSWoben>415</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Drehrichtung über den Sensor 2 für Gangerkennung -G616 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Längsposition Schaltwelle (Ist-Wert Schaltgasse)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>275</analogerSWunten>
+		<analogerSWoben>750</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\IHinweis:
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung über das Potenziometer 1 für Gangerkennung -G239 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Drehposition Schaltwelle (Ist-Wert Wählgasse)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>320</analogerSWunten>
+		<analogerSWoben>735</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Drehposition der Schaltwelle (Wählgasse) über Sensor 2 für Gangerkennung -G616 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Längsposition für Neutral</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>355</analogerSWunten>
+		<analogerSWoben>465</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Drehposition für Neutral</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>320</analogerSWunten>
+		<analogerSWoben>415</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Drehposition der Schaltwelle (Wählgasse) über Sensor 2 für Gangerkennung -G616 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Längsposition für Gang 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>270</analogerSWunten>
+		<analogerSWoben>380</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Drehposition für Gang 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>425</analogerSWunten>
+		<analogerSWoben>525</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Drehposition der Schaltwelle (Wählgasse) über Sensor 2 für Gangerkennung -G616 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Längsposition für Gang 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>640</analogerSWunten>
+		<analogerSWoben>750</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Drehposition für Gang 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>425</analogerSWunten>
+		<analogerSWoben>525</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Drehposition der Schaltwelle (Wählgasse) über Sensor 2 für Gangerkennung -G616 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Längsposition für Gang 3</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>275</analogerSWunten>
+		<analogerSWoben>385</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Drehposition für Gang 3</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>530</analogerSWunten>
+		<analogerSWoben>630</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Drehposition der Schaltwelle (Wählgasse) über Sensor 2 für Gangerkennung -G616 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Längsposition für Gang 4</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>750</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Drehposition für Gang 4</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>530</analogerSWunten>
+		<analogerSWoben>630</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Drehposition der Schaltwelle (Wählgasse) über Sensor 2 für Gangerkennung -G616 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Längsposition für Gang 5</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>275</analogerSWunten>
+		<analogerSWoben>385</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Drehposition für Gang 5</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>735</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Drehposition der Schaltwelle (Wählgasse) über Sensor 2 für Gangerkennung -G616 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Längsposition für Gang 6</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>745</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Adaptierte Drehposition für Gang 6</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>635</analogerSWunten>
+		<analogerSWoben>735</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Drehposition der Schaltwelle (Wählgasse) über Sensor 2 für Gangerkennung -G616 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Kl.15  (PIN 28)</Text>
+		</Name>
+		<diskreterSW>49</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TStatus Kl.15 (12V) an PIN 28 des Getriebesteuergerätes -J217.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kl.30 (Hauptversorgungsspannung)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Kl.50 (PIN 76)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TStatus Kl.50 (12V bei Motorstart) an PIN 76 des Getriebesteuergerätes -J217. Das Kl.50 Signal erzeugt das Steuergerät für Lenksäulenelektronik -J527 bei Zündschlüsselstellung Motorstart.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Versorgungsspannung für Sensoren der Gangerkennung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4.7</analogerSWunten>
+		<analogerSWoben>5.3</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDie hier gemessene Spannung entspricht der Versorgungsspannung an PIN 73. Die Sensoren 1 und 2 für Gangerkennung G604/616 erhalten über diesen Anschluß ihre Versorgungsspannung.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>1</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Schaltvorgang </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TNach dem Einleiten eines Schaltvorgangs wechselt der Status für eine Sekunde von \L\B\K\N0\L\S\K\N auf \L\B\K\N1\L\S\K\N.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Kupplung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>2</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDer Status kennzeichnet den aktuellen Zustand der Kupplung:
+0 = offen
+1 = kontolliertes schleifen
+2 = voll geschlossen\L\R\K\A
+3 = Fehler.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>1</AF>
+		<NA>11</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Motorsteuerung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBeim Anfahren greift das Getriebbesteuergerät in das Motormanagment ein.
+
+1 = Motoreingriff aktiv
+0 = kein Eingriff in die Motorsteuerung.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>2</AF>
+		<NA>52</NA>
+		<Formel>(MW - 50) * NW * 0,02</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Angefordertes Motormoment</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Angeforderte Drehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>4</AF>
+		<NA>52</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kupplungsdrehmoment</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>4</AF>
+		<NA>52</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Motor Notaus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TLiegt im Getriebesteuergerät oder im hydraulischen  System ein Fehler vor, der eine Abschaltung des Motors erfordert, wird bei einem schwerwiegenden Fehler am hydraulischem System oder dem Getriebesteuergerät ab Geschwindigkeiten unter 20 km/h der Motor abgeschaltet (Notaus).
+
+1 = Motor Notaus aktiv (kein Motorstat möglich)
+0 = kein Eingriff</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Getriebeeingangsdrehzahl -G182</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9000</analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Diskrete Motordrehzahl (PIN 48)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9000</analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<AF>4</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl über Datenbus Antrieb</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>9000</analogerSWoben>
+		<SWE>U/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<AF>2</AF>
+		<NA>14</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Wecksignal Fahrertür (PIN 78)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\NHinweis:
+Nach dem Öffnen der Fahrertür erzeugt das Bordnetzsteuergerät -J519 über ein Relais ein Impulssignal zum Starten der Vorfördung. Das Impulssignal wird maximal alle 30 Minuten erzeugt. \L\B\K\N
+Der Status wechselt für 5 Sekunden von 0 auf 1 bei erkanntem Signal.\L\S\N
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Bremslichtschalter (PIN 69)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TSignal vom Bremslichschalter an PIN 69 des Getriebesteuergerätes.
+
+1 = high (12 V)
+0 = low  (0 V)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<AF>4</AF>
+		<NA>17</NA>
+		<Formel>Zeichen (NW ; MW) Zeilenweise Darstellung</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kickdownstatus (CAN-Botschaft)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>1</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahranteil in Manuell</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>2</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahranteil im sportlichen Manuellmodus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>3</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahranteil im  Automatikmodus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<AF>4</AF>
+		<NA>119</NA>
+		<Formel>0,00 - XXX,XX %</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahranteil im sportlichen Automatikmodus</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<AF>1</AF>
+		<NA>75</NA>
+		<Formel>MW=Lowbyte NW=Highbyte</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zähler Launch-Control</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TDas Launch-Control-Programm ermöglicht eine maximale Beschleunigung. Gezählt werden über den Lebenszyklus des Steuergerätes die Anzahl der erfolgten Launch-Control Starts.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<AF>3</AF>
+		<NA>75</NA>
+		<Formel>MW=Lowbyte NW=Highbyte</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zähler (x 100) durchgeführte Schaltungen</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>Gezählt werden über den Lebenszyklus des Steuergerätes die Anzahl der erfolgten Schaltungen. Der Wert ist mit 100 zu multiplizieren.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Rückwärts, adaptierter Endanschlag Schaltgasse</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>655</analogerSWunten>
+		<analogerSWoben>765</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Neutral, adaptierter Endanschlag Schaltgasse</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>345</analogerSWunten>
+		<analogerSWoben>455</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gang 1, adaptierter Endanschlag Schaltgasse</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>260</analogerSWunten>
+		<analogerSWoben>370</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gang 2, adaptierter Endanschlag Schaltgasse</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>650</analogerSWunten>
+		<analogerSWoben>760</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gang 3, adaptierter Endanschlag Schaltgasse</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>265</analogerSWunten>
+		<analogerSWoben>375</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>2</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gang 4, adaptierter Endanschlag Schaltgasse</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>645</analogerSWunten>
+		<analogerSWoben>755</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gang 5, adaptierter Endanschlag Schaltgasse</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>265</analogerSWunten>
+		<analogerSWoben>375</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gang 6, adaptierter Endanschlag Schaltgasse</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>645</analogerSWunten>
+		<analogerSWoben>755</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\IHinweis:\L\S\K\I
+Im Schaltaktuator wird die Position der Schaltwelle in der Längsrichtung (Schaltgasse) über den Sensor für Gangerkennung -G604 gemessen. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>1</AF>
+		<NA>28</NA>
+		<Formel>-XXX bis XXX	MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Offset ungerade Gänge zum adaptierten Wert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>2</AF>
+		<NA>28</NA>
+		<Formel>-XXX bis XXX	MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Offset gerade Gänge zum adaptierten Wert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel>-XXX bis XXX	MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Offset Wählgasse zum adaptierten Wert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<AF>4</AF>
+		<NA>36</NA>
+		<Formel>0 bis XXXXXX km  (NW * 256 + MW) * 10 </Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kilometerstand der letzten Grundeinstellung Gangsteller</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>1</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Messwert 109/1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>2</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Messwert 109/2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>3</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Messwert 109/3</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<AF>4</AF>
+		<NA>45</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Messwert 109/4</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikation Motorsteuergerät</Text>
+		</Name>
+		<diskreterSW>371</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikation Bordnetz</Text>
+		</Name>
+		<diskreterSW>588</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikation Gateway</Text>
+		</Name>
+		<diskreterSW>634</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikation Wählhebel</Text>
+		</Name>
+		<diskreterSW>757</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikation Bremse</Text>
+		</Name>
+		<diskreterSW>373</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikation Schalttafeleinsatz</Text>
+		</Name>
+		<diskreterSW>377</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikation Lenksäulenelektronik</Text>
+		</Name>
+		<diskreterSW>513</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel>text</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikation Lenkwinkelsensor</Text>
+		</Name>
+		<diskreterSW>381</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MESSAGE DTD="XMLMSG" VERSION="1.4.0.0"> 
+	<HEADER>
+		<AUTHENTICATION_TOKEN>435602069</AUTHENTICATION_TOKEN>
+	</HEADER>
+	<COMMAND>
+		<REQUEST NAME="GetSoftwareEnablingData" DTD="RepairHints" VERSION="1.4.2.1" ID="0">			
+			<DATA>
+			  	<DEALER_ID SERVICE_REGION="(Importeursnummer)">(Haendlernummer)</DEALER_ID>
+				<USER_ID>[USERID]</USER_ID>
+				<TIMESTAMP>(Datum-Zeitstempel-Tester)</TIMESTAMP>
+				<TASK_CODE>(Aufgabencode)</TASK_CODE>
+				<CHANGE_CODE>(SVM-Code)</CHANGE_CODE>
+				<COMPONENT_REF>(fuehrende Diagnoseadresse)</COMPONENT_REF>
+				<SWE_CODE LICENSE_NUMBER="(FSC-Lizenznummer)" PIN="(Lizenz-PIN)">(AM-Code)</SWE_CODE>
+				<ORDER_REF>(Service station/bill number)</ORDER_REF>
+				<DEVICE_LOCATION>(Haendlername)</DEVICE_LOCATION>
+				<VEHICLE STATUS="repair" ORIGIN="(Ursprung-VIN)">
+					<IDENT>
+						<VIN>(Fahrgestellnummer)</VIN>
+					</IDENT>
+					<LIFE_DATA>
+						<ODOMETER UNIT="KM">(Kilometerstand)</ODOMETER>
+					</LIFE_DATA>
+					*(
+					<COMPONENT TYPE="(Master-oder-Slave)" ID="(Diagnoseadresse)" PARAMETRIZE_IND="(gueltige-EEPROM-Daten)" FLASH_IND="(flashbar)" LOGICAL_LINK="(ASAM-Logical-Link)" SLAVE_ID="(Slavenummer-ID)" SID="(Dienst)" JUST_PARAMETRIZED="(bereits parametriert)" JUST_CODED="(bereits codiert)" JUST_UPDATED="(bereits geflasht)" JUST_ADJUSTED_CALIBRATED="(bereits angepasst)">
+						<SERIAL_NO>(Seriennummer)</SERIAL_NO>
+						<ECU_PART_NO>(ZSB-oder-SW-Teilenummer)</ECU_PART_NO>
+						<HW_PART_NO>(Hardwareteilenummer)</HW_PART_NO>
+						<HW_VERSION>(Hardwareversion)</HW_VERSION>
+						<SW_VERSION>(Softwareversion)</SW_VERSION>
+						<PROTOCOL>(Steuergeraetevariante)</PROTOCOL>
+						<CODING>(Codierung)</CODING>
+						<PARAMETRIZING ZDC_NAME="(ZDC-Name)" ZDC_VERSION="(ZDC-Version)" PR_IDX="(PR-Nummern-Index)"/>
+						<INSTALLATIONLISTCODING>(Verbauliste)</INSTALLATIONLISTCODING>
+						<SUPPLIERCODE>(Herstellercode)</SUPPLIERCODE>
+						<SWE_ID>(FSC-Fileliste)</SWE_ID>
+						<COMPONENT_CHECK_CODE>(Lebenslaufdaten)</COMPONENT_CHECK_CODE>
+					</COMPONENT>					
+					)*
+				</VEHICLE>
+                			<INFORMATION>
+                   			<CODE SRC="DIAGNOSTICTESTER">(VW-Fehlernummer)</CODE>
+                   			<TEXT LANG="de">(VW-Fehlertext)</TEXT>
+                   			<TOPIC REF="FILENAME">(VW-Filename)</TOPIC>
+                   			<TOPIC REF="PATH">(VW-Flashverzeichnis)</TOPIC>
+                			</INFORMATION>
+			</DATA>
+		</REQUEST>
+	</COMMAND>
+</MESSAGE>

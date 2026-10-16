@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Get_02</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Get1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Probefahrt durchführen
+
+Die Differenz der Drehzahlen für Motor und Getriebe darf +/- 30 U/min betragen.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Getriebedrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Probefahrt durchführen
+
+Die Differenz der Drehzahlen für Motor und Getriebe darf +/- 30 U/min betragen.</Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrpedalstellung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T- Betätigen Sie zur Prüfung das Gaspedal.\Y\S\K\N
+
+J\L\S\K\N &lt; 4 Prozent Nullgas\Y\S\K\N
+J\L\S\K\N &gt; 96 Prozent Vollgas</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ganginformation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TFolgende Gänge werden angezeigt:\Y\S\K\N
+
+J\L\S\K\N 1. Gang bis 5. Gang\Y\S\K\N
+J\L\S\K\N R-Gang\Y\S\K\N
+J\L\S\K\N LG 1-2 (Leerlaufgasse links)\Y\S\K\N
+J\L\S\K\N LG 3-4 (Leerlaufgasse rechts)\Y\S\K\N
+J\L\S\K\N SYNC (während der Synchronisierungsphase)\Y\S\K\N
+J\L\S\K\N Fehler (ungültige Position)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Lastsignal (Daten-Bus Signal vom Motor)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.0</analogerSWunten>
+		<analogerSWoben>5.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Geber für Kupplungsweg -G162</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>4.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\NJ\L\S\K\N geschlossene Kupplung
+(IO: 1,8 bis 2,0 Volt)
+\Y\S\K\N
+J\L\S\K\N offene Kupplung
+(IO: 3,9 bis 4,0 Volt)
+
+Ist der Spannungswert für eine gschlossene Kupplung außerhalb der Toleranz, muß der Geber für Kupplungsweg -G162 eingestellt werden.</Meldungstext>
+		<DO>G162_30_Geber_fuer_Kupplungsweg</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Batteriespannung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDie Batteriespannung muß mindestens 11,8 Volt betragen.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kühlmitteltemperatur Motor</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Probefahrt durchführen
+
+Die Differenz der Drehzahlen für Motor und Getriebe darf +/- 30 U/min betragen.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Getriebedrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Probefahrt durchführen
+
+Die Differenz der Drehzahlen für Motor und Getriebe darf +/- 30 U/min betragen.</Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kupplungs-IST Position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBei allen Schaltvorgängen darf der Unterschied zwischen Kupplungs-IST Position und Kupplungs-SOLL Position nur +/- 5 Prozent betragen.
+
+- Dazu müssen Sie den Motor starten und 
+  nicht schneller als 6 km/h fahren.
+- Beim Fahren müssen Sie Schaltvorgänge   
+  vornehmen.
+
+Für die Bedienung des Testers ist ein 2. Monteur notwendig.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kupplungs-SOLL Position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBei allen Schaltvorgängen darf der Unterschied zwischen Kupplungs-IST Position und Kupplungs-SOLL Position nur +/- 5 Prozent betragen.
+
+- Dazu müssen Sie den Motor starten und 
+  nicht schneller als 6 km/h fahren.
+- Beim Fahren müssen Sie Schaltvorgänge   
+  vornehmen.
+
+Für die Bedienung des Testers ist ein 2. Monteur notwendig.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Statusanzeigen -1-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Lesen Sie die 8-Bit Darstellung von links 
+  nach rechts.
+
+Bit 0: immer -0-
+Bit 1: reserviert
+Bit 2: Tür offen -0-; zu -1-
+Bit 3: z. Zt. nicht verwendet
+
+Bit 4: -1- Startaufforderung Klemme 50
+Bit 5: -1- Tipgasse (Gassensensierung)
+Bit 6: -0- untere Einschaltschwelle erreicht
+Bit 7: -0- ECO-Taster gedrückt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Statusanzeigen -2-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Lesen Sie die 8-Bit Darstellung von links 
+  nach rechts.
+
+Bit 0: reserviert
+Bit 1: immer -0-
+Bit 2: reserviert
+Bit 3: immer -1-
+
+Bit 4: nicht verwendet
+Bit 5: -1- R-Gang eingelegt
+Bit 6: -1- Kl. 30 Signal vorhanden
+Bit 7: -1- Bremspedal betätigt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Statusanzeigen -3-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Lesen Sie die 8-Bit Darstellung von links 
+  nach rechts.
+
+Bit 0: nicht verwendet
+Bit 1: nicht verwendet
+Bit 2: -0- ECO-Taster gedrückt
+Bit 3: -0- Anzeigeunterdrückung geschaltet
+
+Bit 4: Summer/Gong eingeschaltet
+Bit 5: -0- -J510 eingeschaltet
+Bit 6: -0- -J53 eingeschaltet
+Bit 7: nicht verwendet</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Statusanzeigen -4-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Lesen Sie die 8-Bit Darstellung von links 
+  nach rechts.
+
+Bit 0: -0- -N286 eingeschaltet
+Bit 1: -0- -N110 angesteuert
+Bit 2: -0- -N110 angesteuert
+Bit 3: -0- Motor wird ausgeschaltet
+
+Bit 4: -0- -N286 eingeschaltet
+Bit 5: -0- -N287 eingeschaltet
+Bit 6: -0- Kupplung offen
+Bit 7: -0- -N287 eingeschaltet</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Probefahrt durchführen
+
+Die Differenz der Drehzahlen für Motor und Getriebe darf +/- 30 U/min betragen.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Batteriespannung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDie Batteriespannung muß mindestens 11,8 Volt betragen.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ganginformation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TFolgende Gänge werden angezeigt:
+
+T-0				Tippgasse Mitte
+T-MI			Tippgasse Minus
+T-PL			Tippgasse Plus
+A-E			Stellung E
+A-N			Stellung N
+A-R			Stellung R
+A-STOP	Stellung Stop
+???			Stellung unplausibel</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ventil für Kupplungssteller -N255</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\NJ\L\S\K\N geschlossene Kupplung
+(IO: ca. 0,73 A)
+\Y\S\K\N
+J\L\S\K\N offene Kupplung
+(IO: 0,80 bis 0,90 A)
+
+Ein dauerhafter Strom &gt; 1,2 A führt nach 2 Sekunden zum Fehlereintrag.</Meldungstext>
+		<DO>N255_34_Ventil_fuer_Kupplungssteller</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Probefahrt durchführen
+
+Die Differenz der Drehzahlen für Motor und Getriebe darf +/- 30 U/min betragen.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Getriebedrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Probefahrt durchführen
+
+Die Differenz der Drehzahlen für Motor und Getriebe darf +/- 30 U/min betragen.</Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Getriebedrehzahl errechnet</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TDies ist die aus Fahrzeuggeschwindigkeit und dem eingelegten Gang zurückgerechnete Getriebedrehzahl.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrzeuggeschwindigkeit</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>3</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDas E-Tacho Signal vom Kombi wird dargestellt.
+Erfahrungsgemäß zeigt der Fahrzeugtachometer bei 100 km/h etwa 5 km/h mehr als das digitale E-Tacho Signal im Meßwerteblock an.
+Der minimale Anzeigewert beträgt 3 km/h.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kupplungs-IST Position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBei allen Schaltvorgängen darf der Unterschied zwischen Kupplungs-IST Position und Kupplungs-SOLL Position nur +/- 5 Prozent betragen.
+
+- Dazu müssen Sie den Motor starten und 
+  nicht schneller als 6 km/h fahren.
+- Beim Fahren müssen Sie Schaltvorgänge   
+  vornehmen.
+
+Für die Bedienung des Testers ist ein 2. Monteur notwendig.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ganginformation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TFolgende Gänge werden angezeigt:\Y\S\K\N
+
+J\L\S\K\N 1. Gang bis 5. Gang\Y\S\K\N
+J\L\S\K\N R-Gang\Y\S\K\N
+J\L\S\K\N LG 1-2 (Leerlaufgasse links)\Y\S\K\N
+J\L\S\K\N LG 3-4 (Leerlaufgasse rechts)\Y\S\K\N
+J\L\S\K\N SYNC (während der Synchronisierungsphase)\Y\S\K\N
+J\L\S\K\N Fehler (ungültige Position)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Probefahrt durchführen
+
+Die Differenz der Drehzahlen für Motor und Getriebe darf +/- 30 U/min betragen.</Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Getriebedrehzahl</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Probefahrt durchführen
+
+Die Differenz der Drehzahlen für Motor und Getriebe darf +/- 30 U/min betragen.</Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>48</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Resetanzeige</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TEs wird die Anzahl von Resets während der Laufzeit des Steuergerätes angezeigt (z. B. aufgrund von EMV Einflüssen, usw.).</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Außentemperaturanzeige</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Textausgabe</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\THier steht immer der Text -Starter-.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kilometeranzeige absolut</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs werden die mit diesem Steuergerät gefahrenen Kilometer in 1000er Schritten ausgegeben.
+Die Anzeige 100 bedeutet also 100000 km.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Starterspiele absolut</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs werden die mit diesem Steuergerät durchgeführten Starterbetätigungen in 1000er Schritten ausgegeben.
+Die Anzeige 100 bedeutet also 100000 Starterbetätigungen.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Starterspiele nach Zündung ein</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs werden die nach dem letzten Mal -Zündung ein- durchgeführten Starterbetätigungen ausgegeben.
+Die Anzeige 10 bedeutet also 10 Starterspiele nach -Zündung ein-.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Batteriespannung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDie Batteriespannung muß mindestens 11,8 Volt betragen.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ventil für Kupplungssteller -N255</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N geschlossene Kupplung
+(IO: ca. 0,73 A)\Y\S\K\N
+
+J\L\S\K\N offene Kupplung
+(IO: 0,80 bis 0,90 A)
+
+Ein dauerhafter Strom &gt; 1,2 A führt nach 2 Sekunden zum Fehlereintrag.</Meldungstext>
+		<DO>N255_34_Ventil_fuer_Kupplungssteller</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kupplungs-IST Position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBei allen Schaltvorgängen darf der Unterschied zwischen Kupplungs-IST Position und Kupplungs-SOLL Position nur +/- 5 Prozent betragen.
+
+- Dazu müssen Sie den Motor starten und 
+  nicht schneller als 6 km/h fahren.
+- Beim Fahren müssen Sie Schaltvorgänge   
+  vornehmen.
+
+Für die Bedienung des Testers ist ein 2. Monteur notwendig.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kupplungs-SOLL Position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBei allen Schaltvorgängen darf der Unterschied zwischen Kupplungs-IST Position und Kupplungs-SOLL Position nur +/- 5 Prozent betragen.
+
+- Dazu müssen Sie den Motor starten und 
+  nicht schneller als 6 km/h fahren.
+- Beim Fahren müssen Sie Schaltvorgänge   
+  vornehmen.
+
+Für die Bedienung des Testers ist ein 2. Monteur notwendig.</Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer für Wählhebel vor/zurück -G272</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.2</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird die SOLL-Gang Poti Spannung am Wählhebel angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 3,14 Volt im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 2,75 Volt in -N-\Y\S\K\N
+J\L\S\K\N ca. 2,20 Volt in -E- (-D-)\Y\S\K\N
+J\L\S\K\N ca. 2,50 Volt in Tipp (+)\Y\S\K\N
+J\L\S\K\N ca. 1,70 Volt in Tipp (-)</Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer 1 für Gangerkennung -G239</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.9</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird die IST-Gang Poti Spannung angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 3,8 Volt im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 3,8 Volt im 1. Gang\Y\S\K\N
+J\L\S\K\N ca. 1,7 Volt im 2. Gang\Y\S\K\N
+J\L\S\K\N ca. 3,8 Volt im 3. Gang\Y\S\K\N
+J\L\S\K\N ca. 1,7 Volt im 4. Gang\Y\S\K\N
+J\L\S\K\N ca. 3,8 Volt im 5. Gang</Meldungstext>
+		<DO>G239_34_Potentiometer_1_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer 2 für Gangerkennung -G240</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.1</analogerSWunten>
+		<analogerSWoben>3.7</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird die IST-Gassen Poti Spannung angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 3,6 Volt im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 2,8 Volt im 1. Gang\Y\S\K\N
+J\L\S\K\N ca. 2,8 Volt im 2. Gang\Y\S\K\N
+J\L\S\K\N ca. 2,0 Volt im 3. Gang\Y\S\K\N
+J\L\S\K\N ca. 2,0 Volt im 4. Gang\Y\S\K\N
+J\L\S\K\N ca. 1,2 Volt im 5. Gang</Meldungstext>
+		<DO>G240_34_Potentiometer_2_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer für Wählhebel vor/zurück -G272</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird die SOLL-Gang Poti Spannung am Wählhebel angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 100 Prozent in -STOP-\Y\S\K\N
+J\L\S\K\N ca. 77 Prozent im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 70 Prozent in -N-\Y\S\K\N
+J\L\S\K\N ca. 25 Prozent in -E- (-D-)\Y\S\K\N
+J\L\S\K\N ca. 22 Prozent in Tipp (Mitte)\Y\S\K\N
+J\L\S\K\N ca. 50 Prozent in Tipp (+)\Y\S\K\N
+J\L\S\K\N ca. 0 Prozent in Tipp (-)</Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer 1 für Gangerkennung -G239</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird der IST-Gang angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 0 bis 10 Prozent im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 50 bis 55 Prozent in -N-\Y\S\K\N
+J\L\S\K\N ca. 0 bis 10 Prozent im 1. Gang\Y\S\K\N
+J\L\S\K\N ca. 90 bis 100 Prozent im 2. Gang\Y\S\K\N
+J\L\S\K\N ca. 0 bis 10 Prozent im 3. Gang\Y\S\K\N
+J\L\S\K\N ca. 90 bis 100 Prozent im 4. Gang\Y\S\K\N
+J\L\S\K\N ca. 0 bis 10 Prozent im 5. Gang</Meldungstext>
+		<DO>G239_34_Potentiometer_1_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer 2 für Gangerkennung -G240</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird die IST-Gasse angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 95 bis 100 Prozent im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 60 bis 63 Prozent in -N-\Y\S\K\N
+J\L\S\K\N ca. 60 bis 65 Prozent im 1. Gang\Y\S\K\N
+J\L\S\K\N ca. 60 bis 65 Prozent im 2. Gang\Y\S\K\N
+J\L\S\K\N ca. 30 bis 35 Prozent im 3. Gang\Y\S\K\N
+J\L\S\K\N ca. 30 bis 35 Prozent im 4. Gang\Y\S\K\N
+J\L\S\K\N ca. 0 bis 10 Prozent im 5. Gang</Meldungstext>
+		<DO>G240_34_Potentiometer_2_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Batteriespannung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDie Batteriespannung muß mindestens 11,8 Volt betragen.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ventil für Kupplungssteller -N255</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N geschlossene Kupplung
+(IO: ca. 0,73 A)\Y\S\K\N
+
+J\L\S\K\N offene Kupplung
+(IO: 0,80 bis 0,90 A)
+
+Ein dauerhafter Strom &gt; 1,2 A führt nach 2 Sekunden zum Fehlereintrag.</Meldungstext>
+		<DO>N255_34_Ventil_fuer_Kupplungssteller</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>3</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ventil 1 für Gangwahl -N284</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TAngezeigt wird der Strom durch das Ventil 1 für Gangwahl -N284 (schiebt den Schalthebel nach hinten).
+Der Istwert muß 0,39 A betragen. Liegt der Wert höher, wird versucht einen Gang einzulegen.</Meldungstext>
+		<DO>N284_34_Ventil_1_fuer_Gangwahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ventil 2 für Gangwahl -N285</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TAngezeigt wird der Strom durch das Ventil 2 für Gangwahl -N285 (schiebt den Schalthebel nach vorn).
+Der Istwert muß 0,39 A betragen. Liegt der Wert höher, wird versucht einen Gang einzulegen.</Meldungstext>
+		<DO>N285_34_Ventil_2_fuer_Gangwahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">IST-Gang Textausgabe</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer 1 für Gangerkennung -G239</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.9</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird die IST-Gang Poti Spannung angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 3,8 Volt im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 3,8 Volt im 1. Gang\Y\S\K\N
+J\L\S\K\N ca. 1,7 Volt im 2. Gang\Y\S\K\N
+J\L\S\K\N ca. 3,8 Volt im 3. Gang\Y\S\K\N
+J\L\S\K\N ca. 1,7 Volt im 4. Gang\Y\S\K\N
+J\L\S\K\N ca. 3,8 Volt im 5. Gang</Meldungstext>
+		<DO>G239_34_Potentiometer_1_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer 2 für Gangerkennung -G240</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.1</analogerSWunten>
+		<analogerSWoben>3.7</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird die IST-Gassen Poti Spannung angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 3,6 Volt im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 2,8 Volt im 1. Gang\Y\S\K\N
+J\L\S\K\N ca. 2,8 Volt im 2. Gang\Y\S\K\N
+J\L\S\K\N ca. 2,0 Volt im 3. Gang\Y\S\K\N
+J\L\S\K\N ca. 2,0 Volt im 4. Gang\Y\S\K\N
+J\L\S\K\N ca. 1,2 Volt im 5. Gang</Meldungstext>
+		<DO>G240_34_Potentiometer_2_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">SOLL-Gang</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TAngezeigt wird der SOLL-Gang.
+
+0 = Leerlaufgasse
+1 = 1. Gang (2 = 2. Gang ... 5 = 5. Gang)
+6 = Rückwärtsgang
+251 = Leerlaufgasse 1-2
+252 = Leerlaufgasse R-Gang
+253 = Leerlaufgasse 5. Gang
+254 = Leerlaufgasse 3-4
+255 = Übergang zwischen den Positionen
+
+In -N- i. O.: Sollgang: 0 / Istgang: 251 ... 254</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">IST-Gang</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TAngezeigt wird der IST-Gang.
+
+0 = Leerlaufgasse
+1 = 1. Gang (2 = 2. Gang ... 5 = 5. Gang)
+6 = Rückwärtsgang
+251 = Leerlaufgasse 1-2
+252 = Leerlaufgasse R-Gang
+253 = Leerlaufgasse 5. Gang
+254 = Leerlaufgasse 3-4
+255 = Übergang zwischen den Positionen
+
+In -N- i. O.: Sollgang: 0 / Istgang: 251 ... 254</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrpedalstellung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T- Betätigen Sie zur Prüfung das Gaspedal.\Y\S\K\N
+
+J\L\S\K\N &lt; 4 Prozent Nullgas\Y\S\K\N
+J\L\S\K\N &gt; 96 Prozent Vollgas</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>4</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrzeuggeschwindigkeit</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>3</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDas E-Tacho Signal vom Kombi wird dargestellt.
+Erfahrungsgemäß zeigt der Fahrzeugtachometer bei 100 km/h etwa 5 km/h mehr als das digitale E-Tacho Signal im Meßwerteblock an.
+Der minimale Anzeigewert beträgt 3 km/h.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Batteriespannung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDie Batteriespannung muß mindestens 11,8 Volt betragen.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Batteriespannung Klemme 30</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TAngezeigt wird hier die Batteriespannung Klemme 30 am Steuergerät.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">interne Versorgungsspannung Steuergerät</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4.8</analogerSWunten>
+		<analogerSWoben>5.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAngezeigt wird hier die interne Versorgungsspannung im Steuergerät.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Geber für Hydraulikdruck Getriebe -G270</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.3</analogerSWunten>
+		<analogerSWoben>5.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TAngezeigt wird hier die Spannung des Gebers für Hydraulikdruck Getriebe -G270.
+((SOLL-Spannung: 3,0 bis 4,2 Volt entspricht 36 bis 52 bar) temperaturabhängig)</Meldungstext>
+		<DO>G270_34_Geber_fuer_Hydraulikdruck_Getriebe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>1</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ganginformation (erlernte Wählhebelstellung)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TFolgende Gänge werden angezeigt:
+
+T-0				Tippgasse Mitte
+T-MI			Tippgasse Minus
+T-PL			Tippgasse Plus
+A-E			Stellung E
+A-N			Stellung N
+A-R			Stellung R
+A-STOP	Stellung Stop
+???			Stellung unplausibel</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer für Wählhebel vor/zurück -G272</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.2</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird die SOLL-Gang Poti Spannung am Wählhebel angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 3,14 Volt im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 2,75 Volt in -N-\Y\S\K\N
+J\L\S\K\N ca. 2,20 Volt in -E- (-D-)\Y\S\K\N
+J\L\S\K\N ca. 1,58 Volt in Tipp (Mitte)\Y\S\K\N
+J\L\S\K\N ca. 2,50 Volt in Tipp (+)\Y\S\K\N
+J\L\S\K\N ca. 1,70 Volt in Tipp (-)</Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Potentiometer für Wählhebel vor/zurück -G272</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TEs wird die SOLL-Gang Poti Spannung am Wählhebel angezeigt.\Y\S\K\N
+
+J\L\S\K\N ca. 100 Prozent in -STOP-\Y\S\K\N
+J\L\S\K\N ca. 77 Prozent im R-Gang\Y\S\K\N
+J\L\S\K\N ca. 55 Prozent in -N-\Y\S\K\N
+J\L\S\K\N ca. 25 Prozent in -E- (-D-)\Y\S\K\N
+J\L\S\K\N ca. 22 Prozent in Tipp (Mitte)\Y\S\K\N
+J\L\S\K\N ca. 44 Prozent in Tipp (+)\Y\S\K\N
+J\L\S\K\N ca. 0 Prozent in Tipp (-)</Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Statusanzeigen -1- Wählhebel Fehler</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Lesen Sie die 8-Bit Darstellung von links 
+  nach rechts.
+
+Bit 0: -1- CAN-Timeout (Unterspannung)
+Bit 1: -1- -E313 defekt
+Bit 2: -1- -E313 defekt (Stellung unplausibel)
+Bit 3: -1- Prüfung Verbau richtiger Wählhebel
+
+Bit 4: -1- Wählhebelposition nicht mehr aktuell
+Bit 5: -1- -E313 defekt
+Bit 6: -1- Spannungsproblem Wählhebel
+Bit 7: -1- -E313 defekt</Meldungstext>
+		<DO>E313_Waehlhebel</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Statusanzeigen -2- Wählhebel Fehler</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Lesen Sie die 8-Bit Darstellung von links 
+  nach rechts.
+
+Bit 0: -1- -E313 defekt (Shiftlockstatus falsch)
+Bit 1: -1- -N110 defekt
+Bit 2: -1- Fehlereintrag -sonstige-
+Bit 3: -1- Wählhebel Notlauf
+
+Bit 4: -1- -E313 defekt
+Bit 5: -1- -E313 defekt
+Bit 6: nicht verwendet
+Bit 7: nicht verwendet</Meldungstext>
+		<DO>E313_Waehlhebel</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">erlernter Kriechpunkt</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>55</analogerSWunten>
+		<analogerSWoben>65</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDer Wert des erlernten Kriechpunkts liegt erfahrungsgemäß zwischen 55 und 65 Prozent.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>2</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">erlernter Schleifpunkt</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>55</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDer Wert des erlernten Schleifpunkts liegt erfahrungsgemäß zwischen 55 und 85 Prozent.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Anzahl verbleibender Schnelladaptionen</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>55</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TAngezeigt wird die Anzahl der verbleibenden Schnelladaptionen für die Kriechpunktsuche nach der Grundeinstellung.
+Ist hier ein Wert &gt; -0- zu lesen, so wurde Kriechpunktsuche nicht vollständig durchgeführt.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Tel_77</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Tel6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Battery voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Input signals</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>12</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\A \L\S\K\A\IDisplay:\L\S\K\A
+
+Bits X X X 4 3 2 1 0 (each Position = 0 to 1)\Y\S\K\N
+
+I\L\S\K\A 0\L\S\K\N = \L\B\K\NPTT (Push to talk) - Taste (not pressed / pressed)\Y\S\K\N
+I\L\S\K\A 1\L\S\K\N = \L\B\K\NMobile (not mounted in charger/ mounted)\Y\S\K\N
+I\L\S\K\A 2\L\S\K\N = \L\B\K\NMobile (off / on )\Y\S\K\N
+I\L\S\K\A 3\L\S\K\N = \L\B\K\NCommunication to Mobile (inactive / active)\Y\S\K\N
+I\L\S\K\N \L\S\K\A4 \L\S\K\N= \L\B\K\NSOS button pressed\Y\S\K\N
+I\L\S\K\A 5...7\L\S\K\N = free
+
+Example:
+X X X 0 0 0 1 0  = PTT not pressed, Mobile mounted on charger, Mobile off, Communication to Mobile inactive, SOS button not pressed
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Reception Intensity</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-113</analogerSWunten>
+		<analogerSWoben>33</analogerSWoben>
+		<SWE>dBm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\ANote:\Y\S\K\N
+I\L\S\K\N-128dBm = no communication with mobile telephone </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Main aerial status</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\ADisplay:\Y\S\K\N
+I\L\S\K\N \L\B\K\NOK\Y\S\K\N
+I\L\B\K\N Shortcircuit\Y\S\K\N
+I\L\B\K\N Open circuit\L\S\K\N \Y\S\K\N
+I\L\S\K\N not \L\B\K\Npossible\L\S\K\N
+
+Only possible with adapter unit without mounting mobile phone in charger!</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Connected Bluetooth devices</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Microphone input voltage</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10.2</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AIndication:\L\S\K\N
+
+Micro disconnected: \L\B\K\N7.9V to 8.0V approx.\L\S\K\N
+Micro connected: \L\B\K\N3.6V approx.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Microphone input current</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\AIndication:\L\S\K\N
+
+Micro disconnected: \L\B\K\N0.000A\L\S\K\N
+Micro connected: \L\B\K\N0.007A approx.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Bluetooth apparatus connected</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\ANote:\L\S\K\N
+Bluetooth units connected, active Bluetooth connection reception field intensity</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Identification Control Unit</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N\L\S\K\ANote:\L\S\K\N
+Identification number and denomination of the manufacturer production headquarters.
+Date of fabrication
+Manufacturer modification status
+Manufacturer test bench number
+Manufacturer relation number</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Control Unit serial number</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>82</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Identification Control Unit (2)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\ANote:\L\S\K\N
+Tool-Flash Code
+Flash Date
+Construction group - Hardware
+Type key - Hardware
+Construction group - Software
+Type key - Software</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>133</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Bluetooth Aerial Status </Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\K\ANote:\Y\S\K\N
+I\L\S\K\A \L\B\K\NSystem OK \Y\S\K\N
+I\L\S\K\N \L\B\K\NShortcircuit\Y\S\K\N
+I\L\S\K\N \L\B\K\NBreak\Y\S\K\N
+I\L\S\K\N \L\B\K\NNot possible</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

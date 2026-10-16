@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Zst_18</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Zst1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Vehicle voltage supply</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>10.8</analogerSWunten>
+		<analogerSWoben>15.0</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Notes:\Y\S\G\N
+ J\L\S\K\I Malfunction: Signal too small, if longer than 30 s on Heater Control Module -J162 the applied vehicle voltage supply V &lt; 10.8 V;\Y\S\K\N
+ J\L\S\K\I Malfunction: Signal too large, if, on Heater Control Module -J162, the applied vehicle voltage supply V &gt; 15.0 V;\Y\S\K\N
+ J\L\S\K\N Malfunction channel: connector plug pin 1.</Meldungstext>
+		<DO>SIG_82_Versorgungsspannung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Flame Monitor -G64</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>550</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\N \L\S\G\ANotes:\Y\S\K\N
+ J\L\S\K\I Malfunction: Short circuit to ground, if value &lt; -50 °C;\Y\S\K\N
+ J\L\S\K\I Malfunction: Open circuit, if value &gt; 550 °C;\Y\S\K\N
+ J\L\S\K\I Malfunction: signal outside tolerance;\Y\S\K\N
+ J\L\S\K\I Malfunction channel: control module connector pin 13 and 14;\Y\S\K\N
+ J\L\S\K\I Malfunction cause: no fuel supply, Flame Monitor -G64 dirty or faulty, open circuit or short circuit of the connection lines.</Meldungstext>
+		<DO>G64__82_Flammenwaechter</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Auxiliary Heater Coolant Temperature Sensor -G241</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>200</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\ANotes:\Y\S\K\N
+ J\L\S\K\I Malfunction: Open circuit, if value &lt; -40 °C;\Y\S\K\N
+ J\L\S\K\I Malfunction: Short circuit to ground, if value &gt; 200 °C;\Y\S\K\N
+ J\L\S\K\I Malfunction channel: control module connector pin 11 and 12;</Meldungstext>
+		<DO>G241_82_Geber_fuer_Kuehlmitteltemperatur_Heizung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Overheat Sensor -G189</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>200</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\ANotes:\Y\S\K\N
+ J\L\S\K\I Malfunction: Open circuit, if value &lt; -40 °C;\Y\S\K\N
+ J\L\S\K\I Malfunction: Short circuit to ground, if value &gt; 200 °C;\Y\S\K\N
+ J\L\S\K\I Malfunction channel: control module connector pin 9 and 10;</Meldungstext>
+		<DO>G189_82_Ueberhitzungsfuehler</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Programmable Timer -E111</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\ANote:\L\S\K\I
+ There is no diagnosis possible using malfunction storage for this component.
+ A function test of the Programmable Timer -E111 is enabled using this measured value.
+ Possible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ambient Temperature Switch -F38 (TDI)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\ANote:\L\S\K\I
+ There is no diagnosis possible using malfunction storage for this component.
+ A function test of the Ambient Temperature Switch -F38 is enabled using this measured value.
+ Possible switch states: On/off</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Combustion Air Blower -V6-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\ANote:\Y\S\K\N
+ J\L\S\K\I Malfunction cause: open circuit, short circuit to ground, signal outside tolerance, Combustion Air Blower -V6 faulty;\Y\S\K\N
+ J\L\S\K\I Malfunction channel: Control mod. pin 3 and 4;
+ Possible switch states: On/off</Meldungstext>
+		<DO>V6___82_Verbrennungsluftgeblaese</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Heater Glow Plug -Q9</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\ANote:\Y\S\K\N
+ J\L\S\K\I Malfunction cause: open circuit, short circuit to ground, Heater Glow Plug -Q9 faulty;\Y\S\K\N
+ J\L\S\K\I Malfunction channel: Control mod. pin 5 and 6;
+ Possible switch states: On/off</Meldungstext>
+		<DO>Q9___82_Gluehkerze_fuer_Heizung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Metering Pump -V54-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\ANote:\Y\S\K\N
+ J\L\S\K\I Malfunction cause: open circuit, short circuit to ground, Metering Pump -V54 faulty;\Y\S\K\N
+ J\L\S\K\I Malfunction channel: Connector plug pin 4;
+ Possible switch states: On/off</Meldungstext>
+		<DO>V54__82_Dosierpumpe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fresh Air Blower -V2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\ANote:\Y\S\K\N
+ J\L\S\K\I Activation of Fresh Air Blower -V2 with parking heater in combination with heater, manual air conditioning, or Climatronic;\Y\S\K\N
+ J\L\S\K\I Malfunction cause: open circuit, short circuit to ground, faulty relay;\Y\S\K\N
+ J\L\S\K\I Malfunction channel: Connector plug pin 3;
+ Possible switch states: On/off</Meldungstext>
+		<DO>V2___87_Frischluftgeblaese</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Recirculation Pump -V55-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\ANote:\Y\S\K\N
+ J\L\S\K\I Malfunction cause: open circuit, short circuit to ground, faulty relay;\Y\S\K\N
+ J\L\S\K\I Malfunction channel: connector plug pin 1 (2-pin);
+ Possible switch states: On/off</Meldungstext>
+		<DO>V55__82_Umwaelzpumpe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

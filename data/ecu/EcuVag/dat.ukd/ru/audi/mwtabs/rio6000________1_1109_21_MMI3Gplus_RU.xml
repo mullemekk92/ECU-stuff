@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Rio_56</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Rio6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Электропитание</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>16</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>255</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус, напряжения АКБ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение:
+ 0 0 0 0 x x x \L\S\K\A1\L\S\K\N = клемма S вкл
+ 0 0 0 0 x x \L\S\K\A1 \L\S\K\Nx = клемма 15 вкл
+ 0 0 0 0 x \L\S\K\A1 \L\S\K\Nx x = клемма X вкл
+ 0 0 0 0 \L\S\K\A1 \L\S\K\Nx x x = клемма 50 вкл\L\S\K\A
+ 1 \L\S\K\N0 0 0 x x x x = статус недействителен</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>113</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Оптическое понижение, передающий диод</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben>0.01</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T0.00 дБ = отсутствие понижения, нормальный режим
+ -3 дБ = оптическая мощность передачи понижена на 3 дБ</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Актуальная температура передающего диода шины MOST</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Макс. температура передающего диода шины MOST</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-100</analogerSWunten>
+		<analogerSWoben>155</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВ этом измеряемом значении записана наивысшая температура, имевшаяся на передающем диоде шины MOST.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Диагностический кабель разрыва оптической шины</Text>
+		</Name>
+		<diskreterSW>1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\TЗначение:
+0 = акт.
+ 1 = не акт.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние антенны 1</Text>
+		</Name>
+		<diskreterSW>253</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N Обрыв\Y\S\K\N
+ J\L\S\K\N Диапазон в порядке\Y\S\K\N
+ J\L\S\K\N Диапазон не в порядке\Y\S\K\N
+ J\L\S\K\N Короткое замыкание</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>124</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ток антенны 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>30</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>mA</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние антенны 2</Text>
+		</Name>
+		<diskreterSW>253</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N Обрыв\Y\S\K\N
+ J\L\S\K\N Диапазон в порядке\Y\S\K\N
+ J\L\S\K\N Диапазон не в порядке\Y\S\K\N
+ J\L\S\K\N Короткое замыкание</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>124</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ток антенны 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>30</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>mA</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Порог приёма антенны 1 (тюнер переднего плана)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЕдиница измерения: дБмкВ
+\Y\F\J\N
+
+ Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\N
+ Д\L\S\K\Iля таких измерений исключается режим разнесения по фазам, в результате чего осуществляется приём только через антенну 1.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>119</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Качество приёма антенны 1 (тюнер переднего плана)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\A\IУказание:\L\S\K\I
+ Через три секунды представляется имеющийся результат.
+ 0% = нет приёма
+ 100% = наилучший приём</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Порог приёма антенны 1 (тюнер заднего плана)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЕдиница измерения: дБмкВ
+ \Y\F\J\N
+
+Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\I
+ Для таких измерений исключается режим разнесения по фазам, в результате чего осуществляется приём только через антенну 1.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>4</AF>
+		<NA>119</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Качество приёма антенны 1 (тюнер заднего плана)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\A\IУказание:\L\S\K\I
+ Через три секунды представляется имеющийся результат.
+ 0% = нет приёма
+ 100% = наилучший приём</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Порог приёма антенны 2 (тюнер переднего плана)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЕдиница измерения: дБмкВ
+\Y\F\J\N
+
+ Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\I
+ Для таких измерений исключается режим разнесения по фазам, в результате чего осуществляется приём только через антенну 2.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>119</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Качество приёма антенны 2 (тюнер переднего плана)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\A\IУказание:\L\S\K\I
+ Через три секунды представляется имеющийся результат.
+ 0% = нет приёма
+ 100% = наилучший приём</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние антенны для цифрового беспроводного аудиовещания</Text>
+		</Name>
+		<diskreterSW>253</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N Обрыв\Y\S\K\N
+ J\L\S\K\N Диапазон в порядке\Y\S\K\N
+ J\L\S\K\N Диапазон не в порядке\Y\S\K\N
+ J\L\S\K\N Короткое замыкание</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>124</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ток антенны для цифрового беспроводного аудиовещания</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>30</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>mA</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Качество сигнала цифрового беспроводного аудиовещания</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение:
+ 0 = сигнал отсутствует
+ 7 = наивысшее качество сигнала</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>119</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота ошибок сигнала цифрового беспроводного аудиовещания</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение:
+ 0% = ошибок нет, отличный приём
+ 100% = нет приёма, приглушение звука</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>1</AF>
+		<NA>119</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Качество приёма FM</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение:
+0% = нет приёма
+ 100% = наилучший приём</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>119</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Качество приёма цифрового беспроводного аудиовещания</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение:
+0% = нет приёма
+ 100% = наилучший приём</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Схема бесшумной настройки цифр. беспроводного аудиовещания</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N Звук вкл\Y\S\K\N
+ J\L\S\K\N Звук выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>4</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Переключение с режима ЦБА на приём FM</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение:
+ 0 = Нет переключения
+ 1 = Переключение\Y\F\J\N
+
+Y\Y\S\J\NZ\L\S\G\A\I Указание:\L\S\K\I
+ Переключение от цифрового беспроводного аудиовещания (DAB) - на приём диапазона FM по причине плохого качества приёма (сопровождение передатчика).</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>1</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Качество сигнала (SDARS)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение:
+ 1 - нет сигнала
+ 2 - плохое качество сигнала
+ 3 - хорошее качество сигнала
+ 4 - наивысшее качество сигнала</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Аудиосигнал наличествует</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус абонемента аудиослужбы</Text>
+		</Name>
+		<diskreterSW>1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\TРасшифровка:
+ 0 - не абонировано; есть макс. пробный канал
+ 1 - Абонирована аудиослужба для США
+ 2 - Абонирована аудиослужба для Канады
+ 3 - Тюнер SDARS без аудиослужб</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус абонемента службы передачи цифровых данных</Text>
+		</Name>
+		<diskreterSW>1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\TРасшифровка:
+ 0 - не абонировано; нет никаких соответствующих данных
+ 1 - Абонирована служба передачи цифровых данных для США
+ 2 - Абонирована служба передачи цифровых данных для Канады</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>3</AF>
+		<NA>161</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Абонемент для следующей службы передачи цифровых данных</Text>
+		</Name>
+		<diskreterSW>1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\TРасшифровка:
+1 = Служба сообщений о движении (Traffic Data - TMC)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Информация поставщика</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\K\AЗначение:
+ 0\L\S\K\N = Тюнер не активирован\L\S\K\A
+ 1\L\S\K\N = Нормальный режим системы\L\S\K\A
+ 2\L\S\K\N = Ошибка спутниковой антенны \L\S\K\I(короткое замыкание или обрыв)\L\S\K\A
+ 3\L\S\K\N = Идёт обновление \L\S\K\I(например, добавляются каналы)\L\S\K\A
+ 4\L\S\K\N = Неразрешённый канал \L\S\K\I(номер канала вне допустимой области)\L\S\K\A
+ 5\L\S\K\N = Идёт поиск связи \L\S\K\I(нет приёма, например в туннеле)\L\S\K\A
+ 6\L\S\K\N = Канал не абонирован\L\S\K\I (канал не входит в объём абонемента)\L\S\K\A
+ 7\L\S\K\N = Недействительный канал </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние спутниковой антенны</Text>
+		</Name>
+		<diskreterSW>0</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\TЗначение:
+ 0 = в норме
+ 1 = короткое замыкание
+ 2 = обрыв</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>3</AF>
+		<NA>124</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ток для спутниковой антенны</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<AF>1</AF>
+		<NA>95</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серийный номер (ESN) встроенного SDARS-тюнера (Sirius)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик температуры 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>110</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик температуры 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>110</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>3</AF>
+		<NA>116</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Частота вращения вентилятора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>1</AF>
+		<NA>21</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на входе телефона (VDA-интерфейс)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>2</AF>
+		<NA>21</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на аналоговом входе (AUX)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Наушники 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N подключено\Y\S\K\N
+ J\L\S\K\N не подключено
+\Y\F\J\N
+
+ Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\I
+ Если не установлено гнездо головного динамика, выдаётся состояние &gt;подключено&lt; .</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Наушники 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N подключено\Y\S\K\N
+ J\L\S\K\N не подключено
+\Y\F\J\N
+
+ Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\I
+ Если не установлено гнездо головного динамика, выдаётся состояние &gt;подключено&lt; .</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Приглушение звука</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение:
+ x x x x x x x \L\S\K\A1\L\S\K\N = выходного каскада (аппаратное оборудование)
+ x x x x x x \L\S\K\A1\L\S\K\N x = через сообщение MOST
+ x x x x x \L\S\K\A1\L\S\K\N x x = через запись об ошибке в магнитоле
+ x x x x \L\S\K\A1\L\S\K\N x x x = через неизвестную ошибку
+ x x x \L\S\K\A1\L\S\K\N x x x x = тюнера FM
+ x x \L\S\K\A1\L\S\K\N x x x x x = тюнера DAB
+ x \L\S\K\A1\L\S\K\N x x x x x x = тюнеров DRM/HD</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура ступеней отключения (в магнитоле)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение:
+ x x x x x x x \L\S\K\A1\L\S\K\N = Ступень отключения 0
+ x x x x x x \L\S\K\A1\L\S\K\N x = Ступень отключения 1
+ x x x x x \L\S\K\A1\L\S\K\N x x = Ступень отключения 2
+ x x x x \L\S\K\A1\L\S\K\N x x x = Ступень отключения 3
+ x x x \L\S\K\A1\L\S\K\N x x x x = Ступень отключения 4
+ x x \L\S\K\A1\L\S\K\N x x x x x = Ступень отключения 5
+ x \L\S\K\A1\L\S\K\N x x x x x x = Ступень отключения 6</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>32</AG>
+		<AF>1</AF>
+		<NA>158</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Текущая скорость движения автомобиля</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\I
+ Всегда показывается последнее значение, которое было принято через шину данных.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>32</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Повышение громкости звука</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЕдиница измерения: дБ</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>1</AF>
+		<NA>89</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Рабочее время магнитолы (в часах)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\I
+ Рабочее время магнитолы представляется в часах и минутах. В первой измеряемой величине стоят часы, во второй - минуты.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<AF>2</AF>
+		<NA>28</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Рабочее время магнитолы (в минутах)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\I
+ Рабочее время магнитолы представляется в часах и минутах. В первой измеряемой величине стоят часы, во второй - минуты.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

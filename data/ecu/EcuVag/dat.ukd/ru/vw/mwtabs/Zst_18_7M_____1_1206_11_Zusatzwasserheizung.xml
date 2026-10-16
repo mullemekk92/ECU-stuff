@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Zst_18</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Zst1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение бортовой сети</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>10.8</analogerSWunten>
+		<analogerSWoben>15.0</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\A Указание:\Y\S\G\N
+ J\L\S\K\I Ошибка: сигнал слишком мал, если дольше 30 с на блоке управления отопителя -J162 приложенное напряжение бортовой сети U &lt; 10,8 В;\Y\S\K\N
+ J\L\S\K\I Ошибка: сигнал слишком велик, если на блоке управления отопителя -J162 приложенное напряжение бортовой сети U &gt; 15,0 В;\Y\S\K\N
+ J\L\S\K\N Канал ошибки: штырь 1 в штекере подключения.</Meldungstext>
+		<DO>SIG_82_Versorgungsspannung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Реле контроля горения -G64</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>550</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\N \L\S\G\AУказания:\Y\S\K\N
+ J\L\S\K\I Ошибка: короткое замыкание на массу, если значение &lt; -50 °C;\Y\S\K\N
+ J\L\S\K\I Ошибка: обрыв, если значение &gt; 550 °C;\Y\S\K\N
+ J\L\S\K\I Ошибка: сигнал вне допуска;\Y\S\K\N
+ J\L\S\K\I Канал ошибки: штыри 13 и 14 в штекере блока управления;\Y\S\K\N
+ J\L\S\K\I Причина ошибки: не подаётся топливо, контроль пламени -G64 загрязнён или неисправен, обрыв или короткое замыкание в соединительных проводах.</Meldungstext>
+		<DO>G64__82_Flammenwaechter</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик температуры охл.жидк. отопления -G241</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>200</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AУказания:\Y\S\K\N
+ J\L\S\K\I Ошибка: обрыв, если значение &lt; -40 °C;\Y\S\K\N
+ J\L\S\K\I Ошибка: короткое замыкание на массу, если значение &gt; 200 °C;\Y\S\K\N
+ J\L\S\K\I Канал ошибки: штыри 11 и 12 в штекере блока управления;</Meldungstext>
+		<DO>G241_82_Geber_fuer_Kuehlmitteltemperatur_Heizung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик перегрева -G189</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>200</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AУказания:\Y\S\K\N
+ J\L\S\K\I Ошибка: обрыв, если значение &lt; -40 °C;\Y\S\K\N
+ J\L\S\K\I Ошибка: короткое замыкание на массу, если значение &gt; 200 °C;\Y\S\K\N
+ J\L\S\K\I Канал ошибки: штыри 9 и 10 в штекере блока управления;</Meldungstext>
+		<DO>G189_82_Ueberhitzungsfuehler</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Таймер -E111</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\AПримечание:\L\S\K\I
+ Для этого компонента диагностика через сохранение ошибок невозможна.
+ Эта измеряемая величина позволяет проверить работу таймера -E111.
+ Возможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Датчик наружной температуры -F38 (TDI)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\G\AПримечание:\L\S\K\I
+ Для этого компонента диагностика через сохранение ошибок невозможна.
+ Эта измеряемая величина позволяет проверить работу датчика температуры наружного воздуха -F38.
+ Возможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Воздухонагнетатель горелки отопителя -V6</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AПримечания:\Y\S\K\N
+ J\L\S\K\I Причина неисправности: обрыв цепи, короткое замыкание на массу, сигнал вне допустимого диапазона, неисправность вентилятора подачи воздуха в камеру сгорания отопителя -V6;\Y\S\K\N
+ J\L\S\K\I Канал регистрации ошибки: разъём блока управления - контакты 3 и 4;
+ Возможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<DO>V6___82_Verbrennungsluftgeblaese</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Свеча накаливания -Q9</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AПримечания:\Y\S\K\N
+ J\L\S\K\I Причина неисправности: обрыв цепи, короткое замыкание на массу, неисправность свечи накаливания -Q9;\Y\S\K\N
+ J\L\S\K\I Канал регистрации ошибки: разъём блока управления - контакты 5 и 6;
+ Возможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<DO>Q9___82_Gluehkerze_fuer_Heizung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Дозирующий насос -V54</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AПримечания:\Y\S\K\N
+ J\L\S\K\I Причина неисправности: обрыв цепи, короткое замыкание на массу, неисправность дозирующего насоса -V54;\Y\S\K\N
+ J\L\S\K\I Канал регистрации ошибки: разъём - контакт 4;
+ Возможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<DO>V54__82_Dosierpumpe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Вентилятор приточного воздуха -V2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AПримечания:\Y\S\K\N
+ J\L\S\K\I Управление приточным вентилятором -V2 при автономном отоплении в комбинации с работой отопителя, ручной климатической установки или Climatronic;\Y\S\K\N
+ J\L\S\K\I Причина неисправности: обрыв цепи, короткое замыкание на массу, неисправное реле;\Y\S\K\N
+ J\L\S\K\I Канал регистрации ошибки: разъём - контакт 3;
+ Возможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<DO>V2___87_Frischluftgeblaese</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Циркуляционный насос -V55</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\N Y\Y\S\J\NZ\L\S\K\I \L\S\G\AПримечания:\Y\S\K\N
+ J\L\S\K\I Причина неисправности: обрыв цепи, короткое замыкание на массу, неисправное реле;\Y\S\K\N
+ J\L\S\K\I Канал регистрации ошибки: разъём (2-контактный) - контакт 1;
+ Возможные коммутационные состояния: Вкл/Выкл</Meldungstext>
+		<DO>V55__82_Umwaelzpumpe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

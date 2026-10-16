@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MESSAGE DTD="XMLMSG" VERSION="(Version1)">
+	<RESULT>
+		<RESPONSE NAME="GetAdjustCalibrationData" DTD="RepairHints" VERSION="(Version2)" ID="(ID)">
+			<DATA>
+				<REQUEST_ID>(Request)</REQUEST_ID>
+			    *(
+				<ADJUST_CALIBRATION_DATA DIAGNOSTIC_ADDRESS="(Diagnoseadresse)" SID="(Service-Identifier)" RDI="(Record-Data-Identifier)" MODE_FRAGMENT="(Modus-Teil)" ZDC_NAME="(ZDC-Name-Calibration)" ZDC_VERSION="(ZDC-Version-Calibration)" LOGIN="(Login-Calibration)" LOGIN_IND="(Security-Level-Login-Calibration)">(Calibration_Data)</ADJUST_CALIBRATION_DATA>
+				)*
+				<INFORMATION>
+					<CODE>(Fehlercode)</CODE>
+				</INFORMATION>
+			</DATA>
+		</RESPONSE>
+	</RESULT>
+</MESSAGE>

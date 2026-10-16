@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Svf_36</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Svf6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustände allgemein 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBit 0-7:  
+--&gt;		                  0 = Personen-Speichertaste 1
+--&gt;                   1 = Personen-Speichertaste 2
+--&gt;                2 = Personen-Speichertaste 3
+--&gt;             3 = 0
+--&gt;          4 = 0
+--&gt;       5 = Fahrertür verriegeln
+						 0 = entriegeln, 1 = verriegeln
+--&gt;    6 = Zentralverriegelung über Funk
+					   0 = deaktiv, 1 = aktiv
+--&gt; 7 = Fahrertür verriegelt
+					0 = entriegelt, 1 = verriegelt</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustände allgemein</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBit 0-7:  
+--&gt;		                  0 = Memoryverstellung aktiv
+--&gt;                   1 = 0
+--&gt;                2 = Türkontakt Fahrerseite
+								0 = über 10 Minuten auf
+								1 = unter 10 Minuten auf
+--&gt;             3 = Memory-Zustand
+							  0 = erlaubt, 1 = nicht erlaubt
+--&gt;          4 = Memory-Taster
+						    0 = nicht betätigt, 1 = betätigt
+--&gt;       5 = Türkontakt
+						 0 = unbetätigt, 1 = betätigt
+--&gt;    6 = Klemme 15
+					   0 = aus, 1 = ein 
+--&gt; 7 = Geschwindigkeitssignal
+			      0 = über 5 Km/h, 1 = unter 5 Km/h</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Funkschlüsselsignal (Schlüsselnummer)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+0 = kein Signal
+1 = Schlüsselnummer 1
+2 = Schlüsselnummer 2
+3 = Schlüsselnummer 3
+4 = Schlüsselnummer 4</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Aktiver Funkschlüssel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+0 = kein Funkschlüssel aktiv
+1 = Funkschlüssel 1 aktiv
+2 = Funkschlüssel 2 aktiv
+3 = Funkschlüssel 3 aktiv
+4 = Funkschlüssel 4 aktiv</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Richtung Sitzlängsverstellung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+- vor
+- zurück
+- unbetätigt
+- unplausibel</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position Sitzlängsverstellung</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Richtung Lehnenneigungsverstellung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+- vor
+- zurück
+- unbetätigt
+- unplausibel</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position Lehnenneigungsverstellung</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Richtung Sitzhöhenverstellung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+- anheben
+- absenken
+- unbetätigt
+- unplausibel</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position Sitzhöhenverstellung</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Richtung Sitzneigungsverstellung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+- anheben
+- absenken
+- unbetätigt
+- unplausibel</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position Sitzneigungsverstellung</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Richtung Lendenwirbelstütze (Weite)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+- vor
+- zurück
+- unbetätigt
+- unplausibel</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position Lendenwirbelstütze (Weite)</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..66535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Richtung Lendenwirbelstütze (Höhe)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+- anheben
+- absenken
+- unbetätigt
+- unplausibel</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>4</AF>
+		<NA>54</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Position Lendenwirbelstütze (Höhe)</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0..65535</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>44</AG>
+		<AF>1</AF>
+		<NA>21</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannungsversorgung Klemme 30</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>14</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Motornormierung 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBit 0-7:  
+--&gt;		                  0 = Sitzlängsverstellung
+--&gt;                   1 = Lehnenneigungsverstellung
+--&gt;                2 = Sitzhöhenverstellung
+--&gt;             3 = Sitzneigungsverstellung
+--&gt;          4 = 0
+--&gt;       5 = 0
+--&gt;    6 = 0
+--&gt; 7 = 0
+
+- 0 = nicht normiert, 1 = normiert</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Motornormierung 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBit 0-7:  
+--&gt;		                  0 = Lendenwirbelstütze (Weite)
+--&gt;                   1 = Lendenwirbelstütze (Hoch)
+--&gt;                2 = -
+--&gt;             3 = -
+--&gt;          4 = -
+--&gt;       5 = -
+--&gt;    6 = -
+--&gt; 7 = -
+
+- 0 = nicht normiert, 1 = normiert</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Betriebsmodus</Text>
+		</Name>
+		<diskreterSW>521</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+- Eindraht
+- Zweidraht</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft Türsteuergerät</Text>
+		</Name>
+		<diskreterSW>495</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+-\L\S\K\I F-Tür 1 = Verbindung i.O.\L\S\K\N
+-\L\S\K\I F-Tür 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft Gateway</Text>
+		</Name>
+		<diskreterSW>634</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+-\L\S\K\I Gateway 1 = Verbindung i.O.\L\S\K\N
+-\L\S\K\I Gateway 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>131</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft Beifahrertür</Text>
+		</Name>
+		<diskreterSW>497</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+-\L\S\K\I BF-Tür 1 = Verbindung i.O.\L\S\K\N
+-\L\S\K\I BF-Tür 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>132</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Botschaft Bordnetzsteuergerät</Text>
+		</Name>
+		<diskreterSW>416</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Anzeige:
+
+-\L\S\K\I el.ZE 1 = Verbindung i.O.\L\S\K\N
+-\L\S\K\I el.ZE 0 = Verbindung n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

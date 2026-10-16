@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>DTCO906</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante></SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Aktive SG Software</SystemName>
+		<Name>
+			<Text TI="">Control module mode</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N
+ Indicates whether the ECU is running in boot or application mode 
+
+Return values: Application active, bootloader active</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>ActiveDiagnosticInformation_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_ActiveDiagnosticInformation_Read']/Resparam[@ShortName='Identification_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='ECU_Software_Mode' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>Gateway</SystemName>
+		<Name>
+			<Text TI="">Read out Gateway functionality</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N
+ Says whether the control module has Gateway functionality. 
+
+Return values: Not true, true</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>ActiveDiagnosticInformation_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_ActiveDiagnosticInformation_Read']/Resparam[@ShortName='Identification_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Gateway' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Identifikation</SystemName>
+		<Name>
+			<Text TI="">Control module identification</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>ActiveDiagnosticInformation_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_ActiveDiagnosticInformation_Read']/Resparam[@ShortName='Identification' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<NA></NA>
+		<SystemName>Variante</SystemName>
+		<Name>
+			<Text TI="">Read out variant ECU</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>ActiveDiagnosticInformation_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_ActiveDiagnosticInformation_Read']/Resparam[@ShortName='Identification_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Variant' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<NA></NA>
+		<SystemName>Version</SystemName>
+		<Name>
+			<Text TI="">Read out current diagnostic version</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>ActiveDiagnosticInformation_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_ActiveDiagnosticInformation_Read']/Resparam[@ShortName='Identification_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Version' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Consecutive drive time for driver 1</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1ContinuousDrivingTime_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1ContinuousDrivingTime_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Driver 1 total drive time so far and current week</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1CumulatedDrivingTimePreviousAndCurrentWeek_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1CumulatedDrivingTimePreviousAndCurrentWeek_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Total break time for driver 1</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1CumulativeBreakTime_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1CumulativeBreakTime_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Current time card status driver 1</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1Current_DurationOfSelectedActivity_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1Current_DurationOfSelectedActivity_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<NA></NA>
+		<SystemName>Card number</SystemName>
+		<Name>
+			<Text TI="">Card number</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1Identification_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1Identification_Lesen']/Resparam[@ShortName='Card_number' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<NA></NA>
+		<SystemName>Issuing member state</SystemName>
+		<Name>
+			<Text TI="">Issuing member country</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1Identification_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1Identification_Lesen']/Resparam[@ShortName='Issuing_member_state' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>33</AG>
+		<NA></NA>
+		<SystemName>first name</SystemName>
+		<Name>
+			<Text TI="">Driver 1 First name</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1Name_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1Name_Lesen']/Resparam[@ShortName='first_name' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>36</AG>
+		<NA></NA>
+		<SystemName>surname</SystemName>
+		<Name>
+			<Text TI="">Driver1 Last name</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1Name_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1Name_Lesen']/Resparam[@ShortName='surname' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>39</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Time behind the wheel Driver 1/warnings</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1TimeRelatedStates_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1TimeRelatedStates_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>42</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Read Driver 1 Work status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver1WorkingState_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver1WorkingState_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>45</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Consecutive drive time for driver 2</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2ContinuousDrivingTime_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2ContinuousDrivingTime_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>48</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Driver 2 total drive time so far and current week</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2CumulatedDrivingTimePreviousAndCurrentWeek_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2CumulatedDrivingTimePreviousAndCurrentWeek_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>51</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Total break time for driver 2</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2CumulativeBreakTime_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2CumulativeBreakTime_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>54</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Current time card status driver 2</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2Current_DurationOfSelectedActivity_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2Current_DurationOfSelectedActivity_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>55</AG>
+		<NA></NA>
+		<SystemName>Card number</SystemName>
+		<Name>
+			<Text TI="">Card number</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2Identification_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2Identification_Lesen']/Resparam[@ShortName='Card_number' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>56</AG>
+		<NA></NA>
+		<SystemName>Issuing member state</SystemName>
+		<Name>
+			<Text TI="">Issuing member country</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2Identification_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2Identification_Lesen']/Resparam[@ShortName='Issuing_member_state' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>61</AG>
+		<NA></NA>
+		<SystemName>first name</SystemName>
+		<Name>
+			<Text TI="">Driver 2 First name</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2Name_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2Name_Lesen']/Resparam[@ShortName='first_name' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>64</AG>
+		<NA></NA>
+		<SystemName>surname</SystemName>
+		<Name>
+			<Text TI="">Driver 2 Last name</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2Name_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2Name_Lesen']/Resparam[@ShortName='surname' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>67</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Time behind the wheel Driver 2/warnings</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2TimeRelatedStates_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2TimeRelatedStates_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>70</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Read Driver 2 Work status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Driver2WorkingState_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_Driver2WorkingState_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>71</AG>
+		<NA></NA>
+		<SystemName>Present</SystemName>
+		<Name>
+			<Text TI="">Driver card 1 available</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DriverCardDriver1_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_DriverCardDriver1_Lesen']/Resparam[@ShortName='Present' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>74</AG>
+		<NA></NA>
+		<SystemName>Present</SystemName>
+		<Name>
+			<Text TI="">Driver card 2 available</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DriverCardDriver2_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_DriverCardDriver2_Lesen']/Resparam[@ShortName='Present' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>82</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Read engine speed</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">U/min</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>EngineSpeed_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_EngineSpeed_Lesen']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>86</AG>
+		<NA></NA>
+		<SystemName>Jahr</SystemName>
+		<Name>
+			<Text TI="">Read out hardware version</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Jahr</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>HardwareVersion_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_HardwareVersion_Read']/Resparam[@ShortName='Hardware_Version_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Jahr' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>87</AG>
+		<NA></NA>
+		<SystemName>Kalenderwoche</SystemName>
+		<Name>
+			<Text TI="">Read out hardware version</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Kalenderwoche</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>HardwareVersion_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_HardwareVersion_Read']/Resparam[@ShortName='Hardware_Version_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Kalenderwoche' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>93</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Total mileage</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">km</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>HighResolutionTotalVehicleDistance_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_HighResolutionTotalVehicleDistance_Read']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>96</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Daily mileage</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">km</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>HighResolutionTripDistance_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_HighResolutionTripDistance_Read']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>97</AG>
+		<NA></NA>
+		<SystemName>KFactor</SystemName>
+		<Name>
+			<Text TI="">Read K factor</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Impulse/m</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>KFactor_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_KFactor_Read']/Resparam[@ShortName='KFactor' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>100</AG>
+		<NA></NA>
+		<SystemName>LFactor</SystemName>
+		<Name>
+			<Text TI="">Read out the L factor</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Reifen Umfang</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>LFactorTyreCircumference_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_LFactorTyreCircumference_Read']/Resparam[@ShortName='LFactor' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>105</AG>
+		<NA></NA>
+		<SystemName>Teilenummer</SystemName>
+		<Name>
+			<Text TI="">Mercedes Benz part number</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>MercedesCarGroupHardware_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_MercedesCarGroupHardware_Read']/Resparam[@ShortName='Part_Number' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>106</AG>
+		<NA></NA>
+		<SystemName>Day</SystemName>
+		<Name>
+			<Text TI="">Date for next calibration </Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Tag</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>NextCalibrationDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_NextCalibrationDate_Read']/Resparam[@ShortName='Day' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>107</AG>
+		<NA></NA>
+		<SystemName>Month</SystemName>
+		<Name>
+			<Text TI="">Date for next calibration </Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Monat</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>NextCalibrationDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_NextCalibrationDate_Read']/Resparam[@ShortName='Month' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>110</AG>
+		<NA></NA>
+		<SystemName>Year</SystemName>
+		<Name>
+			<Text TI="">Date for next calibration </Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Jahr</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>NextCalibrationDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_NextCalibrationDate_Read']/Resparam[@ShortName='Year' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>114</AG>
+		<NA></NA>
+		<SystemName>OutOfScope</SystemName>
+		<Name>
+			<Text TI="">Leave tolerance range</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>OutOfScopeCondition_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_OutOfScopeCondition_Read']/Resparam[@ShortName='Bit_Field_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='OutOfScope' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>119</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Rotations axle output</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Impulse/m</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>PulsesPerRevolutionOfOutputShaft_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_PulsesPerRevolutionOfOutputShaft_Read']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>122</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Identification of member country</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>RegisteringMemberState_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_RegisteringMemberState_Read']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Read out service components</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>ServiceComponentIdentification_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_ServiceComponentIdentification_Read']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<NA></NA>
+		<SystemName>NextInspection</SystemName>
+		<Name>
+			<Text TI="">NextInspection</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>ServiceDelayCalendarTimeBased_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_ServiceDelayCalendarTimeBased_Read']/Resparam[@ShortName='NextInspection' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>129</AG>
+		<NA></NA>
+		<SystemName>Jahr</SystemName>
+		<Name>
+			<Text TI="">Read out software version</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Jahr</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>SoftwareVersion_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_SoftwareVersion_Read']/Resparam[@ShortName='Software_Version_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Jahr' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<NA></NA>
+		<SystemName>Kalenderwoche</SystemName>
+		<Name>
+			<Text TI="">Read out software version</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Kalenderwoche</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>SoftwareVersion_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_SoftwareVersion_Read']/Resparam[@ShortName='Software_Version_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Kalenderwoche' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>134</AG>
+		<NA></NA>
+		<SystemName>CardType</SystemName>
+		<Name>
+			<Text TI="">Card type card socket 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TachographCardSlot1_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_TachographCardSlot1_Lesen']/Resparam[@ShortName='CardType' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>137</AG>
+		<NA></NA>
+		<SystemName>CardType</SystemName>
+		<Name>
+			<Text TI="">Card type card socket 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TachographCardSlot2_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_TachographCardSlot2_Lesen']/Resparam[@ShortName='CardType' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>141</AG>
+		<NA></NA>
+		<SystemName>ShaftSpeed</SystemName>
+		<Name>
+			<Text TI="">Read axle speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TachographOutputShaftSpeed_Lesen</ServiceName>
+		<Response>/Response[@ShortName='PR_TachographOutputShaftSpeed_Lesen']/Resparam[@ShortName='ShaftSpeed' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>145</AG>
+		<NA></NA>
+		<SystemName>Speed</SystemName>
+		<Name>
+			<Text TI="">Speed</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">km/h</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TachographVehicleSpeed_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_TachographVehicleSpeed_Read']/Resparam[@ShortName='Speed' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>146</AG>
+		<NA></NA>
+		<SystemName>Speed_1/256</SystemName>
+		<Name>
+			<Text TI="">Speed 1/256</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">km/h</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TachographVehicleSpeed_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_TachographVehicleSpeed_Read']/Resparam[@ShortName='Speed_1_256' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>147</AG>
+		<NA></NA>
+		<SystemName>Day</SystemName>
+		<Name>
+			<Text TI="">Read date/time</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Tage</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TimeDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_TimeDate_Read']/Resparam[@ShortName='Day' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>148</AG>
+		<NA></NA>
+		<SystemName>Hours</SystemName>
+		<Name>
+			<Text TI="">Date/time</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Stunden</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TimeDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_TimeDate_Read']/Resparam[@ShortName='Hours' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>151</AG>
+		<NA></NA>
+		<SystemName>Minutes</SystemName>
+		<Name>
+			<Text TI="">Date/time</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TimeDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_TimeDate_Read']/Resparam[@ShortName='Minutes' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>152</AG>
+		<NA></NA>
+		<SystemName>Month</SystemName>
+		<Name>
+			<Text TI="">Date/time</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Monat</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TimeDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_TimeDate_Read']/Resparam[@ShortName='Month' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>154</AG>
+		<NA></NA>
+		<SystemName>Seconds</SystemName>
+		<Name>
+			<Text TI="">Date/time</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Sekunden</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TimeDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_TimeDate_Read']/Resparam[@ShortName='Seconds' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>156</AG>
+		<NA></NA>
+		<SystemName>Year</SystemName>
+		<Name>
+			<Text TI="">Date/time</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Jahr</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>TimeDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_TimeDate_Read']/Resparam[@ShortName='Year' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>160</AG>
+		<NA></NA>
+		<SystemName>Day</SystemName>
+		<Name>
+			<Text TI="">Time when vehicle started up for operation</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Tag</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>VehicleRegistrationDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_VehicleRegistrationDate_Read']/Resparam[@ShortName='Day' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>161</AG>
+		<NA></NA>
+		<SystemName>Hours</SystemName>
+		<Name>
+			<Text TI="">Time when vehicle started up for operation</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Stunden</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>VehicleRegistrationDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_VehicleRegistrationDate_Read']/Resparam[@ShortName='Hours' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>164</AG>
+		<NA></NA>
+		<SystemName>Minutes</SystemName>
+		<Name>
+			<Text TI="">Time when vehicle started up for operation</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Minuten</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>VehicleRegistrationDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_VehicleRegistrationDate_Read']/Resparam[@ShortName='Minutes' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>165</AG>
+		<NA></NA>
+		<SystemName>Month</SystemName>
+		<Name>
+			<Text TI="">Time when vehicle started up for operation</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Monat</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>VehicleRegistrationDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_VehicleRegistrationDate_Read']/Resparam[@ShortName='Month' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>167</AG>
+		<NA></NA>
+		<SystemName>Seconds</SystemName>
+		<Name>
+			<Text TI="">Time when vehicle started up for operation</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Sekunden</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>VehicleRegistrationDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_VehicleRegistrationDate_Read']/Resparam[@ShortName='Seconds' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>169</AG>
+		<NA></NA>
+		<SystemName>Year</SystemName>
+		<Name>
+			<Text TI="">Time when vehicle started up for operation</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Jahr</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>VehicleRegistrationDate_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_VehicleRegistrationDate_Read']/Resparam[@ShortName='Year' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>170</AG>
+		<NA></NA>
+		<SystemName>CodePage</SystemName>
+		<Name>
+			<Text TI="">Read vehicle registration number</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>VehicleRegistrationNumber_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_VehicleRegistrationNumber_Read']/Resparam[@ShortName='CodePage' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>176</AG>
+		<NA></NA>
+		<SystemName>VIN</SystemName>
+		<Name>
+			<Text TI="">VIN</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>VINOriginal_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_VINOriginal_Read']/Resparam[@ShortName='VIN' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>179</AG>
+		<NA></NA>
+		<SystemName>Value</SystemName>
+		<Name>
+			<Text TI="">Read vehicle specifics</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Impulse/m</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>WVehicleCharacteristicFactor_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_WVehicleCharacteristicFactor_Read']/Resparam[@ShortName='Value' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

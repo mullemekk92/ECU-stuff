@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Klh_08</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Klh6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Klimakompressor Aus Code</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 ... 19, 25</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\L\S\K\N
+
+0 = Kompressor EIN
+1-19, 25 = Kompressor AUS\Y\S\K\N
+
+J\L\S\K\I \L\B\K\AKompressor EIN:\L\S\K\I
+(\L\S\K\ACode\L\S\K\I - \L\B\K\IEreignis\L\S\K\I - Bedingung)\L\S\K\A
+0\L\S\K\I - \L\B\K\IOK\L\S\K\I - Klimaanlage eingeschaltet, alle Voraussetzungen erfüllt;\Y\S\K\N
+
+J\L\S\K\I \L\B\K\AKompressor AUS:\L\S\K\I
+(\L\S\K\ACode\L\S\K\I - \L\B\K\IEreignis\L\S\K\I - Bedingung)\L\S\K\A
+1\L\S\K\I - \L\B\K\IÜberdruck\L\S\K\I - Kältemitteldruck zu hoch: p \L\S\K\N&gt;\L\S\K\I 32 bar;\L\S\K\A
+2\L\S\K\I - \L\B\K\IGebläse\L\S\K\I - Gebläse defekt und Ist-Spannung &lt; 3 V;\L\S\K\A
+3\L\S\K\I - \L\B\K\IUnterdruck\L\S\K\I - Kältemitteldruck zu klein, Schwellen abhängig von Außentemperatur,
+Außentemperatur p \L\S\K\N&lt;\L\S\K\I 2 bar;\L\S\K\A\I
+5 \L\S\K\I- Motorstarterkennung\L\S\K\A
+6\L\S\K\I - \L\B\K\IECON\L\S\K\I - ECON-Betrieb \L\S\K\N(AC-Funktion nicht aktiviert)\L\S\K\I;\L\S\K\A
+7\L\S\K\I - \L\B\K\IKlimaanlage OFF\L\S\K\I;\L\S\K\A
+8\L\S\K\I - \L\B\K\IAußentemperatur\L\S\K\I - Außentemperatur zu klein, Außentemperatur \L\S\K\N&lt;\L\S\K\I 3,0 °C;\L\S\K\A
+9\L\S\K\I - \L\B\K\IGebläse aus\L\S\K\I;\L\S\K\A
+10\L\S\K\I - \L\B\K\IUnterspannung\L\S\K\I - Bordspannung zu klein, U (Kl. 15) &lt; 10,1 V;\L\S\K\A
+11\L\S\K\I - \L\B\K\IHeißleuchtenabschaltung\L\S\K\I - Motortemperatur &gt; 118 °C;\L\S\K\A
+12\L\S\K\I - \L\B\K\IAbschaltung vom Motorsteuergerät\L\S\K\I - Grund z.B. Motortemperatur, Kühlerlüftersteuergerät, Kick Down (Info über CAN);\L\S\K\A
+13\L\S\K\I - \L\B\K\IÜberspannung\L\S\K\I - Bordspannung zu groß, U(Kl. 15) &gt; 17 V;\L\S\K\A
+14\L\S\K\I - \L\B\K\IVerdampfertemperatur Vereisungsgefahr\L\S\K\I - Verdampfertemperatur zu klein;\L\S\K\A
+16\L\S\K\I - \L\B\K\IKompressor Ansteuerung\L\S\K\I - Fehler im Ansteuerungspfad, z.B. Unterbrechung/ Kurzschluss nach Plus;\L\S\K\A
+17\L\S\K\I - \L\B\K\IDrucksensor\L\S\K\I - kein oder unplausibles Signal vom Drucksensor (PWM-Signal);\L\S\K\A
+18 - \L\B\K\IDrehzahlabschaltung;\L\S\K\A
+19\L\S\K\I - \L\B\K\IAbschaltung über Steuergerät für Bordnetz\L\S\K\I;\L\S\K\A
+25 \L\S\K\N-\L\B\K\N \L\B\K\IKompressor aus wegen Start/Stopp</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10200</analogerSWoben>
+		<SWE>1/min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrgeschwindigkeit</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>44</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Standzeit</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Umluftklappe, SOLL-Wert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\AHinweis:\Y\S\K\N
+
+I\L\S\K\N \L\B\K\N0% \L\S\K\N- Umluft,\Y\S\K\N
+I\L\S\K\N \L\B\K\N50%\L\S\K\N - Klappe wird gerade geschlossen (20s),\Y\S\K\N
+I\L\S\K\N \L\B\K\N100%\L\S\K\N - Frischluft.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Außentemperatur, gefiltert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-45</analogerSWunten>
+		<analogerSWoben>155</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\L\S\K\I
+
+Außentemperatur, gefiltert über CAN.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Geber für Ausströmtemperatur, Verdampfer</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>41</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\G\AHinweis:\L\S\K\N
+\L\S\K\I
+Anzeige bei Kurzschluss nach Masse \L\B\K\I-51°C\L\S\K\I.
+Anzeige bei Kurzschluss nach Plus \L\B\K\I+99 °C\L\S\K\I.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Frischluftgebläse, IST-Spannung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>25</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannung Klemme 15</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>25</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Lüfterstufe 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Lüfterstufe 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrerwunsch, Zuheizer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kühlmitteltemperatur</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>155</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Dimmwert, über CAN</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Drehzahlanhebung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>4</AF>
+		<NA>14</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kältemitteldruck</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>37</analogerSWoben>
+		<SWE>bar</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Klemme X</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Rückwärtsgang</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kompressor PWM - Signal</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>%</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Klimaabschaltung</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Schaltzustände: Ein/Aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Start/Stopp - Innentemperatur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\K\AMögliche Anzeige:\L\S\K\N
+\L\B\K\N
+aus\L\S\K\N - Stoppfreigabe\L\B\K\N
+ein\L\S\K\N - Stoppverbot/Wiederstartanforderung</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gebläsestufe bei Defrostbetrieb</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\AHinweis:
+
+0 = Gebläse in Stufe 0, 1 oder 2 (Stoppfreigabe wird erteilt)
+
+1 = Gebläse in Stufe 3 oder 4 (Stoppfreigabe wird nicht erteilt)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Sollwert Warm- oder Klatanschlag</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\AHinweis:
+
+0 = kein Warmschlag oder Kaltanschlag
+
+1 = Warmanschlag oder Kaltanschlag und AC-Taste (LED leuchtet) ein</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

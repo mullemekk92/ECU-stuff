@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MESSAGE DTD="XMLMSG" VERSION="1.1">
+	<HEADER>
+		<AUTHENTICATION_TOKEN/>
+	</HEADER>
+	<COMMAND>
+		<REQUEST NAME="GetPIN" DTD="PINService" VERSION="1.0" ID="0">
+		  <PARAM NAME="AGENT_ID" VALUE="(AGENT-ID)"/>
+		  <PARAM NAME="AGENT_BASE_VERSION" VALUE="(AGENT-BASE-VERSION)"/>
+		  <PARAM NAME="AGENT_BRAND_VERSION" VALUE="(AGENT-BRAND-VERSION)"/>
+		  <PARAM NAME="AGENT_LANG" VALUE="(AGENT-LANG)"/>
+			<DATA>
+				<SATZART SA="(TESTER-WFS5)"/>
+				<Anfrage Typ="(Anfrage-TYP)">
+					<Kunde>
+						<Name>(Name)</Name>
+						<ID>(AusweisNr)</ID>
+						<Land>(Land)</Land>
+					</Kunde>
+					<Fahrzeug>
+						<VIN>(FZ-VIN)</VIN>
+						<TransponderID>(TransponderID)</TransponderID>
+					</Fahrzeug>
+					<Master>
+						<Identifikation>(Identifikation)</Identifikation>
+						<Seriennummer>(Seriennummer)</Seriennummer>
+						<VIN>(VIN)</VIN>
+						<Status>(Status)</Status>
+						<StatusWFS>(StatusWFS)</StatusWFS>
+						<StatusSHE>(StatusSHE)</StatusSHE>
+						<BGRPChecksum>(BGRPChecksum)</BGRPChecksum>
+						<Challenge>(Challange)</Challenge>
+					</Master>
+					<SchluesselSollAnzahl>(SchluesselSollAnzahl)</SchluesselSollAnzahl>
+					<Bemerkung>(Bemerkung)</Bemerkung>
+					*(
+					<Slave>
+						<Identifikation>(Identifikation-SL)</Identifikation>
+						<Seriennummer>(Seriennummer-SL)</Seriennummer>
+						<VIN>(VIN-SL)</VIN>
+						<Status>(Status-SL)</Status>
+						<StatusWFS>(StatusWFS-SL)</StatusWFS>
+						<StatusSHE>(StatusSHE-SL)</StatusSHE>
+						<BGRPChecksum>(BGRPChecksum-SL)</BGRPChecksum>
+						<Challenge>(Challange-SL)</Challenge>
+					</Slave>
+					)*
+				</Anfrage>
+			</DATA>
+		</REQUEST>
+	</COMMAND>
+</MESSAGE>

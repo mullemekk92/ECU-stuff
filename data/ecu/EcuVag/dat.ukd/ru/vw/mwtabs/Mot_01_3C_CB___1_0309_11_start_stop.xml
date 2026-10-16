@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Mot_01</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Mot6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>195</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Запрет выключения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 x Температура двигателя
+ 1 x Плотность окружающего воздуха
+ 2 x датчики старт-стоп
+ 3 x разрежение в тормозной системе
+ 4 x спорадически
+ 5 x определение затрудненного пуска
+ 6 x адаптация смеси
+ 7 x режим регенерации</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>195</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Запрос пуска двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 x Температура двигателя слишком мала
+ 1 x Температура двигателя слишком высока
+ 2 x Разрежение в тормозной системе слишком мало
+ 3 x Иммобилайзер запрашивает повторный пуск</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>195</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус системы мастера функций старт/стоп</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 = Система не доступна как минимум до следующего пуска с помощью ключа -/\L\S\K\N \L\S\Nили без него (кл. 50) 
+ 1 = система активна, нет разрешения из-за координатора сист. старт-стоп
+ 2 = система активна (имеется разрешение выключения всех компонентов)
+ 3 = система активна (отсутствует разрешение не менее одного \L\S\K\N \L\S\Nкомпонента)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>195</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус ошибки датчиков, влияющих на систему старт-стоп</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 x сигнал от капота (FALSE - замкнут)
+ 1 x сигнал от ремня безопасности водителя (FALSE - замкнут)
+ 2 x сигнал от двери водителя (FALSE - замкнут)
+ 3 x сигнал клавиши отключения сист. старт-стоп (FALSE - актив.)
+ 4 x ошибка связи (CAN)
+ 5 x Ошибка - сцепление
+ 6 x Ошибка - тормоза и скорость
+ 7 x Ошибка - рулевое управление</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>196</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Количество запусков двигателя, выполненных вручную</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>196</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Количество автоматических запусков двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>196</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус ошибки активных компонентов системы старт-стоп</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Блок управления климатической установки
+ 1 двигатель
+ 2 БУ тормозов
+ 3 система регулирования энергопотребления
+ 4 БУ КП
+ 5 Система Keyless Go
+ 6 Адаптивный круиз-контролль(ACC)
+ 7 парковочный автопилот</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>196</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус ошибки активных компонентов системы старт-стоп</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Блок управления Quattro Sport
+ 1 регулирование дорожного просвета
+ 2 комбинация приборов
+ 3 БУ бортовой сети
+ 4-7 зарезервировано</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>197</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Запрос запуска активных компонентов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Блок управления климатической установки
+ 1 двигатель
+ 2 БУ тормозов
+ 3 система регулирования энергопотребления
+ 4 БУ КП
+ 5 Система Keyless Go
+ 6 Адаптивный круиз-контролль(ACC)
+ 7 парковочный автопилот</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>197</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Запрет выключения активных компонентов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Блок управления климатической установки
+ 1 двигатель
+ 2 БУ тормозов
+ 3 система регулирования энергопотребления
+ 4 БУ КП
+ 5 Система Keyless Go
+ 6 Адаптивный круиз-контролль(ACC)
+ 7 парковочный автопилот</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>197</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Запрос запуска активных компонентов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Блок управления Quattro Sport
+ 1 регулирование дорожного просвета
+ 2 комбинация приборов
+ 3 БУ бортовой сети
+ 4-7 зарезервировано</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>197</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Запрет выключения активных компонентов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Блок управления Quattro Sport
+ 1 регулирование дорожного просвета
+ 2 комбинация приборов
+ 3 БУ бортовой сети
+ 4-7 зарезервировано</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

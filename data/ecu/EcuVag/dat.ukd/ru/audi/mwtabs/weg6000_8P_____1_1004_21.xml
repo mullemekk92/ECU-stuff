@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Weg_25</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Weg6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Запуск разрешен</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Да, ключ от автомобиля и блок управления двигателя авторизованы
+ \Y\S\K\NI\L\S\K\N Нет, т.е. ключ от автомобиля не адаптирован или адаптирован неверно, или блок управления двигателя не адаптирован или адаптирован неверно
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Блок управления двигателя отвечает</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Да, не имеет значения, авторизован блок управления двигателя или нет\Y\S\K\N
+ I\L\S\K\N Нет, т.е. блок управления двигателя не отвечает или находится в режиме задержки\L\S\G\N*)
+
+*\L\S\K\N) В зависимости от блока управления двигателя блок измеряемых величин в течение 10...30 с с момента выключения двигателя и зажигания находится в состоянии 'нет' = блок управления двигателя не отвечает,  т.е. блок управления двигателя разблокирован и неисправности отсутствуют. Для уверенности повторно запустить самодиагностику.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние ключей в норме
+</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N да, т.е. был считан формально правильный код транспондера, при этом не имеет значения, открывает данный код доступ или нет\Y\S\K\N
+ I\L\S\K\N нет, т.е. формально правильный код транспондера не считан.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Количество адаптированных ключей
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>8</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Авторизация</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N да, изменяемый код авторизован\Y\S\K\N
+ I\L\S\K\N нет, т.е. изменяемый код не авторизован (Алгоритм расчета изменяемого кода в ключе отличается от алгоритма в комбинации приборов).
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус ключа (транспондер)
+</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Да, транспондер в ключе заблокирован, т.е. алгоритм расчета в ключе больше нельзя переписать. Ключ больше не может быть адаптирован к другому иммобилайзеру.\Y\S\K\N
+ I\L\S\K\N Нет, транспондер в ключе не заблокирован, т.е. транспондер пока не адаптирован к комбинации приборов (такая ситуация невозможна в случае с WFS IV).
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Фиксированный код санкционирован
+
+</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Да, код транспондера ключа разрешен.
+ \Y\S\K\NI\L\S\K\N Нет, т.е. код транспондера ключа не разрешен. Адаптация ключа не выполнена.
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус иммобилайзера
+</Text>
+		</Name>
+		<diskreterSW>6</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N 4: сервисная служба - новый, состояние при получении сервисной службой (новая комбинация приборов).\Y\S\K\N
+ I\L\S\K\N 5: сервисная служба - заблокировано, данные адаптации запрограммированы в сервисной службе. \Y\S\K\N
+I\L\S\K\N 6: иммобилайзер адаптирован, нормальное функциональное состояние.
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Блокировка входа в программу тестера
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TЕсли при программировании иммобилайзера три раза был введен неверный тайный номер комбинации приборов, то активируется время блокировки. Время, когда можно будет провести дальнейшие попытки ввода номера, отображается в минутах. При включенном зажигании отображаемое значение времени уменьшается с шагом в одну минуту. 
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Блокировка входа в программу - шина CAN
+
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>Данная позиция указывает на время в минутах до момента, когда может быть осуществлена функция адаптации блока управления двигателя. Блокировка активируется в случае ввода неверного пин-кода при вызове данных двигателя.
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Блокировка - защитная система сканирования
+
+
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>Время до момента, когда распознавание транспондера снова станет возможным. Блокировка длится максимум 10 минут и активируется, если 20 раз подряд будет использован не авторизованный или неисправный ключ.
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Блокировка противоугонной системы</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>Данная позиция указывает на время, которое необходимо, чтобы при обмене данными между компонентами (блоком управления двигателя и комбинацией приборов) адаптировать новый компонент к уже установленной системе.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

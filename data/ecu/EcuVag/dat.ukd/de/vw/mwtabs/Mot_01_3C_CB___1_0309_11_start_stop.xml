@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Mot_01</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Mot6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>195</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stoppverbote für den Motor</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 x Motortemperatur
+1 x Umgebungsluftdichte
+2 x Start/Stop-Sensorik
+3 x Bremsunterdruck
+4 x sporadische
+5 x Schlechtstarterkennung
+6 x Gemischadaption
+7 x Regenerationsbetrieb</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>195</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Startanforderungen an den Motor</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 x Motortemperatur zu klein
+1 x Motortemperatur zu groß
+2 x Bremsunterdruck zu klein
+3 x Wegfahrsperre fordert Wiederstart</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>195</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Systemstatus des Start/Stopp-Funktionsmaster</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 = System ist mindestens bis zum nächsten Schlüssel-/\L\S\K\N \L\S\NKessy-Start (Kl. 50) Zyklus nicht verfügbar
+1 = System aktiv, keine Freigabe durch Start/Stop-Koordinator
+2 = System aktiv (Stop-Freigaben aller Teilnehmer liegen vor)
+3 = System aktiv (mindestens eine Stop-Freigabe der\L\S\K\N \L\S\NTeilnehmer fehlt)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>195</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fehlerstatus der Start/Stopp relevanten Sensoren</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 x Signal Motorhaube (FALSE - geschlossen)
+1 x Signal Fahrergurt (FALSE - geschlossen)
+2 x Signal Fahrertür (FALSE - geschlossen)
+3 x Signal Start/Stopp-Deaktivierungstaster (FALSE - aktiv)
+4 x Kommunikationsfehler (CAN)
+5 x Kupplungsfehler
+6 x Bremse- und Geschwindigkeitsfehler
+7 x Lenkungsfehler</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>196</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Anzahl manueller Motorstarts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>196</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Anzahl automatischer Motorstarts</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>196</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Systemfehler Start/Stopp der aktiven Teilnehmer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Klimasteuergerät
+1 Motor
+2 Bremsensteuergerät
+3 Energiemanagement
+4 Getriebesteuergerät
+5 Keyless Go System
+6 Adaptive Cruise Control (ACC)
+7 Parklenkassistent</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>196</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Systemfehler Start/Stopp der aktiven Teilnehmer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Quattro Sport Steuergerät
+1 Niveauregelung
+2 Kombiinstrument
+3 Bordnetzsteuergerät
+4-7 reserviert</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>197</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Startanforderungen der aktiven Teilnehmer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Klimasteuergerät
+1 Motor
+2 Bremsensteuergerät
+3 Energiemanagement
+4 Getriebesteuergerät
+5 Keyless Go System
+6 Adaptive Cruise Control (ACC)
+7 Parklenkassistent</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>197</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stoppverbote der aktiven Teilnehmer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Klimasteuergerät
+1 Motor
+2 Bremsensteuergerät
+3 Energiemanagement
+4 Getriebesteuergerät
+5 Keyless Go System
+6 Adaptive Cruise Control (ACC)
+7 Parklenkassistent</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>197</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Startanforderungen der aktiven Teilnehmer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Quattro Sport Steuergerät
+1 Niveauregelung
+2 Kombiinstrument
+3 Bordnetzsteuergerät
+4-7 reserviert</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>197</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Stoppverbote der aktiven Teilnehmer</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\N0 Quattro Sport Steuergerät
+1 Niveauregelung
+2 Kombiinstrument
+3 Bordnetzsteuergerät
+4-7 reserviert</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

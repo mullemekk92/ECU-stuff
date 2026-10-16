@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Rio_56</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Rio6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Электропитание</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>23</NA>
+		<Formel>MW * NW * 1/256</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Затемнение подсветки магнитолы в %</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TЗначение яркости передается как сообщение CAN. Если сигнал CAN не распознается, то в блоке измеряемых величин стоит соответствующее указание.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Вход - S-контакт</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>90</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N вкл\Y\S\K\N
+ J\L\S\K\N выкл</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Отключ.звука магнитолы по сигналу от телеф.(пин на магнит.)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>90</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N вкл\Y\S\K\N
+ J\L\S\K\N выкл\Y\F\J\N
+
+Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\I
+ Отключение звука магнитолы по проводу от телефона.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Отключ.звука магнитолы по сигналу от телеф.(сообщ. CAN.)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>90</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N вкл\Y\S\K\N
+ J\L\S\K\N выкл\Y\S\K\N
+ J\L\S\K\N не распознано\Y\F\J\N
+
+Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IУказание:\L\S\K\I
+ Отключение звука магнитолы по сообщению CAN от телефона.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Передний левый динамик</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N В норме\Y\S\K\N
+ J\L\S\K\N Короткое замыкание\Y\S\K\N
+ J\L\S\K\N обрыв\Y\S\K\N
+ J\L\S\K\N Обрыв цепи низкочастотных динамиков\L\B\K\N*)\Y\S\K\N
+ J\L\S\K\N Обрыв цепи высокочастотных динамиков \L\B\K\N*)
+
+*)\L\S\K\N \L\S\K\IОбрыв зафиксирован в следующем измеряемом значении.\L\S\K\N
+
+Диагностика динамиков не активируется, если автомобиль оснащен системой цифрового звучания.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Передний правый динамик</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N В норме\Y\S\K\N
+ J\L\S\K\N Короткое замыкание\Y\S\K\N
+ J\L\S\K\N обрыв\Y\S\K\N
+ J\L\S\K\N Обрыв цепи низкочастотных динамиков\L\B\K\N*)\Y\S\K\N
+ J\L\S\K\N Обрыв цепи высокочастотных динамиков \L\B\K\N*)
+
+*)\L\S\K\N \L\S\K\IОбрыв зафиксирован в следующем измеряемом значении.\L\S\K\N
+
+Диагностика динамиков не активируется, если автомобиль оснащен системой цифрового звучания.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние антенного входа 1</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N В норме\Y\S\K\N
+ J\L\S\K\N короткое замыкание\Y\S\K\N
+ J\L\S\K\N обрыв
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel>MW * NW * 0.1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряженность поля антенны 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TНапряженность поля настроенной в настоящий момент станции на антенне 1 в дБµВ.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel>MW * NW * 0.1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряженность поля антенны 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TНапряженность поля настроенной в настоящий момент станции на антенне 2 в дБµВ.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние антенного входа 2</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N В норме\Y\S\K\N
+ J\L\S\K\N короткое замыкание\Y\S\K\N
+ J\L\S\K\N обрыв
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Коммуникация с CD-чейнджером</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TВозможные состояния:\Y\S\K\N
+ J\L\S\K\N В норме\Y\S\K\N
+ J\L\S\K\N Не в норме
+
+Без CD-чейнджера =  не в норме</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Соединение CAN со спутниковым радио</Text>
+		</Name>
+		<diskreterSW>1034</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TЗначение:
+ Цифровой тюнер 1 = связь не в норме
+ Цифровой тюнер 0 = связь в норме</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Причина ошибки &gt;блок управления неисправен&lt;</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>Относительно записи в памяти &gt;блок управления неисправен&lt; здесь фиксируется причина неисправности:
+
+0 = неисправность &gt;блок управления неисправен&lt; отсутствует
+ 1 = кнопка заедает
+ 2 = неисправность в ROM, EPROM или Flash-ROM
+ 3 = неисправность в EEPROM
+ 4 = привод CD</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Идентификация блоков управления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>Код и обозначение производителя
+ Дата изготовления
+ Состояние изменений производителя
+ Испытательный стенд производителя №
+ Текущий номер производителя</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Серийный номер устройства</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Weg_25</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Weg6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Starting permitted</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Yes, both vehicle key and engine control unit are authorised
+ \Y\S\K\NI\L\S\K\N No, i.e. vehicle key not/incorrectly matched or engine control unit not coded/incorrectly coded/faulty</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine control unit answers</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Yes, regardless of whether engine control unit authorised or not\Y\S\K\N
+ I\L\S\K\N No, i.e. engine control unit not responding or in run-on\L\S\G\N*)
+
+*\L\S\K\N) Depending on engine control unit, the measured value block is set for 10 ... 30 s after switching off engine and ignition to No = engine control unit not responding, i.e. engine control unit enabled and no defect present. Start self-diagnosis again as a check.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Key status OK
+</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Yes, i.e. possible to read formally correct transponder fixed code (regardless of whether authorised or not)\Y\S\K\N
+ I\L\S\K\N No, i.e. not possible to read formally correct transponder fixed code.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Number of matched keys
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>8</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Authentication</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\NYes, variable code authorised\Y\S\K\N
+ I\L\S\K\N No, i.e. variable code not authorised (arithmetic rule for variable code in key not the same as in dash panel insert).
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Key status (transponder)
+</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Yes, transponder in key blocked, i.e. arithmetic rule in key can no longer be overwritten; key cannot be matched to any other immobilizer system\Y\S\K\N
+ I\L\S\K\N No, transponder in key not blocked, i.e. transponder not yet matched to dash panel insert (can no longer occur with immobilizer IV).
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fixed code authorised
+
+</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">Ja</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N Yes, fixed transponder code of key is authorised.
+ \Y\S\K\NI\L\S\K\N No, i.e. transponder fixed code of key not authorised. The key is not matched.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Immobilizer status
+</Text>
+		</Name>
+		<diskreterSW>6</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>I</SWF>
+		<Meldungstext>\T\Y\S\K\NI\L\S\K\N 4: Service new; service as-delivered condition (replacement dash panel insert).\Y\S\K\N
+ I\L\S\K\N 5: Service blocked; service adaption data programmed. \Y\S\K\N
+I\L\S\K\N 6: Immobilizer adapted; normal function status.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Tester login block
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TIf when adapting the immobilizer via the login function the secret code number of the dash panel insert is entered incorrectly 3x, a lockout time is activated each time. The time which must elapse before another attempt can be made is displayed in minutes. The time reduces every minute when the ignition is on. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN bus login block
+
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>The position indicates the remaining time in minutes until an engine control unit adaption function can again be executed. The block is activated by incorrect input of the PIN number when the engine data are called up.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Scan protection block
+
+
+</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>10</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>The time until another transponder detection is possible. The block lasts a maximum of 10 minutes and is activated when an unauthorised or defective key is used 20 times in succession.
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Anti-theft protection disable</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>min</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>This position indicates the time which must elapse before the new component can be adapted to the existing system following a component replacement (engine control unit or dash panel insert).</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

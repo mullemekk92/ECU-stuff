@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>XCDC_S</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante></SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>OperationTime_Counter</SystemName>
+		<Name>
+			<Text TI="">Счётчик времени</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Counter_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Counter_Read']/Resparam[@ShortName='OperationTime_Counter' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>CD_Load_Counter</SystemName>
+		<Name>
+			<Text TI="">Счётчик загрузок CD</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Counter_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Counter_Read']/Resparam[@ShortName='CD_Load_Counter' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Keycodes</SystemName>
+		<Name>
+			<Text TI="">Кнопка</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Keycodes_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Keycodes_Read']/Resparam[@ShortName='Keycodes' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

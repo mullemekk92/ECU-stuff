@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Sch_17</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Sch1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>22</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Startvorgang erlaubt</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(Komm. mit MSG i.O. / Freischaltung auf CAN / keine MSG-Anfrage und Schlüssel i.O.)
+\L\S\K\A
+1: erlaubt\L\S\K\N
+0: verboten
+
+Startvorgang erlaubt wird gesetzt, wenn i.O.-Kommunikation zur Motorsteuerung stattfand (Freischaltung auf CAN) oder wenn keine Motorsteuerungs-Anfrage und ein berechtigter Schlüssel bzw. eine Notentriegelung vorliegt.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motorsteuergerät Kommunikation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(Wake-Up vom Motorstuergerät egal ob berechtigt)
+\L\S\K\A
+1: fragt an\L\S\K\N
+0: keine Anfrage
+
+Motorsteuergerät antwortet wird gesetzt, sobald der Immobiliser ein gültiges Wake Up Pattern mit darauffolgendem Datenbyte (Low- und High-Zeit des Wake Ups sind zu prüfen!), bzw. eine Freischaltanforderung auf CAN erkannt hat (egal, ob Motorsteuergerät berechtigt oder nicht).</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Schlüsselzustand</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(Irgendein Transponder Festcode gelesen)
+\L\S\K\A
+1: i.O.\L\S\K\N
+0: n.i.O.
+
+Schlüsselzustand i.O. wird gesetzt wenn irgendein formal korrekter Transponderfestcode gelesen werden konnte (egal, ob berechtigt oder nicht).</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Anzahl gelernter Schlüssel</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\K\AAnzahl: \L\S\K\N0…8</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Authentifikation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(Transp. Wechselcode)
+-Wwird erst nach Kl.15 aktualisiert-
+\L\S\K\A
+1: i.O.\L\S\K\N
+0: n.i.O.
+
+Authentifikation i.O. wird gesetzt, wenn der Transponderschlüssel korrekt authentifiziert werden konnte (Wechselcode- Anteil i.O.), d.h. wenn der Transponder über den selben SKC verfügt wie das Kombi.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Lockbits gesetzt</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(Status Schlüssel)
+-Wird erst nach Kl.15 aktualisiert-
+\L\S\K\A
+1: gesetzt\L\S\K\N
+0: unverriegelt (Wegfahrsperre 2)
+
+Lockbits gesetzt wird gesetzt, wenn der Transponder verriegelt ist (Information aus entsprechenden Bits des Transponder User Memories).</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Key-ID berechtigt</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(Transponder Festcode)
+-Wird erst nach Kl.15 aktualisiert-
+\L\S\K\A
+1: berechtigt\L\S\K\N
+0: nicht berechtigt
+
+Key-ID berechtigt wird gesetzt, wenn der Transponderschlüssel über einen angelernten Festcode verfügt, d.h. wenn der Festcode- Anteil des Transpondercodes dem Kombi bekannt ist.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status Wegfahrsperre</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\L\S\K\A1:\L\S\K\N Bandende neu - Anlierferungszustand Bandende\L\S\K\A
+2:\L\S\K\N Bandende programmiert - Anpaßdaten programmiert, Motorsteuergerät kann angepaßt werden\L\S\K\A
+3:\L\S\K\N Bandende  Motorsteuergerät gelernt - Motorsteuergerät ist angepaßt, Schlüsselanpassung aktiv\L\S\K\A
+4:\L\S\K\N Kundendienst neu - Anlierferungszustand Kundendienst\L\S\K\A
+5:\L\S\K\N Kundendienst verriegelt - Anpaßdaten im Kundendienst programmiert\L\S\K\A
+6:\L\S\K\N Wegfahrsperre angepaßt - Normaler Funktionszustand</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Loginsperre Tester</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(3x falsche PIN)
+nächste PIN-Eingabe nach xxx min Kl.15 ein möglich
+\L\S\K\A
+0: keine Sperre\L\S\K\N
+
+Die Loginsperre Tester gibt an, nach welcher Zeit (in Minuten)  die nächste PIN- Eingabe über die Login-Funktion akzeptiert wird. Die Sperre wurde durch mehrmalige Falscheingabe der PIN über die Testerfunktion aktiviert.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Loginsperre CAN</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(3x falsche PIN)
+nächste Anpassfunktion eines Motorsteuergeräts über CAN nach xxx min Kl.15 ein möglich
+\L\S\K\A
+0: keine Sperre\L\S\K\N
+
+Die Loginsperre CAN gibt an, nach welcher Zeit (in Minuten) wieder eine Anpaßfunktion durch das Motorsteuergerät akzeptiert wird. Die Sperre wurde aktiviert durch falsche PIN- Eingaben über CAN- Anfragen der Motorsteuerung.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Sperre Notentriegelg</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(3x falsche PIN)
+Nächste PIN-Eingabe nach xx min Kl.15 ein
+\L\S\K\A
+0: keine Sperre\L\S\K\N
+
+Die \L\S\K\ASperre Notentriegelung\L\S\K\N gibt die Zeit in Minuten an, nach welcher wieder PIN- Eingaben über die Notentriegelungsfunktion (Kombitasten bzw. Menüfunktion) akzeptiert werden.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Sperre Scan-Schutz</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>(20x falsche Pille)
+Nächste Schlüssel-Abfragen nach xxx min Kl.15 ein
+\L\S\K\A
+0: keine Sperre\L\S\K\N
+
+Die Sperre Scan-Schutz gibt die Zeit in Minuten an, wann die nächste Transponderkennung durchgeführt wird. Die Sperre ist maximal 10 Minuten lang und wird durch 20-maliges Einstecken eines nicht berechtigten Schlüssels aktiviert.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikationart</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T0: Kommunikationsart noch nicht festgelegt\L\S\K\A
+1: Kombi und Motorsteuergerät kommunizieren über CAN\L\S\K\N (Wegfahrsperre 3)
+2: Kombi und Motorsteuergerät kommunizieren über W- Leitung (Wegfahrsperre 2)
+
+Die Kommunikationsart gibt an, auf welcher Leitung sich Kombi und Motorsteuergerät bezüglich Wegfahrsperre unterhalten.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

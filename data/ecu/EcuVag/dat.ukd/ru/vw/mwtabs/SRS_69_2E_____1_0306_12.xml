@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>ARCADE906</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante></SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Gurtschloss_Fahrer_gesteckt</SystemName>
+		<Name>
+			<Text TI="">Ремень водителя пристёгнут</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">ja/nein</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Peripherie_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Peripherie_Read']/Resparam[@ShortName='Datenbyte_1_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Gurtschloss_Fahrer_gesteckt' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>Gurtschloss_Beifahrer_gesteckt</SystemName>
+		<Name>
+			<Text TI="">Ремень переднего пассажира пристёгнут</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">ja/nein</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Peripherie_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Peripherie_Read']/Resparam[@ShortName='Datenbyte_1_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Gurtschloss_Beifahrer_gesteckt' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Gurtschloss_vorne_Mitte_gesteckt</SystemName>
+		<Name>
+			<Text TI="">Ремень впереди в центре пристёгнут</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">ja/nein</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Peripherie_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Peripherie_Read']/Resparam[@ShortName='Datenbyte_1_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Gurtschloss_vorne_Mitte_gesteckt' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<NA></NA>
+		<SystemName>Steuergeraet_ist_ausloesefaehig</SystemName>
+		<Name>
+			<Text TI="">J234 - Блок упр. подушек безопасности готов к срабатыванию</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\R\J\NS\Y\S\J\NT\L\R\G\AВнимание!\L\R\K\I
+ Незафиксированный J234 - блок управления подушек безопасности не готов к работе!</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Peripherie_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Peripherie_Read']/Resparam[@ShortName='Datenbyte_2_STRUCTURE' and @Type='Structure']/Resparam[@ShortName='Steuergeraet_ist_ausloesefaehig' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_AB_Fahrer_1_Stufe</SystemName>
+		<Name>
+			<Text TI="">Величина сопр. N95 - пиропатрон подушки безоп. стор. водит.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.7</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_AB_Fahrer_1_Stufe' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_AB_Beifahrer_1_Stufe</SystemName>
+		<Name>
+			<Text TI="">Величина сопр. N131 - пиропатр. 1 подушки безоп. пер.пасс.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.2</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_AB_Beifahrer_1_Stufe' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Gurtstraffer_Fahrer</SystemName>
+		<Name>
+			<Text TI="">Велич.сопр. N153 - пиропатрон натяжит.ремня без. стор.вод.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.2</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Gurtstraffer_Fahrer' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Gurtstraffer_Beifahrer</SystemName>
+		<Name>
+			<Text TI="">Велич.сопр. N154 - пиропатрон натяжит.ремня без. пер.пасс.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.2</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Gurtstraffer_Beifahrer' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Gurtstraffer_Beifahrer_Mitte</SystemName>
+		<Name>
+			<Text TI="">Знач. сопрот. N294 - пиропатрон 3 для натяжит. ремня безоп.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.2</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Gurtstraffer_Beifahrer_Mitte' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Thoraxbag_Sidebag_Fahrer</SystemName>
+		<Name>
+			<Text TI="">Величина сопр. N199 - пиропатрон бок.подушки без. стор.вод.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.2</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Thoraxbag_Sidebag_Fahrer' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Thoraxbag_Sidebag_Beifahrer</SystemName>
+		<Name>
+			<Text TI="">Величина сопр. N200 - пиропатрон бок.подушки без. пер.пасс.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.2</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Thoraxbag_Sidebag_Beifahrer' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Windowbag_vorne_links</SystemName>
+		<Name>
+			<Text TI="">Велич.сопр. N251 - пиропатрон подушки без.головы стор. вод.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.2</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Windowbag_vorne_links' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Windowbag_vorne_rechts</SystemName>
+		<Name>
+			<Text TI="">Велич.сопр. N252 - пиропатр.подушки без.головы стор.п.пасс.</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.2</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>Ohm</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Windowbag_vorne_rechts' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Windowbag_hinten_1_links</SystemName>
+		<Name>
+			<Text TI="">Велич.сопр.пиропатр. подушк. без. для головы сзади 1 слева</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Windowbag_hinten_1_links' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>31</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Windowbag_hinten_1_rechts</SystemName>
+		<Name>
+			<Text TI="">Велич.сопр.пиропатр. подушк.без. для головы сзади 1 справа</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Windowbag_hinten_1_rechts' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>32</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Windowbag_hinten_2_links</SystemName>
+		<Name>
+			<Text TI="">Велич.сопр.пиропатр. подушк. без. для головы сзади 2 слева</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Windowbag_hinten_2_links' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>33</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Windowbag_hinten_2_rechts</SystemName>
+		<Name>
+			<Text TI="">Велич.сопр.пиропатр. подушк.без. для головы сзади 2 справа</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Windowbag_hinten_2_rechts' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>34</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Reserve_15</SystemName>
+		<Name>
+			<Text TI="">Величина сопротивления пиропатрона, резерв 15</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Reserve_15' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>35</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Reserve_16</SystemName>
+		<Name>
+			<Text TI="">Величина сопротивления пиропатрона, резерв 16</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Reserve_16' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>36</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Reserve_17</SystemName>
+		<Name>
+			<Text TI="">Величина сопротивления пиропатрона, резерв 17</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Reserve_17' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>37</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Reserve_18</SystemName>
+		<Name>
+			<Text TI="">Величина сопротивления пиропатрона, резерв 18</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Reserve_18' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>38</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Reserve_19</SystemName>
+		<Name>
+			<Text TI="">Величина сопротивления пиропатрона, резерв 19</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Reserve_19' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>39</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Reserve_20_1</SystemName>
+		<Name>
+			<Text TI="">Величина сопротивления пиропатрона, резерв 20</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Reserve_20_1' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>40</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Reserve_21</SystemName>
+		<Name>
+			<Text TI="">Величина сопротивления пиропатрона, резерв 21</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Reserve_21' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>41</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Reserve_22</SystemName>
+		<Name>
+			<Text TI="">Величина сопротивления пиропатрона, резерв 22</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Reserve_22' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>42</AG>
+		<NA></NA>
+		<SystemName>Widerstandswert_Zuendmittel_Reserve_23</SystemName>
+		<Name>
+			<Text TI="">Величина сопротивления пиропатрона, резерв 23</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Zuendmittel_Widerstandsbeiwert_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Zuendmittel_Widerstandsbeiwert_Read']/Resparam[@ShortName='Widerstandswert_Zuendmittel_Reserve_23' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>54</AG>
+		<NA></NA>
+		<SystemName>Zustand</SystemName>
+		<Name>
+			<Text TI="">J234 - Блок упр. подушек безопасн. - состояние блокировки</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\R\J\NS\Y\S\J\NT\L\R\G\AВнимание!\L\R\K\I
+ Незафиксированный J234 - блок управления подушек безопасности не готов к работе!</Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>Verriegelung_Read</ServiceName>
+		<Response>/Response[@ShortName='PR_Verriegelung_Read']/Resparam[@ShortName='Zustand' and @Type='SimpleDOP']</Response>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

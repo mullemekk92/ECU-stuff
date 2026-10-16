@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>sou_47</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>sou6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Электропитание</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>16</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>255</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Статус, напряжения АКБ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\N0 0 0 0 x x x \C\S\K\A1\C\S\K\N   =  \L\S\K\N клемма S вкл\C\S\K\N
+ 0 0 0 0 x x \C\S\K\A1 \C\S\K\Nx   =  \L\S\K\N клемма 15 вкл\C\S\K\N
+ 0 0 0 0 x \C\S\K\A1 \C\S\K\Nx x   =  \L\S\K\N клемма X вкл\C\S\K\N
+ 0 0 0 0 \C\S\K\A1 \C\S\K\Nx x x   =  \L\S\K\N клемма 50 вкл\C\S\K\A
+ 1 \C\S\K\N0 0 0 x x x x   =  \L\R\K\N состояние не действующее\L\S\K\N
+ </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Температура на аналоговой детали</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>110</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>7</NA>
+		<Formel>8 Bit</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Состояние переключающих входов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>110</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\Nx x x x x x x \C\S\K\A0\C\S\K\N  =  \L\S\K\NЛиния оперативного тока выкл\C\S\K\N
+ x x x x x x x \C\S\K\A1\C\S\K\N  =  \L\S\K\NЛиния оперативного тока вкл 
+
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW*NW*0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Напряжение на входе для микрофона</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T5.1V = микрофон не закодирован</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>7</NA>
+		<Formel>MW*NW*0,01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Скорость</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

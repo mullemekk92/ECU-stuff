@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Klh_08</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Klh6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kompressor AUS-Code</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 ... 19</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHinweis:\L\S\K\I
+
+0 = Kompressor EIN
+1-19 = Kompressor AUS\Y\S\K\N
+
+J\L\S\K\I \L\B\K\AKompressor EIN:\L\S\K\I
+(\L\S\K\ACode\L\S\K\I - \L\B\K\IEreignis\L\S\K\I - Bedingung)\L\S\K\A
+0\L\S\K\I - \L\B\K\IOK\L\S\K\I - Klimaanlage eingeschaltet, alle Voraussetzungen erfüllt;\Y\S\K\N
+
+J\L\S\K\I \L\B\K\AKompressor AUS:\L\S\K\I
+(\L\S\K\ACode\L\S\K\I - \L\B\K\IEreignis\L\S\K\I - Bedingung)\L\S\K\A
+1\L\S\K\I - \L\B\K\IÜberdruck\L\S\K\I - Kältemitteldruck zu hoch; Schwellen abhängig von Kältemitteldruck; Ausschalten bei p \L\S\G\N&gt;=\L\S\K\I 32 bar, Einschalten bei p \L\S\G\N=&lt;\L\S\K\I 24 bar;\L\S\K\A
+3\L\S\K\I - \L\B\K\IUnterdruck\L\S\K\I - Kältemitteldruck zu klein, Schwellen abhängig von Außentemperatur, Ausschalten bei p \L\S\G\N=&lt;\L\S\K\I 1,4 bar, Einschalten bei p \L\S\G\N&gt;=\L\S\K\I 2,0 bar;\L\S\K\A
+5\L\S\K\I - \L\B\K\IMotorstart\L\S\K\I - Motorlaufzeit \L\S\G\N&lt;\L\S\K\I 1 sec (kein Motorstart erkannt);\L\S\K\A
+6\L\S\K\I - \L\B\K\IECON\L\S\K\I - ECON-Betrieb (ECON-Taste betätigt oder AC-Taste nicht betätigt);\L\S\K\A
+7\L\S\K\I - \L\B\K\IKlimaanlage OFF\L\S\K\I - Gebläseschalter in Stellung 0;\L\S\K\A
+8\L\S\K\I - \L\B\K\IAußentemperatur\L\S\K\I - Außentemperatur zu klein, Ausschalten bei Außentemperatur \L\S\G\N&lt;\L\S\K\I 1,5 °C bzw. wenn Steuergerät keinen aktuellen/einen unplausiblen Wert über CAN erhält, Einschalten bei Außentemperatur \L\S\G\N&gt;\L\S\K\N 2\L\S\K\I,5 °C;\L\S\K\A
+10\L\S\K\I - \L\B\K\IUnterspannung\L\S\K\I - Bordspannung zu klein, &lt; 9,5 V;\L\S\K\A
+11\L\S\K\I - \L\B\K\IHeißleuchtenabschaltung / Kühlmitteltemperatur zu hoch \L\S\K\I- Motortemperatur &gt; 118 °C, (deaktiviert in Abhängigkeit Softwarestand);\L\S\K\A
+12\L\S\K\I - \L\B\K\IAbschaltung vom Motorsteuergerät über CAN\L\S\K\I - Grund z.B. Motortemperatur, Kühlerlüftersteuergerät, Kick Down;\L\S\K\A
+13\L\S\K\I - \L\B\K\IÜberspannung\L\S\K\I - Bordspannung zu groß, U(Kl. 15) oder (Kl. 30) &gt; 16 V;\L\S\K\A
+14\L\S\K\I - \L\B\K\IVerdampfertemperatur Vereisungsgefahr\L\S\K\I - Verdampfertemperatur zu klein;\L\S\K\A
+15\L\S\K\I - \L\B\K\Ikeine oder fehlerhafte Fahrzeugcodierung\L\S\K\I;\L\S\K\A
+16\L\S\K\I - \L\B\K\IKompressor Ansteuerung\L\S\K\I - Fehler im Ansteuerungspfad zum Regelventil, z.B. Unterbrechung/ Kurzschluss nach Plus;\L\S\K\A
+17\L\S\K\I - \L\B\K\IDrucksensor\L\S\K\I - kein oder unplausibles Signal vom Drucksensor (PWM-Signal);\L\S\K\A
+18\L\S\K\I - \L\B\K\IDrehzahlabschaltung im Stand\L\S\K\I - Abschalten für eine min. Zeit von 3 s bei Motordrehzahl &gt; 3000 1/min und Fahrgeschwindigkeit &lt; 15 km/h;\L\S\K\A
+19\L\S\K\I - \L\B\K\ILastmanagement\L\S\K\I - Abschaltung über CAN vom Steuergerät für Bordnetz (Defrost hebt diesen Code wieder auf)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Motordrehzahl</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>12700</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fahrgeschwindigkeit</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>251</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Standzeit</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>4</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">SOLL-Strom Kompressor</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>1</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kompressordrehungen</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>10000</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kompressorlast</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>18</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kältemitteldruck</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>37</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Steuerung Kühlerlüfter IST</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Steuerung Kühlerlüfter SOLL</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Drehzahlerhöhung</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Aussentemperatur ungefiltert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>63</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Aussentemperatur Regulierung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-50</analogerSWunten>
+		<analogerSWoben>63</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kühlmitteltemperatur</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-48</analogerSWunten>
+		<analogerSWoben>126</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ausströmtemperatur Mitte</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>84</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ausströmtemperatur Fußraum</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>84</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperatur nach dem Verdampfer</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>40</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Innentemperatur</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-80</analogerSWunten>
+		<analogerSWoben>80</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Turbine</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Bordspannung Klemme 30</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>25</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Klemme 15</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Signal Dämpfung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Heizung Heckscheibe Ist</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\AHinweis:\Y\S\K\N
+J\L\S\K\I Die Anzeige muss von \L\B\K\Iaus\L\S\K\I auf \L\B\K\Iein\L\S\K\I wechseln, wenn der Taster für beheizbare Heckscheibe -E230 im Steuergerät für Klimaanlage -J301 entsprechend betätigt wird.\Y\S\K\N
+J\L\S\K\I Wechselt die Anzeige von aus auf ein, wird diese Botschaft über CAN an das Bordnetzsteuergerät -J519 gesendet.\Y\S\K\N
+J\L\S\K\I Mit der Anzeige \L\B\K\Iaus/ein\L\S\K\I in \L\B\K\IHeizung Heckscheibe Soll\L\S\K\I der Messwerttabelle wird angezeigt, dass das Bordnetzsteuergerät -J519 diese Botschaft dem Steuergerät für Klimaanlage -J301 quittiert. Gleichzeitig wird das Steuergerät für Klimaanlage -J301 die Kontrollleuchte für beheizbare Heckscheibe -K10 ein- und ausschalten.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Heckscheibenheizung Soll</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\F\J\NY\Y\S\J\NZ\L\S\K\N \L\S\G\AHinweis:\Y\S\K\N
+J\L\S\K\I Wenn die Anzeige von \L\B\K\Iaus\L\S\K\I auf \L\B\K\Iein\L\S\K\I wechselt, quittiert damit das Bordnetzsteuergerät -J519 die erhaltene Botschaft dem Steuergerät für Klimaanlage -J301 für das Ein- und Ausschalten der Heckscheibenheizung. Gleichzeitig wird das Steuergerät für Klimaanlage -J301 die Kontrollleuchte für beheizbare Heckscheibe -K10 ein- und ausschalten.\Y\S\K\N
+J\L\S\K\I Dazu den Taster für beheizbare Heckscheibe -E230 im Steuergerät für Klimaanlage -J301 entsprechend betätigen.\Y\S\K\N
+J\L\S\K\I Wechselt die Anzeige nicht von aus auf ein, kontrollieren Sie, ob die Botschaft über CAN an das Bordnetzsteuergerät -J519 gesendet wird in \L\B\K\IHeizung Heckscheibe Ist\L\S\K\I der Messwerttabelle.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status PTC</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">IST-Strom PTC</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">PTC-Heizung Fahrerwunsch</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Heizung AUS</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand Standheizung</Text>
+		</Name>
+		<diskreterSW xml:space="preserve"></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">FUK- Sollwert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperaturklappe links Ist-Wert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperaturklappe links Soll-Wert</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>3</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperaturklappe links Kalt-Anschlag</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>4</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperaturklappe links Warm-Anschlag</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

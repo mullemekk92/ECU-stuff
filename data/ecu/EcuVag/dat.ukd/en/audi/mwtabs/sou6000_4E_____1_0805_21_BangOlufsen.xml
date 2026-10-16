@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>sou_47</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>sou6000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Operating voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>255</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Operating voltages status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T0000xxx\L\B\K\N1\L\S\K\N = Terminal S on
+ 0000xx\L\B\K\N1\L\S\K\Nx = Terminal 15 on
+ 0000x\L\B\K\N1\L\S\K\Nxx = Terminal X on
+ 0000\L\B\K\N1\L\S\K\Nxxx = Terminal 50 on
+ F000xxxx = Status invalid</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>255</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">General status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\Nxxxxxxx\C\B\K\N1\L\S\K\N = Microphone 1 is not coded or has a fault\C\S\K\N
+ xxxxxx\C\B\K\N1\C\S\K\Nx\L\S\K\N = Microphone 2 is not coded or has a fault\C\S\K\N
+ xxxxx\C\B\K\N1\C\S\K\Nxx\L\S\K\N = The output stages are active (not muted)\C\S\K\N
+ xxxx\C\B\K\N1\C\S\K\Nxxx\L\S\K\N = The internal AC/DC converter is active (not muted)\C\S\K\N
+ xxx\C\B\K\N1\C\S\K\Nxxxx\L\S\K\N = The output stages are overridden\C\S\K\N
+ xx\C\B\K\N1\C\S\K\Nxxxxx\L\S\K\N = The output power of the sub-amplifier is reduced\C\S\K\N
+ x\C\B\K\N1\C\S\K\Nxxxxxx\L\S\K\N = The audio test matrix is active</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW * 256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">MOST address</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>107</NA>
+		<Formel>(NW * 256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Message identification number</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>113</NA>
+		<Formel>(MW - 128) * NW * 0.01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Optical reduction of send diode</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben>0.01</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\L\B\K\N0.00 dB\L\S\K\N = No reduction, normal operation\L\B\K\N
+ -3 dB\L\S\K\N = Optical transmission power reduced by 3 dB </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>107</NA>
+		<Formel>(NW * 256) + MW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Hardware instance</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0x00FF</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Loop break diagnosis wire</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">       1</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\T\L\B\K\N0\L\S\K\N = active\L\B\K\N
+ 1\L\S\K\N = not active</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -----xxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of switching wires</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\N00000xx\C\B\K\N1\L\S\K\N = No muting of sound system\C\S\K\N
+ 00000x\C\B\K\N1\C\S\K\Nx\L\S\K\N = Maintenance active\C\S\K\N
+ 00000\C\B\K\N1\C\S\K\Nxx\L\S\K\N = Sub-amplifier maintained by main amplifier
+ (activation via \L\B\K\NRemote Wakeup\L\S\K\N pin on sub-amplifier)</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>16</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">System status</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe system status is not relevant for Service.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>7</NA>
+		<Formel>MW * NW * 0,01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel>MW * NW * 0,2</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>86</NA>
+		<Formel>MW * NW * 0,1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Air conditioner: Fan current</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>16</NA>
+		<Formel>8 Bit -------x</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Parking aid active</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\C\S\K\Nxxxxxxx\C\B\K\N1\L\S\K\N - the parking aid is active</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at microphone input 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T5.1V = Microphone not coded</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at microphone input 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T5.1V = Microphone not coded</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Signal voltage at digital input (left channel)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TThe digital input is not currently used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Signal voltage at digital input (right channel)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TThe digital input is not currently used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at analog input 1</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TOn the main amplifier 8 analog inputs are provided which are currently not used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at analog input 2</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TOn the main amplifier 8 analog inputs are provided which are currently not used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at analog input 3</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TOn the main amplifier 8 analog inputs are provided which are currently not used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at analog input 4</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TOn the main amplifier 8 analog inputs are provided which are currently not used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at analog input 5</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TOn the main amplifier 8 analog inputs are provided which are currently not used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at analog input 6</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TOn the main amplifier 8 analog inputs are provided which are currently not used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at analog input 7</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TOn the main amplifier 8 analog inputs are provided which are currently not used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage at analog input 8</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>5</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TOn the main amplifier 8 analog inputs are provided which are currently not used.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature of MOST send diode</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature on heat sink of main amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>33</NA>
+		<Formel>(MW / NW) * 100</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Speed of fan in main amplifier in %</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>110</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>113</NA>
+		<Formel>(MW-128) * NW * 0.01</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature-sensitive volume control</Text>
+		</Name>
+		<diskreterSW xml:space="preserve">0 dB</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>T</SWF>
+		<Meldungstext>\TIf the send diode reaches a temperature of 79°C the output power is reduced by 1 dB per °C.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage supply of main amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal voltage at analog section of main amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>7</analogerSWunten>
+		<analogerSWoben>9</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal switching voltage of main amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal voltage at 5,0V digital section of  main amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal voltage at 3.3V digital section of  main amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>3</analogerSWunten>
+		<analogerSWoben>4</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal voltage of main amplifier processor</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1</analogerSWunten>
+		<analogerSWoben>2</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Voltage supply of sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Step-up converter (+40V) in sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>35</analogerSWunten>
+		<analogerSWoben>45</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TIn the sub-amplifier the 12V battery voltage is transformed by a switched-mode power supply unit to +/- 40V.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Step-up converter (-40V) in sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>35</analogerSWunten>
+		<analogerSWoben>45</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TThe voltage value is negative. The sign (-) is not displayed in the measured value block though.
+
+In the sub-amplifier the 12V battery voltage is transformed by a switched-mode power supply unit to +/- 40V.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal voltage 5V in sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal 12V of sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11</analogerSWunten>
+		<analogerSWoben>13</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal voltage (5V) in sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Internal voltage (-5V) in sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4</analogerSWunten>
+		<analogerSWoben>6</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TThe voltage value is negative. The sign (-) is not displayed in the measured value block though.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0,001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Control voltage of control motors</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>11</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TControl voltage for the motors of the two retractable treble speakers in the dash panel.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>16</NA>
+		<Formel>8 Bit xxxxxxxx</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status of sub-amplifier</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>11</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe status is not relevant for Service.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>17</NA>
+		<Formel>2 ASCII Zeichen</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status treble speaker front left -R20</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible states of the retractable front left treble speaker -R20 in the dash panel:\L\B\K\N
+ LO\L\S\K\N = Speaker fully retracted\L\B\K\N
+ HI \L\S\K\N= Speaker fully extended\L\B\K\N
+ GH\L\S\K\N = Speaker extending\L\B\K\N
+ GD\L\S\K\N = Speaker retracting\L\B\K\N
+ BL\L\S\K\N = Control motor blocked\L\B\K\N
+ IT\L\S\K\N = Speaker being initialised\L\B\K\N
+ DM\L\S\K\N = Speaker defective\L\B\K\N
+ UK\L\S\K\N = Unknown speaker position\L\B\K\N
+ XX\L\S\K\N = Open circuit in speaker lead</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>3</AF>
+		<NA>17</NA>
+		<Formel>2 ASCII Zeichen</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status treble speaker front right -R22</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TPossible states of the lowerable front right treble speaker -R22 in the dash panel:\L\B\K\N
+ LO\L\S\K\N = Speaker fully retracted\L\B\K\N
+ HI \L\S\K\N= Speaker fully extended\L\B\K\N
+ GH\L\S\K\N = Speaker extending\L\B\K\N
+ GD\L\S\K\N = Speaker retracting\L\B\K\N
+ BL\L\S\K\N = Control motor blocked\L\B\K\N
+ IT\L\S\K\N = Speaker being initialised\L\B\K\N
+ DM\L\S\K\N = Speaker defective\L\B\K\N
+ UK\L\S\K\N = Unknown speaker position\L\B\K\N
+ XX\L\S\K\N = Open circuit in speaker lead</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature of output stage 1 of sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature of output stage 2 of sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>3</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature of output stage 3 of sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<AF>4</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature of output stage 4 of sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature of output stage 5 of sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>2</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature of output stage 6 of sub-amplifier</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>3</AF>
+		<NA>26</NA>
+		<Formel>MW - NW</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Temperature of sub-amplifier SMPS</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>°C</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>4</AF>
+		<NA>33</NA>
+		<Formel>(MW / NW) *100</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Speed of fan in sub-amplifier in %</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

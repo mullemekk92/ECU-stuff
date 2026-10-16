@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Rio_56</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Rio2000</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel>MW * NW * 0.001</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Spannungsversorgung</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>9</analogerSWunten>
+		<analogerSWoben>15</analogerSWoben>
+		<SWE>V</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>23</NA>
+		<Formel>MW * NW * 1/256</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Dimmung der Radiobeleuchtung in %</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TDie Dimmung wird als CAN-Botschaft übertragen. Wenn das CAN-Signal nicht erkannt werden kann, steht im Messwerteblock ein entsprechender Hinweis.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Eingang S-Kontakt</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>90</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Zustände:\Y\S\K\N
+J\L\S\K\N ein\Y\S\K\N
+J\L\S\K\N aus</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Radio-Stummschaltung durch Telefon (Pin am Radio)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>90</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Zustände:\Y\S\K\N
+J\L\S\K\N ein\Y\S\K\N
+J\L\S\K\N aus\Y\F\J\N
+
+Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHiweis:\L\S\K\I
+Stummschaltung des Radios über Leitung vom Telefon.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Radio-Stummschaltung durch Telefon (CAN-Botschaft)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>-40</analogerSWunten>
+		<analogerSWoben>90</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TMögliche Zustände:\Y\S\K\N
+J\L\S\K\N ein\Y\S\K\N
+J\L\S\K\N aus\Y\S\K\N
+J\L\S\K\N nicht erkannt\Y\F\J\N
+
+Y\Y\S\J\NZ\L\S\K\N \L\S\G\A\IHiweis:\L\S\K\I
+Stummschaltung des Radios über eine CAN-Botschaft vom Telefon.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Lautsprecher vorne links</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Zustände:\Y\S\K\N
+J\L\S\K\N i.O.\Y\S\K\N
+J\L\S\K\N Kurzschluss\Y\S\K\N
+J\L\S\K\N Unterbrechung\Y\S\K\N
+J\L\S\K\N Tieftöner Unterbrechung \L\B\K\N*)\Y\S\K\N
+J\L\S\K\N Hochtöner Unterbrechung \L\B\K\N*)
+
+*)\L\S\K\N \L\S\K\IUnterbrechung steht im nächsten Messwert.\L\S\K\N
+
+Die Diagnose der Lautsprecher ist nicht aktiv, wenn das Fahrzeug mit einem Digitalen Soundpaket ausgestattet ist.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Lautsprecher vorne rechts</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Zustände:\Y\S\K\N
+J\L\S\K\N i.O.\Y\S\K\N
+J\L\S\K\N Kurzschluss\Y\S\K\N
+J\L\S\K\N Unterbrechung\Y\S\K\N
+J\L\S\K\N Tieftöner Unterbrechung \L\B\K\N*)\Y\S\K\N
+J\L\S\K\N Hochtöner Unterbrechung \L\B\K\N*)
+
+*)\L\S\K\N \L\S\K\IUnterbrechung steht im nächsten Messwert.\L\S\K\N
+
+Die Diagnose der Lautsprecher ist nicht aktiv, wenn das Fahrzeug mit einem Digitalen Soundpaket ausgestattet ist.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand Antenneneingang 1</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Zustände:\Y\S\K\N
+J\L\S\K\N i.O.\Y\S\K\N
+J\L\S\K\N Kurzschluss\Y\S\K\N
+J\L\S\K\N Unterbrechung
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel>MW * NW * 0.1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Feldstärke Antenne 1</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TFeldstärke des aktuell eingestellten Senders an der Antenne 1 in dBµV.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel>MW * NW * 0.1</Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Feldstärke Antenne 2</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TFeldstärke des aktuell eingestellten Senders an der Antenne 2 in dBµV.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Zustand Antenneneingang 2</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Zustände:\Y\S\K\N
+J\L\S\K\N i.O.\Y\S\K\N
+J\L\S\K\N Kurzschluss\Y\S\K\N
+J\L\S\K\N Unterbrechung
+</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Kommunikation zum CD-Wechsler</Text>
+		</Name>
+		<diskreterSW>194</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TMögliche Zustände:\Y\S\K\N
+J\L\S\K\N i.O.\Y\S\K\N
+J\L\S\K\N n.i.O.
+
+Ohne CD-Wechsler = n.i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CAN-Verbindung zum Satelliten-Radio</Text>
+		</Name>
+		<diskreterSW>1034</diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF>N</SWF>
+		<Meldungstext>\TBedeutung:
+DigitTuner 1 = Kommunikation n.i.O.
+DigitTuner 0 = Kommunikation i.O.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Fehlerursache &gt;Steuergerät defekt&lt;</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>In Verbindung mit dem Fehlerspeichereintrag &gt;Steuergerät defekt&lt; steht hier die Ursache für den Fehler:
+
+0 = Der Fehler &gt;Steuergerät defekt&lt; liegt nicht vor
+1 = Taste klemmt
+2 = Fehler im ROM, EPROM oder Flash-ROM
+3 = Fehler im EEPROM
+4 = CD-Laufwerk</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Steuergerät-Identifikation</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>Herstellerwerkskennzahl und -kennzeichnung
+Tages-Fertigungsdatum
+Herstelleränderungsstand
+Hersteller-Prüfstand-Nr.
+Laufende Hersteller-Nr.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<AF>1</AF>
+		<NA>0</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Seriennummer des Steuergerätes</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

@@ -1,0 +1,3313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe></SgGruppe>
+		<LogicalLink>LL_DriveMotorContrModulUDS</LogicalLink>
+		<SgVariante></SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Abregelung aufgrund Uebertemperatur</SystemName>
+		<Name>
+			<Text TI="IDE05249">Понижение из-за превышения температуры</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OvertDerat']/Resparam[@ShortName='Param_PICANBTEMP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Overtemperature_derating</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>Anforderung Rotorlagensensorabgleich</SystemName>
+		<Name>
+			<Text TI="IDE07419">Запрос настройки датчика положения ротора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_RequiRotarPositSensoAdjus']/Resparam[@ShortName='Param_LVREQADEMCANMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Requirement_rotary_position_sensor_adjust</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Ausgangsstrom des DCDC-Wandlers</SystemName>
+		<Name>
+			<Text TI="IDE05425">Ток на выходе трансформатора DCDC</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CurreDCDCCurreToVehicElectSyste']/Resparam[@ShortName='Param_DCSPS16LVMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Current_DCDC_current_to_vehicle_electric_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<NA></NA>
+		<SystemName>Betriebsmodus des Spannungswandlers</SystemName>
+		<Name>
+			<Text TI="IDE06357">Рабочий режим трансформатора напряжения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveOperaMode']/Resparam[@ShortName='Param_DCSCEOPERMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Converter_operating_mode</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<NA></NA>
+		<SystemName>Betriebsmodus des Spannungswandlers, Sollwert</SystemName>
+		<Name>
+			<Text TI="IDE06722">Рабочий режим трансформатора напряжения, заданное значение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveCommaOperaMode']/Resparam[@ShortName='Param_DCCIEDCDCMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Converter_commanded_operating_mode</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<NA></NA>
+		<SystemName>Bordnetzstrom</SystemName>
+		<Name>
+			<Text TI="IDE00634">Ток в бортовой сети</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_LVCurre']/Resparam[@ShortName='Param_DCSPS16LV' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">LV-Current</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<NA></NA>
+		<SystemName>DCDC-Wandler Temperatur, Istwert</SystemName>
+		<Name>
+			<Text TI="IDE05331">Темп. преобраз.пост. тока, действительное значение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DCDCTransTempeActuaValue']/Resparam[@ShortName='Param_DCFIS16DC' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">DC_DC_transformer_temperature_actual_value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<NA></NA>
+		<SystemName>Drehmoment, Istwert</SystemName>
+		<Name>
+			<Text TI="IDE05421">Крутящий момент, действительное значение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ActuaMechaTorquCalcu']/Resparam[@ShortName='Param_TQIEMCANMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Actual_mechanical_torque_calculated</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<NA></NA>
+		<SystemName>Drehzahl elektrische Maschine</SystemName>
+		<Name>
+			<Text TI="IDE00619">Частота вращения электрической машины</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDriveRotatSpeed']/Resparam[@ShortName='Param_NEM' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electric_drive_rotational_speed</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<NA></NA>
+		<SystemName>Fahrzeuggeschwindigkeit</SystemName>
+		<Name>
+			<Text TI="IDE00075">Скорость автомобиля</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VehicSpeedSenso']/Resparam[@ShortName='Param_VehicSpeedSenso' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Vehicle Speed Sensor</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<NA></NA>
+		<SystemName>Gaspedalstellung</SystemName>
+		<Name>
+			<Text TI="IDE00086">Положение педали акселератора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_AccelPedalPositD']/Resparam[@ShortName='Param_AccelPedalPositD' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Accelerator Pedal Position D</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<NA></NA>
+		<SystemName>Grundfrequenz des Pulswechselrichters</SystemName>
+		<Name>
+			<Text TI="IDE06352">Основная частота преобразователя импульсов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_BasicFrequPulseInver']/Resparam[@ShortName='Param_PITMPwmFr' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Basic_frequency_pulse_inverter</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<NA></NA>
+		<SystemName>Hochsetzbetrieb durch Ueberschreitung Spannungsbegrenzung</SystemName>
+		<Name>
+			<Text TI="IDE05429">Режим повышения превышением верхней границы напряжения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DCDCDeratDueToLVOverv']/Resparam[@ShortName='Param_DCCOBLVCULVOVBMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">DCDC_derating_due_to_LV_overvoltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<NA></NA>
+		<SystemName>Interne Spannungsversorgung 5V</SystemName>
+		<Name>
+			<Text TI="IDE06401">Внутреннее электропитание 5 В</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_InterSupplVolta5V']/Resparam[@ShortName='Param_BCBS16USMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Internal_supply_voltage_5V</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<NA></NA>
+		<SystemName>Kuehlmittelpumpe fuer Niedertemperaturkreislauf</SystemName>
+		<Name>
+			<Text TI="IDE06578">Насос ОЖ низкотемпературного контура</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CoolaPumpForLowTempeCircu']/Resparam[@ShortName='Param_NCWPACTMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Coolant_pump_for_low_temperature_circuit</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<NA></NA>
+		<SystemName>Kuehlmittelpumpe fuer Niedertemperaturkreislauf, Sollwert</SystemName>
+		<Name>
+			<Text TI="IDE06579">Насос ОЖ контура низкой температуры, заданное значение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CoolaPumpForLowTempeCircuCommaValue']/Resparam[@ShortName='Param_NCWPCMDMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Coolant_pump_for_low_temperature_circuit_commanded_value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<NA></NA>
+		<SystemName>Kuehlmitteltemperatur</SystemName>
+		<Name>
+			<Text TI="IDE00025">Температура охлаждающей жидкости</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_EnginCoolaTempe']/Resparam[@ShortName='Param_EnginCoolaTempe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Engine Coolant Temperature</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<NA></NA>
+		<SystemName>Lastverhaeltnis des Spannungswandlers</SystemName>
+		<Name>
+			<Text TI="IDE06364">Нагрузочный режим трансформатора напряжения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveLoadRatio']/Resparam[@ShortName='Param_DCCOS16LOMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Converter_load_ratio</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<NA></NA>
+		<SystemName>Massewiderstand des Pulswechselrichters</SystemName>
+		<Name>
+			<Text TI="IDE06372">Композиционный резистор преобразователя импульсов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_InverGrounResis']/Resparam[@ShortName='Param_INVGNDRES' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Inverter_ground_resistance</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<NA></NA>
+		<SystemName>Max. Drehmoment elektrische Maschine</SystemName>
+		<Name>
+			<Text TI="IDE00644">Макс. крутящий момент электрической машины</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ActuaPossiMaximTorqu']/Resparam[@ShortName='Param_TQIMAXEMCANMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Actual_possible_maximum_torque</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<NA></NA>
+		<SystemName>Maximalgrenze Zwischenkreisstrom</SystemName>
+		<Name>
+			<Text TI="IDE05419">Максимальная граница тока в промежуточной цепи</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_EnginModeMaximCurre']/Resparam[@ShortName='Param_CURREQMAXDYNEMCANMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Engine_mode_maximum_current</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<NA></NA>
+		<SystemName>Maximalwert des Stroms im Zwischenkreises</SystemName>
+		<Name>
+			<Text TI="IDE06367">Максимальная величина тока в промежуточной цепи</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_InterCircuMaximCurre']/Resparam[@ShortName='Param_DCSCCS16IMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Intermediate_circuit_maximum_current</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<NA></NA>
+		<SystemName>Min. Drehmoment elektrische Maschine</SystemName>
+		<Name>
+			<Text TI="IDE00643">Мин. крутящий момент электрической машины</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ActuaPossiMinimTorqu']/Resparam[@ShortName='Param_TQIMINEMCANMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Actual_possible_minimum_torque</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<NA></NA>
+		<SystemName>Minimalgrenze Zwischenkreisstrom</SystemName>
+		<Name>
+			<Text TI="IDE05420">Минимальная граница тока в промежуточной цепи</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_GenerModeMaximCurre']/Resparam[@ShortName='Param_CURREQMINDYNEMCANMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Generator_mode_maximum_current</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<NA></NA>
+		<SystemName>Motordrehzahl</SystemName>
+		<Name>
+			<Text TI="IDE00021">частоты вращения двигателя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_EnginRPM']/Resparam[@ShortName='Param_EnginRPM' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Engine RPM</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<NA></NA>
+		<SystemName>Normierter Lastwert</SystemName>
+		<Name>
+			<Text TI="IDE00085">Нормированное значение нагрузки</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CalcuLOADValue']/Resparam[@ShortName='Param_CalcuLOADValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Calculated LOAD Value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<NA></NA>
+		<SystemName>Offsetwinkel der Rotorpositionen</SystemName>
+		<Name>
+			<Text TI="IDE00796">Угол смещения положения ротора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OffseAngleRotorPosit']/Resparam[@ShortName='Param_OFFSAMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Offset_angle_rotor_position</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<NA></NA>
+		<SystemName>Phase U, Effektivwert des Stroms</SystemName>
+		<Name>
+			<Text TI="IDE06369">Фаза U, действительное значение тока</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PhaseUCurreRmsValue']/Resparam[@ShortName='Param_S16CUURMS' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Phase_U_current_rms_value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<NA></NA>
+		<SystemName>Phase V, Effektivwert des Stroms</SystemName>
+		<Name>
+			<Text TI="IDE06370">Фаза V, действительное значение тока</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PhaseVCurreRmsValue']/Resparam[@ShortName='Param_S16CUVRMS' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Phase_V_current_rms_value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<NA></NA>
+		<SystemName>Phase W, Effektivwert des Stroms</SystemName>
+		<Name>
+			<Text TI="IDE06371">Фаза W, действительное значение тока</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PhaseWCurreRmsValue']/Resparam[@ShortName='Param_S16CUWRMS' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Phase_W_current_rms_value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>31</AG>
+		<NA></NA>
+		<SystemName>Pilotlinie</SystemName>
+		<Name>
+			<Text TI="IDE06404">Контрольный провод</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PilotLine']/Resparam[@ShortName='Param_LVPILOTMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Pilot_line</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>32</AG>
+		<NA></NA>
+		<SystemName>Prozessorauslastung</SystemName>
+		<Name>
+			<Text TI="IDE01717">Нагрузка процессора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ProceLoad']/Resparam[@ShortName='Param_CPULOADMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Processor load</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>33</AG>
+		<NA></NA>
+		<SystemName>Pruefspannung fuer Isolationsmessung E-Maschine</SystemName>
+		<Name>
+			<Text TI="IDE04223">Исп. напряжение измер. сопротивления изоляции генератора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TestvInsulElect']/Resparam[@ShortName='Param_TVINSPE' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Testvoltage_insulationtest_electricmachine</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>34</AG>
+		<NA></NA>
+		<SystemName>Pruefspannung fuer Isolationsmessung Leistungselektronik</SystemName>
+		<Name>
+			<Text TI="IDE04222">Исп. напр. измерения сопрот. изоляции силовой электроники</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TestvInsulPower']/Resparam[@ShortName='Param_TVINSEM' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Testvoltage_insulationtest_powerelectronics</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>35</AG>
+		<NA></NA>
+		<SystemName>Pruefung Unterbrechung zw. Leistungselektronik und Fahrmotor</SystemName>
+		<Name>
+			<Text TI="IDE06596">Проверка на обрыв между сил.электроникой и тягов. двигателем</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_QuickOpenCircuTestPowerElectToElectDriveMotorResul']/Resparam[@ShortName='Param_POSSRESUL' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Quickstart_open_circuit_test_power_electronics_to_electric_drive_motor_result</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>36</AG>
+		<NA></NA>
+		<SystemName>Referenzspannung 2 Bordnetz</SystemName>
+		<Name>
+			<Text TI="IDE06366">Опорное напряжение 2 бортовой сети</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OnboaSupplReferVolta2']/Resparam[@ShortName='Param_DCCIS16HVMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Onboard_supply_reference_voltage_2</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>37</AG>
+		<NA></NA>
+		<SystemName>Referenzspannung Bordnetz</SystemName>
+		<Name>
+			<Text TI="IDE06365">Опорное напряжение бортовой сети</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OnboaSupplReferVolta']/Resparam[@ShortName='Param_DCCIS16LV2MVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Onboard_supply_reference_voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>38</AG>
+		<NA></NA>
+		<SystemName>Rotorlage des Fahrmotor fuer Elektroantrieb</SystemName>
+		<Name>
+			<Text TI="IDE06373">Положение ротора тягового электродвигателя эл. привода</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDriveMotorRotorAngle']/Resparam[@ShortName='Param_MCPU16RO' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electric_drive_motor_rotor_angle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>39</AG>
+		<NA></NA>
+		<SystemName>Softwareversion der Stromueberwachung</SystemName>
+		<Name>
+			<Text TI="IDE06571">Версия программного обеспечения контроля за током</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CpldSoftwVersiOfCurreDetec']/Resparam[@ShortName='Param_U16CP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Cpld_software_version_of_current_detection</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>40</AG>
+		<NA></NA>
+		<SystemName>Softwareversion der Stromueberwachung fuer DCDC-Wandler</SystemName>
+		<Name>
+			<Text TI="IDE07032">Версия ПО контроля за током преобразователя постоянного тока</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_CpldSoftwVersiOfCurreDetecDCDC']/Resparam[@ShortName='Param_CPLDDCDCVERSI' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Cpld_software_version_of_current_detection_DCDC</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>41</AG>
+		<NA></NA>
+		<SystemName>Soll Drehzahl elektrische Maschine</SystemName>
+		<Name>
+			<Text TI="IDE00651">Заданная частота вращения электрической машины</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DesirRotatSpeed']/Resparam[@ShortName='Param_U16RO' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Desired_rotational_speed</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>42</AG>
+		<NA></NA>
+		<SystemName>Sollspannung des Bordnetzes</SystemName>
+		<Name>
+			<Text TI="IDE06354">Заданное напряжение бортовой сети</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OnboaSupplVoltaCommaValue']/Resparam[@ShortName='Param_DCCIS16LVMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Onboard_supply_voltage_commanded_value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>43</AG>
+		<NA></NA>
+		<SystemName>Sollspannung des Fahrmotor fuer Elektroantrieb</SystemName>
+		<Name>
+			<Text TI="IDE06360">Заданное напряжение тягового электродвигателя эл. привода</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDriveMotorVoltaCommaValue']/Resparam[@ShortName='Param_VSPEMCANMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electric_drive_motor_voltage_commanded_value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>44</AG>
+		<NA></NA>
+		<SystemName>Sollwert Zwischenkreisspannung</SystemName>
+		<Name>
+			<Text TI="IDE00628">Заданное значение напряжения в промежуточной цепи</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DesirVolta']/Resparam[@ShortName='Param_VDCVHSIDELPFMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Desired_voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>45</AG>
+		<NA></NA>
+		<SystemName>Spannung des Zwischenkreises</SystemName>
+		<Name>
+			<Text TI="IDE06355">Напряжение промежуточной цепи</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_InterCircuVolta']/Resparam[@ShortName='Param_S16DCMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Intermediate_circuit_voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>46</AG>
+		<NA></NA>
+		<SystemName>Spannung im Hochspannungskreis, Sollwert</SystemName>
+		<Name>
+			<Text TI="IDE06721">Напряжение в высоковольтной цепи, заданное значение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HighVoltaCircuVoltaCommaValue']/Resparam[@ShortName='Param_DCCIS16HV2MVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">High_voltage_circuit_voltage_commanded_value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>47</AG>
+		<NA></NA>
+		<SystemName>Spannung Klemme 30</SystemName>
+		<Name>
+			<Text TI="IDE00019">Напряжение клеммы 30</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ContrModulVolta']/Resparam[@ShortName='Param_ContrModulVolta' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Control module voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>48</AG>
+		<NA></NA>
+		<SystemName>Spannungswandler, Abregelung aufgrund Uebertemperatur</SystemName>
+		<Name>
+			<Text TI="IDE06827">Трансформатор, понижение из-за превышения температуры</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveOvertDerat']/Resparam[@ShortName='Param_DCCOBTEMPMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Converter_overtemperature_derating</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>49</AG>
+		<NA></NA>
+		<SystemName>Spannungswandler, Mindestbordnetzspannung im Hochsetzbetrieb</SystemName>
+		<Name>
+			<Text TI="IDE06723">Трансформатор, мин. напр. в бортовой сети в режиме повышения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveMinimVehicVoltaInBoostMode']/Resparam[@ShortName='Param_DCCIS16LVMINBSMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Converter_minimum_vehicle_voltage_in_boost_mode</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<NA></NA>
+		<SystemName>Spannungswandler, noch verfuegbarer Strom auf der Bordnetzseite</SystemName>
+		<Name>
+			<Text TI="IDE06725">Трансформатор, налич. высокий ток на стороне бортовой сети</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveRemaiAvailCurreForVehicElectSyste']/Resparam[@ShortName='Param_DCCOS16LVMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Converter_remaining_available_current_for_vehicle_electrical_system</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>51</AG>
+		<NA></NA>
+		<SystemName>Spannungswandler, Status</SystemName>
+		<Name>
+			<Text TI="IDE06930">Трансформатор напряжения, статус</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveInterError']/Resparam[@ShortName='Param_DCCOBINTEMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Converter_internal_error</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>52</AG>
+		<NA></NA>
+		<SystemName>Status der Grundeinstellung</SystemName>
+		<Name>
+			<Text TI="IDE00322">Состояние базовой регулировки</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_BasicSettiStatu']/Resparam[@ShortName='Param_DataRecor' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Basic Settings Status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>53</AG>
+		<NA></NA>
+		<SystemName>Status des Stellgliedtests</SystemName>
+		<Name>
+			<Text TI="IDE00030">Статус теста исполнительных элементов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuOfInputOutpuContr']/Resparam[@ShortName='Param_DataRecor' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status of Input Output Control</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>54</AG>
+		<NA></NA>
+		<SystemName>Status Klemme 15</SystemName>
+		<Name>
+			<Text TI="IDE00020">Статус клеммы 15</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_StatuTermi15']/Resparam[@ShortName='Param_LVIGK' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Status terminal 15</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>55</AG>
+		<NA></NA>
+		<SystemName>Status Spannungsfreiheit</SystemName>
+		<Name>
+			<Text TI="IDE06805">Статус обесточивания</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ZeroPotenStatu']/Resparam[@ShortName='Param_STATEHVDCHACAN' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Zero_potential_status</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>56</AG>
+		<NA></NA>
+		<SystemName>Steuergeraet fuer Elektroantrieb, Betriebszustand</SystemName>
+		<Name>
+			<Text TI="IDE06553">Блок управления электропривода, рабочее состояние</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDriveContrUnitOperaState']/Resparam[@ShortName='Param_ECUMESYSTENVD' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electric_drive_control_unit_operating_state</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>57</AG>
+		<NA></NA>
+		<SystemName>Steuergeraetetemperatur</SystemName>
+		<Name>
+			<Text TI="IDE00102">Температура блока управления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ContrModulTempe']/Resparam[@ShortName='Param_PITS16TE' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Control modul temperature</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>58</AG>
+		<NA></NA>
+		<SystemName>Temperatur der Leistungsendstufen</SystemName>
+		<Name>
+			<Text TI="IDE06358">Температура выходного каскада мощности</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PowerOutpuStageTempe']/Resparam[@ShortName='Param_DCSPS16TEDCBLPMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Power_output_stage_temperature</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>59</AG>
+		<NA></NA>
+		<SystemName>Temperatur des Kuehlkoerpers der Leistungselektronik</SystemName>
+		<Name>
+			<Text TI="IDE05246">Температура радиатора силовой электроники</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HeatSinkTempe']/Resparam[@ShortName='Param_PITS16TEDCBLP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Heat_sink_temperature</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>60</AG>
+		<NA></NA>
+		<SystemName>Temperatur des Spannungswandlers</SystemName>
+		<Name>
+			<Text TI="IDE06724">Температура трансформатора напряжения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ConveCircuBoardTempe']/Resparam[@ShortName='Param_DCSPS16TEPCBLPMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Converter_circuit_board_temperature</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>61</AG>
+		<NA></NA>
+		<SystemName>Temperatur elektrische Maschine</SystemName>
+		<Name>
+			<Text TI="IDE00626">Температура электрической машины</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDriveTempe']/Resparam[@ShortName='Param_PITS16TEMOTOR' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electric_drive_temperature</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>62</AG>
+		<NA></NA>
+		<SystemName>Temperatur Prozessorplatine</SystemName>
+		<Name>
+			<Text TI="IDE00655">Температура платы процессора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_PCBTempe']/Resparam[@ShortName='Param_PITS16TEPCBLP' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">PCB_temperature</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>63</AG>
+		<NA></NA>
+		<SystemName>Tiefsetzbetrieb durch Ueberschreitung Spannungsbegrenzung</SystemName>
+		<Name>
+			<Text TI="IDE05428">Режим понижения превышением верхней границы напряжения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DCDCDeratDueToHVOverv']/Resparam[@ShortName='Param_DCCOBLVCUHVOVBMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">DCDC_derating_due_to_HV_overvoltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>64</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_1</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">Catalyst monit</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_CatalMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_10</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">Boost pressure</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_BoostPressSysteMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_11</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля / Exhaust gas se</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_ExhauGasSensoMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>67</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_12</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">PM filter moni</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_PMFilteMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_13</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">EGR and/or VVT</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EGRAndOrVVTSysteMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>69</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_2</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">Heated catalys</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_HeateCatalMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>70</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_3</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">Evaporative sy</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EvapoSysteMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>71</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_4</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">Secondary air </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_SeconAirSysteMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>72</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_5</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">Oxygen sensor </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_OxygeSensoMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>73</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_6</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">Oxygen sensor </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_OxygeSensoHeateMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>74</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_7</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">EGR and/or VVT</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EGRAndOrVVTSysteMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>75</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_8</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">NMHC catalyst </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_NMHCCatalMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>76</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Aktivierungsstatus der nicht ko_9</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="MAS04139">статус активирования не непрерывного контроля</Text>
+			<Text TI="">NOx aftertreat</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_NOxAfterMonit' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>77</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Completion status of all suppor</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="">Completion status of all supported non-continuous monitors this monitoring </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfAllSuppoNonContiMonitThisMonitCycle' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>78</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Comprehensive component monitor_1</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="">Comprehensive component monitoring enabled</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfContiMonitThisMonitCycle' and @Type='Structure']/Resparam[@ShortName='Param_ComprCompoMonitEnabl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>79</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Comprehensive component monitor_2</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в текущем цикле движения</Text>
+			<Text TI="">Comprehensive component monitoring completed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfContiMonitThisMonitCycle' and @Type='Structure']/Resparam[@ShortName='Param_ComprCompoMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _1</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">Catalyst moni</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_CatalMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _10</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">Boost pressur</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_BoostPressSysteMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>82</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _11</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">Exhaust gas s</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_ExhauGasSensoMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>83</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _12</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">PM filter mon</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_PMFilteMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>84</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _13</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">EGR and/or VV</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EGRAndOrVVTSysteMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>85</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _2</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">Heated cataly</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_HeateCatalMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>86</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _3</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">Evaporative s</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EvapoSysteMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>87</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _4</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">Secondary air</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_SeconAirSysteMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>88</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _5</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">Oxygen sensor</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_OxygeSensoMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>89</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _6</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">Oxygen sensor</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_OxygeSensoHeateMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>90</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _7</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">EGR and/or VV</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EGRAndOrVVTSysteMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>91</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _8</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">NMHC catalyst</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_NMHCCatalMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>92</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Durchfuehrungsstatus der nicht _9</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ.</Text>
+			<Text TI="MAS04140">статус проведения не непрерывного контроля</Text>
+			<Text TI="">NOx aftertrea</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitThisMonitCycle' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_NOxAfterMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>93</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Fuel system monitoring complete</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ. </Text>
+			<Text TI="">Fuel system monitoring completed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfContiMonitThisMonitCycle' and @Type='Structure']/Resparam[@ShortName='Param_FuelSysteMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>94</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Fuel system monitoring enabled</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контр. в тек.цикле движ. </Text>
+			<Text TI="">Fuel system monitoring enabled</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfContiMonitThisMonitCycle' and @Type='Structure']/Resparam[@ShortName='Param_FuelSysteMonitEnabl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>95</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Misfire monitoring completed</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контроля в текущ.цикле движения</Text>
+			<Text TI="">Misfire monitoring completed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_ComplStatuOfContiMonitThisMonitCycle' and @Type='Structure']/Resparam[@ShortName='Param_MisfiMonitCompl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>96</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Misfire monitoring enabled</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контроля в текущ.цикле движения</Text>
+			<Text TI="">Misfire monitoring enabled</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfContiMonitThisMonitCycle' and @Type='Structure']/Resparam[@ShortName='Param_MisfiMonitEnabl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>97</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus im aktuellen Fahrzyklus_Ueberwachung Kompressionszuendu</SystemName>
+		<Name>
+			<Text TI="IDE00602">Статус контроля в текущ.цикле движения /контроль самовоспламен. при сжатии</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuThisDriviCycle']/Resparam[@ShortName='Param_EnablStatuOfContiMonitThisMonitCycle' and @Type='Structure']/Resparam[@ShortName='Param_ComprIgnitMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status this driving cycle</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>98</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Abgaswarnleuchte</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправн./ контрольн.лампа ОГ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_DTCAndMILStatu' and @Type='Structure']/Resparam[@ShortName='Param_MalfuIndicLampMILStatu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>99</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Anzahl der abgasrelev</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправн. / количество влияющих на выброс ОГ ошибок</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_DTCAndMILStatu' and @Type='Structure']/Resparam[@ShortName='Param_NumbeOfDTCsStoreInThisECU' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>100</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Completion status of </SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п. неисправностей</Text>
+			<Text TI="">Completion status of all supported non-continuous monitors since D</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfAllSuppoNonContiMonitSinceDTCsClear' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>101</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_1</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS00334">контроль катализатора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_CatalMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>102</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_10</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS04101">контроль регулировки давл.наддува</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_BoostPressSysteMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>103</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_11</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS00339">контроль лямбда-зонда</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_ExhauGasSensoMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>104</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_12</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS04103">контроль сажевого фильтра</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_PMFilteMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>105</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_13</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS04104">контроль рециркуляции ОГ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EGRAndOrVVTSysteMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>106</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_2</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS00335">контроль прогретого </Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_HeateCatalMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>107</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_3</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS00336">контроль вентиляции топливн.бака</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EvapoSysteMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>108</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_4</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS00337">контроль системы вторичн. воздуха</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_SeconAirSysteMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>109</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_5</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS00339">контроль лямбда-зонда</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_OxygeSensoMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>110</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_6</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS00340">контроль нагрева лямбда-зонда</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_OxygeSensoHeateMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>111</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_7</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS04104">контроль рециркуляции ОГ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EGRAndOrVVTSysteMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>112</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_8</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS04099">контроль окислит. катализатора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_NMHCCatalMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>113</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Nicht kontinuierliche_9</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей</Text>
+			<Text TI="MAS04097">Не непрерывный контроль</Text>
+			<Text TI="MAS04100">контроль катализатора NOx</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfNonContiMonit' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_NOxAfterMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>114</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Pruefung Gesamtsystem</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / проверка всей системы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfContiMonitSinceDTCsClear' and @Type='Structure']/Resparam[@ShortName='Param_ComprCompoMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>115</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Pruefung Kraftstoffan</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / проверка топливной системы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfContiMonitSinceDTCsClear' and @Type='Structure']/Resparam[@ShortName='Param_FuelSysteMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>116</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Pruefung Zuendaussetz</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / проверка пропусков зажигания</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfContiMonitSinceDTCsClear' and @Type='Structure']/Resparam[@ShortName='Param_MisfiMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>117</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _1</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_CatalMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>118</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _10</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_BoostPressSysteMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>119</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _11</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_ExhauGasSensoMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>120</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _12</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_PMFilteMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>121</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _13</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EGRAndOrVVTSysteMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>122</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _2</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_HeateCatalMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>123</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _3</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EvapoSysteMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>124</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _4</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_SeconAirSysteMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>125</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _5</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_OxygeSensoMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>126</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _6</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_OxygeSensoHeateMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>127</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _7</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_SparkIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_EGRAndOrVVTSysteMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>128</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _8</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_NMHCCatalMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>129</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Status nicht kontin. _9</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / статус не непрерывн. контроля с момента очистки п.неисправностей /</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_ComplStatuOfNonContiMonitSinceDTCsClear' and @Type='Mux']/Resparam[@ShortName='Case_ComprIgnitMonitSuppo' and @Type='Structure']/Resparam[@ShortName='Param_NOxAfterMonitReady' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>130</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Ueberwachung Gesamtsy</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / контроль всей системы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfContiMonit' and @Type='Structure']/Resparam[@ShortName='Param_ComprCompoMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>131</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Ueberwachung Kompress</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / контроль самовосплам. от сжатия</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfContiMonit' and @Type='Structure']/Resparam[@ShortName='Param_ComprIgnitMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>132</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Ueberwachung Kraftsto</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / контроль топливной системы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfContiMonit' and @Type='Structure']/Resparam[@ShortName='Param_FuelSysteMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>133</AG>
+		<NA></NA>
+		<SystemName>Ueberwachungsstatus seit Loeschen des Fehlerspeichers_Ueberwachung Zuendaus</SystemName>
+		<Name>
+			<Text TI="IDE00601">Статус контроля с момента очистки п.неисправностей / контроль пропусков зажигания</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_MonitStatuSinceDTCsClear']/Resparam[@ShortName='Param_SuppoStatuOfContiMonit' and @Type='Structure']/Resparam[@ShortName='Param_MisfiMonitSuppo' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Monitor status since DTCs cleared</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>134</AG>
+		<NA></NA>
+		<SystemName>Verfuegbarkeit Hochspannung</SystemName>
+		<Name>
+			<Text TI="IDE00952">Готовность высокого напряжения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_HighVoltaReady']/Resparam[@ShortName='Param_DLVBDCLI' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">High_voltage_ready</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>135</AG>
+		<NA></NA>
+		<SystemName>Verlernzaehler nach OBD</SystemName>
+		<Name>
+			<Text TI="IDE00445">Счётчик отказов по OBD</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_OBDAgingCount']/Resparam[@ShortName='Param_OBDAgingCount' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">OBD Aging Counter</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>136</AG>
+		<NA></NA>
+		<SystemName>Wicklungen des Fahrmotors aktiv kurzgeschlossen</SystemName>
+		<Name>
+			<Text TI="IDE06379">Обмотки работающего тягового электродвигателя, КЗ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ElectDriveMotorActivShortCircu']/Resparam[@ShortName='Param_MCPBACTI' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Electric_drive_motor_active_short_circuit</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>137</AG>
+		<NA></NA>
+		<SystemName>Zeit seit Klemme 15 ein</SystemName>
+		<Name>
+			<Text TI="IDE06552">Время с момента включения клеммы 15</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_TimeSinceTermi15On']/Resparam[@ShortName='Param_TASTSAE' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Time_since_terminal_15_on</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>138</AG>
+		<NA></NA>
+		<SystemName>Zustand Antriebsregelung</SystemName>
+		<Name>
+			<Text TI="IDE05250">Состояние регулирования тяги</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DriveContrState']/Resparam[@ShortName='Param_STATEEMMODCAN' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Drive_control_state</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>139</AG>
+		<NA></NA>
+		<SystemName>Zwischenkreisspannung</SystemName>
+		<Name>
+			<Text TI="IDE00637">Напряжение в промежуточной цепи</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DCLinkVolta']/Resparam[@ShortName='Param_DCSPS16HV' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">DC_link_voltage</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>140</AG>
+		<NA></NA>
+		<SystemName>Zwischenkreisstrom</SystemName>
+		<Name>
+			<Text TI="IDE00635">Ток в промежуточной цепи</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentMeasuValue</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentMeasuValue']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_DCLinkCurre']/Resparam[@ShortName='Param_MCPS16DCMVB' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">DC_link_current</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

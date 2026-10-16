@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe></SgGruppe>
+		<LogicalLink>LL_GatewUDS</LogicalLink>
+		<SgVariante>EV_GatewLear_005</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<NA></NA>
+		<SystemName>Anzahl der moeglichen Zugriffsberechtigungen</SystemName>
+		<Name>
+			<Text TI="IDE00798">Количество возможных санкционированных доступов</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_NumbeOfLogin']/Resparam[@ShortName='Param_NumbeOfLogin' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Number Of Logins</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<NA></NA>
+		<SystemName>Anzahl der Parametrierversuche</SystemName>
+		<Name>
+			<Text TI="IDE00052">Число попыток параметрирования</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataCountOfProgrAttem']/Resparam[@ShortName='Param_VWDataCountOfProgrAttem' and @Type='Structure']/Resparam[@ShortName='Param_VWDataCountOfProgrAttem' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Counter Of Programming Attempts</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<NA></NA>
+		<SystemName>Anzahl der Programmierversuche</SystemName>
+		<Name>
+			<Text TI="IDE00050">Число попыток программирования</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWLogicSoftwBlockCountOfProgrAttem']/Resparam[@ShortName='Param_VWLogicSoftwBlockCountOfProgrAttem' and @Type='Structure']/Resparam[@ShortName='Param_VWLogicSoftwBlockCountOfProgrAttem' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Logical Software Block Counter Of Programming Attempts</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<NA></NA>
+		<SystemName>Anzahl erfolgreicher Parametrierversuche</SystemName>
+		<Name>
+			<Text TI="IDE00053">Число успешных попыток параметрирования</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataCountOfSucceProgrAttem']/Resparam[@ShortName='Param_VWDataCountOfSucceProgrAttem' and @Type='Structure']/Resparam[@ShortName='Param_VWDataCountOfProgrAttem' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Counter Of Successful Programming Attempts</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<NA></NA>
+		<SystemName>ASAM/ODX Datei Kennzeichnung</SystemName>
+		<Name>
+			<Text TI="IDE00072">Метка файла ASAM/ODX</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ASAMODXFileIdent']/Resparam[@ShortName='Param_ASAMODXFileIdent' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ASAM ODX File Identifier</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>6</AG>
+		<NA></NA>
+		<SystemName>ASAM/ODX Dateiversion</SystemName>
+		<Name>
+			<Text TI="IDE00073">Версия файла ASAM/ODX</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ASAMODXFileVersi']/Resparam[@ShortName='Param_ASAMODXFileVersi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ASAM ODX File Version</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<NA></NA>
+		<SystemName>Baugruppen- und Seriennummer</SystemName>
+		<Name>
+			<Text TI="IDE00726">Номер конструкционной группы и порядковый номер</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUSupplNumbe']/Resparam[@ShortName='Param_ECUSupplNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Supplier Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<NA></NA>
+		<SystemName>Datum der letzten Anpassung_Jahr</SystemName>
+		<Name>
+			<Text TI="IDE00032">Дата последней адаптации</Text>
+			<Text TI="MAS00106">год</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCalibDate']/Resparam[@ShortName='Param_Date' and @Type='Structure']/Resparam[@ShortName='Param_Year' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Calibration Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<NA></NA>
+		<SystemName>Datum der letzten Anpassung_Monat</SystemName>
+		<Name>
+			<Text TI="IDE00032">Дата последней адаптации</Text>
+			<Text TI="MAS00107">месяц</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCalibDate']/Resparam[@ShortName='Param_Date' and @Type='Structure']/Resparam[@ShortName='Param_Month' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Calibration Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<NA></NA>
+		<SystemName>Datum der letzten Anpassung_Tag</SystemName>
+		<Name>
+			<Text TI="IDE00032">Дата последней адаптации</Text>
+			<Text TI="MAS00108">день</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCalibDate']/Resparam[@ShortName='Param_Date' and @Type='Structure']/Resparam[@ShortName='Param_Day' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Calibration Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>11</AG>
+		<NA></NA>
+		<SystemName>Datum der letzten Codierung_Jahr</SystemName>
+		<Name>
+			<Text TI="IDE00006">Дата последней кодировки</Text>
+			<Text TI="MAS00106">год</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCodinDate']/Resparam[@ShortName='Param_Date' and @Type='Structure']/Resparam[@ShortName='Param_Year' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Coding Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>12</AG>
+		<NA></NA>
+		<SystemName>Datum der letzten Codierung_Monat</SystemName>
+		<Name>
+			<Text TI="IDE00006">Дата последней кодировки</Text>
+			<Text TI="MAS00107">месяц</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCodinDate']/Resparam[@ShortName='Param_Date' and @Type='Structure']/Resparam[@ShortName='Param_Month' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Coding Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<NA></NA>
+		<SystemName>Datum der letzten Codierung_Tag</SystemName>
+		<Name>
+			<Text TI="IDE00006">Дата последней кодировки</Text>
+			<Text TI="MAS00108">день</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCodinDate']/Resparam[@ShortName='Param_Date' and @Type='Structure']/Resparam[@ShortName='Param_Day' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Coding Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>14</AG>
+		<NA></NA>
+		<SystemName>Datum der Parametrierung_Jahr</SystemName>
+		<Name>
+			<Text TI="IDE00040">Дата параметрирования</Text>
+			<Text TI="MAS00106">год</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataSetProgrDate']/Resparam[@ShortName='Param_Date' and @Type='Structure']/Resparam[@ShortName='Param_Year' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Set Programming Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<NA></NA>
+		<SystemName>Datum der Parametrierung_Monat</SystemName>
+		<Name>
+			<Text TI="IDE00040">Дата параметрирования</Text>
+			<Text TI="MAS00107">месяц</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataSetProgrDate']/Resparam[@ShortName='Param_Date' and @Type='Structure']/Resparam[@ShortName='Param_Month' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Set Programming Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<NA></NA>
+		<SystemName>Datum der Parametrierung_Tag</SystemName>
+		<Name>
+			<Text TI="IDE00040">Дата параметрирования</Text>
+			<Text TI="MAS00108">день</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataSetProgrDate']/Resparam[@ShortName='Param_Date' and @Type='Structure']/Resparam[@ShortName='Param_Day' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Set Programming Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<NA></NA>
+		<SystemName>Diagnosemodus</SystemName>
+		<Name>
+			<Text TI="IDE00325">Режим диагностирования</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ActivDiagnSessi']/Resparam[@ShortName='Param_ActivDiagnSessi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Active Diagnostic Session</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<NA></NA>
+		<SystemName>Erkannte Subsysteme_Subsystembezeichnung</SystemName>
+		<Name>
+			<Text TI="IDE00005">Распознанные подсистемы</Text>
+			<Text TI="MAS01170">название подсистемы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IdentSubSyNumbe']/Resparam[@ShortName='Param_IdentSubSyNumbe' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_SlaveSyste' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Identified SubSystem Numbers</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<NA></NA>
+		<SystemName>Erkannte Subsysteme_Subsystemnummer</SystemName>
+		<Name>
+			<Text TI="IDE00005">Распознанные подсистемы</Text>
+			<Text TI="MAS01171">номер подсистемы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_IdentSubSyNumbe']/Resparam[@ShortName='Param_IdentSubSyNumbe' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_SlaveID' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Identified SubSystem Numbers</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<NA></NA>
+		<SystemName>Fahrgestellnummer</SystemName>
+		<Name>
+			<Text TI="IDE00011">Номер шасси</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VehicIdentNumbe']/Resparam[@ShortName='Param_VehicIdentNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Vehicle Identification Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>21</AG>
+		<NA></NA>
+		<SystemName>Fahrzeugausstattungscode</SystemName>
+		<Name>
+			<Text TI="IDE00036">Код комплектации автомобиля</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VehicEquipCodeAndPRNumbeCombi']/Resparam[@ShortName='Param_VehicEquipCodeAndPRNumbeCombi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Vehicle Equipment Code And PR Number Combination</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<NA></NA>
+		<SystemName>FAZIT-Identifikation_Hersteller-Pruefstandsnummer</SystemName>
+		<Name>
+			<Text TI="IDE00034">Идентификация FAZIT</Text>
+			<Text TI="MAS00969">номер производителя испытател. стенда</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWFAZITIdentStrin']/Resparam[@ShortName='Param_ECUProduTestSysteNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW FAZIT Identification String</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>23</AG>
+		<NA></NA>
+		<SystemName>FAZIT-Identifikation_Herstellerwerkskennzahl</SystemName>
+		<Name>
+			<Text TI="IDE00034">Идентификация FAZIT</Text>
+			<Text TI="MAS00966">код производителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWFAZITIdentStrin']/Resparam[@ShortName='Param_ECUProduPlantNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW FAZIT Identification String</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<NA></NA>
+		<SystemName>FAZIT-Identifikation_Laufende Herstellernummer</SystemName>
+		<Name>
+			<Text TI="IDE00034">Идентификация FAZIT</Text>
+			<Text TI="MAS00970">текущий номер производителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWFAZITIdentStrin']/Resparam[@ShortName='Param_ConseSupplNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW FAZIT Identification String</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<NA></NA>
+		<SystemName>FAZIT-Identifikation_Tagesfertigungsdatum</SystemName>
+		<Name>
+			<Text TI="IDE00034">Идентификация FAZIT</Text>
+			<Text TI="MAS00968">дата изготовления</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWFAZITIdentStrin']/Resparam[@ShortName='Param_ECUManufDate' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW FAZIT Identification String</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>26</AG>
+		<NA></NA>
+		<SystemName>Flashdatensicherheit_Hashwert_1</SystemName>
+		<Name>
+			<Text TI="IDE03403">Безопасность данных обновления</Text>
+			<Text TI="MAS02639">Hashwert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FDSProjeData']/Resparam[@ShortName='Param_HashValueOfKey' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">FDS_project_data</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>27</AG>
+		<NA></NA>
+		<SystemName>Flashdatensicherheit_Hashwert_2</SystemName>
+		<Name>
+			<Text TI="IDE03403">Безопасность данных обновления</Text>
+			<Text TI="MAS02639">Hashwert</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FDSProjeData']/Resparam[@ShortName='Param_HashValue' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">FDS_project_data</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>28</AG>
+		<NA></NA>
+		<SystemName>Flashdatensicherheit_Projekt-ID</SystemName>
+		<Name>
+			<Text TI="IDE03403">Безопасность данных обновления</Text>
+			<Text TI="MAS02673">ID проекта</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FDSProjeData']/Resparam[@ShortName='Param_FDSProjeID' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">FDS_project_data</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>29</AG>
+		<NA></NA>
+		<SystemName>Flashdatensicherheit_Schluessel</SystemName>
+		<Name>
+			<Text TI="IDE03403">Безопасность данных обновления</Text>
+			<Text TI="MAS02643">ключ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FDSProjeData']/Resparam[@ShortName='Param_KeyRepla' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">FDS_project_data</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>30</AG>
+		<NA></NA>
+		<SystemName>Flashdatensicherheit_Schluesselfreischaltmechanismus</SystemName>
+		<Name>
+			<Text TI="IDE03403">Безопасность данных обновления</Text>
+			<Text TI="MAS02640">механизм разблокир. ключа</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FDSProjeData']/Resparam[@ShortName='Param_KeyUnlocMecha' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">FDS_project_data</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>31</AG>
+		<NA></NA>
+		<SystemName>Flashdatensicherheit_Schluesseltyp</SystemName>
+		<Name>
+			<Text TI="IDE03403">Безопасность данных обновления</Text>
+			<Text TI="MAS02646">тип ключа</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FDSProjeData']/Resparam[@ShortName='Param_KeyType' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">FDS_project_data</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>32</AG>
+		<NA></NA>
+		<SystemName>Hardwareteilenummer</SystemName>
+		<Name>
+			<Text TI="IDE00012">Аппаратный номер</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWECUHardwNumbe']/Resparam[@ShortName='Param_VWECUHardwNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW ECU Hardware Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>33</AG>
+		<NA></NA>
+		<SystemName>Hardwareversion</SystemName>
+		<Name>
+			<Text TI="IDE00016">Аппаратная версия</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWECUHardwVersiNumbe']/Resparam[@ShortName='Param_VWECUHardwVersiNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW ECU Hardware Version Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>34</AG>
+		<NA></NA>
+		<SystemName>Herstelleraenderungsstand_Bestueckungsvariante</SystemName>
+		<Name>
+			<Text TI="IDE00035">Версия изменения производителя</Text>
+			<Text TI="MAS00972">вариант комплектации</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUProduChangNumbe']/Resparam[@ShortName='Param_MountType' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Production Change Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>35</AG>
+		<NA></NA>
+		<SystemName>Herstelleraenderungsstand_Fertigungsstand</SystemName>
+		<Name>
+			<Text TI="IDE00035">Версия изменения производителя</Text>
+			<Text TI="MAS00974">исполнение</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUProduChangNumbe']/Resparam[@ShortName='Param_ProduStatu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Production Change Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>36</AG>
+		<NA></NA>
+		<SystemName>Herstelleraenderungsstand_Konstruktionsstand</SystemName>
+		<Name>
+			<Text TI="IDE00035">Версия изменения производителя</Text>
+			<Text TI="MAS00973">конструктивная версия</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUProduChangNumbe']/Resparam[@ShortName='Param_ConstStatu' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Production Change Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>37</AG>
+		<NA></NA>
+		<SystemName>Herstelleraenderungsstand_Steuergeraetefamilie</SystemName>
+		<Name>
+			<Text TI="IDE00035">Версия изменения производителя</Text>
+			<Text TI="MAS00971">семейство БУ</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUProduChangNumbe']/Resparam[@ShortName='Param_ECUFamil' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Production Change Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>38</AG>
+		<NA></NA>
+		<SystemName>Herstellercode</SystemName>
+		<Name>
+			<Text TI="IDE03205">Код производителя</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWSupplNumbe']/Resparam[@ShortName='Param_VWSupplNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Supplier Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>39</AG>
+		<NA></NA>
+		<SystemName>Hersteller-Pruefstands-Nummer</SystemName>
+		<Name>
+			<Text TI="IDE00725">Номер производителя испытательного стенда</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUProduTestSysteNumbe']/Resparam[@ShortName='Param_ECUProduTestSysteNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Production Test System Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>40</AG>
+		<NA></NA>
+		<SystemName>Herstellungsdatum_Jahr</SystemName>
+		<Name>
+			<Text TI="IDE00009">Дата выпуска</Text>
+			<Text TI="MAS00106">год</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUManufDate']/Resparam[@ShortName='Param_ECUManufDate' and @Type='Structure']/Resparam[@ShortName='Param_Year' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Manufacturing Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>41</AG>
+		<NA></NA>
+		<SystemName>Herstellungsdatum_Monat</SystemName>
+		<Name>
+			<Text TI="IDE00009">Дата выпуска</Text>
+			<Text TI="MAS00107">месяц</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUManufDate']/Resparam[@ShortName='Param_ECUManufDate' and @Type='Structure']/Resparam[@ShortName='Param_Month' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Manufacturing Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>42</AG>
+		<NA></NA>
+		<SystemName>Herstellungsdatum_Tag</SystemName>
+		<Name>
+			<Text TI="IDE00009">Дата выпуска</Text>
+			<Text TI="MAS00108">день</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUManufDate']/Resparam[@ShortName='Param_ECUManufDate' and @Type='Structure']/Resparam[@ShortName='Param_Day' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Manufacturing Date</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>43</AG>
+		<NA></NA>
+		<SystemName>Identifikation Busmaster/Subbusmaster_ECU ID</SystemName>
+		<Name>
+			<Text TI="IDE02644">Идентификация Busmaster/Subbusmaster</Text>
+			<Text TI="">ECU ID</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_BusmaIdent']/Resparam[@ShortName='Param_ECUID' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Busmaster Identification</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>44</AG>
+		<NA></NA>
+		<SystemName>Identifikation Busmaster/Subbusmaster_ECU Name</SystemName>
+		<Name>
+			<Text TI="IDE02644">Идентификация Busmaster/Subbusmaster</Text>
+			<Text TI="">ECU Name</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_BusmaIdent']/Resparam[@ShortName='Param_ECUName' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Busmaster Identification</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>45</AG>
+		<NA></NA>
+		<SystemName>Identifikation Busmaster/Subbusmaster_LOGICAL-LINK SHORT-NAME</SystemName>
+		<Name>
+			<Text TI="IDE02644">Идентификац.Busmaster/Subbusmaster</Text>
+			<Text TI="">LOGICAL-LINK SHORT-NAME</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_BusmaIdent']/Resparam[@ShortName='Param_LOGICLINKSHORTNAME' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Busmaster Identification</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>46</AG>
+		<NA></NA>
+		<SystemName>Identifikation der angeschlossenen Komponenten_Busbotschaft / Knotenadresse</SystemName>
+		<Name>
+			<Text TI="IDE02645">Идентификац.подключ.компонентов</Text>
+			<Text TI="IDE06261">сообщение шины/адрес узла</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SubsyIdent']/Resparam[@ShortName='Param_SubsyIdentMessa' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Subsystem Identification</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>47</AG>
+		<NA></NA>
+		<SystemName>Identifikation der angeschlossenen Komponenten_Identifikationsnummer</SystemName>
+		<Name>
+			<Text TI="IDE02645">Идентификац.подключ.компонентов</Text>
+			<Text TI="IDE06260">идентификационный номер</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SubsyIdent']/Resparam[@ShortName='Param_SubsyIdentID' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Subsystem Identification</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>48</AG>
+		<NA></NA>
+		<SystemName>Identifikation der angeschlossenen Komponenten_subsystem_name</SystemName>
+		<Name>
+			<Text TI="IDE02645">Идентификация подключенных компонентов</Text>
+			<Text TI="">subsystem_name</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_SubsyIdent']/Resparam[@ShortName='Param_SubsyName' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Subsystem Identification</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>49</AG>
+		<NA></NA>
+		<SystemName>Identifikation der Parametrierung</SystemName>
+		<Name>
+			<Text TI="IDE00550">Идентификация параметрирования</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWAppliDataIdent']/Resparam[@ShortName='Param_VWAppliDataIdent' and @Type='Structure']/Resparam[@ShortName='Param_VWAppliDataIdent' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_VWDataSetVersi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Application Data Identification</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>50</AG>
+		<NA></NA>
+		<SystemName>Konsistenz der EEPROM-Daten_Datenkonsistenz</SystemName>
+		<Name>
+			<Text TI="IDE00320">Консистенция данных EEPROM</Text>
+			<Text TI="MAS02111">консистенция данных</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUDataProgrInfor']/Resparam[@ShortName='Param_DataRecorConsi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Data Programming Information</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>51</AG>
+		<NA></NA>
+		<SystemName>Konsistenz der EEPROM-Daten_Datensatz Download moeglich</SystemName>
+		<Name>
+			<Text TI="IDE00320">Консистенция данных EEPROM</Text>
+			<Text TI="MAS06349">набор дан., загрузка возможна</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUDataProgrInfor']/Resparam[@ShortName='Param_DataRecorDownl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Data Programming Information</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>52</AG>
+		<NA></NA>
+		<SystemName>Konsistenz der EEPROM-Daten_Datensatz Modifikation</SystemName>
+		<Name>
+			<Text TI="IDE00320">Консистенция данных EEPROM</Text>
+			<Text TI="MAS04434">набор данных, модификация</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUDataProgrInfor']/Resparam[@ShortName='Param_DataRecorModif' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Data Programming Information</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>53</AG>
+		<NA></NA>
+		<SystemName>Konsistenz der EEPROM-Daten_Fehler beim letzten Datensatzdownload</SystemName>
+		<Name>
+			<Text TI="IDE00320">Консистен.данн.EEPROM</Text>
+			<Text TI="MAS04299">событие при послед.загрузке наб.дан.</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUDataProgrInfor']/Resparam[@ShortName='Param_DataRecorErrorLastDownl' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Data Programming Information</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>54</AG>
+		<NA></NA>
+		<SystemName>Maximale Anzahl der moeglichen Updateprogrammierungen</SystemName>
+		<Name>
+			<Text TI="IDE00721">Максимальное число возможных обновлений ПО</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWLogicSoftwBlockLockValue']/Resparam[@ShortName='Param_VWLogicSoftwBlockLockValue' and @Type='Structure']/Resparam[@ShortName='Param_VWLogicSoftwBlockLockValue' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Logical Software Block Lock Value</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>55</AG>
+		<NA></NA>
+		<SystemName>Seriennummer</SystemName>
+		<Name>
+			<Text TI="IDE00010">Серийный номер</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUSeriaNumbe']/Resparam[@ShortName='Param_ECUSeriaNumbe' and @Type='Structure']/Resparam[@ShortName='Param_ECUSeriaNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>56</AG>
+		<NA></NA>
+		<SystemName>Softwareversion</SystemName>
+		<Name>
+			<Text TI="IDE00008">Версия программного обеспечения</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWAppliSoftwVersiNumbe']/Resparam[@ShortName='Param_VWAppliSoftwVersiNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Application Software Version Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>57</AG>
+		<NA></NA>
+		<SystemName>Status der Programmierbarkeit_Programmierbarkeit</SystemName>
+		<Name>
+			<Text TI="IDE00037">Статус возможности программир./Возможность программир.</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUProgrInfor']/Resparam[@ShortName='Param_Progr' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Programming Information</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>58</AG>
+		<NA></NA>
+		<SystemName>Status der Programmierbarkeit_Programmkonsistenz</SystemName>
+		<Name>
+			<Text TI="IDE00037">Статус возможности программирования / Стабильность программы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_ECUProgrInfor']/Resparam[@ShortName='Param_ProgrConsi' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">ECU Programming Information</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>59</AG>
+		<NA></NA>
+		<SystemName>Systembezeichnung</SystemName>
+		<Name>
+			<Text TI="IDE00013">Наименование системы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWSysteNameOrEnginType']/Resparam[@ShortName='Param_VWSysteNameOrEnginType' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW System Name Or Engine Type</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>60</AG>
+		<NA></NA>
+		<SystemName>Systemkurzzeichen</SystemName>
+		<Name>
+			<Text TI="IDE00017">Краткое обозначение системы</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWWorksSysteName']/Resparam[@ShortName='Param_VWWorksSysteName' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Workshop System Name</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>61</AG>
+		<NA></NA>
+		<SystemName>Tabelle der Subsysteme der Klasse 0_LIN Knoten - Adresse</SystemName>
+		<Name>
+			<Text TI="IDE00033">Таблица подсистем класса 0</Text>
+			<Text TI="MAS00788">LIN узлы - адрес</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWLINIdentTable']/Resparam[@ShortName='Param_LINIdentTable' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_LINSlaveNodeAddre' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW LIN Identification Table</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>62</AG>
+		<NA></NA>
+		<SystemName>Tabelle der Subsysteme der Klasse 0_LIN Produkt - ID</SystemName>
+		<Name>
+			<Text TI="IDE00033">Таблица подсистем класса 0</Text>
+			<Text TI="MAS00790">LIN продукт - ID</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWLINIdentTable']/Resparam[@ShortName='Param_LINIdentTable' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_LINSlaveClass0ProduID' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW LIN Identification Table</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>63</AG>
+		<NA></NA>
+		<SystemName>Tabelle der Subsysteme der Klasse 0_LIN Segment Nummer</SystemName>
+		<Name>
+			<Text TI="IDE00033">Таблица подсистем класса 0</Text>
+			<Text TI="MAS00789">LIN сегмент, номер</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWLINIdentTable']/Resparam[@ShortName='Param_LINIdentTable' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_LINBusSegme' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW LIN Identification Table</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>64</AG>
+		<NA></NA>
+		<SystemName>Teilenummer des Parametersatzes</SystemName>
+		<Name>
+			<Text TI="IDE00048">Номер детали набора параметров</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataSetNumbeOrECUDataContaNumbe']/Resparam[@ShortName='Param_VWDataSetNumbeOrECUDataContaNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Set Number Or ECU Data Container Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>65</AG>
+		<NA></NA>
+		<SystemName>Version des Parametersatzes</SystemName>
+		<Name>
+			<Text TI="IDE00047">Версия блока параметров</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataSetVersiNumbe']/Resparam[@ShortName='Param_VWDataSetVersiNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Set Version Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>66</AG>
+		<NA></NA>
+		<SystemName>Versionen der Softwaremodule</SystemName>
+		<Name>
+			<Text TI="IDE00318">Версии модулей ПО</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWLogicSoftwBlockVersi']/Resparam[@ShortName='Param_VWLogicSoftwBlockVersi' and @Type='Structure']/Resparam[@ShortName='Param_VWLogicSoftwBlockVersi' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Logical Software Block Version</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>67</AG>
+		<NA></NA>
+		<SystemName>VW/Audi-Teilenummer</SystemName>
+		<Name>
+			<Text TI="IDE00007">Номер детали VW/Audi</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWSparePartNumbe']/Resparam[@ShortName='Param_VWSparePartNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Spare Part Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>68</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode der Anpassung_Betriebsnummer</SystemName>
+		<Name>
+			<Text TI="IDE00044">Код дилера адаптации</Text>
+			<Text TI="MAS01145">дилерский номер</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCalibRepaiShopCodeOrSeriaNumbe']/Resparam[@ShortName='Param_WorksNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Calibration Repair Shop Code Or Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>69</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode der Anpassung_Geraetenummer</SystemName>
+		<Name>
+			<Text TI="IDE00044">Код дилера адаптации/ номер прибора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCalibRepaiShopCodeOrSeriaNumbe']/Resparam[@ShortName='Param_VWDevicNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Calibration Repair Shop Code Or Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>70</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode der Anpassung_Importeursnummer</SystemName>
+		<Name>
+			<Text TI="IDE00044">Код дилера адаптации/ номер импортёра</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCalibRepaiShopCodeOrSeriaNumbe']/Resparam[@ShortName='Param_ImporNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Calibration Repair Shop Code Or Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>71</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode der Codierung_Betriebsnummer</SystemName>
+		<Name>
+			<Text TI="IDE00045">Код дилера кодировки</Text>
+			<Text TI="MAS01145">дилерский номер</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCodinRepaiShopCodeOrSeriaNumbe']/Resparam[@ShortName='Param_WorksNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Coding Repair Shop Code Or Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>72</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode der Codierung_Geraetenummer</SystemName>
+		<Name>
+			<Text TI="IDE00045">Код дилера кодировки</Text>
+			<Text TI="MAS01143">номер прибора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCodinRepaiShopCodeOrSeriaNumbe']/Resparam[@ShortName='Param_VWDevicNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Coding Repair Shop Code Or Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>73</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode der Codierung_Importeursnummer</SystemName>
+		<Name>
+			<Text TI="IDE00045">Код дилера кодировки</Text>
+			<Text TI="MAS01144">номер импортёра</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWCodinRepaiShopCodeOrSeriaNumbe']/Resparam[@ShortName='Param_ImporNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Coding Repair Shop Code Or Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>74</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode der Parametrierung_Betriebsnummer</SystemName>
+		<Name>
+			<Text TI="IDE00046">Код дилера параметрирования</Text>
+			<Text TI="MAS01145">дилерский номер</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataSetRepaiShopCodeOrSeriaNumbe']/Resparam[@ShortName='Param_WorksNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Set Repair Shop Code Or Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>75</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode der Parametrierung_Geraetenummer</SystemName>
+		<Name>
+			<Text TI="IDE00046">Код дилера параметрирования</Text>
+			<Text TI="MAS01143">номер прибора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataSetRepaiShopCodeOrSeriaNumbe']/Resparam[@ShortName='Param_VWDevicNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Set Repair Shop Code Or Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>76</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode der Parametrierung_Importeursnummer</SystemName>
+		<Name>
+			<Text TI="IDE00046">Код дилера параметрирования</Text>
+			<Text TI="MAS01144">номер импортёра</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_VWDataSetRepaiShopCodeOrSeriaNumbe']/Resparam[@ShortName='Param_ImporNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">VW Data Set Repair Shop Code Or Serial Number</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>77</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode u. Datum d. letzten Updateprog. der SW-Module_Betriebsnummer</SystemName>
+		<Name>
+			<Text TI="IDE00723">Код дил. и дата послед.обнов.модул.ПО</Text>
+			<Text TI="MAS01145">номер дилер.предпр.</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FingeAndProgrDateOfLogicSoftwBlock']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFinge' and @Type='Structure']/Resparam[@ShortName='Param_RepaiShopCodeOrTesteSeriaNumbe' and @Type='Structure']/Resparam[@ShortName='Param_WorksNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Fingerprint And Programming Date Of Logical Software Blocks</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>78</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode u. Datum d. letzten Updateprog. der SW-Module_Geraetenummer</SystemName>
+		<Name>
+			<Text TI="IDE00723">Код дилера и дата послед.обнов.модул.ПО</Text>
+			<Text TI="MAS01143">номер прибора</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FingeAndProgrDateOfLogicSoftwBlock']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFinge' and @Type='Structure']/Resparam[@ShortName='Param_RepaiShopCodeOrTesteSeriaNumbe' and @Type='Structure']/Resparam[@ShortName='Param_VWDevicNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Fingerprint And Programming Date Of Logical Software Blocks</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>79</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode u. Datum d. letzten Updateprog. der SW-Module_Importeursnumme</SystemName>
+		<Name>
+			<Text TI="IDE00723">Код дилера и дата послед.обнов.модул.ПО</Text>
+			<Text TI="MAS01144">номер импортёра</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FingeAndProgrDateOfLogicSoftwBlock']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFinge' and @Type='Structure']/Resparam[@ShortName='Param_RepaiShopCodeOrTesteSeriaNumbe' and @Type='Structure']/Resparam[@ShortName='Param_ImporNumbe' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Fingerprint And Programming Date Of Logical Software Blocks</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>80</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode u. Datum d. letzten Updateprog. der SW-Module_Jahr</SystemName>
+		<Name>
+			<Text TI="IDE00723">Код дилера и дата последнего обновления модулей ПО</Text>
+			<Text TI="MAS00106">год</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FingeAndProgrDateOfLogicSoftwBlock']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFinge' and @Type='Structure']/Resparam[@ShortName='Param_ProgrDate' and @Type='Structure']/Resparam[@ShortName='Param_Year' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Fingerprint And Programming Date Of Logical Software Blocks</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>81</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode u. Datum d. letzten Updateprog. der SW-Module_Monat</SystemName>
+		<Name>
+			<Text TI="IDE00723">Код дилера и дата последнего обновления модулей ПО</Text>
+			<Text TI="MAS00107">месяц</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FingeAndProgrDateOfLogicSoftwBlock']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFinge' and @Type='Structure']/Resparam[@ShortName='Param_ProgrDate' and @Type='Structure']/Resparam[@ShortName='Param_Month' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Fingerprint And Programming Date Of Logical Software Blocks</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>82</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode u. Datum d. letzten Updateprog. der SW-Module_Status der Prog</SystemName>
+		<Name>
+			<Text TI="IDE00723">Код дилера и дата послед.обнов.модулей ПО</Text>
+			<Text TI="MAS01240">статус программ.</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FingeAndProgrDateOfLogicSoftwBlock']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='Structure']/Resparam[@ShortName='Param_ProgrState' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Fingerprint And Programming Date Of Logical Software Blocks</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>83</AG>
+		<NA></NA>
+		<SystemName>Werkstattcode u. Datum d. letzten Updateprog. der SW-Module_Tag</SystemName>
+		<Name>
+			<Text TI="IDE00723">Код дилера и дата последнего обновления модулей ПО</Text>
+			<Text TI="MAS00108">день</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<TextKey></TextKey>
+		<ServiceName>DiagnServi_ReadDataByIdentECUIdent</ServiceName>
+		<Response>/Response[@ShortName='Resp_ReadDataByIdentECUIdent']/Resparam[(@ShortName='Param_DataRecor' and @Type='Structure') or @FTE='TABROW_FingeAndProgrDateOfLogicSoftwBlock']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFingeAndState' and @Type='Field']/Resparam[position()=? and @Type='Structure']/Resparam[@ShortName='Param_DataBlock' and @Type='Structure']/Resparam[@ShortName='Param_LogicSoftwBlockFinge' and @Type='Structure']/Resparam[@ShortName='Param_ProgrDate' and @Type='Structure']/Resparam[@ShortName='Param_Day' and @Type='SimpleDOP']</Response>
+		<Requests>
+			<Request>
+				<Name>Param_RecorDataIdent</Name>
+				<Wert xml:space="preserve">Fingerprint And Programming Date Of Logical Software Blocks</Wert>
+			</Request>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>

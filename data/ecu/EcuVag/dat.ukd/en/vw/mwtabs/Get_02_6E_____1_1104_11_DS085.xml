@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesswertTabelle>
+	<Header>
+		<SgGruppe>Get_02</SgGruppe>
+		<LogicalLink></LogicalLink>
+		<SgVariante>Get1281</SgVariante>
+	</Header>
+	<Messwert>
+		<AG>1</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Perform road test 
+ 
+The difference between engine and transmission speeds must be +/- 30 RPM. </Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Transmission speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Perform road test 
+ 
+The difference between engine and transmission speeds must be +/- 30 RPM. </Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Accelerator pedal position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T- Depress accelerator pedal for test.\Y\S\K\N 
+ 
+J\L\S\K\N &lt; 4 percent Closed throttle (CT)\Y\S\K\N 
+J\L\S\K\N &gt; 96 percent Wide Open Throttle (WOT) </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>1</AG>
+		<AF>4</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear information</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe following gears were displayed:\Y\S\K\N 
+ 
+J\L\S\K\N First gear to fifth gear\Y\S\K\N 
+J\L\S\K\N R gear\Y\S\K\N 
+J\L\S\K\N IG 1-2 (Idle gate, left)\Y\S\K\N 
+J\L\S\K\N IG 3-4 (Idle gate, right)\Y\S\K\N 
+J\L\S\K\N SYNC (during synchronization phase)\Y\S\K\N 
+J\L\S\K\N Malfunction (invalid position) </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Load signal (databus signal from engine)</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.0</analogerSWunten>
+		<analogerSWoben>5.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Clutch Pedal Position (CPP) Sensor -G162-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>4.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\G\NJ\L\S\K\N closed clutch 
+(OK: 1.8 to 2.0 Volts) \Y\S\K\N
+ 
+J\L\S\K\N open clutch 
+(OK: 3.9 to 4.0 Volts) 
+ 
+If the voltage value for a closed clutch is outside of the specified range, Clutch Pedal Position (CPP) Sensor -G162- must be adjusted. </Meldungstext>
+		<DO>G162_30_Geber_fuer_Kupplungsweg</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Battery voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBattery voltage must be at least 11.8 Volts. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>2</AG>
+		<AF>4</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine coolant temperature</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Perform road test 
+ 
+The difference between engine and transmission speeds must be +/- 30 RPM. </Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Transmission speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Perform road test 
+ 
+The difference between engine and transmission speeds must be +/- 30 RPM. </Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CURRENT clutch position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TFor all shifting procedures, the difference between CURRENT clutch position and SPECIFIED clutch position may only be +/- 5 percent. 
+ 
+- To do so, start engine and drive at less than 6 km/h. 
+- Shift processes must be performed while driving. 
+ 
+A second mechanic is required for operating the tester. </Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>3</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">SPECIFIED clutch position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TFor all shifting procedures, the difference between CURRENT clutch position and SPECIFIED clutch position may only be +/- 5 percent. 
+ 
+- To do so, start engine and drive at less than 6 km/h. 
+- Shift processes must be performed while driving. 
+ 
+A second mechanic is required for operating the tester. </Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status display -1-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Read the 8-bit representation from left to right. 
+ 
+Bit 0: always -0- 
+Bit 1: reserved 
+Bit 2: Door open -0-; closed -1- 
+Bit 3: not used at this time 
+ 
+Bit 4: -1- Start request terminal 50 
+Bit 5: -1- Tip gate (gate sensing) 
+Bit 6: -0- lower switch-on barrier reached 
+Bit 7: -0- ECO button pressed </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>2</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status display -2-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Read the 8-bit representation from left to right. 
+ 
+Bit 0: reserved 
+Bit 1: always -0- 
+Bit 2: reserved 
+Bit 3: always -1- 
+ 
+Bit 4: not used 
+Bit 5: -1- R gear engaged 
+Bit 6: -1- terminal 30 signal present 
+Bit 7: -1- Brake pedal operated </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status display -3-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Read the 8-bit representation from left to right. 
+ 
+Bit 0: not used 
+Bit 1: not used 
+Bit 2: -0- ECO button pressed 
+Bit 3: -0- Display suppression switched 
+ 
+Bit 4: Buzzer/gong switched on 
+Bit 5: -0- Transmission Hydraulic Pump Relay -J510- switched on 
+Bit 6: -0- Starter Relay -J53- switched on 
+Bit 7: not used </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>4</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status display -4-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Read the 8-bit representation from left to right. 
+ 
+Bit 0: -0- Gear Selection Valve 3 -N286- switched on 
+Bit 1: -0- Shift Lock Solenoid -N110- activated 
+Bit 2: -0- Shift Lock Solenoid -N110- activated 
+Bit 3: -0- Engine is switched off 
+ 
+Bit 4: -0- Gear Selection Valve 3 -N286- switched on 
+Bit 5: -0- Gear Selection Valve 4 -N287- switched on 
+Bit 6: -0- Clutch open 
+Bit 7: -0- Gear Selection Valve 4 -N287- switched on </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Perform road test 
+ 
+The difference between engine and transmission speeds must be +/- 30 RPM. </Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Battery voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBattery voltage must be at least 11.8 Volts. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>3</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear information</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe following gears were displayed: 
+ 
+T-0				Tip gate center 
+T-MI			Tip gate minus 
+T-PL			Tip gate plus 
+A-E			Position E 
+A-N			Position N 
+A-R			Position R 
+A-STOP	Position Stop 
+???			Position implausible </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>5</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Clutch Actuator Valve -N255-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\G\NJ\L\S\K\N closed clutch 
+(OK: approx. 0.73 A) \Y\S\K\N
+ 
+J\L\S\K\N open clutch 
+(OK: 0.80 to 0.90 A) 
+ 
+A continuous current &gt; 1.2 A causes a malfunction entry after 2 seconds. </Meldungstext>
+		<DO>N255_34_Ventil_fuer_Kupplungssteller</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>1</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Perform road test 
+ 
+The difference between engine and transmission speeds must be +/- 30 RPM. </Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>2</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Transmission speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Perform road test 
+ 
+The difference between engine and transmission speeds must be +/- 30 RPM. </Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Transmission speed calculated</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThis is the transmission speed recalculated from the vehicle speed and the selected gear. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>7</AG>
+		<AF>4</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Vehicle speed</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>3</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TE-speedometer signal of instrument cluster will be displayed. 
+From experience, at 100 km/h, the vehicle speedometer displays about 5 km/h more than the digital E-speedometer signal in the measuring value block. 
+The minimum display value is 3 km/h.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CURRENT clutch position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TFor all shifting procedures, the difference between CURRENT clutch position and SPECIFIED clutch position may only be +/- 5 percent. 
+ 
+- To do so, start engine and drive at less than 6 km/h. 
+- Shift processes must be performed while driving. 
+ 
+A second mechanic is required for operating the tester. </Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>2</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear information</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe following gears were displayed:\Y\S\K\N 
+ 
+J\L\S\K\N First gear to fifth gear\Y\S\K\N 
+J\L\S\K\N R gear\Y\S\K\N 
+J\L\S\K\N IG 1-2 (Idle gate, left)\Y\S\K\N 
+J\L\S\K\N IG 3-4 (Idle gate, right)\Y\S\K\N 
+J\L\S\K\N SYNC (during synchronization phase)\Y\S\K\N 
+J\L\S\K\N Malfunction (invalid position) </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>3</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Engine speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Perform road test 
+ 
+The difference between engine and transmission speeds must be +/- 30 RPM. </Meldungstext>
+		<DO>Geschwindigkeitssignal</DO>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>8</AG>
+		<AF>4</AF>
+		<NA>1</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Transmission speed</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N Perform road test 
+ 
+The difference between engine and transmission speeds must be +/- 30 RPM. </Meldungstext>
+		<DO>G38_34_Geber_fuer_Getriebedrehzahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>1</AF>
+		<NA>48</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Reset display</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe number of resets during the control module running time will be displayed (e.g. becuase of EMC influences, etc.). </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>9</AG>
+		<AF>2</AF>
+		<NA>5</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Ambient temperature display</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Text output</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe text -Starter- always appears here. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Absolute odometer reading</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TDistance driven with this control module will be given in increments of 1000. 
+Therefore, display of 100 means 100000 km. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Absolute starter operations</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TStarter operations performed with this control module will be given in increments of 1000. 
+Therefore, display of 100 means 100000 starter operations. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>10</AG>
+		<AF>4</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Starter operations after ignition on</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>255</analogerSWoben>
+		<SWE></SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TStarter operations performed after the last time -ignition on- will be displayed. 
+Therefore, display of 10 means 10 starter operations after -ignition on-. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Battery voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBattery voltage must be at least 11.8 Volts. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Clutch Actuator Valve -N255-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N closed clutch 
+(OK: approx. 0.73 A) \Y\S\K\N 
+ 
+J\L\S\K\N open clutch 
+(OK: 0.80 to 0.90 A) 
+ 
+A continuous current &gt; 1.2 A causes a malfunction entry after 2 seconds. </Meldungstext>
+		<DO>N255_34_Ventil_fuer_Kupplungssteller</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CURRENT clutch position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TFor all shifting procedures, the difference between CURRENT clutch position and SPECIFIED clutch position may only be +/- 5 percent. 
+ 
+- To do so, start engine and drive at less than 6 km/h. 
+- Shift processes must be performed while driving. 
+ 
+A second mechanic is required for operating the tester. </Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>13</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">SPECIFIED clutch position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TFor all shifting procedures, the difference between CURRENT clutch position and SPECIFIED clutch position may only be +/- 5 percent. 
+ 
+- To do so, start engine and drive at less than 6 km/h. 
+- Shift processes must be performed while driving. 
+ 
+A second mechanic is required for operating the tester. </Meldungstext>
+		<DO>SYS30_6E_Kupplung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Shift Lever Potentiometer (forward/backward) -G272-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.2</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TSPECIFIED gear potentiometer voltage at selector lever will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 3.14 Volts in R gear\Y\S\K\N 
+J\L\S\K\N approx. 2.75 Volts in -N-\Y\S\K\N 
+J\L\S\K\N approx. 2.20 Volts in -E- (-D-)\Y\S\K\N 
+J\L\S\K\N approx. 2.50 Volts in Tip (+)\Y\S\K\N 
+J\L\S\K\N approx. 1.70 Volts in Tip (-) </Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear Recognition Potentiometer 1 -G239-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.9</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TCURRENT gear potentiometer voltage will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 3.8 Volts in R gear\Y\S\K\N 
+J\L\S\K\N approx. 3.8 Volts in first gear\Y\S\K\N 
+J\L\S\K\N approx. 1.7 Volts in second gear\Y\S\K\N 
+J\L\S\K\N approx. 3.8 Volts in third gear\Y\S\K\N 
+J\L\S\K\N approx. 1.7 Volts in fourth gear\Y\S\K\N 
+J\L\S\K\N approx. 3.8 Volts in fifth gear </Meldungstext>
+		<DO>G239_34_Potentiometer_1_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>15</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear Recognition Potentiometer 2 -G240-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.1</analogerSWunten>
+		<analogerSWoben>3.7</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TCURRENT gates potentiometer voltage will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 3.6 Volts in R gear\Y\S\K\N 
+J\L\S\K\N approx. 2.8 Volts in first gear\Y\S\K\N 
+J\L\S\K\N approx. 2.8 Volts in second gear\Y\S\K\N 
+J\L\S\K\N approx. 2.0 Volts in third gear\Y\S\K\N 
+J\L\S\K\N approx. 2.0 Volts in fourth gear\Y\S\K\N 
+J\L\S\K\N approx. 1.2 Volts in fifth gear </Meldungstext>
+		<DO>G240_34_Potentiometer_2_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Shift Lever Potentiometer (forward/backward) -G272-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TSPECIFIED gear potentiometer voltage at selector lever will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 100 percent in -STOP-\Y\S\K\N 
+J\L\S\K\N approx. 77 percent in R gear\Y\S\K\N 
+J\L\S\K\N approx. 70 percent in -N-\Y\S\K\N 
+J\L\S\K\N approx. 25 percent in -E- (-D-)\Y\S\K\N 
+J\L\S\K\N approx. 22 percent in Tip (center)\Y\S\K\N 
+J\L\S\K\N approx. 50 percent in Tip (+)\Y\S\K\N 
+J\L\S\K\N approx. 0 percent in Tip (-) </Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear Recognition Potentiometer 1 -G239-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TCURRENT gear will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 0 to 10 percent in R gear\Y\S\K\N 
+J\L\S\K\N approx. 50 to 55 percent in -N-\Y\S\K\N 
+J\L\S\K\N approx. 0 to 10 percent in first gear\Y\S\K\N 
+J\L\S\K\N approx. 90 to 100 percent in second gear\Y\S\K\N 
+J\L\S\K\N approx. 0 to 10 percent in third gear\Y\S\K\N 
+J\L\S\K\N approx. 90 to 100 percent in fourth gear\Y\S\K\N 
+J\L\S\K\N approx. 0 to 10 percent in fifth gear </Meldungstext>
+		<DO>G239_34_Potentiometer_1_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>16</AG>
+		<AF>4</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear Recognition Potentiometer 2 -G240-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TCURRENT gate will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 95 to 100 percent in R gear\Y\S\K\N 
+J\L\S\K\N approx. 60 to 63 percent in -N-\Y\S\K\N 
+J\L\S\K\N approx. 60 to 65 percent in first gear\Y\S\K\N 
+J\L\S\K\N approx. 60 to 65 percent in second gear\Y\S\K\N 
+J\L\S\K\N approx. 30 to 35 percent in third gear\Y\S\K\N 
+J\L\S\K\N approx. 30 to 35 percent in fourth gear\Y\S\K\N 
+J\L\S\K\N approx. 0 to 10 percent in fifth gear </Meldungstext>
+		<DO>G240_34_Potentiometer_2_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Battery voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBattery voltage must be at least 11.8 Volts. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>2</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Clutch Actuator Valve -N255-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE>A</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T\Y\S\K\NJ\L\S\K\N closed clutch 
+(OK: approx. 0.73 A) \Y\S\K\N 
+ 
+J\L\S\K\N open clutch 
+(OK: 0.80 to 0.90 A) 
+ 
+A continuous current &gt; 1.2 A causes a malfunction entry after 2 seconds. </Meldungstext>
+		<DO>N255_34_Ventil_fuer_Kupplungssteller</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>3</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Shift Lever Forward Valve 1 -N284-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe current is displayed by the Shift Lever Forward Valve 1 -N284 (moves the shift lever backwards).
+ The actual value must be 0.39 A. If the value is higher, an attempt is made to engage a gear.</Meldungstext>
+		<DO>N284_34_Ventil_1_fuer_Gangwahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>17</AG>
+		<AF>4</AF>
+		<NA>24</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear Selection Valve 2 -N285-</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0.65</analogerSWunten>
+		<analogerSWoben>0.95</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe current is displayed by the Gear Selection Valve 2 -N285 (moves the shift lever forwards).
+ The actual value must be 0.39 A. If the value is higher, an attempt is made to engage a gear.</Meldungstext>
+		<DO>N285_34_Ventil_2_fuer_Gangwahl</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>1</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CURRENT gear text output</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext></Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear Recognition Potentiometer 1 -G239-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.9</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TCURRENT gear potentiometer voltage will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 3.8 Volts in R gear\Y\S\K\N 
+J\L\S\K\N approx. 3.8 Volts in first gear\Y\S\K\N 
+J\L\S\K\N approx. 1.7 Volts in second gear\Y\S\K\N 
+J\L\S\K\N approx. 3.8 Volts in third gear\Y\S\K\N 
+J\L\S\K\N approx. 1.7 Volts in fourth gear\Y\S\K\N 
+J\L\S\K\N approx. 3.8 Volts in fifth gear </Meldungstext>
+		<DO>G239_34_Potentiometer_1_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>18</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear Recognition Potentiometer 2 -G240-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.1</analogerSWunten>
+		<analogerSWoben>3.7</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TCURRENT gates potentiometer voltage will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 3.6 Volts in R gear\Y\S\K\N 
+J\L\S\K\N approx. 2.8 Volts in first gear\Y\S\K\N 
+J\L\S\K\N approx. 2.8 Volts in second gear\Y\S\K\N 
+J\L\S\K\N approx. 2.0 Volts in third gear\Y\S\K\N 
+J\L\S\K\N approx. 2.0 Volts in fourth gear\Y\S\K\N 
+J\L\S\K\N approx. 1.2 Volts in fifth gear </Meldungstext>
+		<DO>G240_34_Potentiometer_2_fuer_Gangerkennung</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>1</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">SPECIFIED gear</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TSPECIFIED gear will be displayed. 
+ 
+0 = neutral gate 
+1 = first gear (2 = second gear to 5 = 5. gear) 
+6 = Reverse gear 
+251 = neutral gate 1-2 
+252 = neutral gate R gear 
+253 = neutral gate 5th gear 
+254 = neutral gate 3-4 
+255 = switch-over between positions 
+ 
+In -N- OK: Specified gear: 0 / Current gear: 251 to 254 </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>2</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">CURRENT gear</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TCURRENT gear will be displayed. 
+ 
+0 = neutral gate 
+1 = first gear (2 = second gear to 5 = 5. gear) 
+6 = Reverse gear 
+251 = neutral gate 1-2 
+252 = neutral gate R gear 
+253 = neutral gate 5th gear 
+254 = neutral gate 3-4 
+255 = switch-over between positions 
+ 
+In -N- OK: Specified gear: 0 / Current gear: 251 to 254 </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Accelerator pedal position</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\T- Depress accelerator pedal for test.\Y\S\K\N 
+ 
+J\L\S\K\N &lt; 4 percent Closed throttle (CT)\Y\S\K\N 
+J\L\S\K\N &gt; 96 percent Wide Open Throttle (WOT) </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>19</AG>
+		<AF>4</AF>
+		<NA>7</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Vehicle speed</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>3</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>km/h</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TE-speedometer signal of instrument cluster will be displayed. 
+From experience, at 100 km/h, the vehicle speedometer displays about 5 km/h more than the digital E-speedometer signal in the measuring value block. 
+The minimum display value is 3 km/h.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>1</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Battery voltage</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TBattery voltage must be at least 11.8 Volts. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Battery voltage terminal 30</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>11.8</analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TBattery voltage terminal 30 at control module will be displayed here. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>3</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">internal control module voltage supply</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>4.8</analogerSWunten>
+		<analogerSWoben>5.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TInternal voltage supply in control module will be displayed here. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>20</AG>
+		<AF>4</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Hydraulic Pressure Sensor -G270-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0.3</analogerSWunten>
+		<analogerSWoben>5.0</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TVoltage of Hydraulic Pressure Sensor -G270- is displayed here. 
+((SPECIFIED voltage: 3.0 to 4.2 Volts corresponds to 36 to 52 bar) depending on temperature) </Meldungstext>
+		<DO>G270_34_Geber_fuer_Hydraulikdruck_Getriebe</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>1</AF>
+		<NA>63</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Gear information (learned selector lever position)</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe following gears were displayed: 
+ 
+T-0				Tip gate center 
+T-MI			Tip gate minus 
+T-PL			Tip gate plus 
+A-E			Position E 
+A-N			Position N 
+A-R			Position R 
+A-STOP	Position Stop 
+???			Position implausible </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>2</AF>
+		<NA>6</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Shift Lever Potentiometer (forward/backward) -G272-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>1.5</analogerSWunten>
+		<analogerSWoben>3.2</analogerSWoben>
+		<SWE>Volt</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TSPECIFIED gear potentiometer voltage at selector lever will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 3.14 Volts in R gear\Y\S\K\N 
+J\L\S\K\N approx. 2.75 Volts in -N-\Y\S\K\N 
+J\L\S\K\N approx. 2.20 Volts in -E- (-D-)\Y\S\K\N 
+J\L\S\K\N approx. 1.58 Volts in Tip (center)\Y\S\K\N 
+J\L\S\K\N approx. 2.50 Volts in Tip (+)\Y\S\K\N 
+J\L\S\K\N approx. 1.70 Volts in Tip (-) </Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>22</AG>
+		<AF>3</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Shift Lever Potentiometer (forward/backward) -G272-</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>0</analogerSWunten>
+		<analogerSWoben>100</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TSPECIFIED gear potentiometer voltage at selector lever will be displayed.\Y\S\K\N 
+ 
+J\L\S\K\N approx. 100 percent in -STOP-\Y\S\K\N 
+J\L\S\K\N approx. 77 percent in R gear\Y\S\K\N 
+J\L\S\K\N approx. 55 percent in -N-\Y\S\K\N 
+J\L\S\K\N approx. 25 percent in -E- (-D-)\Y\S\K\N 
+J\L\S\K\N approx. 22 percent in Tip (center)\Y\S\K\N 
+J\L\S\K\N approx. 44 percent in Tip (+)\Y\S\K\N 
+J\L\S\K\N approx. 0 percent in Tip (-) </Meldungstext>
+		<DO>G272_34_Potentiometer_fuer_Waehlhebel_vor_zurueck</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>3</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status displays -1- selector lever malfunction</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Read the 8-bit representation from left to right. 
+ 
+Bit 0: -1- CAN timeout (insufficient voltage) 
+Bit 1: -1- Selector Lever -E313- faulty 
+Bit 2: -1- Selector Lever -E313- faulty (position implausible) 
+Bit 3: -1- Test for installation of proper selector lever 
+ 
+Bit 4: -1- Selector lever position no longer current 
+Bit 5: -1- Selector Lever -E313- faulty 
+Bit 6: -1- Voltage problem selector lever 
+Bit 7: -1- Selector Lever -E313- faulty </Meldungstext>
+		<DO>E313_Waehlhebel</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>24</AG>
+		<AF>4</AF>
+		<NA>37</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Status displays -2- selector lever malfunction</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten></analogerSWunten>
+		<analogerSWoben></analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\T- Read the 8-bit representation from left to right. 
+ 
+Bit 0: -1- Selector Lever -E313- faulty (Shift lock status incorrect) 
+Bit 1: -1- Shift Lock Solenoid -N110- faulty 
+Bit 2: -1- Malfunction entry -other- 
+Bit 3: -1- Selector lever emergency running 
+ 
+Bit 4: -1- Selector Lever -E313- faulty 
+Bit 5: -1- Selector Lever -E313- faulty 
+Bit 6: not used 
+Bit 7: not used </Meldungstext>
+		<DO>E313_Waehlhebel</DO>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>1</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">learned crawl-point</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>55</analogerSWunten>
+		<analogerSWoben>65</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TFrom experience, value of learned crawl point is between 55 and 65 percent.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>2</AF>
+		<NA>2</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">learned grinding point</Text>
+		</Name>
+		<diskreterSW/>
+		<analogerSWunten>55</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE>Prozent</SWE>
+		<SWF>R</SWF>
+		<Meldungstext>\TValue of learned grinding point is from experience between 55 and 85 percent. </Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+	<Messwert>
+		<AG>25</AG>
+		<AF>3</AF>
+		<NA>8</NA>
+		<Formel></Formel>
+		<SystemName>-</SystemName>
+		<Name>
+			<Text TI="">Number of remaining fast adaptations</Text>
+		</Name>
+		<diskreterSW></diskreterSW>
+		<analogerSWunten>55</analogerSWunten>
+		<analogerSWoben>85</analogerSWoben>
+		<SWE></SWE>
+		<SWF></SWF>
+		<Meldungstext>\TThe number of remaining fast adaptations for the crawl-point detection after basic setting will be displayed.
+If a value &gt; -0- can be read here, crawl-point detection was not completely performed.</Meldungstext>
+		<Requests>
+		</Requests>
+	</Messwert>
+</MesswertTabelle>
